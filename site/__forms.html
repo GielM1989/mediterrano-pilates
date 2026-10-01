@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Netlify Forms detection</title></head>
+<body>
+<!-- Formulario oculto para que Netlify registre el formulario al desplegar -->
+<form name="mockup-aanvraag" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="nombre" />
+  <input type="email" name="email" />
+  <input type="text" name="estudio" />
+  <input type="checkbox" name="producto" value="Calcetines antideslizantes" />
+  <textarea name="bericht"></textarea>
+  <input type="text" name="instagram" />
+  <input type="tel" name="telefono" />
+  <input type="hidden" name="utm_source" />
+  <input type="hidden" name="utm_medium" />
+  <input type="hidden" name="utm_campaign" />
+  <input name="bot-field" />
+</form>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Fraunces (c) The Fraunces Project Authors, and Inter (c) The Inter Project Authors.
+Both are licensed under the SIL Open Font License 1.1 (https://openfontlicense.org),
+which permits self-hosting. Files are the Latin subsets as packaged by Fontsource.
