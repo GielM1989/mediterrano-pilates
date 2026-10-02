@@ -1438,7 +1438,11 @@ footer a{white-space:nowrap}
           try{
             if (typeof gtag === 'function'){
               /* generate_lead: evento recomendado de GA4, para marcarlo como evento clave */
-              gtag('event','generate_lead',{ form_location:'clinicas-fisioterapia', lead_source:'mockup-form', currency:'EUR', value: 375 });
+              gtag('event','generate_lead',{
+                event_category: 'mockup_request',
+                event_label: (chosen && chosen.value) ? chosen.value : '',
+                form_location:'clinicas-fisioterapia', lead_source:'mockup-form', currency:'EUR', value: 375
+              });
               /* mockup_submitted: mismo evento que usa la página principal, para no romper los informes existentes */
               gtag('event','mockup_submitted',{ page:'clinicas-fisioterapia' });
             }

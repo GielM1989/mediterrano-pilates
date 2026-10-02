@@ -1861,7 +1861,14 @@ footer a{white-space:nowrap}
         success.scrollIntoView({behavior:'smooth', block:'start'});
         if (window.MP_CONSENT){
           if (typeof fbq === 'function') fbq('track','Lead');
-          if (typeof gtag === 'function') gtag('event','mockup_submitted',{});
+          if (typeof gtag === 'function'){
+            var productField = document.getElementById('productos_elegidos_field');
+            gtag('event','generate_lead',{
+              event_category: 'mockup_request',
+              event_label: (productField && productField.value) ? productField.value : ''
+            });
+            gtag('event','mockup_submitted',{});
+          }
         }
       } else {
         btn.disabled=false; btn.textContent=originalBtnText;
