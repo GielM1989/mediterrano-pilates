@@ -593,8 +593,32 @@
   <!-- Nichepagina: clínicas de fisioterapia (ES) -->
   <url>
     <loc>https://mediterranopilates.com/merchandising-clinicas-fisioterapia/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-physiotherapy-clinics/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandising-fuer-physiotherapie-praxen/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Nichepagina: physiotherapy clinics (EN) -->
+  <url>
+    <loc>https://mediterranopilates.com/en/custom-merchandise-for-physiotherapy-clinics/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-physiotherapy-clinics/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandising-fuer-physiotherapie-praxen/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Nichepagina: Physiotherapie-Praxen (DE) -->
+  <url>
+    <loc>https://mediterranopilates.com/de/merchandising-fuer-physiotherapie-praxen/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-physiotherapy-clinics/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandising-fuer-physiotherapie-praxen/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-clinicas-fisioterapia/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
