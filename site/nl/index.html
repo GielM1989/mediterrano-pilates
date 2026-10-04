@@ -170,12 +170,20 @@ img{display:block}
 .stats h2 .fx{color:var(--terra)}
 .stats .lede{color:#4c554d;margin-bottom:22px;max-width:30em}
 .stats .closer{font-weight:600;color:var(--green);font-size:1.05rem;max-width:28em}
+.margin-stat{display:flex;align-items:center;gap:18px;margin:0 0 22px;padding:22px 26px;background:rgba(208,106,63,.07);border:1.5px solid rgba(208,106,63,.28);border-radius:20px;max-width:30em}
+.margin-icon{flex:none;width:46px;height:46px;border-radius:50%;background:rgba(208,106,63,.15);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
+.margin-icon svg{width:24px;height:24px}
+.margin-txt{display:flex;flex-direction:column;gap:5px}
+.margin-num{font-family:'Fraunces',serif;font-weight:700;font-size:1.6rem;color:var(--terra-2);line-height:1}
+.margin-num .margin-unit{font-family:'Inter',sans-serif;font-weight:600;font-size:.9rem;color:var(--green);margin-left:6px}
+.margin-sub{font-size:.85rem;line-height:1.45;color:#5b6259}
+@media(max-width:480px){.margin-stat{flex-direction:column;align-items:flex-start;gap:12px;padding:20px 22px}}
 .repeat-chip{
-  display:inline-flex;align-items:center;gap:10px;margin-top:22px;
+  display:inline-flex;align-items:center;gap:10px;margin-top:4px;
   background:var(--white);border:1.5px solid var(--line);border-radius:999px;
   padding:10px 20px;font-weight:700;font-size:.92rem;color:var(--green);
 }
-.repeat-chip b{color:var(#AC512C);font-weight:800}
+.repeat-chip b{color:#AC512C;font-weight:800}
 
 .receipt{
   justify-self:center;width:min(100%,330px);
@@ -1035,20 +1043,20 @@ footer a{white-space:nowrap}
 .journey-line::after{content:"";position:absolute;right:-2px;top:-4px;width:7px;height:7px;border-top:1.5px solid rgba(245,238,224,.5);border-right:1.5px solid rgba(245,238,224,.5);transform:rotate(45deg)}
 @media(max-width:480px){.journey{gap:8px;max-width:300px}.journey-pt{font-size:.66rem}}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
-.turn-bridge{margin:20px auto 0;font-size:.96rem;color:rgba(245,238,224,.68)}
-.turn-cta{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:16px;margin:32px auto 0}
-.turn-cta .turn-arrow{width:30px;height:30px;color:var(--ochre);opacity:.85;animation:turnArrowBounce 2.4s ease-in-out infinite}
-.turn-cta .turn-arrow svg{width:100%;height:100%}
-.turn-cta .btn{white-space:normal;max-width:380px;text-align:center;line-height:1.3}
-@keyframes turnArrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
-@media(prefers-reduced-motion:reduce){.turn-cta .turn-arrow{animation:none}}
-@media(max-width:560px){.turn-cta .btn{width:100%}}
+.reveal-panel{position:relative;z-index:2;display:flex;align-items:center;gap:20px;margin:28px auto 0;padding:24px 30px;max-width:620px;background:rgba(208,106,63,.16);border:1.5px solid rgba(208,106,63,.45);border-radius:22px;text-align:left}
+.reveal-icon{flex:none;width:50px;height:50px;border-radius:50%;background:rgba(208,106,63,.25);color:var(--ochre);display:flex;align-items:center;justify-content:center}
+.reveal-icon svg{width:25px;height:25px}
+.reveal-txt{display:block}
+.reveal-txt b{display:block;font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;color:var(--cream);margin-bottom:4px;line-height:1.3}
+.reveal-txt span{font-size:.9rem;line-height:1.45;color:rgba(245,238,224,.8)}
+@media(max-width:620px){.reveal-panel{flex-wrap:wrap;justify-content:center;text-align:center;padding:22px 20px}}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
 .mania-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2);line-height:1;margin-bottom:10px;position:relative}
 
 /* ---------- ontzorgen: jij vs wij ---------- */
-.care-frame{position:relative;max-width:940px;margin:34px auto 26px;padding:40px 42px 36px;border:1.5px solid rgba(46,64,52,.15);border-radius:30px;background:linear-gradient(180deg,rgba(46,64,52,.035),rgba(46,64,52,0) 40%)}
+.care-frame{position:relative;max-width:940px;margin:34px auto 44px;border:1.5px solid rgba(208,106,63,.32);border-radius:30px;background:linear-gradient(180deg,rgba(208,106,63,.06),rgba(208,106,63,0) 45%);overflow:hidden}
+.care-frame-body{padding:40px 42px 32px}
 .care-you-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 16px;margin:0 auto;padding:15px 30px;background:rgba(46,64,52,.07);border-radius:999px;max-width:560px}
 .cys-label{font-family:'Fraunces',serif;font-weight:600;font-size:.98rem;color:var(--green);flex:none}
 .cys-items{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:.92rem;color:#3c443c}
@@ -1062,15 +1070,14 @@ footer a{white-space:nowrap}
 .care-item b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:3px}
 .care-item span.ci-txt{font-size:.87rem;line-height:1.4;color:#5b6259}
 .care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0;max-width:30em;margin-left:auto;margin-right:auto}
-.care-guarantee{display:flex;align-items:center;gap:22px;margin:18px auto 44px;padding:28px 42px;color:var(--green)}
-.care-frame-terra{border-color:rgba(208,106,63,.32);background:linear-gradient(180deg,rgba(208,106,63,.07),rgba(208,106,63,.02) 60%)}
-.care-guarantee .seal{flex:none;width:60px;height:60px;border-radius:50%;background:rgba(208,106,63,.12);border:1.5px solid rgba(208,106,63,.4);display:flex;align-items:center;justify-content:center;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem}
-.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48;color:#3c443c}
-.care-guarantee b{color:var(--terra-2);font-weight:700}
+.care-guarantee{display:flex;align-items:center;gap:22px;padding:30px 42px;background:var(--terra-2);background-image:radial-gradient(circle at 15% 25%,rgba(255,255,255,.08),transparent 55%);color:var(--cream)}
+.care-guarantee .seal{flex:none;width:66px;height:66px;border-radius:50%;background:rgba(245,238,224,.14);border:1.5px dashed rgba(245,238,224,.45);display:flex;align-items:center;justify-content:center;color:var(--ochre);font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem}
+.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48;color:rgba(245,238,224,.9)}
+.care-guarantee b{color:var(--ochre);font-weight:700}
 @media(max-width:900px){.care-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:700px){.care-frame{padding:32px 24px 28px;border-radius:24px}}
+@media(max-width:700px){.care-frame-body{padding:32px 24px 26px}.care-frame{border-radius:24px}}
 @media(max-width:560px){.care-grid{grid-template-columns:1fr}.care-you-strip{flex-direction:column;text-align:center;border-radius:20px}}
-@media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px;gap:16px}}
+@media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px;gap:14px}}
 
 .mania-icon{width:52px;height:52px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .mania-icon svg{width:25px;height:25px}
@@ -1194,10 +1201,9 @@ footer a{white-space:nowrap}
         <span class="concern-txt">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg, tegen 24,5% een jaar eerder.<span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
       </div>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
-      <p class="trust-sub turn-bridge">En het is meteen je beste antwoord op die concurrentie: eigen merchandise onderscheidt je van de studio om de hoek, op de vier vlakken hieronder.</p>
-      <div class="turn-cta">
-        <span class="turn-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg></span>
-        <a class="btn" href="#wat-verandert">Bekijk direct wat dit oplevert voor jouw studio</a>
+      <div class="reveal-panel">
+        <span class="reveal-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg></span>
+        <span class="reveal-txt"><b>Je leden kopen tóch al antislipsokken. Verplicht, elke les.</b><span>Zet er jouw logo op, en dat piepkleine verschil is meteen je beste antwoord op de concurrentie, op vier vlakken tegelijk.</span></span>
       </div>
     </div>
   </div>
@@ -1209,7 +1215,7 @@ footer a{white-space:nowrap}
 <section class="why-section" id="wat-verandert">
   <div class="wrap">
     <div class="why-head">
-      <span class="kicker-insight">Je leden kopen tóch al antislipsokken. Verplicht, elke les.</span>
+      <span class="kicker-insight">Dezelfde sokken. Nu met jouw naam erop.</span>
       <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
       <p>De stap naar sokken mét jóuw logo is piepklein: je leden kopen ze toch al. Het resultaat is groot.</p>
     </div>
@@ -1271,6 +1277,7 @@ footer a{white-space:nowrap}
       <p>Premium is niet alleen het product. Het is ook hoe soepel het hele proces voor jou verloopt, van het eerste mockup tot de doos bij je voordeur.</p>
     </div>
     <div class="care-frame">
+     <div class="care-frame-body">
       <div class="care-you-strip">
         <span class="cys-label">Jij regelt</span>
         <span class="cys-items"><span class="cys-n">1</span>Stuur je logo<span class="cys-sep">·</span><span class="cys-n">2</span>Keur het mockup goed</span>
@@ -1288,11 +1295,11 @@ footer a{white-space:nowrap}
       </div>
 
       <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
-    </div>
-
-    <div class="care-guarantee care-frame care-frame-terra">
-      <span class="seal" aria-hidden="true">100%</span>
-      <p><b>Garantie op topkwaliteit,</b> in product én proces. Niet goed? Lossen we op, zonder gedoe. Iedere vraag beantwoordt de oprichter zelf.</p>
+     </div>
+      <div class="care-guarantee">
+        <span class="seal" aria-hidden="true">100%</span>
+        <p><b>Garantie op topkwaliteit,</b> in product én proces. Niet goed? Lossen we op, zonder gedoe. Iedere vraag beantwoordt de oprichter zelf.</p>
+      </div>
     </div>
 
     <div class="how" id="zo-werkt-het">
@@ -1403,7 +1410,13 @@ footer a{white-space:nowrap}
     <div>
       <h2>De cijfers, <span class="fx">zonder luchtkastelen</span>.</h2>
       <p class="lede">Je koopt in tegen groothandelsprijs, zonder btw. De verkoopprijs bepaal je zelf. Antislipsokken zijn al verplicht in bijna elke les, dus je leden kopen ze toch. De enige vraag is met wiens logo.</p>
-      <p class="closer">Voorbeeld: een studio met zo’n 300 actieve leden en 10 reformers houdt hier ongeveer € 4.552 per jaar aan over, na btw. Geen belofte, een schatting: de uitkomst hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</p>
+      <div class="margin-stat">
+        <span class="margin-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15 8.5a3.5 3.5 0 0 0-3-1.8c-2 0-3.5 1.8-3.5 5.3s1.5 5.3 3.5 5.3a3.5 3.5 0 0 0 3-1.8"/><path d="M7 10h5M7 14h4"/></svg></span>
+        <div class="margin-txt">
+          <span class="margin-num">± € 4.552<span class="margin-unit">per jaar</span></span>
+          <span class="margin-sub">Voorbeeld: studio met 300 actieve leden en 10 reformers, na btw. Een schatting, geen belofte: het hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</span>
+        </div>
+      </div>
       <span class="repeat-chip">Studio’s bestellen <b>meerdere keren per jaar</b> opnieuw</span>
     </div>
     <div class="receipt" role="img" aria-label="Margevoorbeeld: je betaalt 7,50 euro zonder btw, je verkoopt voor 17,95 euro inclusief btw, marge 7,35 euro na btw, 49 procent">
