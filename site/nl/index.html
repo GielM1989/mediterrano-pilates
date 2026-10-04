@@ -276,6 +276,20 @@ img{display:block}
   background:rgba(20,51,42,.28);transform:rotate(-4deg);
 }
 
+/* ---------- hook v2 (bekijk je logo) ---------- */
+.hook-eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);margin-bottom:14px}
+.hook-proof{list-style:none;margin:0 0 32px;padding:0;display:flex;flex-direction:column;gap:12px}
+.hook-proof li{position:relative;padding-left:30px;color:rgba(247,243,232,.88);font-size:.98rem;line-height:1.4}
+.hook-proof li::before{content:"✓";position:absolute;left:0;top:1px;width:20px;height:20px;border-radius:50%;background:rgba(208,106,63,.28);color:var(--ochre);font-size:.68rem;font-weight:800;display:flex;align-items:center;justify-content:center}
+.hook-visual{display:flex;flex-direction:column;align-items:center;gap:16px}
+.proof-card{position:relative;border-radius:26px;overflow:hidden;width:min(100%,420px);aspect-ratio:4/5;box-shadow:0 30px 60px -26px rgba(0,0,0,.5)}
+.proof-card img{width:100%;height:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+.proof-tag{position:absolute;left:16px;bottom:16px;right:16px;background:rgba(20,51,42,.82);backdrop-filter:blur(3px);color:#fff;font-size:.8rem;font-weight:600;padding:10px 16px;border-radius:14px;text-align:center}
+.swatch-row{display:flex;align-items:center;gap:12px;width:min(100%,420px);padding:14px 18px;background:rgba(245,238,224,.07);border:1px solid rgba(245,238,224,.16);border-radius:16px}
+.swatch-row .dots{display:flex;gap:6px;flex:none}
+.swatch-row .dot{width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.55)}
+.swatch-row p{margin:0;font-size:.8rem;line-height:1.35;color:rgba(247,243,232,.72)}
+
 /* ---------- tijdlijn ---------- */
 .how{padding:44px 0 0}
 .how h2{font-size:clamp(1.9rem,4.6vw,3rem);margin-bottom:50px;max-width:14em}
@@ -1276,22 +1290,28 @@ footer a{white-space:nowrap}
 
 <!-- ============ 7 · BEKIJK JE LOGO OP HET PRODUCT ============ -->
 <section class="sheet green">
-<div class="hook">
+<div class="hook hook-v2">
   <span class="ring r1"></span>
   <div class="wrap inner">
-    <div>
-      <h2>Bekijk je logo op het product <span class="fx">vóór</span> je iets beslist.</h2>
-      <p>Je weet nu wat je zou bestellen en hoe het proces werkt. Voordat je iets beslist: stuur ons je logo en we laten binnen 24 uur zien hoe het eruitziet op het echte product, in exact jouw kleuren. Gratis en vrijblijvend.</p>
-      <div class="steps-mini">
-        <span>Gratis</span><span>Binnen 24 uur</span><span>Vrijblijvend</span><span>Exacte kleur</span>
-      </div>
-      <a class="btn" href="#mockup-form">Bekijk je logo op het product</a>
+    <div class="hook-copy">
+      <p class="hook-eyebrow">Voordat je iets beslist</p>
+      <h2>De twijfel verdwijnt <span class="fx">zodra je het ziet.</span></h2>
+      <p>Je kent dat gevoel: een logo op een blanco productfoto zegt niets. Je weet pas zeker of het goed staat als je het écht ziet. Daarom laten we het je gewoon zien — binnen 24 uur, op het echte materiaal, in exact jouw kleur. Geen giswerk, geen risico voor je merk.</p>
+      <ul class="hook-proof">
+        <li>Gratis en volledig vrijblijvend</li>
+        <li>Binnen 24 uur in je inbox</li>
+        <li>Pantone-exact op jouw huisstijl gematcht</li>
+      </ul>
+      <a class="btn" href="#mockup-form">Vraag je gratis mockup aan</a>
     </div>
-    <div class="hero-visual">
-      <span class="badge">Jouw logo hier</span>
-      <div class="card-photo">
+    <div class="hook-visual">
+      <div class="proof-card">
         <picture><source srcset="../images/product-tumbler.webp" type="image/webp"><img src="../images/product-tumbler.jpg" width="900" height="1200" alt="Tumbler met logo, voorbeeld van een mockup" loading="lazy"></picture>
-        <span class="logo-spot">JOUW LOGO</span>
+        <span class="proof-tag">Zo zie je 'm, voor je bestelt</span>
+      </div>
+      <div class="swatch-row">
+        <span class="dots"><span class="dot" style="background:var(--cream)"></span><span class="dot" style="background:var(--terra)"></span><span class="dot" style="background:var(--ochre)"></span></span>
+        <p>Elke huisstijlkleur mogelijk — wij matchen 'm exact.</p>
       </div>
     </div>
   </div>
