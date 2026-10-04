@@ -796,7 +796,9 @@ html,body{overflow-x:hidden;max-width:100%}
 .fimg{border-radius:26px;overflow:hidden;box-shadow:0 24px 48px -24px rgba(23,32,27,.32)}
 .fimg img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;display:block}
 .ftxt .fn{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem;color:var(--terra-2,#B85A3A);line-height:1;display:block;margin-bottom:10px}
-.ftxt h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.55rem;color:var(--green);margin:0 0 14px}
+.ftxt h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.55rem;color:var(--green);margin:0 0 10px}
+.fpayoff{display:inline-flex;align-items:center;gap:7px;background:rgba(208,106,63,.1);color:var(--terra-2,#B85A3A);font-weight:700;font-size:.9rem;padding:7px 15px 7px 13px;border-radius:999px;margin-bottom:16px}
+.fpayoff .arrow{font-size:1rem;line-height:1}
 .ftxt p{font-size:1rem;line-height:1.62;color:#4c554d;max-width:34em}
 .fimg-compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;box-shadow:none;border-radius:0;overflow:visible}
 .fimg-compare .cmp{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 20px 40px -22px rgba(23,32,27,.3)}
@@ -816,7 +818,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-card p{font-size:.92rem;line-height:1.55;color:#4c554d;margin:0 0 12px;position:relative}
 .why-source{font-size:.72rem;color:#666E67;font-style:italic;position:relative}
 @media(max-width:900px){
-  .why-grid{grid-template-columns:1fr;gap:16px}
+  .why-grid{grid-template-columns:1fr;gap:30px}
   .why-grid-4{grid-template-columns:1fr}
 }
 
@@ -1017,10 +1019,38 @@ footer a{white-space:nowrap}
 .turn-stat .lbl{font-size:.86rem;line-height:1.4;color:rgba(245,238,224,.78)}
 .trust-source-inline{display:block;margin-top:4px;font-size:.72rem;font-style:italic;color:rgba(245,238,224,.5)}
 @media(max-width:560px){.turn-stat{flex-direction:column;text-align:center;gap:6px;border-radius:18px;padding:18px 20px}}
+.journey{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:12px;margin:24px auto 32px;max-width:400px}
+.journey-pt{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.74rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:rgba(245,238,224,.55);flex:none}
+.journey-pt .dot{width:13px;height:13px;border-radius:50%;border:2px dashed rgba(245,238,224,.5);background:transparent}
+.journey-pt.end{color:var(--ochre)}
+.journey-pt.end .dot{border-style:solid;background:var(--ochre);border-color:var(--ochre)}
+.journey-line{flex:1;height:0;border-top:1.5px dashed rgba(245,238,224,.35);position:relative;min-width:50px}
+.journey-line::after{content:"";position:absolute;right:-2px;top:-4px;width:7px;height:7px;border-top:1.5px solid rgba(245,238,224,.5);border-right:1.5px solid rgba(245,238,224,.5);transform:rotate(45deg)}
+@media(max-width:480px){.journey{gap:8px;max-width:300px}.journey-pt{font-size:.66rem}}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
 .mania-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2);line-height:1;margin-bottom:10px;position:relative}
+
+/* ---------- ontzorgen: jij vs wij ---------- */
+.care-split{display:grid;grid-template-columns:1fr auto 1.5fr;gap:30px;align-items:start;background:linear-gradient(160deg,#fff 0%,var(--sand,#EDE3D0) 145%);border-radius:24px;padding:36px 38px;margin:36px 0 16px;box-shadow:0 14px 32px -18px rgba(46,64,52,.14),0 3px 10px -4px rgba(46,64,52,.08)}
+.care-label{display:flex;align-items:center;gap:9px;font-family:'Fraunces',serif;font-weight:600;font-size:1.12rem;color:var(--green);margin-bottom:16px}
+.care-label .tag{font-family:'Inter',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(46,64,52,.1);color:var(--green);padding:3px 10px;border-radius:999px}
+.care-us .care-label{color:var(--terra-2)}
+.care-us .care-label .tag{background:rgba(208,106,63,.14);color:var(--terra-2)}
+.care-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+.care-list li{position:relative;padding-left:27px;font-size:.95rem;line-height:1.4;color:#3c443c}
+.care-list li::before{content:"✓";position:absolute;left:0;top:1px;width:18px;height:18px;border-radius:50%;font-size:.62rem;font-weight:800;display:flex;align-items:center;justify-content:center}
+.care-you .care-list li::before{background:rgba(46,64,52,.1);color:var(--green)}
+.care-us .care-list li::before{background:rgba(208,106,63,.14);color:var(--terra-2)}
+.care-arrow{font-size:1.5rem;color:var(--terra-2);font-weight:300;align-self:center;padding-top:32px}
+.care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0 0 44px;max-width:30em;margin-left:auto;margin-right:auto}
+@media(max-width:760px){.care-split{grid-template-columns:1fr;padding:28px 24px;gap:22px}.care-arrow{display:none}}
+
+.mania-icon{width:52px;height:52px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.mania-icon svg{width:25px;height:25px}
+.why-grid .why-card{background:none;box-shadow:none;padding:0}
+.why-grid .why-card::before{display:none}
 .bonus-line{margin:26px auto 0;max-width:720px;text-align:center;background:var(--white);border:1.5px dashed var(--line);border-radius:16px;padding:16px 22px;color:#3c443d;font-size:.98rem}
 .bonus-line b{color:var(--green)}
 .why-sources{margin:14px auto 0;max-width:720px;text-align:center;font-size:.72rem;color:#666E67;font-style:italic}
@@ -1127,6 +1157,11 @@ footer a{white-space:nowrap}
     <div class="trust-inner">
       <span class="ring"></span><span class="ring two"></span>
       <p class="trust-big">Het is geen ijdelheid. <span class="fx">Je hebt alleen de helft van het verhaal gehoord.</span></p>
+      <div class="journey" aria-hidden="true">
+        <span class="journey-pt start"><span class="dot"></span>In de zaal</span>
+        <span class="journey-line"></span>
+        <span class="journey-pt end"><span class="dot filled"></span>Mee naar huis</span>
+      </div>
       <p class="trust-sub">De hele sector zegt hetzelfde: premium is wat er in de zaal gebeurt, de rest is bijzaak. Dus stopt elke studio bij de deur. Tegen de tijd dat jij erover nadenkt, is er geen budget of energie meer over — en lijkt goedkoop de enige optie.</p>
       <p class="trust-sub">Maar je studio houdt niet op bij de deur. Je leden vertrouwen je hun lichaam toe, en jouw sok bij de receptie wordt zonder meer dé sok voor de reformer. Je merk bestaat al sinds de dag dat het eerste lid terugkwam.</p>
       <div class="turn-stat">
@@ -1155,6 +1190,7 @@ footer a{white-space:nowrap}
         <div class="ftxt">
           <span class="fn">01</span>
           <h3>Gratis naamsbekendheid</h3>
+          <span class="fpayoff"><span class="arrow">→</span>Gratis nieuwe klanten</span>
           <p>Jouw logo reist mee naar het schoolplein, de sportschool, de supermarkt — overal waar jij zelf niet bij bent. Dat is gratis reclame. En soms is het precies het moment waarop iemand vraagt: waar is die tas van? Dat is een potentiële nieuwe klant die anders nooit van je studio had gehoord.</p>
         </div>
       </div>
@@ -1165,6 +1201,7 @@ footer a{white-space:nowrap}
         <div class="ftxt">
           <span class="fn">02</span>
           <h3>Retentie</h3>
+          <span class="fpayoff"><span class="arrow">→</span>Klanten blijven, en komen vaker terug</span>
           <p>Ze ziet de sok aan de waslijn hangen en denkt: ik moet weer naar pilates. Maar het is jouw logo dat ze dan ziet — dus gaat ze terug naar jouw studio, niet naar de concurrent verderop. Merchandise houdt je naam top of mind, ook in de weken dat ze niet langskomt.</p>
         </div>
       </div>
@@ -1176,6 +1213,7 @@ footer a{white-space:nowrap}
         <div class="ftxt">
           <span class="fn">03</span>
           <h3>Een compleet, professioneel merk</h3>
+          <span class="fpayoff"><span class="arrow">→</span>Onderscheidend, betere eerste indruk</span>
           <p>Een lege plank bij de receptie oogt onaf, hoe mooi de rest van je studio ook is. Gevuld met je eigen merchandise voelt de hele ervaring in één klap professioneler — en een studio die tot in de details is afgewerkt, wint sneller het vertrouwen van wie nog twijfelt.</p>
         </div>
       </div>
@@ -1186,6 +1224,7 @@ footer a{white-space:nowrap}
         <div class="ftxt">
           <span class="fn">04</span>
           <h3>Marge</h3>
+          <span class="fpayoff"><span class="arrow">→</span>Meer marge, meer winst</span>
           <p>Zo’n € 7,35 per paar sokken, na btw, bij een normale doorverkoopprijs. Een premium accessoire verkoopt als een premium accessoire: bij de kassa is dat niet alleen extra omzet, het is ook een professioneler afrekenmoment voor je klant.</p>
         </div>
       </div>
@@ -1200,19 +1239,42 @@ footer a{white-space:nowrap}
       <h2>Jij geeft les. <span class="fx">Wij ontzorgen de rest.</span></h2>
       <p>Premium is niet alleen het product. Het is ook hoe soepel het hele proces voor jou verloopt, van het eerste mockup tot de doos bij je voordeur.</p>
     </div>
+    <div class="care-split">
+      <div class="care-col care-you">
+        <span class="care-label">Jij<span class="tag">2 stappen</span></span>
+        <ul class="care-list">
+          <li>Stuur je logo</li>
+          <li>Keur het mockup goed</li>
+        </ul>
+      </div>
+      <div class="care-arrow" aria-hidden="true">→</div>
+      <div class="care-col care-us">
+        <span class="care-label">Wij<span class="tag">de rest</span></span>
+        <ul class="care-list">
+          <li>Kleur matchen op Pantone-code</li>
+          <li>Premium sok weven of borduren</li>
+          <li>Antislipzool controleren op REACH</li>
+          <li>Elk paar los nakijken, vóór verpakking</li>
+          <li>Verpakken en verzenden met tracking</li>
+          <li>Rechtstreeks naar je voordeur leveren</li>
+        </ul>
+      </div>
+    </div>
+    <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
+
     <div class="why-grid">
       <div class="why-card">
-        <div class="mania-n">01</div>
+        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="0.6" fill="currentColor" stroke="none"/></svg></div>
         <h3>Obsessief exact</h3>
         <p>We matchen je kleur op Pantone-code, niet “ongeveer”. We controleren of elk materiaal aan REACH voldoet, antislipzool inbegrepen, en bekijken elk paar voordat het de deur uitgaat. Zouden we het niet naast je reformer zetten, dan gaat het niet mee.</p>
       </div>
       <div class="why-card">
-        <div class="mania-n">02</div>
+        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="2.1" fill="currentColor" stroke="none"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2.1" fill="currentColor" stroke="none"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="11" cy="17" r="2.1" fill="currentColor" stroke="none"/></svg></div>
         <h3>Jouw smaak, niet de onze</h3>
         <p>Een geweven of geborduurd logo, subtiel in jouw tint of juist groot als je merk daarom vraagt. Jij bepaalt hoe het eruitziet, wij zorgen dat het klopt. Iets wat je leden willen dragen, ook buiten de studio.</p>
       </div>
       <div class="why-card">
-        <div class="mania-n">03</div>
+        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11.5l2 2 4-4.5"/></svg></div>
         <h3>Eerlijk over cijfers</h3>
         <p>De marge is prima, maar we beloven geen wonderen: onze cijfers zijn schattingen en we laten zien waar ze vandaan komen. Elke aanvraag beantwoordt de oprichter persoonlijk. Geen tickets, geen verkoopgesprekken.</p>
       </div>
