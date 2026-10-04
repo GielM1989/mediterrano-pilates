@@ -1036,31 +1036,41 @@ footer a{white-space:nowrap}
 @media(max-width:480px){.journey{gap:8px;max-width:300px}.journey-pt{font-size:.66rem}}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
 .turn-bridge{margin:20px auto 0;font-size:.96rem;color:rgba(245,238,224,.68)}
+.turn-cta{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:16px;margin:32px auto 0}
+.turn-cta .turn-arrow{width:30px;height:30px;color:var(--ochre);opacity:.85;animation:turnArrowBounce 2.4s ease-in-out infinite}
+.turn-cta .turn-arrow svg{width:100%;height:100%}
+.turn-cta .btn{white-space:normal;max-width:380px;text-align:center;line-height:1.3}
+@keyframes turnArrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@media(prefers-reduced-motion:reduce){.turn-cta .turn-arrow{animation:none}}
+@media(max-width:560px){.turn-cta .btn{width:100%}}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
 .mania-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2);line-height:1;margin-bottom:10px;position:relative}
 
 /* ---------- ontzorgen: jij vs wij ---------- */
-.care-you-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 16px;margin:34px auto 0;padding:15px 30px;background:rgba(46,64,52,.06);border-radius:999px;max-width:620px}
+.care-frame{position:relative;max-width:940px;margin:34px auto 26px;padding:40px 42px 36px;border:1.5px solid rgba(46,64,52,.15);border-radius:30px;background:linear-gradient(180deg,rgba(46,64,52,.035),rgba(46,64,52,0) 40%)}
+.care-you-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 16px;margin:0 auto;padding:15px 30px;background:rgba(46,64,52,.07);border-radius:999px;max-width:560px}
 .cys-label{font-family:'Fraunces',serif;font-weight:600;font-size:.98rem;color:var(--green);flex:none}
 .cys-items{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:.92rem;color:#3c443c}
 .cys-n{display:inline-flex;align-items:center;justify-content:center;width:19px;height:19px;border-radius:50%;background:var(--green);color:var(--cream);font-size:.66rem;font-weight:700;margin-right:6px;flex:none}
 .cys-sep{color:#b7b2a4;margin:0 2px}
-.care-divider{display:flex;align-items:center;gap:14px;max-width:640px;margin:34px auto 28px;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;text-align:center}
+.care-divider{display:flex;align-items:center;gap:14px;max-width:640px;margin:30px auto 28px;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;text-align:center}
 .care-divider::before,.care-divider::after{content:"";flex:1;height:1px;background:rgba(184,90,58,.25)}
-.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 30px;margin:0 0 32px;max-width:900px;margin-left:auto;margin-right:auto}
+.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 30px;margin:0 0 30px;max-width:900px;margin-left:auto;margin-right:auto}
 .care-item{display:flex;gap:12px;align-items:flex-start}
 .ci-check{flex:none;width:22px;height:22px;border-radius:50%;background:rgba(208,106,63,.14);color:var(--terra-2);font-size:.64rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px}
 .care-item b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:3px}
 .care-item span.ci-txt{font-size:.87rem;line-height:1.4;color:#5b6259}
-.care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0 0 28px;max-width:30em;margin-left:auto;margin-right:auto}
-.care-guarantee{display:flex;align-items:center;gap:20px;max-width:720px;margin:0 auto 44px;padding:22px 30px;background:var(--green);color:var(--cream);border-radius:20px}
-.care-guarantee .seal{flex:none;width:60px;height:60px;border-radius:50%;background:rgba(245,238,224,.14);border:1.5px solid rgba(245,238,224,.32);display:flex;align-items:center;justify-content:center;color:var(--ochre);font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem}
-.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48}
-.care-guarantee b{color:var(--ochre);font-weight:700}
+.care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0;max-width:30em;margin-left:auto;margin-right:auto}
+.care-guarantee{display:flex;align-items:center;gap:22px;margin:18px auto 44px;padding:28px 42px;color:var(--green)}
+.care-frame-terra{border-color:rgba(208,106,63,.32);background:linear-gradient(180deg,rgba(208,106,63,.07),rgba(208,106,63,.02) 60%)}
+.care-guarantee .seal{flex:none;width:60px;height:60px;border-radius:50%;background:rgba(208,106,63,.12);border:1.5px solid rgba(208,106,63,.4);display:flex;align-items:center;justify-content:center;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem}
+.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48;color:#3c443c}
+.care-guarantee b{color:var(--terra-2);font-weight:700}
 @media(max-width:900px){.care-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.care-frame{padding:32px 24px 28px;border-radius:24px}}
 @media(max-width:560px){.care-grid{grid-template-columns:1fr}.care-you-strip{flex-direction:column;text-align:center;border-radius:20px}}
-@media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px}}
+@media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px;gap:16px}}
 
 .mania-icon{width:52px;height:52px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .mania-icon svg{width:25px;height:25px}
@@ -1185,6 +1195,10 @@ footer a{white-space:nowrap}
       </div>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
       <p class="trust-sub turn-bridge">En het is meteen je beste antwoord op die concurrentie: eigen merchandise onderscheidt je van de studio om de hoek, op de vier vlakken hieronder.</p>
+      <div class="turn-cta">
+        <span class="turn-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg></span>
+        <a class="btn" href="#wat-verandert">Bekijk direct wat dit oplevert voor jouw studio</a>
+      </div>
     </div>
   </div>
 </div>
@@ -1192,7 +1206,7 @@ footer a{white-space:nowrap}
 
 <!-- ============ 4 · WAT VERANDERT + 5 · DRIE OBSESSIES & ONTZORGD PROCES + 6 · COLLECTIE ============ -->
 <section class="sheet cream">
-<section class="why-section">
+<section class="why-section" id="wat-verandert">
   <div class="wrap">
     <div class="why-head">
       <span class="kicker-insight">Je leden kopen tóch al antislipsokken. Verplicht, elke les.</span>
@@ -1213,7 +1227,7 @@ footer a{white-space:nowrap}
       </div>
       <div class="feature-row">
         <div class="fimg">
-          <picture><source srcset="../images/feature-sok-waslijn.webp" type="image/webp"><img src="../images/feature-sok-waslijn.jpg" width="1000" height="1241" alt="Vrouw haalt een antislipsok met studio-logo van de waslijn" loading="lazy"></picture>
+          <picture><source srcset="../images/feature-sok-waslijn.webp" type="image/webp"><img src="../images/feature-sok-waslijn.jpg" width="978" height="1233" alt="Vrouw haalt een antislipsok met studio-logo van de waslijn" loading="lazy"></picture>
         </div>
         <div class="ftxt">
           <span class="fn">02</span>
@@ -1256,26 +1270,29 @@ footer a{white-space:nowrap}
       <h2>Jij geeft les. <span class="fx">Wij ontzorgen de rest.</span></h2>
       <p>Premium is niet alleen het product. Het is ook hoe soepel het hele proces voor jou verloopt, van het eerste mockup tot de doos bij je voordeur.</p>
     </div>
-    <div class="care-you-strip">
-      <span class="cys-label">Jij regelt</span>
-      <span class="cys-items"><span class="cys-n">1</span>Stuur je logo<span class="cys-sep">·</span><span class="cys-n">2</span>Keur het mockup goed</span>
+    <div class="care-frame">
+      <div class="care-you-strip">
+        <span class="cys-label">Jij regelt</span>
+        <span class="cys-items"><span class="cys-n">1</span>Stuur je logo<span class="cys-sep">·</span><span class="cys-n">2</span>Keur het mockup goed</span>
+      </div>
+
+      <div class="care-divider"><span>Wij regelen de rest</span></div>
+
+      <div class="care-grid">
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Antislipzool controleren op REACH.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Verpakken en verzenden met tracking.</b><span class="ci-txt">Jij weet precies waar je bestelling is.</span></div></div>
+        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Rechtstreeks naar je voordeur leveren.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
+      </div>
+
+      <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
     </div>
 
-    <div class="care-divider"><span>Wij regelen de rest</span></div>
-
-    <div class="care-grid">
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Antislipzool controleren op REACH.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Verpakken en verzenden met tracking.</b><span class="ci-txt">Jij weet precies waar je bestelling is.</span></div></div>
-      <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Rechtstreeks naar je voordeur leveren.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
-    </div>
-
-    <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
-    <div class="care-guarantee">
+    <div class="care-guarantee care-frame care-frame-terra">
       <span class="seal" aria-hidden="true">100%</span>
-      <p><b>Garantie op topkwaliteit,</b> in het product én in de ontzorging. Niet goed? Dan lossen we het op, zonder gedoe. En elke vraag beantwoordt de oprichter zelf, persoonlijk.</p>
+      <p><b>Garantie op topkwaliteit,</b> in product én proces. Niet goed? Lossen we op, zonder gedoe. Iedere vraag beantwoordt de oprichter zelf.</p>
     </div>
 
     <div class="how" id="zo-werkt-het">
@@ -1385,8 +1402,8 @@ footer a{white-space:nowrap}
   <div class="wrap stats-grid">
     <div>
       <h2>De cijfers, <span class="fx">zonder luchtkastelen</span>.</h2>
-      <p class="lede">Je koopt in tegen groothandelsprijs, zonder btw. De verkoopprijs bepaal jij. Antislipsokken zijn verplicht in bijna elke les, dus je leden kopen ze toch al. De enige vraag is of ze jouw logo dragen, of dat van een ander.</p>
-      <p class="closer">Voorbeeld: een middelgrote studio met zo’n 300 actieve leden en 10 reformers houdt er ongeveer € 4.552 per jaar aan over, na btw. Een schatting, geen belofte: het hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</p>
+      <p class="lede">Je koopt in tegen groothandelsprijs, zonder btw. De verkoopprijs bepaal je zelf. Antislipsokken zijn al verplicht in bijna elke les, dus je leden kopen ze toch. De enige vraag is met wiens logo.</p>
+      <p class="closer">Voorbeeld: een studio met zo’n 300 actieve leden en 10 reformers houdt hier ongeveer € 4.552 per jaar aan over, na btw. Geen belofte, een schatting: de uitkomst hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</p>
       <span class="repeat-chip">Studio’s bestellen <b>meerdere keren per jaar</b> opnieuw</span>
     </div>
     <div class="receipt" role="img" aria-label="Margevoorbeeld: je betaalt 7,50 euro zonder btw, je verkoopt voor 17,95 euro inclusief btw, marge 7,35 euro na btw, 49 procent">
