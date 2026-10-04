@@ -772,6 +772,29 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
+
+.feature-rows{display:flex;flex-direction:column;gap:68px;margin-top:16px}
+.feature-row{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.feature-row .fimg{order:1}
+.feature-row .ftxt{order:2}
+.feature-row:nth-child(even) .fimg{order:2}
+.feature-row:nth-child(even) .ftxt{order:1}
+.fimg{border-radius:26px;overflow:hidden;box-shadow:0 24px 48px -24px rgba(23,32,27,.32)}
+.fimg img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;display:block}
+.ftxt .fn{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem;color:var(--terra-2,#B85A3A);line-height:1;display:block;margin-bottom:10px}
+.ftxt h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.55rem;color:var(--green);margin:0 0 14px}
+.ftxt p{font-size:1rem;line-height:1.62;color:#4c554d;max-width:34em}
+.fimg-compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;box-shadow:none;border-radius:0;overflow:visible}
+.fimg-compare .cmp{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 20px 40px -22px rgba(23,32,27,.3)}
+.fimg-compare .cmp img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/4;display:block}
+.cmp-tag{position:absolute;top:12px;left:12px;background:rgba(32,44,35,.85);color:var(--cream);font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+@media(max-width:860px){
+  .feature-rows{gap:48px}
+  .feature-row{grid-template-columns:1fr;gap:22px}
+  .feature-row .fimg,.feature-row:nth-child(even) .fimg{order:1}
+  .feature-row .ftxt,.feature-row:nth-child(even) .ftxt{order:2}
+  .fimg-compare{gap:8px}
+}
 .why-card{background:linear-gradient(160deg,#fff 0%,var(--sand,#EDE3D0) 145%);border-radius:22px;padding:30px 26px;box-shadow:0 14px 32px -18px rgba(46,64,52,.14),0 3px 10px -4px rgba(46,64,52,.08);position:relative;overflow:hidden}
 .why-card::before{content:'';position:absolute;top:-30px;right:-30px;width:90px;height:90px;border-radius:50%;background:radial-gradient(circle,rgba(200,106,74,.10),transparent 70%)}
 .why-stat{font-family:'Fraunces',serif;font-weight:500;font-size:2.6rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:6px;position:relative}
@@ -1108,28 +1131,49 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <div class="why-head">
       <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
-      <p>Je stopt alles in de zaal. Dit is het stuk dat de meeste studio-eigenaren vergeten, en het betaalt zich op vier manieren terug.</p>
+      <p>Marge is er één van. Dit is wat je er verder nog mee wint.</p>
     </div>
-    <div class="why-grid why-grid-4">
-      <div class="why-card">
-        <span class="why-n">01</span>
-        <h3>Klantbehoud</h3>
-        <p>Jouw merk dragen is zeggen: dit is mijn studio. Boutiquemerken die het snappen, behandelen merchandise als een insigne, niet als koopwaar. SoulCycle noemde zijn kleding een <i>badge of pride</i> voor zijn leden, en bijna alles werd gekocht door mensen die al kwamen trainen.</p>
+    <div class="feature-rows">
+      <div class="feature-row">
+        <div class="fimg">
+          <picture><source srcset="../images/feature-tote-vriendinnen.webp" type="image/webp"><img src="../images/feature-tote-vriendinnen.jpg" width="1000" height="1241" alt="Twee vriendinnen bekijken een tote bag met studio-logo" loading="lazy"></picture>
+        </div>
+        <div class="ftxt">
+          <span class="fn">01</span>
+          <h3>Gratis naamsbekendheid</h3>
+          <p>Jouw logo reist mee naar het schoolplein, de sportschool, de supermarkt — overal waar jij zelf niet bij bent. Dat is gratis reclame. En soms is het precies het moment waarop iemand vraagt: waar is die tas van? Dat is een potentiële nieuwe klant die anders nooit van je studio had gehoord.</p>
+        </div>
       </div>
-      <div class="why-card">
-        <span class="why-n">02</span>
-        <h3>Nieuwe leden</h3>
-        <p>Mensen beoordelen een studio op elk fysiek detail, nog vóórdat ze een les hebben gevolgd. Nu steeds meer studio's elkaar beconcurreren, weegt dat zwaarder: een perfecte studio met een generieke sok oogt niet “bijna af”, maar onaf naast de buren die het wél compleet hebben.</p>
+      <div class="feature-row">
+        <div class="fimg">
+          <picture><source srcset="../images/feature-sok-waslijn.webp" type="image/webp"><img src="../images/feature-sok-waslijn.jpg" width="1000" height="1241" alt="Vrouw haalt een antislipsok met studio-logo van de waslijn" loading="lazy"></picture>
+        </div>
+        <div class="ftxt">
+          <span class="fn">02</span>
+          <h3>Retentie</h3>
+          <p>Ze ziet de sok aan de waslijn hangen en denkt: ik moet weer naar pilates. Maar het is jouw logo dat ze dan ziet — dus gaat ze terug naar jouw studio, niet naar de concurrent verderop. Merchandise houdt je naam top of mind, ook in de weken dat ze niet langskomt.</p>
+        </div>
       </div>
-      <div class="why-card">
-        <span class="why-n">03</span>
-        <h3>Meer lesbezoek</h3>
-        <p>Wie zich onderdeel voelt van een merk, blijft trouwer en boekt sneller een nieuw pakket. We hebben dat niet zelf gemeten, maar het is dezelfde identiteitslogica als bij punt één: hoe sterker het gevoel erbij te horen, hoe kleiner de kans dat iemand stopt.</p>
+      <div class="feature-row">
+        <div class="fimg fimg-compare">
+          <div class="cmp"><picture><source srcset="../images/feature-plank-leeg.webp" type="image/webp"><img src="../images/feature-plank-leeg.jpg" width="1000" height="1241" alt="Lege plank bij de receptie, zonder studio-merchandise" loading="lazy"></picture><span class="cmp-tag">Voor</span></div>
+          <div class="cmp"><picture><source srcset="../images/feature-plank-vol.webp" type="image/webp"><img src="../images/feature-plank-vol.jpg" width="1000" height="1241" alt="Gevulde plank bij de receptie met sokken, tumbler, tote en pilatesring" loading="lazy"></picture><span class="cmp-tag">Na</span></div>
+        </div>
+        <div class="ftxt">
+          <span class="fn">03</span>
+          <h3>Een compleet, professioneel merk</h3>
+          <p>Een lege plank bij de receptie oogt onaf, hoe mooi de rest van je studio ook is. Gevuld met je eigen merchandise voelt de hele ervaring in één klap professioneler — en een studio die tot in de details is afgewerkt, wint sneller het vertrouwen van wie nog twijfelt.</p>
+        </div>
       </div>
-      <div class="why-card">
-        <span class="why-n">04</span>
-        <h3>Marge</h3>
-        <p>En ja, het levert ook gewoon geld op. Zo’n € 7,35 per paar sokken, na btw, bij een normale doorverkoopprijs. Geen wondermarge: een reëel extra op een product dat je leden toch al nodig hebben.</p>
+      <div class="feature-row">
+        <div class="fimg">
+          <picture><source srcset="../images/feature-kassa-marge.webp" type="image/webp"><img src="../images/feature-kassa-marge.jpg" width="1000" height="1241" alt="Lid rekent af bij de receptie, met tumbler en sokken op de balie" loading="lazy"></picture>
+        </div>
+        <div class="ftxt">
+          <span class="fn">04</span>
+          <h3>Marge</h3>
+          <p>Zo’n € 7,35 per paar sokken, na btw, bij een normale doorverkoopprijs. Een premium accessoire verkoopt als een premium accessoire: bij de kassa is dat niet alleen extra omzet, het is ook een professioneler afrekenmoment voor je klant.</p>
+        </div>
       </div>
     </div>
     <p class="why-sources">Bronnen: SoulCycle, beursprospectus (2015) · Bitner, <i>Journal of Marketing</i> (1992) · Rozin &amp; Royzman (2001)</p>
