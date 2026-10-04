@@ -975,6 +975,11 @@ footer a{white-space:nowrap}
 .trust-band{padding:40px 0 96px}
 .trust-sub+.trust-sub{margin-top:16px}
 .trust-source{position:relative;z-index:2;margin:16px auto 0;text-align:center;font-size:.74rem;font-style:italic;color:rgba(245,238,224,.5)}
+.turn-stat{position:relative;z-index:2;display:flex;align-items:center;gap:16px;margin:32px auto 30px;padding:16px 26px;max-width:560px;background:rgba(245,238,224,.07);border:1px solid rgba(245,238,224,.2);border-radius:20px;text-align:left}
+.turn-stat .num{flex:none;font-family:'Fraunces',serif;font-weight:600;font-size:2.1rem;color:var(--ochre);line-height:1}
+.turn-stat .lbl{font-size:.86rem;line-height:1.4;color:rgba(245,238,224,.78)}
+.trust-source-inline{display:block;margin-top:4px;font-size:.72rem;font-style:italic;color:rgba(245,238,224,.5)}
+@media(max-width:560px){.turn-stat{flex-direction:column;text-align:center;gap:6px;border-radius:18px;padding:18px 20px}}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
@@ -1085,11 +1090,13 @@ footer a{white-space:nowrap}
     <div class="trust-inner">
       <span class="ring"></span><span class="ring two"></span>
       <p class="trust-big">Het is geen ijdelheid. <span class="fx">Je hebt alleen de helft van het verhaal gehoord.</span></p>
-      <p class="trust-sub">De hele sector zegt hetzelfde: premium is wat er in de zaal gebeurt. De apparaten, het licht, de lessen. De rest is bijzaak. Dus steekt elke studio alles in de zaal en stopt bij de deur. Tegen de tijd dat je nadenkt over wat er met je leden mee naar buiten gaat, is er geen budget of energie meer over, en het enige wat je voor je ziet, is de goedkope variant. Logisch dat je dan liever niets doet.</p>
-      <p class="trust-sub">Maar je studio houdt niet op bij de deur. Je leden vertrouwen je hun houding, hun ademhaling en hun lichaam toe. Ligt jouw sok bij de receptie, dan is dat voor hen gewoon dé sok voor de reformer. Je merk bestaat sinds de dag dat het eerste lid terugkwam. Je hebt het al verdiend.</p>
-      <p class="trust-sub">En de druk wordt niet kleiner. Er blijven nieuwe studio's openen, en het aandeel Spaanse studio-eigenaren dat concurrentie een serieuze zorg noemt, steeg in één jaar van 24,5% naar 56,9%. Wie zich nu onderscheidt, hoeft dat later niet meer in te halen.</p>
+      <p class="trust-sub">De hele sector zegt hetzelfde: premium is wat er in de zaal gebeurt, de rest is bijzaak. Dus stopt elke studio bij de deur. Tegen de tijd dat jij erover nadenkt, is er geen budget of energie meer over — en lijkt goedkoop de enige optie.</p>
+      <p class="trust-sub">Maar je studio houdt niet op bij de deur. Je leden vertrouwen je hun lichaam toe, en jouw sok bij de receptie wordt zonder meer dé sok voor de reformer. Je merk bestaat al sinds de dag dat het eerste lid terugkwam.</p>
+      <div class="turn-stat">
+        <span class="num">56,9%</span>
+        <span class="lbl">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg — tegen 24,5% een jaar eerder. <span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
+      </div>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
-      <p class="trust-source">Bron: Eversports-data, gerapporteerd door El Debate (mei 2026)</p>
     </div>
   </div>
 </div>
