@@ -170,20 +170,17 @@ img{display:block}
 .stats h2 .fx{color:var(--terra)}
 .stats .lede{color:#4c554d;margin-bottom:22px;max-width:30em}
 .stats .closer{font-weight:600;color:var(--green);font-size:1.05rem;max-width:28em}
-.margin-stat{display:flex;align-items:center;gap:18px;margin:0 0 22px;padding:22px 26px;background:rgba(208,106,63,.07);border:1.5px solid rgba(208,106,63,.28);border-radius:20px;max-width:30em}
-.margin-icon{flex:none;width:46px;height:46px;border-radius:50%;background:rgba(208,106,63,.15);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
-.margin-icon svg{width:24px;height:24px}
+.margin-stat{display:flex;flex-direction:column;gap:16px;margin:0 0 20px;padding:24px 28px;background:rgba(208,106,63,.045);border:1px solid rgba(208,106,63,.18);border-radius:20px;max-width:30em}
+.margin-top{display:flex;align-items:center;gap:16px}
+.margin-icon{flex:none;width:44px;height:44px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
+.margin-icon svg{width:22px;height:22px}
 .margin-txt{display:flex;flex-direction:column;gap:5px}
-.margin-num{font-family:'Fraunces',serif;font-weight:700;font-size:1.6rem;color:var(--terra-2);line-height:1}
-.margin-num .margin-unit{font-family:'Inter',sans-serif;font-weight:600;font-size:.9rem;color:var(--green);margin-left:6px}
-.margin-sub{font-size:.85rem;line-height:1.45;color:#5b6259}
-@media(max-width:480px){.margin-stat{flex-direction:column;align-items:flex-start;gap:12px;padding:20px 22px}}
-.repeat-chip{
-  display:inline-flex;align-items:center;gap:10px;margin-top:4px;
-  background:var(--white);border:1.5px solid var(--line);border-radius:999px;
-  padding:10px 20px;font-weight:700;font-size:.92rem;color:var(--green);
-}
-.repeat-chip b{color:#AC512C;font-weight:800}
+.margin-num{font-family:'Fraunces',serif;font-weight:700;font-size:1.5rem;color:var(--terra-2);line-height:1}
+.margin-num .margin-unit{font-family:'Inter',sans-serif;font-weight:600;font-size:.86rem;color:var(--green);margin-left:6px}
+.margin-sub{font-size:.84rem;line-height:1.45;color:#5b6259}
+.margin-foot{margin:0;padding-top:14px;border-top:1px dashed rgba(208,106,63,.24);font-size:.84rem;font-weight:600;color:var(--green)}
+.margin-foot b{color:#AC512C;font-weight:800}
+@media(max-width:480px){.margin-top{flex-direction:column;align-items:flex-start;gap:12px}}
 
 .receipt{
   justify-self:center;width:min(100%,330px);
@@ -293,10 +290,14 @@ img{display:block}
 .proof-card{position:relative;border-radius:26px;overflow:hidden;width:min(100%,420px);aspect-ratio:4/5;box-shadow:0 30px 60px -26px rgba(0,0,0,.5)}
 .proof-card img{width:100%;height:100%;aspect-ratio:4/5;object-fit:cover;display:block}
 .proof-tag{position:absolute;left:16px;bottom:16px;right:16px;background:rgba(20,51,42,.82);backdrop-filter:blur(3px);color:#fff;font-size:.8rem;font-weight:600;padding:10px 16px;border-radius:14px;text-align:center}
-.swatch-row{display:flex;align-items:center;gap:12px;width:min(100%,420px);padding:14px 18px;background:rgba(245,238,224,.07);border:1px solid rgba(245,238,224,.16);border-radius:16px}
-.swatch-row .dots{display:flex;gap:6px;flex:none}
-.swatch-row .dot{width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.55)}
-.swatch-row p{margin:0;font-size:.8rem;line-height:1.35;color:rgba(247,243,232,.72)}
+.swatch-row{display:flex;align-items:center;gap:16px;width:min(100%,420px);padding:15px 20px;background:rgba(245,238,224,.06);border:1px solid rgba(245,238,224,.15);border-radius:16px}
+.swatch-row .dots{display:flex;flex:none;padding-left:8px}
+.swatch-row .dot{width:24px;height:24px;border-radius:7px;border:2px solid rgba(255,255,255,.6);box-shadow:0 5px 12px -4px rgba(0,0,0,.5);margin-left:-8px}
+.swatch-row .dot:first-child{margin-left:0;transform:rotate(-10deg)}
+.swatch-row .dot:nth-child(2){transform:rotate(6deg);z-index:2}
+.swatch-row .dot:nth-child(3){transform:rotate(-5deg)}
+.swatch-row p{margin:0;font-size:.84rem;line-height:1.4;color:rgba(247,243,232,.78)}
+.swatch-row p b{color:var(--cream);font-weight:700}
 
 /* ---------- tijdlijn ---------- */
 .how{padding:44px 0 0}
@@ -580,8 +581,6 @@ footer a:hover{color:var(--terra)}
 .calc-card,.about-card{margin-left:auto;margin-right:auto}
 .calc-section .eyebrow-mark,.calc-section h2,.calc-section .intro{margin-left:auto;margin-right:auto;text-align:center}
 .calc-section h2{max-width:none}
-/* 7) herbestel-chip als één regel */
-.repeat-chip{white-space:nowrap}
 /* 9) voortgangsbalkjes: minimum zichtbare breedte */
 .ybar i{min-width:26%}
 @media (max-width:640px){
@@ -591,8 +590,6 @@ footer a:hover{color:var(--terra)}
   .brand-logo{height:30px}
   .foot-mark{width:min(100%,300px);margin:56px 0 30px}
   .receipt .rc-logo{width:132px}
-  /* 7) chip mag op mobiel wél afbreken, maar netjes */
-  .repeat-chip{white-space:normal;text-align:center}
   /* 3) kicker mobiel: iets kleiner zodat 'ie past */
   .kicker{font-size:.72rem;letter-spacing:.1em;margin-bottom:22px}
 }
@@ -790,14 +787,13 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-section{padding:64px 0}
 .why-section .wrap{max-width:1180px}
 .why-head{text-align:center;max-width:700px;margin:0 auto 40px}
-.why-head h2{margin-bottom:14px}
-.why-head p{color:#555d56;font-size:1.06rem;line-height:1.55;max-width:34em;margin-left:auto;margin-right:auto}
-.kicker-insight{display:inline-flex;align-items:center;gap:8px;background:rgba(208,106,63,.1);color:var(--terra-2);font-weight:700;font-size:.9rem;padding:9px 20px 9px 16px;border-radius:18px;margin-bottom:18px;text-align:left}
-.kicker-insight svg{flex:none;width:15px;height:15px;color:var(--terra)}
-@media(max-width:420px){.kicker-insight{font-size:.84rem;padding:9px 18px 9px 14px}}
-.why-index{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:24px auto 0}
-.wi{display:inline-flex;align-items:center;gap:9px;padding:7px 16px 7px 8px;background:rgba(255,255,255,.6);border:1px solid rgba(46,64,52,.13);border-radius:999px;font-size:.86rem;font-weight:600;color:var(--green);white-space:nowrap}
-.wi b{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--terra-2);color:#fff;font-family:'Fraunces',serif;font-weight:700;font-size:.7rem;flex:none}
+.why-head h2{margin-bottom:22px}
+.why-lead{display:flex;align-items:flex-start;gap:14px;max-width:540px;margin:0 auto;padding:20px 26px;background:rgba(208,106,63,.08);border:1.5px solid rgba(208,106,63,.26);border-radius:20px;text-align:left}
+.wl-badge{flex:none;width:30px;height:30px;margin-top:2px;border-radius:50%;background:rgba(208,106,63,.16);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
+.wl-badge svg{width:16px;height:16px}
+.why-lead p{margin:0;font-size:.98rem;line-height:1.52;color:#45504a}
+.why-lead p b{color:var(--terra-2);font-weight:700}
+@media(max-width:560px){.why-lead{flex-direction:column;align-items:center;text-align:center;padding:20px 22px}}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
@@ -1060,8 +1056,8 @@ footer a{white-space:nowrap}
 .care-lbl{font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;color:var(--green)}
 .care-count{display:inline-block;font-family:'Inter',sans-serif;font-style:normal;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green);background:rgba(46,64,52,.09);padding:5px 10px;border-radius:999px;line-height:1.2}
 .care-tiles-you{display:grid;grid-template-columns:repeat(2,minmax(0,270px));justify-content:center;gap:14px}
-.care-tile{display:flex;gap:12px;align-items:flex-start;padding:16px 18px;background:rgba(46,64,52,.07);border:1px solid rgba(46,64,52,.12);border-radius:18px}
-.ct-n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--green);color:var(--cream);font-family:'Fraunces',serif;font-weight:700;font-size:.95rem;display:flex;align-items:center;justify-content:center}
+.care-tile{display:flex;gap:13px;align-items:flex-start;padding:16px 18px;background:var(--white);border:1px solid rgba(46,64,52,.1);border-radius:18px;box-shadow:0 10px 22px -16px rgba(46,64,52,.4)}
+.ct-n{flex:none;width:32px;height:32px;border-radius:50%;background:var(--green);color:var(--cream);font-family:'Fraunces',serif;font-weight:700;font-size:.92rem;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 4px rgba(46,64,52,.08)}
 .care-tile b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:2px}
 .care-tile .ct-txt{font-size:.84rem;line-height:1.4;color:#5b6259}
 .care-divider{display:flex;align-items:center;gap:14px;max-width:720px;margin:34px auto 22px;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;text-align:center}
@@ -1075,9 +1071,9 @@ footer a{white-space:nowrap}
 .care-item b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:3px}
 .care-item span.ci-txt{font-size:.85rem;line-height:1.4;color:#5b6259}
 .care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0;max-width:30em;margin-left:auto;margin-right:auto}
-.care-guarantee{display:flex;align-items:center;gap:22px;padding:30px 42px;background:var(--terra-2);background-image:radial-gradient(circle at 15% 25%,rgba(255,255,255,.08),transparent 55%);color:var(--cream)}
-.care-guarantee .seal{flex:none;width:66px;height:66px;border-radius:50%;background:rgba(245,238,224,.14);border:1.5px dashed rgba(245,238,224,.45);display:flex;align-items:center;justify-content:center;color:var(--ochre);font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem}
-.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48;color:rgba(245,238,224,.9)}
+.care-guarantee{display:flex;align-items:center;gap:22px;padding:30px 42px;background:linear-gradient(180deg,rgba(208,106,63,.5) 0%,var(--terra-2) 45px),var(--terra-2);background-image:linear-gradient(180deg,rgba(208,106,63,.5) 0%,var(--terra-2) 45px),radial-gradient(circle at 15% 25%,rgba(255,255,255,.08),transparent 55%);color:var(--cream)}
+.care-guarantee .seal{flex:none;width:66px;height:66px;border-radius:50%;background:var(--cream);box-shadow:0 6px 16px -6px rgba(23,20,10,.35);display:flex;align-items:center;justify-content:center;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem}
+.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48;color:rgba(245,238,224,.92)}
 .care-guarantee b{color:var(--ochre);font-weight:700}
 @media(max-width:900px){.care-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.care-frame-body{padding:32px 24px 26px}.care-frame{border-radius:24px}}
@@ -1216,14 +1212,10 @@ footer a{white-space:nowrap}
 <section class="why-section" id="wat-verandert">
   <div class="wrap">
     <div class="why-head">
-      <span class="kicker-insight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Dezelfde sokken. Nu met jouw naam erop.</span>
       <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
-      <p>Je leden kopen ze toch al, elke les. Met jouw logo erop maak je meteen het verschil met de studio om de hoek.</p>
-      <div class="why-index">
-        <span class="wi"><b>01</b>Naamsbekendheid</span>
-        <span class="wi"><b>02</b>Retentie</span>
-        <span class="wi"><b>03</b>Professioneel merk</span>
-        <span class="wi"><b>04</b>Marge</span>
+      <div class="why-lead">
+        <span class="wl-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></span>
+        <p><b>Dezelfde sokken. Nu met jouw naam erop.</b> Je leden kopen ze toch al, elke les. Met jouw logo erop maak je meteen het verschil met de studio om de hoek.</p>
       </div>
     </div>
     <div class="feature-rows">
@@ -1299,7 +1291,7 @@ footer a{white-space:nowrap}
       <div class="care-grid">
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.5 9.6a6.5 6.5 0 1 0 11 0Z"/></svg></span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
-        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>Antislipzool controleren op REACH.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>Materialen gecontroleerd op veiligheid.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span><div><b>Verpakking selecteren én ontwerpen.</b><span class="ci-txt">In jouw huisstijl, klaar voor de plank bij de receptie.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><div><b>Verzenden met tracking, tot aan je voordeur.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
@@ -1407,7 +1399,7 @@ footer a{white-space:nowrap}
       </div>
       <div class="swatch-row">
         <span class="dots"><span class="dot" style="background:var(--cream)"></span><span class="dot" style="background:var(--terra)"></span><span class="dot" style="background:var(--ochre)"></span></span>
-        <p>Elke huisstijlkleur mogelijk. Wij matchen 'm exact.</p>
+        <p>Elke huisstijlkleur mogelijk. Wij matchen 'm <b>exact</b>.</p>
       </div>
     </div>
   </div>
@@ -1422,13 +1414,15 @@ footer a{white-space:nowrap}
       <h2>De cijfers, <span class="fx">zonder luchtkastelen</span>.</h2>
       <p class="lede">Je koopt in tegen groothandelsprijs, zonder btw. De verkoopprijs bepaal je zelf. Antislipsokken zijn al verplicht in bijna elke les, dus je leden kopen ze toch. De enige vraag is met wiens logo.</p>
       <div class="margin-stat">
-        <span class="margin-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15 8.5a3.5 3.5 0 0 0-3-1.8c-2 0-3.5 1.8-3.5 5.3s1.5 5.3 3.5 5.3a3.5 3.5 0 0 0 3-1.8"/><path d="M7 10h5M7 14h4"/></svg></span>
-        <div class="margin-txt">
-          <span class="margin-num">± € 4.552<span class="margin-unit">per jaar</span></span>
-          <span class="margin-sub">Voorbeeld: studio met 300 actieve leden en 10 reformers, na btw. Een schatting, geen belofte: het hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</span>
+        <div class="margin-top">
+          <span class="margin-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15 8.5a3.5 3.5 0 0 0-3-1.8c-2 0-3.5 1.8-3.5 5.3s1.5 5.3 3.5 5.3a3.5 3.5 0 0 0 3-1.8"/><path d="M7 10h5M7 14h4"/></svg></span>
+          <div class="margin-txt">
+            <span class="margin-num">± € 4.552<span class="margin-unit">per jaar</span></span>
+            <span class="margin-sub">Voorbeeld: studio met 300 actieve leden en 10 reformers, na btw. Een schatting, geen belofte: het hangt af van je leden en van hoe zichtbaar je het bij de receptie maakt.</span>
+          </div>
         </div>
+        <p class="margin-foot">Studio’s bestellen <b>meerdere keren per jaar</b> opnieuw</p>
       </div>
-      <span class="repeat-chip">Studio’s bestellen <b>meerdere keren per jaar</b> opnieuw</span>
     </div>
     <div class="receipt" role="img" aria-label="Margevoorbeeld: je betaalt 7,50 euro zonder btw, je verkoopt voor 17,95 euro inclusief btw, marge 7,35 euro na btw, 49 procent">
       <div class="rc-head">
