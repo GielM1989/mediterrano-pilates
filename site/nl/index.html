@@ -788,10 +788,12 @@ html,body{overflow-x:hidden;max-width:100%}
 /* ============ WAAROM-SECTIE: 3 onderzoeksgefundeerde argumenten ============ */
 .why-section{padding:64px 0}
 .why-section .wrap{max-width:1180px}
-.why-head{text-align:center;max-width:680px;margin:0 auto 40px}
-.why-head h2{margin-bottom:10px}
-.why-head p{color:#666E67;font-size:1.02rem;line-height:1.5}
-.kicker-insight{display:inline-block;background:rgba(208,106,63,.1);color:var(--terra-2);font-weight:700;font-size:.9rem;padding:8px 18px;border-radius:999px;margin-bottom:16px}
+.why-head{text-align:center;max-width:700px;margin:0 auto 40px}
+.why-head h2{margin-bottom:14px}
+.why-head p{color:#555d56;font-size:1.06rem;line-height:1.55;max-width:34em;margin-left:auto;margin-right:auto}
+.kicker-insight{display:inline-flex;align-items:center;gap:8px;background:rgba(208,106,63,.1);color:var(--terra-2);font-weight:700;font-size:.9rem;padding:9px 20px 9px 16px;border-radius:18px;margin-bottom:18px;text-align:left}
+.kicker-insight svg{flex:none;width:15px;height:15px;color:var(--terra)}
+@media(max-width:420px){.kicker-insight{font-size:.84rem;padding:9px 18px 9px 14px}}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
@@ -1043,13 +1045,6 @@ footer a{white-space:nowrap}
 .journey-line::after{content:"";position:absolute;right:-2px;top:-4px;width:7px;height:7px;border-top:1.5px solid rgba(245,238,224,.5);border-right:1.5px solid rgba(245,238,224,.5);transform:rotate(45deg)}
 @media(max-width:480px){.journey{gap:8px;max-width:300px}.journey-pt{font-size:.66rem}}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
-.reveal-panel{position:relative;z-index:2;display:flex;align-items:center;gap:20px;margin:28px auto 0;padding:24px 30px;max-width:620px;background:rgba(208,106,63,.16);border:1.5px solid rgba(208,106,63,.45);border-radius:22px;text-align:left}
-.reveal-icon{flex:none;width:50px;height:50px;border-radius:50%;background:rgba(208,106,63,.25);color:var(--ochre);display:flex;align-items:center;justify-content:center}
-.reveal-icon svg{width:25px;height:25px}
-.reveal-txt{display:block}
-.reveal-txt b{display:block;font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;color:var(--cream);margin-bottom:4px;line-height:1.3}
-.reveal-txt span{font-size:.9rem;line-height:1.45;color:rgba(245,238,224,.8)}
-@media(max-width:620px){.reveal-panel{flex-wrap:wrap;justify-content:center;text-align:center;padding:22px 20px}}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
 .mania-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2);line-height:1;margin-bottom:10px;position:relative}
@@ -1201,10 +1196,6 @@ footer a{white-space:nowrap}
         <span class="concern-txt">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg, tegen 24,5% een jaar eerder.<span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
       </div>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
-      <div class="reveal-panel">
-        <span class="reveal-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2.3h6c0-1.1.4-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg></span>
-        <span class="reveal-txt"><b>Je leden kopen tóch al antislipsokken. Verplicht, elke les.</b><span>Zet er jouw logo op, en dat piepkleine verschil is meteen je beste antwoord op de concurrentie, op vier vlakken tegelijk.</span></span>
-      </div>
     </div>
   </div>
 </div>
@@ -1215,9 +1206,9 @@ footer a{white-space:nowrap}
 <section class="why-section" id="wat-verandert">
   <div class="wrap">
     <div class="why-head">
-      <span class="kicker-insight">Dezelfde sokken. Nu met jouw naam erop.</span>
-      <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
-      <p>De stap naar sokken mét jóuw logo is piepklein: je leden kopen ze toch al. Het resultaat is groot.</p>
+      <span class="kicker-insight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Dezelfde sokken. Nu met jouw naam erop.</span>
+      <h2>Geen kostenpost. <span class="fx">Je antwoord op de concurrentie, op vier vlakken.</span></h2>
+      <p>De stap is piepklein: je leden kopen antislipsokken toch al, verplicht, elke les. Zet er jouw logo op, en dat kleine verschil onderscheidt je meteen van de studio om de hoek.</p>
     </div>
     <div class="feature-rows">
       <div class="feature-row">
