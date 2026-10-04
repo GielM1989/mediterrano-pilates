@@ -623,4 +623,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Hub: para quién trabajamos (ES) -->
+  <url>
+    <loc>https://mediterranopilates.com/para-quien-trabajamos/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/who-we-work-with/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/fuer-wen-wir-arbeiten/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Hub: who we work with (EN) -->
+  <url>
+    <loc>https://mediterranopilates.com/en/who-we-work-with/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/who-we-work-with/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/fuer-wen-wir-arbeiten/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Hub: für wen wir arbeiten (DE) -->
+  <url>
+    <loc>https://mediterranopilates.com/de/fuer-wen-wir-arbeiten/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/who-we-work-with/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/fuer-wen-wir-arbeiten/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/para-quien-trabajamos/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
