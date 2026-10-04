@@ -304,7 +304,7 @@ img{display:block}
 .how h2 .fx{color:var(--terra)}
 .how-bridge{font-family:'Fraunces',serif;font-weight:500;font-size:1.25rem;color:var(--green);margin-bottom:28px}
 .timeline{list-style:none;position:relative;display:grid;grid-template-columns:1fr;gap:40px}
-.timeline::before{content:"";position:absolute;left:20px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.timeline::before{content:"";position:absolute;left:20px;top:8px;bottom:8px;width:0;border-left:2px dashed rgba(184,90,58,.35)}
 .tl-item{position:relative;padding-left:64px;opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .tl-item.in-view{opacity:1;transform:translateY(0)}
 .tl-item .n{
@@ -313,7 +313,7 @@ img{display:block}
   background:var(--terra-2);color:#fff;font-weight:800;font-size:1.02rem;
   font-family:'Fraunces',serif;
   display:flex;align-items:center;justify-content:center;
-  box-shadow:0 0 0 5px var(--cream);
+  box-shadow:0 0 0 5px var(--cream),0 0 0 6.5px rgba(184,90,58,.3);
 }
 .tl-item h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.16rem;margin-bottom:2px}
 .tl-item .tl-time{display:block;font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--terra-2,#B85A3A);margin-bottom:6px}
@@ -424,9 +424,10 @@ footer a:hover{color:var(--terra)}
   .year-grid{grid-template-columns:repeat(3,1fr);gap:22px}
   .p-grid{grid-template-columns:repeat(2,1fr)}
   .hook .inner{grid-template-columns:1.05fr .95fr;gap:64px}
-  .timeline{grid-template-columns:repeat(5,1fr);gap:22px}
-  .timeline::before{left:8%;right:8%;top:20px;bottom:auto;width:auto;height:2px}
-  .tl-item{padding-left:0;padding-top:64px}
+  .timeline{grid-template-columns:repeat(5,1fr);gap:18px}
+  .timeline::before{left:8%;right:8%;top:20px;bottom:auto;width:auto;height:0;border-left:none;border-top:2px dashed rgba(184,90,58,.35)}
+  .tl-item{padding:36px 18px 20px;margin-top:22px;background:rgba(255,255,255,.55);border:1px solid rgba(46,64,52,.1);border-radius:18px}
+  .tl-item .n{top:-22px;left:18px}
   .form-inner{grid-template-columns:1fr 1fr;gap:64px}
   .sticky-cta{display:none}
   footer{padding-bottom:34px}
@@ -794,6 +795,9 @@ html,body{overflow-x:hidden;max-width:100%}
 .kicker-insight{display:inline-flex;align-items:center;gap:8px;background:rgba(208,106,63,.1);color:var(--terra-2);font-weight:700;font-size:.9rem;padding:9px 20px 9px 16px;border-radius:18px;margin-bottom:18px;text-align:left}
 .kicker-insight svg{flex:none;width:15px;height:15px;color:var(--terra)}
 @media(max-width:420px){.kicker-insight{font-size:.84rem;padding:9px 18px 9px 14px}}
+.why-index{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:24px auto 0}
+.wi{display:inline-flex;align-items:center;gap:9px;padding:7px 16px 7px 8px;background:rgba(255,255,255,.6);border:1px solid rgba(46,64,52,.13);border-radius:999px;font-size:.86rem;font-weight:600;color:var(--green);white-space:nowrap}
+.wi b{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--terra-2);color:#fff;font-family:'Fraunces',serif;font-weight:700;font-size:.7rem;flex:none}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
@@ -1052,18 +1056,24 @@ footer a{white-space:nowrap}
 /* ---------- ontzorgen: jij vs wij ---------- */
 .care-frame{position:relative;max-width:940px;margin:34px auto 44px;border:1.5px solid rgba(208,106,63,.32);border-radius:30px;background:linear-gradient(180deg,rgba(208,106,63,.06),rgba(208,106,63,0) 45%);overflow:hidden}
 .care-frame-body{padding:40px 42px 32px}
-.care-you-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 16px;margin:0 auto;padding:15px 30px;background:rgba(46,64,52,.07);border-radius:999px;max-width:560px}
-.cys-label{font-family:'Fraunces',serif;font-weight:600;font-size:.98rem;color:var(--green);flex:none}
-.cys-items{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:.92rem;color:#3c443c}
-.cys-n{display:inline-flex;align-items:center;justify-content:center;width:19px;height:19px;border-radius:50%;background:var(--green);color:var(--cream);font-size:.66rem;font-weight:700;margin-right:6px;flex:none}
-.cys-sep{color:#b7b2a4;margin:0 2px}
-.care-divider{display:flex;align-items:center;gap:14px;max-width:640px;margin:30px auto 28px;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;text-align:center}
+.care-head{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 0 14px}
+.care-lbl{font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;color:var(--green)}
+.care-count{display:inline-block;font-family:'Inter',sans-serif;font-style:normal;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green);background:rgba(46,64,52,.09);padding:5px 10px;border-radius:999px;line-height:1.2}
+.care-tiles-you{display:grid;grid-template-columns:repeat(2,minmax(0,270px));justify-content:center;gap:14px}
+.care-tile{display:flex;gap:12px;align-items:flex-start;padding:16px 18px;background:rgba(46,64,52,.07);border:1px solid rgba(46,64,52,.12);border-radius:18px}
+.ct-n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--green);color:var(--cream);font-family:'Fraunces',serif;font-weight:700;font-size:.95rem;display:flex;align-items:center;justify-content:center}
+.care-tile b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:2px}
+.care-tile .ct-txt{font-size:.84rem;line-height:1.4;color:#5b6259}
+.care-divider{display:flex;align-items:center;gap:14px;max-width:720px;margin:34px auto 22px;color:var(--terra-2);font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;text-align:center}
 .care-divider::before,.care-divider::after{content:"";flex:1;height:1px;background:rgba(184,90,58,.25)}
-.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 30px;margin:0 0 30px;max-width:900px;margin-left:auto;margin-right:auto}
-.care-item{display:flex;gap:12px;align-items:flex-start}
-.ci-check{flex:none;width:22px;height:22px;border-radius:50%;background:rgba(208,106,63,.14);color:var(--terra-2);font-size:.64rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.care-divider span{display:inline-flex;align-items:center;gap:12px}
+.care-divider .care-count{color:var(--terra-2);background:rgba(208,106,63,.13)}
+.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 28px}
+.care-item{display:flex;gap:14px;align-items:flex-start;padding:18px;background:rgba(255,255,255,.55);border:1px solid rgba(208,106,63,.16);border-radius:18px}
+.ci-icon{flex:none;width:40px;height:40px;border-radius:50%;background:rgba(208,106,63,.13);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
+.ci-icon svg{width:20px;height:20px}
 .care-item b{display:block;color:var(--green);font-weight:700;font-size:.96rem;margin-bottom:3px}
-.care-item span.ci-txt{font-size:.87rem;line-height:1.4;color:#5b6259}
+.care-item span.ci-txt{font-size:.85rem;line-height:1.4;color:#5b6259}
 .care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0;max-width:30em;margin-left:auto;margin-right:auto}
 .care-guarantee{display:flex;align-items:center;gap:22px;padding:30px 42px;background:var(--terra-2);background-image:radial-gradient(circle at 15% 25%,rgba(255,255,255,.08),transparent 55%);color:var(--cream)}
 .care-guarantee .seal{flex:none;width:66px;height:66px;border-radius:50%;background:rgba(245,238,224,.14);border:1.5px dashed rgba(245,238,224,.45);display:flex;align-items:center;justify-content:center;color:var(--ochre);font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem}
@@ -1071,7 +1081,7 @@ footer a{white-space:nowrap}
 .care-guarantee b{color:var(--ochre);font-weight:700}
 @media(max-width:900px){.care-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.care-frame-body{padding:32px 24px 26px}.care-frame{border-radius:24px}}
-@media(max-width:560px){.care-grid{grid-template-columns:1fr}.care-you-strip{flex-direction:column;text-align:center;border-radius:20px}}
+@media(max-width:560px){.care-grid{grid-template-columns:1fr}.care-tiles-you{grid-template-columns:1fr}.care-divider span{flex-direction:column;gap:8px}}
 @media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px;gap:14px}}
 
 .mania-icon{width:52px;height:52px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
@@ -1207,8 +1217,14 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <div class="why-head">
       <span class="kicker-insight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Dezelfde sokken. Nu met jouw naam erop.</span>
-      <h2>Geen kostenpost. <span class="fx">Je antwoord op de concurrentie, op vier vlakken.</span></h2>
-      <p>De stap is piepklein: je leden kopen antislipsokken toch al, verplicht, elke les. Zet er jouw logo op, en dat kleine verschil onderscheidt je meteen van de studio om de hoek.</p>
+      <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
+      <p>Je leden kopen ze toch al, elke les. Met jouw logo erop maak je meteen het verschil met de studio om de hoek.</p>
+      <div class="why-index">
+        <span class="wi"><b>01</b>Naamsbekendheid</span>
+        <span class="wi"><b>02</b>Retentie</span>
+        <span class="wi"><b>03</b>Professioneel merk</span>
+        <span class="wi"><b>04</b>Marge</span>
+      </div>
     </div>
     <div class="feature-rows">
       <div class="feature-row">
@@ -1269,23 +1285,27 @@ footer a{white-space:nowrap}
     </div>
     <div class="care-frame">
      <div class="care-frame-body">
-      <div class="care-you-strip">
-        <span class="cys-label">Jij regelt</span>
-        <span class="cys-items"><span class="cys-n">1</span>Stuur je logo<span class="cys-sep">·</span><span class="cys-n">2</span>Keur het mockup goed</span>
+      <div class="care-head">
+        <span class="care-lbl">Jij regelt</span>
+        <span class="care-count">2 stappen</span>
+      </div>
+      <div class="care-tiles-you">
+        <div class="care-tile"><span class="ct-n">1</span><div><b>Stuur je logo</b><span class="ct-txt">Eén mailtje, meer is het niet.</span></div></div>
+        <div class="care-tile"><span class="ct-n">2</span><div><b>Keur het mockup goed</b><span class="ct-txt">Binnen 24 uur in je inbox.</span></div></div>
       </div>
 
-      <div class="care-divider"><span>Wij regelen de rest</span></div>
+      <div class="care-divider"><span>Wij regelen de rest<em class="care-count">6 stappen</em></span></div>
 
       <div class="care-grid">
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Antislipzool controleren op REACH.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Verpakken en verzenden met tracking.</b><span class="ci-txt">Jij weet precies waar je bestelling is.</span></div></div>
-        <div class="care-item"><span class="ci-check" aria-hidden="true">✓</span><div><b>Rechtstreeks naar je voordeur leveren.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.5 9.6a6.5 6.5 0 1 0 11 0Z"/></svg></span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>Antislipzool controleren op REACH.</b><span class="ci-txt">Veilig voor elk lid, elke les.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span><div><b>Verpakking selecteren én ontwerpen.</b><span class="ci-txt">In jouw huisstijl, klaar voor de plank bij de receptie.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><div><b>Verzenden met tracking, tot aan je voordeur.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
       </div>
 
-      <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
+      <p class="care-note">Jij tekent twee keer af. Wij doen de andere zes, tot in de zool. Dat is pas ontzorgen.</p>
      </div>
       <div class="care-guarantee">
         <span class="seal" aria-hidden="true">100%</span>
@@ -1299,7 +1319,7 @@ footer a{white-space:nowrap}
         <li class="tl-item"><span class="n">1</span><h3>Mockup</h3><span class="tl-time">Binnen 24 uur</span><p>Je merk op het echte product, vrijblijvend.</p></li>
         <li class="tl-item"><span class="n">2</span><h3>Aanpassingen</h3><span class="tl-time">Dag 1–3</span><p>Kleuren, maat en plaatsing, tot het precies van jou is.</p></li>
         <li class="tl-item"><span class="n">3</span><h3>Offerte en akkoord</h3><span class="tl-time">Dag 3–5</span><p>De definitieve prijs op papier. Je akkoord en betaling reserveren je productieplek.</p></li>
-        <li class="tl-item"><span class="n">4</span><h3>Productie</h3><span class="tl-time">Week 1–3</span><p>Weven of borduren, en elk paar nakijken voordat het wordt ingepakt.</p></li>
+        <li class="tl-item"><span class="n">4</span><h3>Productie</h3><span class="tl-time">Week 1–3</span><p>Weven of borduren, de verpakking ontworpen in jouw stijl, en elk paar nagekeken vóór het inpakken.</p></li>
         <li class="tl-item"><span class="n">5</span><h3>Levering</h3><span class="tl-time">Week 4 (ca.)</span><p>Rechtstreeks naar je studio, met tracking tot aan de deur.</p></li>
       </ol>
       <p style="margin-top:20px"><a href="/en/how-it-works/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Bekijk het volledige proces →</a></p>
