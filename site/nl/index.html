@@ -277,9 +277,10 @@ img{display:block}
 }
 
 /* ---------- tijdlijn ---------- */
-.how{padding:88px 0 92px}
+.how{padding:44px 0 0}
 .how h2{font-size:clamp(1.9rem,4.6vw,3rem);margin-bottom:50px;max-width:14em}
 .how h2 .fx{color:var(--terra)}
+.how-bridge{font-family:'Fraunces',serif;font-weight:500;font-size:1.25rem;color:var(--green);margin-bottom:28px}
 .timeline{list-style:none;position:relative;display:grid;grid-template-columns:1fr;gap:40px}
 .timeline::before{content:"";position:absolute;left:20px;top:8px;bottom:8px;width:2px;background:var(--line)}
 .tl-item{position:relative;padding-left:64px;opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
@@ -769,6 +770,8 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-head h2{margin-bottom:10px}
 .why-head p{color:#666E67;font-size:1.02rem;line-height:1.5}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.why-grid-4{grid-template-columns:repeat(2,1fr)}
+.why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
 .why-card{background:linear-gradient(160deg,#fff 0%,var(--sand,#EDE3D0) 145%);border-radius:22px;padding:30px 26px;box-shadow:0 14px 32px -18px rgba(46,64,52,.14),0 3px 10px -4px rgba(46,64,52,.08);position:relative;overflow:hidden}
 .why-card::before{content:'';position:absolute;top:-30px;right:-30px;width:90px;height:90px;border-radius:50%;background:radial-gradient(circle,rgba(200,106,74,.10),transparent 70%)}
 .why-stat{font-family:'Fraunces',serif;font-weight:500;font-size:2.6rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:6px;position:relative}
@@ -777,6 +780,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-source{font-size:.72rem;color:#666E67;font-style:italic;position:relative}
 @media(max-width:900px){
   .why-grid{grid-template-columns:1fr;gap:16px}
+  .why-grid-4{grid-template-columns:1fr}
 }
 
 
@@ -970,6 +974,7 @@ footer a{white-space:nowrap}
 .scene-photo img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;display:block}
 .trust-band{padding:40px 0 96px}
 .trust-sub+.trust-sub{margin-top:16px}
+.trust-source{position:relative;z-index:2;margin:16px auto 0;text-align:center;font-size:.74rem;font-style:italic;color:rgba(245,238,224,.5)}
 .turn-close{position:relative;z-index:2;margin:28px auto 0;font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:clamp(1.35rem,2.8vw,1.8rem);color:var(--ochre);max-width:20em;line-height:1.25}
 .why-section{padding:88px 0 40px}
 .why-card h3{font-size:1.28rem}
@@ -990,14 +995,23 @@ footer a{white-space:nowrap}
 .when-card h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.15rem;color:var(--green);margin-bottom:6px}
 .when-card p{font-size:.94rem;color:#4c554d}
 .about-sign{display:block;margin-top:14px;font-weight:700;color:var(--green)}
-.how{padding:88px 0 60px}
+.how{padding:44px 0 0}
 </style>
 </head>
 <body>
 
-<div class="topbar static" aria-label="Seizoensbericht">
+<div class="topbar" aria-label="Voordelen">
   <div class="tr">
-    <span><b>Kerst:</b>&nbsp;vraag je gratis mockup aan vóór 1 november ·&nbsp;<a href="/en/blog/christmas-gifts-for-pilates-clients/" style="white-space:nowrap">bekijk de data</a></span>
+    <span><span class="pulse"></span><b>Kerst:</b>&nbsp;vraag je gratis mockup aan vóór 1 november</span><span class="tk-sep">·</span>
+    <span><b>Meer klantbehoud</b> · leden blijven trouwer aan een merk waar ze bij horen</span><span class="tk-sep">·</span>
+    <span><b>Een completer merk</b> · wint het vertrouwen van nieuwe leden</span><span class="tk-sep">·</span>
+    <span><b>Gratis verzending</b> · wereldwijd, altijd</span><span class="tk-sep">·</span>
+    <span><b>En ja, ook marge</b> · een fijn extra op elk paar</span><span class="tk-sep">·</span>
+    <span><span class="pulse"></span><b>Kerst:</b>&nbsp;vraag je gratis mockup aan vóór 1 november</span><span class="tk-sep">·</span>
+    <span><b>Meer klantbehoud</b> · leden blijven trouwer aan een merk waar ze bij horen</span><span class="tk-sep">·</span>
+    <span><b>Een completer merk</b> · wint het vertrouwen van nieuwe leden</span><span class="tk-sep">·</span>
+    <span><b>Gratis verzending</b> · wereldwijd, altijd</span><span class="tk-sep">·</span>
+    <span><b>En ja, ook marge</b> · een fijn extra op elk paar</span><span class="tk-sep">·</span>
   </div>
 </div>
 <nav class="nav">
@@ -1019,6 +1033,10 @@ footer a{white-space:nowrap}
       <a href="./" class="on" hreflang="nl" aria-current="true">NL</a>
     </nav>
     <div class="nav-cta">
+      <a class="btn btn-wa js-wa" href="#" hidden data-wa-loc="header" aria-label="Chat met ons via WhatsApp">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.91-9.91a9.82 9.82 0 00-2.9-7.02zm-7.01 15.24h-.01a8.2 8.2 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 015.82 2.42 8.18 8.18 0 012.41 5.82c-.01 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.06 0 1.21.88 2.38 1.01 2.55.12.16 1.74 2.66 4.21 3.73.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+        <span>Chat met ons</span>
+      </a>
       <a class="btn" href="#mockup-form">Gratis mockup</a>
     </div>
   </div>
@@ -1069,34 +1087,44 @@ footer a{white-space:nowrap}
       <p class="trust-big">Het is geen ijdelheid. <span class="fx">Je hebt alleen de helft van het verhaal gehoord.</span></p>
       <p class="trust-sub">De hele sector zegt hetzelfde: premium is wat er in de zaal gebeurt. De apparaten, het licht, de lessen. De rest is bijzaak. Dus steekt elke studio alles in de zaal en stopt bij de deur. Tegen de tijd dat je nadenkt over wat er met je leden mee naar buiten gaat, is er geen budget of energie meer over, en het enige wat je voor je ziet, is de goedkope variant. Logisch dat je dan liever niets doet.</p>
       <p class="trust-sub">Maar je studio houdt niet op bij de deur. Je leden vertrouwen je hun houding, hun ademhaling en hun lichaam toe. Ligt jouw sok bij de receptie, dan is dat voor hen gewoon dé sok voor de reformer. Je merk bestaat sinds de dag dat het eerste lid terugkwam. Je hebt het al verdiend.</p>
+      <p class="trust-sub">En de druk wordt niet kleiner. Er blijven nieuwe studio's openen, en het aandeel Spaanse studio-eigenaren dat concurrentie een serieuze zorg noemt, steeg in één jaar van 24,5% naar 56,9%. Wie zich nu onderscheidt, hoeft dat later niet meer in te halen.</p>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
+      <p class="trust-source">Bron: Eversports-data, gerapporteerd door El Debate (mei 2026)</p>
     </div>
   </div>
 </div>
 </section>
 
-<!-- ============ 4 · WAT VERANDERT + 5 · DRIE OBSESSIES + 6 · COLLECTIE ============ -->
+<!-- ============ 4 · WAT VERANDERT + 5 · DRIE OBSESSIES & ONTZORGD PROCES + 6 · COLLECTIE ============ -->
 <section class="sheet cream">
 <section class="why-section">
   <div class="wrap">
     <div class="why-head">
-      <h2>Wat er verandert als je studio <span class="fx">de zaal uitgaat</span></h2>
+      <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
+      <p>Je stopt alles in de zaal. Dit is het stuk dat de meeste studio-eigenaren vergeten, en het betaalt zich op vier manieren terug.</p>
     </div>
-    <div class="why-grid">
+    <div class="why-grid why-grid-4">
       <div class="why-card">
-        <h3>Ze voelen zich deel van iets</h3>
-        <p>Jouw merk dragen is zeggen: dit is mijn studio. Boutiquemerken die het snappen, behandelen merchandise als een insigne, niet als koopwaar. SoulCycle noemde zijn kleding een <i>badge of pride</i> voor zijn leden. En bijna alles werd gekocht door mensen die al kwamen trainen.</p>
+        <span class="why-n">01</span>
+        <h3>Klantbehoud</h3>
+        <p>Jouw merk dragen is zeggen: dit is mijn studio. Boutiquemerken die het snappen, behandelen merchandise als een insigne, niet als koopwaar. SoulCycle noemde zijn kleding een <i>badge of pride</i> voor zijn leden, en bijna alles werd gekocht door mensen die al kwamen trainen.</p>
       </div>
       <div class="why-card">
-        <h3>Je studio is niet half af</h3>
-        <p>Mensen beoordelen een studio op elk fysiek detail, niet alleen op de les. En één zwak detail weegt zwaarder dan tien goede: een perfecte studio met een generieke sok voelt niet als “bijna perfect”, maar als slordig.</p>
+        <span class="why-n">02</span>
+        <h3>Nieuwe leden</h3>
+        <p>Mensen beoordelen een studio op elk fysiek detail, nog vóórdat ze een les hebben gevolgd. Nu steeds meer studio's elkaar beconcurreren, weegt dat zwaarder: een perfecte studio met een generieke sok oogt niet “bijna af”, maar onaf naast de buren die het wél compleet hebben.</p>
       </div>
       <div class="why-card">
-        <h3>Ze zien je buiten</h3>
-        <p>In de sportschool, op straat, op Instagram. Het is niet de hoofdreden, maar wie jouw logo draagt, denkt weer aan je studio. En iemand vraagt ernaar.</p>
+        <span class="why-n">03</span>
+        <h3>Meer lesbezoek</h3>
+        <p>Wie zich onderdeel voelt van een merk, blijft trouwer en boekt sneller een nieuw pakket. We hebben dat niet zelf gemeten, maar het is dezelfde identiteitslogica als bij punt één: hoe sterker het gevoel erbij te horen, hoe kleiner de kans dat iemand stopt.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-n">04</span>
+        <h3>Marge</h3>
+        <p>En ja, het levert ook gewoon geld op. Zo’n € 7,35 per paar sokken, na btw, bij een normale doorverkoopprijs. Geen wondermarge: een reëel extra op een product dat je leden toch al nodig hebben.</p>
       </div>
     </div>
-    <p class="bonus-line"><b>En ja, het levert ook marge op.</b> Zo’n € 7,35 per paar sokken, na btw. Een fijne extra, niet de reden.</p>
     <p class="why-sources">Bronnen: SoulCycle, beursprospectus (2015) · Bitner, <i>Journal of Marketing</i> (1992) · Rozin &amp; Royzman (2001)</p>
   </div>
 </section>
@@ -1104,7 +1132,8 @@ footer a{white-space:nowrap}
 <section class="why-section manias">
   <div class="wrap">
     <div class="why-head">
-      <h2>We maken merchandise <span class="fx">met drie obsessies</span></h2>
+      <h2>Jij geeft les. <span class="fx">Wij ontzorgen de rest.</span></h2>
+      <p>Premium is niet alleen het product. Het is ook hoe soepel het hele proces voor jou verloopt, van het eerste mockup tot de doos bij je voordeur.</p>
     </div>
     <div class="why-grid">
       <div class="why-card">
@@ -1122,6 +1151,17 @@ footer a{white-space:nowrap}
         <h3>Eerlijk over cijfers</h3>
         <p>De marge is prima, maar we beloven geen wonderen: onze cijfers zijn schattingen en we laten zien waar ze vandaan komen. Elke aanvraag beantwoordt de oprichter persoonlijk. Geen tickets, geen verkoopgesprekken.</p>
       </div>
+    </div>
+    <div class="how" id="zo-werkt-het">
+      <p class="how-bridge">En dat voelt ook zo in het proces zelf. Jij bevestigt, wij regelen de rest:</p>
+      <ol class="timeline">
+        <li class="tl-item"><span class="n">1</span><h3>Mockup</h3><span class="tl-time">Binnen 24 uur</span><p>Je merk op het echte product, vrijblijvend.</p></li>
+        <li class="tl-item"><span class="n">2</span><h3>Aanpassingen</h3><span class="tl-time">Dag 1–3</span><p>Kleuren, maat en plaatsing, tot het precies van jou is.</p></li>
+        <li class="tl-item"><span class="n">3</span><h3>Offerte en akkoord</h3><span class="tl-time">Dag 3–5</span><p>De definitieve prijs op papier. Je akkoord en betaling reserveren je productieplek.</p></li>
+        <li class="tl-item"><span class="n">4</span><h3>Productie</h3><span class="tl-time">Week 1–3</span><p>Weven of borduren, en elk paar nakijken voordat het wordt ingepakt.</p></li>
+        <li class="tl-item"><span class="n">5</span><h3>Levering</h3><span class="tl-time">Week 4 (ca.)</span><p>Rechtstreeks naar je studio, met tracking tot aan de deur.</p></li>
+      </ol>
+      <p style="margin-top:20px"><a href="/en/how-it-works/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Bekijk het volledige proces →</a></p>
     </div>
   </div>
 </section>
@@ -1183,24 +1223,7 @@ footer a{white-space:nowrap}
 </div>
 </section>
 
-<!-- ============ 7 · ZO WERKT HET ============ -->
-<section class="sheet cream">
-<div class="how" id="zo-werkt-het">
-  <div class="wrap">
-    <h2>Jij geeft les. <span class="fx">Wij regelen de rest.</span></h2>
-    <p style="margin:-30px 0 34px"><a href="/en/how-it-works/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Bekijk het volledige proces →</a></p>
-    <ol class="timeline">
-      <li class="tl-item"><span class="n">1</span><h3>Mockup</h3><span class="tl-time">Binnen 24 uur</span><p>Je merk op het echte product, vrijblijvend.</p></li>
-      <li class="tl-item"><span class="n">2</span><h3>Aanpassingen</h3><span class="tl-time">Dag 1–3</span><p>Kleuren, maat en plaatsing, tot het precies van jou is.</p></li>
-      <li class="tl-item"><span class="n">3</span><h3>Offerte en akkoord</h3><span class="tl-time">Dag 3–5</span><p>De definitieve prijs op papier. Je akkoord en betaling reserveren je productieplek.</p></li>
-      <li class="tl-item"><span class="n">4</span><h3>Productie</h3><span class="tl-time">Week 1–3</span><p>Weven of borduren, en elk paar nakijken voordat het wordt ingepakt.</p></li>
-      <li class="tl-item"><span class="n">5</span><h3>Levering</h3><span class="tl-time">Week 4 (ca.)</span><p>Rechtstreeks naar je studio, met tracking tot aan de deur.</p></li>
-    </ol>
-  </div>
-</div>
-</section>
-
-<!-- ============ 8 · BEKIJK JE LOGO OP HET PRODUCT ============ -->
+<!-- ============ 7 · BEKIJK JE LOGO OP HET PRODUCT ============ -->
 <section class="sheet green">
 <div class="hook">
   <span class="ring r1"></span>
@@ -1224,7 +1247,7 @@ footer a{white-space:nowrap}
 </div>
 </section>
 
-<!-- ============ 9 · DE CIJFERS + 10 · WANNEER ============ -->
+<!-- ============ 8 · DE CIJFERS + 9 · WANNEER ============ -->
 <section class="sheet cream">
 <div class="stats">
   <div class="wrap stats-grid">
@@ -1268,7 +1291,7 @@ footer a{white-space:nowrap}
 </div>
 </section>
 
-<!-- ============ 11 · OVER ONS + 12 · FAQ ============ -->
+<!-- ============ 10 · OVER ONS + 11 · FAQ ============ -->
 <section class="sheet cream">
 <div class="about">
   <div class="wrap">
@@ -1338,7 +1361,7 @@ footer a{white-space:nowrap}
 </div>
 </section>
 
-<!-- ============ 13 · FORMULIER ============ -->
+<!-- ============ 12 · FORMULIER ============ -->
 <section class="sheet green" id="mockup-form">
 <div class="form-section">
   <div class="wrap form-inner">
