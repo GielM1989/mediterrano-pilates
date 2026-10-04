@@ -783,6 +783,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-head{text-align:center;max-width:680px;margin:0 auto 40px}
 .why-head h2{margin-bottom:10px}
 .why-head p{color:#666E67;font-size:1.02rem;line-height:1.5}
+.kicker-insight{display:inline-block;background:rgba(208,106,63,.1);color:var(--terra-2);font-weight:700;font-size:.9rem;padding:8px 18px;border-radius:999px;margin-bottom:16px}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
@@ -1019,6 +1020,12 @@ footer a{white-space:nowrap}
 .turn-stat .lbl{font-size:.86rem;line-height:1.4;color:rgba(245,238,224,.78)}
 .trust-source-inline{display:block;margin-top:4px;font-size:.72rem;font-style:italic;color:rgba(245,238,224,.5)}
 @media(max-width:560px){.turn-stat{flex-direction:column;text-align:center;gap:6px;border-radius:18px;padding:18px 20px}}
+.concern-stat{position:relative;z-index:2;display:flex;align-items:center;gap:20px;margin:28px auto 32px;padding:24px 30px;max-width:620px;background:rgba(224,162,78,.12);border:1.5px solid rgba(224,162,78,.45);border-radius:22px;text-align:left}
+.concern-icon{flex:none;width:50px;height:50px;border-radius:50%;background:rgba(224,162,78,.22);color:var(--ochre);display:flex;align-items:center;justify-content:center}
+.concern-icon svg{width:25px;height:25px}
+.concern-num{flex:none;font-family:'Fraunces',serif;font-weight:700;font-size:2.9rem;color:var(--ochre);line-height:1}
+.concern-txt{font-size:.9rem;line-height:1.42;color:rgba(245,238,224,.92)}
+@media(max-width:620px){.concern-stat{flex-wrap:wrap;justify-content:center;text-align:center;padding:22px 20px}.concern-txt{text-align:center}}
 .journey{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:12px;margin:24px auto 32px;max-width:400px}
 .journey-pt{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.74rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:rgba(245,238,224,.55);flex:none}
 .journey-pt .dot{width:13px;height:13px;border-radius:50%;border:2px dashed rgba(245,238,224,.5);background:transparent}
@@ -1044,8 +1051,16 @@ footer a{white-space:nowrap}
 .care-you .care-list li::before{background:rgba(46,64,52,.1);color:var(--green)}
 .care-us .care-list li::before{background:rgba(208,106,63,.14);color:var(--terra-2)}
 .care-arrow{font-size:1.5rem;color:var(--terra-2);font-weight:300;align-self:center;padding-top:32px}
-.care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0 0 44px;max-width:30em;margin-left:auto;margin-right:auto}
+.care-note{text-align:center;font-family:'Fraunces',serif;font-style:italic;font-weight:500;color:var(--green);font-size:1.08rem;margin:0 0 28px;max-width:30em;margin-left:auto;margin-right:auto}
+.care-list-rich li{line-height:1.45}
+.care-list-rich li b{color:var(--green);font-weight:700}
+.care-us .care-list-rich li b{color:var(--terra-2)}
+.care-guarantee{display:flex;align-items:center;gap:20px;max-width:720px;margin:0 auto 44px;padding:22px 30px;background:var(--green);color:var(--cream);border-radius:20px}
+.care-guarantee .seal{flex:none;width:60px;height:60px;border-radius:50%;background:rgba(245,238,224,.14);border:1.5px solid rgba(245,238,224,.32);display:flex;align-items:center;justify-content:center;color:var(--ochre);font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem}
+.care-guarantee p{margin:0;font-size:.95rem;line-height:1.48}
+.care-guarantee b{color:var(--ochre);font-weight:700}
 @media(max-width:760px){.care-split{grid-template-columns:1fr;padding:28px 24px;gap:22px}.care-arrow{display:none}}
+@media(max-width:600px){.care-guarantee{flex-direction:column;text-align:center;padding:26px 24px}}
 
 .mania-icon{width:52px;height:52px;border-radius:50%;background:rgba(208,106,63,.12);color:var(--terra-2);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .mania-icon svg{width:25px;height:25px}
@@ -1156,17 +1171,17 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <div class="trust-inner">
       <span class="ring"></span><span class="ring two"></span>
-      <p class="trust-big">Het is geen ijdelheid. <span class="fx">Je hebt alleen de helft van het verhaal gehoord.</span></p>
+      <p class="trust-big">Premium stopt niet bij de voordeur. <span class="fx">Het gaat gewoon mee naar huis.</span></p>
       <div class="journey" aria-hidden="true">
         <span class="journey-pt start"><span class="dot"></span>In de zaal</span>
         <span class="journey-line"></span>
         <span class="journey-pt end"><span class="dot filled"></span>Mee naar huis</span>
       </div>
-      <p class="trust-sub">De hele sector zegt hetzelfde: premium is wat er in de zaal gebeurt, de rest is bijzaak. Dus stopt elke studio bij de deur. Tegen de tijd dat jij erover nadenkt, is er geen budget of energie meer over — en lijkt goedkoop de enige optie.</p>
-      <p class="trust-sub">Maar je studio houdt niet op bij de deur. Je leden vertrouwen je hun lichaam toe, en jouw sok bij de receptie wordt zonder meer dé sok voor de reformer. Je merk bestaat al sinds de dag dat het eerste lid terugkwam.</p>
-      <div class="turn-stat">
-        <span class="num">56,9%</span>
-        <span class="lbl">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg — tegen 24,5% een jaar eerder. <span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
+      <p class="trust-sub">De hele sector denkt dat premium stopt bij de voordeur: de machines, het licht, de les. Daarom blijft het budget ook binnen. Maar je leden nemen je merk sowieso mee naar huis, dus verdient dat hetzelfde niveau als de rest van je studio.</p>
+      <div class="concern-stat">
+        <span class="concern-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+        <span class="concern-num">56,9%</span>
+        <span class="concern-txt">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg, tegen 24,5% een jaar eerder.<span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
       </div>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau.</p>
     </div>
@@ -1179,8 +1194,9 @@ footer a{white-space:nowrap}
 <section class="why-section">
   <div class="wrap">
     <div class="why-head">
+      <span class="kicker-insight">Je leden kopen tóch al antislipsokken. Verplicht, elke les.</span>
       <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
-      <p>Marge is er één van. Dit is wat je er verder nog mee wint.</p>
+      <p>De stap naar sokken mét jóuw logo is piepklein: je leden kopen ze toch al. Het resultaat is groot.</p>
     </div>
     <div class="feature-rows">
       <div class="feature-row">
@@ -1191,7 +1207,7 @@ footer a{white-space:nowrap}
           <span class="fn">01</span>
           <h3>Gratis naamsbekendheid</h3>
           <span class="fpayoff"><span class="arrow">→</span>Gratis nieuwe klanten</span>
-          <p>Jouw logo reist mee naar het schoolplein, de sportschool, de supermarkt — overal waar jij zelf niet bij bent. Dat is gratis reclame. En soms is het precies het moment waarop iemand vraagt: waar is die tas van? Dat is een potentiële nieuwe klant die anders nooit van je studio had gehoord.</p>
+          <p>Jouw logo reist mee naar het schoolplein, de sportschool, de supermarkt, overal waar jij zelf niet bij bent. Dat is gratis reclame. En soms is het precies het moment waarop iemand vraagt: waar is die tas van? Dat is een potentiële nieuwe klant die anders nooit van je studio had gehoord.</p>
         </div>
       </div>
       <div class="feature-row">
@@ -1202,7 +1218,7 @@ footer a{white-space:nowrap}
           <span class="fn">02</span>
           <h3>Retentie</h3>
           <span class="fpayoff"><span class="arrow">→</span>Klanten blijven, en komen vaker terug</span>
-          <p>Ze ziet de sok aan de waslijn hangen en denkt: ik moet weer naar pilates. Maar het is jouw logo dat ze dan ziet — dus gaat ze terug naar jouw studio, niet naar de concurrent verderop. Merchandise houdt je naam top of mind, ook in de weken dat ze niet langskomt.</p>
+          <p>Ze ziet de sok aan de waslijn hangen en denkt: ik moet weer naar pilates. Maar het is jouw logo dat ze dan ziet, dus gaat ze terug naar jouw studio, niet naar de concurrent verderop. Merchandise houdt je naam top of mind, ook in de weken dat ze niet langskomt.</p>
         </div>
       </div>
       <div class="feature-row">
@@ -1214,7 +1230,7 @@ footer a{white-space:nowrap}
           <span class="fn">03</span>
           <h3>Een compleet, professioneel merk</h3>
           <span class="fpayoff"><span class="arrow">→</span>Onderscheidend, betere eerste indruk</span>
-          <p>Een lege plank bij de receptie oogt onaf, hoe mooi de rest van je studio ook is. Gevuld met je eigen merchandise voelt de hele ervaring in één klap professioneler — en een studio die tot in de details is afgewerkt, wint sneller het vertrouwen van wie nog twijfelt.</p>
+          <p>Een lege plank bij de receptie oogt onaf, hoe mooi de rest van je studio ook is. Gevuld met je eigen merchandise voelt de hele ervaring in één klap professioneler, en een studio die tot in de details is afgewerkt, wint sneller het vertrouwen van wie nog twijfelt.</p>
         </div>
       </div>
       <div class="feature-row">
@@ -1250,35 +1266,23 @@ footer a{white-space:nowrap}
       <div class="care-arrow" aria-hidden="true">→</div>
       <div class="care-col care-us">
         <span class="care-label">Wij<span class="tag">de rest</span></span>
-        <ul class="care-list">
-          <li>Kleur matchen op Pantone-code</li>
-          <li>Premium sok weven of borduren</li>
-          <li>Antislipzool controleren op REACH</li>
-          <li>Elk paar los nakijken, vóór verpakking</li>
-          <li>Verpakken en verzenden met tracking</li>
-          <li>Rechtstreeks naar je voordeur leveren</li>
+        <ul class="care-list care-list-rich">
+          <li><b>Kleur matchen op Pantone-code.</b> Niet “ongeveer”, maar exact jouw tint.</li>
+          <li><b>Logo weven of borduren, in jouw stijl.</b> Subtiel of groot, altijd gecontroleerd.</li>
+          <li><b>Antislipzool controleren op REACH.</b> Veilig voor elk lid, elke les.</li>
+          <li><b>Elk paar los nakijken, vóór verpakking.</b> Niets gaat de deur uit dat niet goed genoeg is.</li>
+          <li><b>Verpakken en verzenden met tracking.</b> Jij weet precies waar je bestelling is.</li>
+          <li><b>Rechtstreeks naar je voordeur leveren.</b> Geen tussenstop, geen gedoe.</li>
+          <li><b>Persoonlijk antwoord van de oprichter.</b> Geen tickets, geen verkoopgesprekken.</li>
         </ul>
       </div>
     </div>
-    <p class="care-note">Jij tekent twee keer af. De andere zes stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
-
-    <div class="why-grid">
-      <div class="why-card">
-        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="0.6" fill="currentColor" stroke="none"/></svg></div>
-        <h3>Obsessief exact</h3>
-        <p>We matchen je kleur op Pantone-code, niet “ongeveer”. We controleren of elk materiaal aan REACH voldoet, antislipzool inbegrepen, en bekijken elk paar voordat het de deur uitgaat. Zouden we het niet naast je reformer zetten, dan gaat het niet mee.</p>
-      </div>
-      <div class="why-card">
-        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="2.1" fill="currentColor" stroke="none"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2.1" fill="currentColor" stroke="none"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="11" cy="17" r="2.1" fill="currentColor" stroke="none"/></svg></div>
-        <h3>Jouw smaak, niet de onze</h3>
-        <p>Een geweven of geborduurd logo, subtiel in jouw tint of juist groot als je merk daarom vraagt. Jij bepaalt hoe het eruitziet, wij zorgen dat het klopt. Iets wat je leden willen dragen, ook buiten de studio.</p>
-      </div>
-      <div class="why-card">
-        <div class="mania-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11.5l2 2 4-4.5"/></svg></div>
-        <h3>Eerlijk over cijfers</h3>
-        <p>De marge is prima, maar we beloven geen wonderen: onze cijfers zijn schattingen en we laten zien waar ze vandaan komen. Elke aanvraag beantwoordt de oprichter persoonlijk. Geen tickets, geen verkoopgesprekken.</p>
-      </div>
+    <p class="care-note">Jij tekent twee keer af. De andere zeven stappen regelen wij, tot in de zool. Dat is pas ontzorgen.</p>
+    <div class="care-guarantee">
+      <span class="seal" aria-hidden="true">100%</span>
+      <p><b>Garantie op topkwaliteit.</b> Niet alleen het product, ook de ontzorging eromheen: voldoet iets niet aan onze eigen standaard, dan lossen we het op. Zonder gedoe.</p>
     </div>
+
     <div class="how" id="zo-werkt-het">
       <p class="how-bridge">En dat voelt ook zo in het proces zelf. Jij bevestigt, wij regelen de rest:</p>
       <ol class="timeline">
@@ -1358,7 +1362,7 @@ footer a{white-space:nowrap}
     <div class="hook-copy">
       <p class="hook-eyebrow">Voordat je iets beslist</p>
       <h2>De twijfel verdwijnt <span class="fx">zodra je het ziet.</span></h2>
-      <p>Je kent dat gevoel: een logo op een blanco productfoto zegt niets. Je weet pas zeker of het goed staat als je het écht ziet. Daarom laten we het je gewoon zien — binnen 24 uur, op het echte materiaal, in exact jouw kleur. Geen giswerk, geen risico voor je merk.</p>
+      <p>Je kent dat gevoel: een logo op een blanco productfoto zegt niets. Je weet pas zeker of het goed staat als je het écht ziet. Daarom laten we het je gewoon zien: binnen 24 uur, op het echte materiaal, in exact jouw kleur. Geen giswerk, geen risico voor je merk.</p>
       <ul class="hook-proof">
         <li>Gratis en volledig vrijblijvend</li>
         <li>Binnen 24 uur in je inbox</li>
@@ -1373,7 +1377,7 @@ footer a{white-space:nowrap}
       </div>
       <div class="swatch-row">
         <span class="dots"><span class="dot" style="background:var(--cream)"></span><span class="dot" style="background:var(--terra)"></span><span class="dot" style="background:var(--ochre)"></span></span>
-        <p>Elke huisstijlkleur mogelijk — wij matchen 'm exact.</p>
+        <p>Elke huisstijlkleur mogelijk. Wij matchen 'm exact.</p>
       </div>
     </div>
   </div>
@@ -1436,7 +1440,7 @@ footer a{white-space:nowrap}
         <span class="about-kicker">Wie wij zijn</span>
         <div class="about-name">Ik doe zelf geen pilates. <span class="fx">Maar er viel me iets op.</span></div>
         <p class="about-text">Het heeft me altijd gefascineerd dat de wereld rond pilates net zo mooi is als de sport zelf. De rust van een goed verzorgde studio, dat ochtendlicht, alles tot in detail doordacht.</p><p class="about-text">En overal zag ik hetzelfde: prachtige zalen, goede lessen, en dan, bij de receptie, een sok die nergens bij paste. Geen slordigheid. Er had gewoon niemand nagedacht over wat er de deur uitgaat.</p><p class="about-text">Daar ben ik me op gaan richten. Jij richt je op je community; ik zorg dat wat ze mee naar huis nemen, op het niveau is van de studio die ze net hebben verlaten. Elke aanvraag komt bij mij persoonlijk terecht.</p>
-        <span class="about-sign">— Giel Mallens, oprichter van Mediterrano Pilates</span>
+        <span class="about-sign">Giel Mallens, oprichter van Mediterrano Pilates</span>
         <p style="margin-top:14px"><a href="/en/about-mediterrano-pilates/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Lees het hele verhaal →</a></p>
         <span class="about-loc"><span class="dot"></span>Gevestigd in Spanje · Gratis verzending wereldwijd</span>
       </div>
