@@ -998,11 +998,11 @@ footer a{white-space:nowrap}
   "@type": "Service",
   "@id": "https://mediterranopilates.com/nl/#service",
   "name": "Merchandise met logo voor pilates- en yogastudio's",
-  "serviceType": "Ontwerp, productie en wereldwijde verzending van merchandise met logo",
+  "serviceType": "Ontwerp, productie en verzending binnen Europa van merchandise met logo",
   "provider": { "@id": "https://mediterranopilates.com/#organization" },
   "areaServed": { "@type": "GeoShape", "name": "Worldwide" },
   "audience": { "@type": "BusinessAudience", "audienceType": "Pilates- en yogastudio's" },
-  "description": "Ontwerp, productie en gratis wereldwijde verzending van antislipsokken, tumblers, totes en pilatesringen met het logo van je studio, geweven of geborduurd, in exact jouw Pantone-kleur.",
+  "description": "Ontwerp, productie en gratis verzending binnen Europa van antislipsokken, tumblers, totes en pilatesringen met het logo van je studio, geweven of geborduurd, in exact jouw Pantone-kleur.",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Mediterrano Pilates merchandise",
@@ -1031,7 +1031,7 @@ footer a{white-space:nowrap}
     { "@type": "Question", "name": "Wat kost merchandise met logo voor een pilatesstudio?",
       "acceptedAnswer": { "@type": "Answer", "text": "Je koopt in tegen groothandelsprijs zonder btw. Antislipsokken kosten je ongeveer 6,95 euro per paar; de aanbevolen verkoopprijs in Nederland is 19,95 euro inclusief btw, ongeveer 9,54 euro marge per paar na btw." } },
     { "@type": "Question", "name": "Leveren jullie ook in Nederland en België?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Ja, naar elk land ter wereld, altijd gratis. We werken vanuit Spanje, met studio's in heel Europa en daarbuiten." } }
+      "acceptedAnswer": { "@type": "Answer", "text": "Ja, gratis, net als naar de rest van Europa. We werken vanuit Spanje, met studio's door heel Europa." } }
   ]
 }
 </script>
@@ -1135,6 +1135,69 @@ footer a{white-space:nowrap}
 .about-sign{display:block;margin-top:14px;font-weight:700;color:var(--green)}
 .how{padding:44px 0 0}
 </style>
+
+<style>
+/* ===== Review-update okt 2026 ===== */
+/* hiërarchie: H1 altijd groter dan H2, één H2-maat */
+.hero h1.h1-long{font-size:clamp(1.9rem,3.4vw,2.9rem)}
+.scene h2,.products h2,.hook h2,.faq-section h2,.form-section h2,.why-head h2{font-size:clamp(1.8rem,3.6vw,2.6rem)!important;line-height:1.08}
+/* whatsapp rustiger */
+.nav-cta .btn-wa{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1.5px rgba(245,238,224,.4)}
+.nav-cta .btn-wa:hover{background:rgba(245,238,224,.08)}
+.nav-cta .btn-wa svg{color:#25D366}
+/* oprichter: foto bovenaan uitlijnen */
+.about-card{align-items:start}
+/* urgentie */
+.hook-urgency{display:flex;align-items:center;gap:9px;margin-top:16px;font-size:.9rem;font-weight:600;color:var(--ochre)}
+.hook-urgency .u-dot{width:8px;height:8px;border-radius:50%;background:var(--ochre);flex:none;animation:pl 1.6s ease-in-out infinite}
+/* procesblok samengevoegd */
+.how-link{display:block;width:100%;margin-top:22px;text-align:center}
+.how-link a{color:var(--terra-2);font-weight:700;text-decoration:underline}
+/* garantie-seal met vinkje */
+.care-guarantee .seal svg{display:block}
+.ph-inline{background:rgba(255,255,255,.18);border-radius:4px;padding:0 4px}
+/* social proof */
+.proof-section{padding:84px 0 92px}
+.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+.proof-q{margin:0;background:var(--white);border-radius:22px;overflow:hidden;box-shadow:0 14px 34px -22px rgba(46,64,52,.35);display:flex;flex-direction:column}
+.pq-photo{aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#EDE3D0 0 12px,#E6DAC3 12px 24px);display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:#8a7c66;font-size:.82rem;font-weight:600;border-bottom:2px dashed rgba(208,106,63,.35)}
+.proof-q blockquote{margin:0;padding:22px 24px 10px;font-family:'Fraunces',serif;font-style:italic;font-size:1.06rem;line-height:1.45;color:var(--green)}
+.proof-q figcaption{padding:4px 24px 24px;font-size:.84rem;color:#6b5f4f;display:flex;flex-direction:column;gap:2px}
+.proof-q figcaption b{color:var(--ink)}
+.proof-note{margin:22px auto 0;text-align:center;font-size:.78rem;color:#B4552E;font-weight:600}
+@media(max-width:900px){.proof-grid{grid-template-columns:1fr;max-width:460px;margin-inline:auto}}
+/* hero-foto vult de kaart */
+.hero-visual .card-photo img{object-fit:cover;object-position:50% 40%}
+/* margecalculator */
+.mcalc{margin-top:20px;background:var(--white);border:1px solid rgba(208,106,63,.25);border-radius:20px;padding:22px 22px 18px;box-shadow:0 14px 30px -24px rgba(46,64,52,.4);display:flex;flex-direction:column;gap:14px}
+.mc-title{margin:0;font-family:'Fraunces',serif;font-size:1.12rem;font-weight:500;color:var(--green)}
+.mc-field{display:flex;flex-direction:column;gap:6px}
+.mc-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.86rem;color:#5b5346}
+.mc-row output{font-weight:700;color:var(--terra-2);font-variant-numeric:tabular-nums}
+.mcalc input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:99px;background:linear-gradient(90deg,var(--terra) var(--fill,50%),#EADFCB var(--fill,50%));outline-offset:4px}
+.mcalc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--white);border:3px solid var(--terra);box-shadow:0 2px 6px rgba(0,0,0,.15);cursor:pointer}
+.mcalc input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--white);border:3px solid var(--terra);cursor:pointer}
+.mc-result{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:10px;margin-top:4px}
+.mc-result>div{background:var(--cream);border-radius:14px;padding:12px 12px 10px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.mc-result .mc-big{background:var(--green)}
+.mc-num{font-family:'Fraunces',serif;font-style:italic;font-weight:600;font-size:1.45rem;line-height:1.05;color:var(--terra-2);font-variant-numeric:tabular-nums}
+.mc-big .mc-num{color:var(--ochre);font-size:1.7rem}
+.mc-lbl{font-size:.74rem;color:#6b5f4f}
+.mc-big .mc-lbl{color:rgba(245,238,224,.75)}
+.ftxt .mcalc p.mc-estimate{margin:0;font-size:.82rem;line-height:1.45;color:#4c554d;background:rgba(224,162,78,.14);border-radius:12px;padding:10px 12px;max-width:none}
+.ftxt .mcalc p.mc-estimate b{color:var(--green)}
+.mc-plus{display:flex;align-items:center;gap:12px;background:var(--terra);border-radius:14px;padding:12px 14px}
+.mc-plus-ico{flex:none;width:30px;height:30px;border-radius:50%;background:var(--cream);color:var(--terra-2);display:flex;align-items:center;justify-content:center;font:700 1.25rem/1 Inter,sans-serif}
+.ftxt .mcalc .mc-plus p{margin:0;color:var(--cream);font-size:.9rem;line-height:1.4;max-width:none}
+.ftxt .mcalc .mc-plus p b{color:#fff}
+.ftxt .mcalc p.mc-note{margin:0;font-size:.74rem;color:#8a7c66;line-height:1.4;max-width:none}
+.ftxt .mcalc p.mc-title{margin:0;font-size:1.12rem;line-height:1.3;color:var(--green)}
+.mcalc input[type=range]{height:6px!important;min-height:0!important;padding:0!important;border:0!important;margin:8px 0 4px!important;box-shadow:none!important;border-radius:99px!important}
+@media(max-width:560px){.mc-result{grid-template-columns:1fr 1fr}.mc-result .mc-big{grid-column:1/-1}}
+/* waarom-kiezen: 12 punten in 3 kolommen op desktop */
+@media(min-width:1000px){.wu-list{grid-template-columns:repeat(3,1fr)!important;column-gap:48px!important}}
+.why-us-section .wrap{padding-top:88px}
+</style>
 </head>
 <body>
 
@@ -1143,13 +1206,13 @@ footer a{white-space:nowrap}
     <span><span class="pulse"></span><b>Kerst:</b>&nbsp;vraag je gratis mockup aan vóór 1 november</span><span class="tk-sep">·</span>
     <span><b>Meer klantbehoud</b> · leden blijven trouwer aan een merk waar ze bij horen</span><span class="tk-sep">·</span>
     <span><b>Een completer merk</b> · wint het vertrouwen van nieuwe leden</span><span class="tk-sep">·</span>
-    <span><b>Gratis verzending</b> · wereldwijd, altijd</span><span class="tk-sep">·</span>
-    <span><b>En ja, ook marge</b> · een fijn extra op elk paar</span><span class="tk-sep">·</span>
+    <span><b>Gratis verzending</b> · binnen heel Europa</span><span class="tk-sep">·</span>
+    <span><b>Tot 58% marge</b> · op wat je leden toch al kopen</span><span class="tk-sep">·</span>
     <span><span class="pulse"></span><b>Kerst:</b>&nbsp;vraag je gratis mockup aan vóór 1 november</span><span class="tk-sep">·</span>
     <span><b>Meer klantbehoud</b> · leden blijven trouwer aan een merk waar ze bij horen</span><span class="tk-sep">·</span>
     <span><b>Een completer merk</b> · wint het vertrouwen van nieuwe leden</span><span class="tk-sep">·</span>
-    <span><b>Gratis verzending</b> · wereldwijd, altijd</span><span class="tk-sep">·</span>
-    <span><b>En ja, ook marge</b> · een fijn extra op elk paar</span><span class="tk-sep">·</span>
+    <span><b>Gratis verzending</b> · binnen heel Europa</span><span class="tk-sep">·</span>
+    <span><b>Tot 58% marge</b> · op wat je leden toch al kopen</span><span class="tk-sep">·</span>
   </div>
 </div>
 <nav class="nav">
@@ -1195,9 +1258,9 @@ footer a{white-space:nowrap}
       <p class="hero-proof"><b>Gratis mockup binnen 24 uur</b> · Vrijblijvend · Exacte kleur via Pantone · Vanaf 50 paar</p>
     </div>
     <div class="hero-visual">
-      <span class="badge b1">Mid-rise antislipsok</span>
+      <span class="badge b1">Jouw merk aan de balie</span>
       <div class="card-photo">
-        <picture><source srcset="../images/hero-pilates.webp" type="image/webp"><img src="../images/hero-pilates.jpg" width="1200" height="1607" fetchpriority="high" alt="Vrouw doet pilates op een reformer in terracotta antislipsokken, in een mediterrane studio"></picture>
+        <picture><source srcset="../images/feature-kassa-marge.webp" type="image/webp"><img src="../images/feature-kassa-marge.jpg" width="1856" height="2304" fetchpriority="high" alt="Een lid rekent af bij de receptie, met antislipsokken en een tumbler met het studiologo op de balie"></picture>
       </div>
       <span class="badge b2">Exacte kleur</span>
     </div>
@@ -1211,8 +1274,8 @@ footer a{white-space:nowrap}
     <div>
       <h2>Elke reformer. Elke kleur. Elke instructeur. <span class="fx">Gekozen met je hele hart.</span></h2>
       <p>Je investeerde je spaargeld, je weekenden en slapeloze nachten zodat alles zou kloppen. Maar je leden lopen de deur uit zonder iets van jou mee te nemen: geen logo, geen gratis reclame.</p>
-      <p>Bij de receptie staat een lege plank, of sokken van een ander merk. Je hebt er weleens over nagedacht.</p>
-      <p class="doubt">En meteen komt de twijfel: oogt dat niet goedkoop?</p>
+      <p>Bij de receptie staat een lege plank, of sokken van een ander merk.</p>
+      <p class="doubt">Je dacht er weleens aan. En meteen kwam de twijfel: oogt dat niet goedkoop?</p>
       <p class="reassure">Wie twijfelt er aan jouw advies over hun rug, hun tempo, hun lichaam? Niemand. Je leden vertrouwen je allang op de grote dingen, dus een sok met jouw logo durven ze ook van je aan te nemen. En omdat ze op je vertrouwen, kopen ze het ook: trots gedragen, thuis, op straat, tot op Instagram.</p>
     </div>
     <div class="scene-photo">
@@ -1231,12 +1294,7 @@ footer a{white-space:nowrap}
         <span class="journey-line"></span>
         <span class="journey-pt end"><span class="dot filled"></span>Mee naar huis</span>
       </div>
-      <p class="trust-sub">De hele sector denkt dat premium stopt bij de voordeur: de machines, het licht, de les. Daarom blijft het budget ook binnen. Maar je leden nemen je merk sowieso mee naar huis, dus verdient dat hetzelfde niveau als de rest van je studio.</p>
-      <div class="concern-stat">
-        <span class="concern-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
-        <span class="concern-num">56,9%</span>
-        <span class="concern-txt">van de Spaanse studio-eigenaren noemt concurrentie nu een serieuze zorg, tegen 24,5% een jaar eerder.<span class="trust-source-inline">Eversports-data via El Debate, mei 2026</span></span>
-      </div>
+      <p class="trust-sub">De meeste studio's investeren alles in wat binnen gebeurt: de machines, het licht, de les. Wat mee naar huis gaat, krijgt het restbudget. Maar je leden nemen je merk sowieso mee naar huis, dus verdient dat hetzelfde niveau als de rest van je studio.</p>
       <p class="turn-close">Je hebt een premium studio gebouwd. Dan verdient alles dat niveau. Ook je merchandise.</p>
     </div>
   </div>
@@ -1272,7 +1330,7 @@ footer a{white-space:nowrap}
         </div>
         <div class="ftxt">
           <span class="fn">02</span>
-          <h3>Retentie</h3>
+          <h3>Leden blijven langer</h3>
           <span class="fpayoff"><span class="arrow">→</span>Klanten blijven, en komen vaker terug</span>
           <p>Ze ziet de sok aan de waslijn hangen en denkt: ik moet weer naar pilates. Maar het is jouw logo dat ze dan ziet, dus gaat ze terug naar jouw studio, niet naar de concurrent verderop. Soms is dat precies het duwtje om deze week die extra les te boeken, puur omdat je merk haar eraan herinnerde. Merchandise houdt je naam top of mind, ook in de weken dat ze niet langskomt.</p>
         </div>
@@ -1313,19 +1371,84 @@ footer a{white-space:nowrap}
           <span class="fn">04</span>
           <h3>Marge</h3>
           <span class="fpayoff"><span class="arrow">→</span>Meer marge, meer winst</span>
-          <p>Zo’n € 9,54 marge per paar sokken, na btw, bij een verkoopprijs van € 19,95. Studio's met hun eigen merk verkopen dit makkelijk 30 tot 50 paar per maand, simpelweg omdat leden toch al sokken kopen.</p>
-          <div class="margin-proof">
-            <span class="margin-proof-num">30–50</span>
-            <span class="margin-proof-txt">paar per maand, bij studio's die hun eigen merk pushen</span>
+          <p>Zo’n € 9,54 marge per paar sokken, na btw, bij een verkoopprijs van € 19,95. Schuif hieronder met je eigen cijfers en zie wat dat jouw studio oplevert.</p>
+          <div class="mcalc" id="mcalc">
+            <p class="mc-title">Wat levert het jouw studio op?</p>
+            <div class="mc-field">
+              <div class="mc-row"><label for="mcLeden">Actieve leden</label><output id="mcLedenOut" for="mcLeden">200</output></div>
+              <input type="range" id="mcLeden" min="50" max="600" step="10" value="200">
+            </div>
+            <div class="mc-field">
+              <div class="mc-row"><label for="mcPct">Deel dat per maand een paar koopt</label><output id="mcPctOut" for="mcPct">20%</output></div>
+              <input type="range" id="mcPct" min="5" max="40" step="1" value="20">
+            </div>
+            <div class="mc-result">
+              <div><span class="mc-num" id="mcPairs">40</span><span class="mc-lbl">paar per maand</span></div>
+              <div><span class="mc-num" id="mcMonth">€ 382</span><span class="mc-lbl">marge per maand</span></div>
+              <div class="mc-big"><span class="mc-num" id="mcYear">€ 4.579</span><span class="mc-lbl">marge per jaar</span></div>
+            </div>
+            <p class="mc-estimate"><b>Onze inschatting: zo’n 20 tot 25% van je actieve leden koopt per maand een paar.</b> Nieuwe leden hebben ze meteen nodig, vaste leden vervangen hun versleten paar, en met jouw logo erop wordt het ook een tweede paar of een cadeau.</p>
+            <div class="mc-plus"><span class="mc-plus-ico" aria-hidden="true">+</span><p><b>En dit zijn alleen de sokken.</b> Tumblers, tote bags en pilatesringen komen er nog bovenop.</p></div>
+            <p class="mc-note">Rekenvoorbeeld: € 9,54 marge per paar sokken, na btw, bij een verkoopprijs van € 19,95.</p>
           </div>
+          <script>
+          (function(){
+            var L=document.getElementById('mcLeden'),P=document.getElementById('mcPct');
+            if(!L||!P)return;
+            function eur(n){return '€ '+Math.round(n).toLocaleString('nl-NL');}
+            function up(){
+              var leden=+L.value,pct=+P.value,pairs=Math.round(leden*pct/100),m=pairs*9.54;
+              document.getElementById('mcLedenOut').textContent=leden;
+              document.getElementById('mcPctOut').textContent=pct+'%';
+              document.getElementById('mcPairs').textContent=pairs;
+              document.getElementById('mcMonth').textContent=eur(m);
+              document.getElementById('mcYear').textContent=eur(m*12);
+              [L,P].forEach(function(r){r.style.setProperty('--fill',((r.value-r.min)/(r.max-r.min)*100)+'%');});
+            }
+            L.addEventListener('input',up);P.addEventListener('input',up);up();
+          })();
+          </script>
         </div>
       </div>
     </div>
-    <p class="why-sources">Bronnen: SoulCycle, beursprospectus (2015) · Bitner, <i>Journal of Marketing</i> (1992) · Rozin &amp; Royzman (2001)</p>
   </div>
 </section>
 
-<section class="why-section manias">
+</section>
+
+<!-- ============ 7 · BEKIJK JE LOGO OP HET PRODUCT ============ -->
+<section class="sheet green">
+<div class="hook hook-v2">
+  <span class="ring r1"></span>
+  <div class="wrap inner">
+    <div class="hook-copy">
+      <p class="hook-eyebrow">Voordat je iets beslist</p>
+      <h2>De twijfel verdwijnt <span class="fx">zodra je het ziet.</span></h2>
+      <p>Je kent dat gevoel: een logo op een blanco productfoto zegt niets. Je weet pas zeker of het goed staat als je het écht ziet. Daarom laten we het je gewoon zien: binnen 24 uur, op het echte materiaal, in exact jouw kleur. Geen giswerk, geen risico voor je merk.</p>
+      <ul class="hook-proof">
+        <li>Gratis en volledig vrijblijvend</li>
+        <li>Binnen 24 uur in je inbox</li>
+        <li>Pantone-exact op jouw huisstijl gematcht</li>
+      </ul>
+      <a class="btn" href="#mockup-form">Vraag je gratis mockup aan</a>
+      <p class="hook-urgency"><span class="u-dot"></span>Voor kerst geleverd? Vraag je mockup aan vóór 1 november.</p>
+    </div>
+    <div class="hook-visual">
+      <div class="proof-card">
+        <picture><source srcset="../images/product-tumbler.webp" type="image/webp"><img src="../images/product-tumbler.jpg" width="900" height="1200" alt="Tumbler met logo, voorbeeld van een mockup" loading="lazy"></picture>
+        <span class="proof-tag">Zo zie je 'm, voor je bestelt</span>
+      </div>
+      <div class="swatch-row">
+        <span class="dots"><span class="dot" style="background:var(--cream)"></span><span class="dot" style="background:var(--terra)"></span><span class="dot" style="background:var(--ochre)"></span></span>
+        <p>Elke huisstijlkleur mogelijk. Wij matchen 'm <b>exact</b>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="sheet cream">
+<section class="why-section manias" id="zo-werkt-het">
   <div class="wrap">
     <div class="why-head">
       <h2>Jij geeft les. <span class="fx">Wij ontzorgen de rest.</span></h2>
@@ -1347,7 +1470,7 @@ footer a{white-space:nowrap}
       <div class="care-grid">
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.5 9.6a6.5 6.5 0 1 0 11 0Z"/></svg></span><div><b>Kleur matchen op Pantone-code.</b><span class="ci-txt">Niet “ongeveer”, maar exact jouw tint.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span><div><b>Logo weven of borduren, in jouw stijl.</b><span class="ci-txt">Subtiel of groot, altijd gecontroleerd.</span></div></div>
-        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>100% veilige materialen, zoals katoen.</b><span class="ci-txt">Gecontroleerd op Europese veiligheidsnormen (REACH), voor elk lid, elke les.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>Materialen getest volgens REACH.</b><span class="ci-txt">De Europese norm, ook voor de antislipzool, niet alleen de stof.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span><div><b>Elk paar los nakijken, vóór verpakking.</b><span class="ci-txt">Niets gaat de deur uit dat niet goed genoeg is.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span><div><b>Verpakking selecteren én ontwerpen.</b><span class="ci-txt">In jouw huisstijl, klaar voor de plank bij de receptie.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><div><b>Verzenden met tracking, tot aan je voordeur.</b><span class="ci-txt">Geen tussenstop, geen gedoe.</span></div></div>
@@ -1355,22 +1478,12 @@ footer a{white-space:nowrap}
 
      </div>
       <div class="care-guarantee">
-        <span class="seal" aria-hidden="true">100%</span>
-        <p><b>Garantie op topkwaliteit,</b> in product én proces. Niet goed? Lossen we op, zonder gedoe. Iedere vraag beantwoordt de oprichter zelf.</p>
+        <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <p><b>Kwaliteitsgarantie.</b> Wijkt de kleur af van je goedgekeurde ontwerp, of zit er een productiefout in? Meld het binnen 14 dagen na levering en we maken het kosteloos opnieuw. Iedere vraag beantwoordt de oprichter zelf.</p>
       </div>
     </div>
 
-    <div class="how" id="zo-werkt-het">
-      <p class="how-bridge">En dat voelt ook zo in het proces zelf. Jij bevestigt, wij regelen de rest:</p>
-      <ol class="timeline">
-        <li class="tl-item"><span class="n">1</span><h3>Mockup</h3><span class="tl-time">Binnen 24 uur</span><p>Je merk op het echte product, vrijblijvend.</p></li>
-        <li class="tl-item"><span class="n">2</span><h3>Aanpassingen</h3><span class="tl-time">Dag 1–3</span><p>Kleuren, maat en plaatsing, tot het precies van jou is.</p></li>
-        <li class="tl-item"><span class="n">3</span><h3>Offerte en akkoord</h3><span class="tl-time">Dag 3–5</span><p>De definitieve prijs op papier. Je akkoord en betaling reserveren je productieplek.</p></li>
-        <li class="tl-item"><span class="n">4</span><h3>Productie</h3><span class="tl-time">Week 1–3</span><p>Weven of borduren, de verpakking ontworpen in jouw stijl, en elk paar nagekeken vóór het inpakken.</p></li>
-        <li class="tl-item"><span class="n">5</span><h3>Levering</h3><span class="tl-time">Week 4 (ca.)</span><p>Rechtstreeks naar je studio, met tracking tot aan de deur.</p></li>
-      </ol>
-      <p style="margin-top:20px"><a href="/en/how-it-works/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Bekijk het volledige proces →</a></p>
-    </div>
+    <p class="how-link"><a href="/en/how-it-works/">Bekijk het volledige proces, stap voor stap →</a></p>
   </div>
 </section>
 
@@ -1431,36 +1544,6 @@ footer a{white-space:nowrap}
 </div>
 </section>
 
-<!-- ============ 7 · BEKIJK JE LOGO OP HET PRODUCT ============ -->
-<section class="sheet green">
-<div class="hook hook-v2">
-  <span class="ring r1"></span>
-  <div class="wrap inner">
-    <div class="hook-copy">
-      <p class="hook-eyebrow">Voordat je iets beslist</p>
-      <h2>De twijfel verdwijnt <span class="fx">zodra je het ziet.</span></h2>
-      <p>Je kent dat gevoel: een logo op een blanco productfoto zegt niets. Je weet pas zeker of het goed staat als je het écht ziet. Daarom laten we het je gewoon zien: binnen 24 uur, op het echte materiaal, in exact jouw kleur. Geen giswerk, geen risico voor je merk.</p>
-      <ul class="hook-proof">
-        <li>Gratis en volledig vrijblijvend</li>
-        <li>Binnen 24 uur in je inbox</li>
-        <li>Pantone-exact op jouw huisstijl gematcht</li>
-      </ul>
-      <a class="btn" href="#mockup-form">Vraag je gratis mockup aan</a>
-    </div>
-    <div class="hook-visual">
-      <div class="proof-card">
-        <picture><source srcset="../images/product-tumbler.webp" type="image/webp"><img src="../images/product-tumbler.jpg" width="900" height="1200" alt="Tumbler met logo, voorbeeld van een mockup" loading="lazy"></picture>
-        <span class="proof-tag">Zo zie je 'm, voor je bestelt</span>
-      </div>
-      <div class="swatch-row">
-        <span class="dots"><span class="dot" style="background:var(--cream)"></span><span class="dot" style="background:var(--terra)"></span><span class="dot" style="background:var(--ochre)"></span></span>
-        <p>Elke huisstijlkleur mogelijk. Wij matchen 'm <b>exact</b>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
 <!-- ============ 9 · WAAROM MEDITERRANO PILATES ============ -->
 <section class="sheet cream">
 <section class="why-us-section">
@@ -1477,7 +1560,7 @@ footer a{white-space:nowrap}
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span>
-        <h3>Retentie</h3>
+        <h3>Leden blijven langer</h3>
         <p>Herinnert leden aan hun volgende les, en maakt ze trouw aan jouw studio.</p>
       </div>
       <div class="wu-item">
@@ -1501,6 +1584,11 @@ footer a{white-space:nowrap}
         <p>Begin klein, breid uit wanneer jij wil.</p>
       </div>
       <div class="wu-item">
+        <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7Z"/><path d="M12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7Z"/></svg></span>
+        <h3>Samples, uiteindelijk gratis</h3>
+        <p>Voel de kwaliteit eerst. Het bedrag gaat af van je eerste bestelling.</p>
+      </div>
+      <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c0 4.4-4 8-9 8-1.1 0-2.2-.2-3.2-.5L3 21l1.5-4.3C3.5 15.4 3 13.8 3 12c0-4.4 4-8 9-8s9 3.6 9 8Z"/></svg></span>
         <h3>Je appt met de oprichter</h3>
         <p>Persoonlijk antwoord, dezelfde dag.</p>
@@ -1512,13 +1600,13 @@ footer a{white-space:nowrap}
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
-        <h3>Materiaal getest op REACH</h3>
+        <h3>Getest volgens REACH</h3>
         <p>Veilig voor elk lid, ook de antislipzool.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span>
         <h3>Gratis verzending</h3>
-        <p>Door heel Europa, altijd inbegrepen.</p>
+        <p>Binnen heel Europa, altijd inbegrepen.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.8 10.6c.6.5 1 1.3 1 2.1v.3h5.6v-.3c0-.8.4-1.6 1-2.1A6 6 0 0 0 12 3Z"/></svg></span>
@@ -1544,7 +1632,7 @@ footer a{white-space:nowrap}
         <p class="about-text">Het heeft me altijd gefascineerd dat de wereld rond pilates net zo mooi is als de sport zelf. De rust van een goed verzorgde studio, dat ochtendlicht, alles tot in detail doordacht.</p><p class="about-text">En overal zag ik hetzelfde: prachtige zalen, goede lessen, en dan, bij de receptie, een sok die nergens bij paste. Geen slordigheid. Er had gewoon niemand nagedacht over wat er de deur uitgaat.</p><p class="about-text">Daar ben ik me op gaan richten. Jij richt je op je community; ik zorg dat wat ze mee naar huis nemen, op het niveau is van de studio die ze net hebben verlaten. Elke aanvraag komt bij mij persoonlijk terecht.</p>
         <span class="about-sign">Giel Mallens, oprichter van Mediterrano Pilates</span>
         <p style="margin-top:14px"><a href="/en/about-mediterrano-pilates/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Lees het hele verhaal →</a></p>
-        <span class="about-loc"><span class="dot"></span>Gevestigd in Spanje · Gratis verzending wereldwijd</span>
+        <span class="about-loc"><span class="dot"></span>Gevestigd in Spanje · Gratis verzending binnen Europa</span>
       </div>
     </div>
   </div>
@@ -1561,7 +1649,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">02</span>En als het goedkoop oogt?</summary>
-        <p>Dat is de meest terechte twijfel, en hij is gegrond: een goedkoop product met jouw logo zorgt ervoor dat mensen slechter over je merk gaan denken. Daarom matchen we je kleur op Pantone, sturen we samples die volledig worden verrekend met je eerste bestelling, en maken we niets voordat jij het ontwerp hebt goedgekeurd.</p>
+        <p>Dat is de meest terechte twijfel. Een goedkoop product met jouw logo laat mensen inderdaad slechter over je merk denken. Daarom matchen we je kleur op Pantone, sturen we samples die volledig worden verrekend met je eerste bestelling, en maken we niets voordat jij het ontwerp hebt goedgekeurd.</p>
       </details>
       <details>
         <summary><span class="qn">03</span>Kan ik met een kleine hoeveelheid beginnen?</summary>
@@ -1573,7 +1661,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">05</span>Wat kost het?</summary>
-        <p>Je koopt in tegen groothandelsprijs, zonder btw, en verkoopt door met een marge van ongeveer 58% na btw. Sokken kosten je bijvoorbeeld zo’n € 6,95 per paar; de aanbevolen verkoopprijs in Nederland is € 19,95 inclusief btw, dat is ongeveer € 9,54 marge per paar. Een eerste bestelling begint meestal bij een paar honderd euro. Vraag vrijblijvend je mockup aan en je ontvangt de volledige prijslijst.</p>
+        <p>Je koopt in tegen groothandelsprijs, zonder btw, en verkoopt door met een marge tussen 45 en 58% na btw, afhankelijk van het product. Sokken kosten je bijvoorbeeld zo’n € 6,95 per paar; de aanbevolen verkoopprijs in Nederland is € 19,95 inclusief btw, dat is ongeveer € 9,54 marge per paar. Een eerste bestelling begint meestal bij een paar honderd euro. Vraag vrijblijvend je mockup aan en je ontvangt de volledige prijslijst.</p>
       </details>
       <details>
         <summary><span class="qn">06</span>Hoe vaak bestellen studio’s opnieuw?</summary>
@@ -1593,7 +1681,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">10</span>Leveren jullie ook in Nederland en België?</summary>
-        <p>Ja, naar elk land ter wereld, altijd gratis. We werken vanuit Spanje, met studio’s in heel Europa en daarbuiten.</p>
+        <p>Ja, gratis, net als naar de rest van Europa. We werken vanuit Spanje, met studio’s door heel Europa.</p>
       </details>
     </div>
   </div>
@@ -1608,6 +1696,7 @@ footer a{white-space:nowrap}
       <h2>Bekijk je logo <span class="fx">op het product</span>.</h2>
       <p class="intro">Vertel ons je idee en upload je logo. Wij laten je zien hoe jouw eigen collectie eruit kan zien.</p>
       <p class="intro" style="font-weight:600;color:var(--ochre);font-size:.92rem">Vrijblijvend · Gratis · Binnen 24 uur</p>
+      <p class="hook-urgency"><span class="u-dot"></span>Voor kerst geleverd? Vraag je mockup aan vóór 1 november.</p>
       <p class="risk-title">Niets te verliezen:</p>
       <ul class="points">
         <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Gratis mockup, zonder enige verplichting</li>
