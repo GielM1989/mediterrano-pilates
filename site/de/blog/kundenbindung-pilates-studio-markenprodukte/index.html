@@ -26,7 +26,16 @@
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/images/favicon.svg">
 <script>window.MP_PIXEL_ID = '1591577842375803';</script>
-<script>window.MP_GA_ID = 'G-Q9SY1F5KKF';</script>
+<script>
+window.MP_GA_ID = 'G-Q9SY1F5KKF';
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+window.gtag = gtag;
+gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied'});
+gtag('js', new Date());
+gtag('config', window.MP_GA_ID);
+(function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);})();
+</script>
 <script>window.MP_WHATSAPP = '31657408010';</script>
 <script type="application/ld+json">
 {
@@ -1088,32 +1097,28 @@ footer a{white-space:nowrap}
       fbq('track','PageView');
     }
   }
-  function startAnalytics(){
-    if(window.MP_GA_ID && !window.MP_GA_LOADED){
-      window.MP_GA_LOADED=true;
-      var gaScript=document.createElement('script');
-      gaScript.async=true;
-      gaScript.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;
-      document.head.appendChild(gaScript);
-      window.dataLayer=window.dataLayer||[];
-      function gtag(){dataLayer.push(arguments);}
-      window.gtag=gtag;
-      gtag('js', new Date());
-      gtag('config', window.MP_GA_ID);
+  function grantAnalytics(){
+    if(typeof gtag==='function'){
+      gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+    }
+  }
+  function denyAnalytics(){
+    if(typeof gtag==='function'){
+      gtag('consent','update',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied'});
     }
   }
   var saved=null;
   try{ saved=localStorage.getItem(KEY); }catch(e){}
-  if(saved==='granted'){ startPixel(); startAnalytics(); }
+  if(saved==='granted'){ startPixel(); grantAnalytics(); }
   else if(saved==='denied'){ /* nichts laden */ }
   else { bar.classList.add('show'); }
   document.getElementById('cookieAccept').addEventListener('click',function(){
     try{ localStorage.setItem(KEY,'granted'); }catch(e){}
-    bar.classList.remove('show'); startPixel(); startAnalytics();
+    bar.classList.remove('show'); startPixel(); grantAnalytics();
   });
   document.getElementById('cookieDecline').addEventListener('click',function(){
     try{ localStorage.setItem(KEY,'denied'); }catch(e){}
-    bar.classList.remove('show');
+    bar.classList.remove('show'); denyAnalytics();
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }
