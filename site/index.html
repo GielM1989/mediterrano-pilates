@@ -34,7 +34,11 @@
     var primary=langs[0]||'es';
     if(primary.indexOf('es')===0) return;
     var target, msg, btnLabel, code;
-    if(primary.indexOf('de')===0){
+    if(primary.indexOf('nl')===0){
+      target='/nl/'; code='nl';
+      msg='Het lijkt erop dat je Nederlands spreekt. Deze pagina in het Nederlands bekijken?';
+      btnLabel='Bekijk in het Nederlands';
+    } else if(primary.indexOf('de')===0){
       target='/de/'; code='de';
       msg='Es sieht so aus, als bevorzugen Sie Deutsch. Diese Seite auf Deutsch ansehen?';
       btnLabel='Auf Deutsch ansehen';
@@ -76,6 +80,7 @@
 <link rel="alternate" hreflang="es" href="https://mediterranopilates.com/">
 <link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/">
 <link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/">
+<link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/">
 <link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/">
 <meta property="og:description" content="Calcetines antideslizantes, tumblers premium, totes y aros de pilates con el logo de tu estudio. Mockup gratis en 24 horas, sin compromiso.">
 <meta property="og:locale" content="es_ES">
@@ -1103,6 +1108,7 @@ footer a{white-space:nowrap}
       <a href="./" class="on" hreflang="es" aria-current="true">ES</a>
       <a href="en/" hreflang="en">EN</a>
       <a href="de/" hreflang="de">DE</a>
+      <a href="/nl/" hreflang="nl">NL</a>
     </nav>
     <div class="nav-cta">
       <a class="btn btn-wa js-wa" href="#" hidden aria-label="Habla con nuestro equipo por WhatsApp">
