@@ -165,7 +165,7 @@ img{display:block}
 
 /* ---------- stats + kassabon ---------- */
 .stats{padding:86px 0 76px}
-.stats-grid{display:grid;grid-template-columns:1fr;gap:52px;align-items:center}
+.stats-grid{display:grid;grid-template-columns:1fr;gap:52px;align-items:center;max-width:46em}
 .stats h2{font-size:clamp(1.9rem,4.6vw,3rem);margin-bottom:16px;max-width:13em}
 .stats h2 .fx{color:var(--terra)}
 .stats .lede{color:#4c554d;margin-bottom:22px;max-width:30em}
@@ -421,7 +421,6 @@ footer a:hover{color:var(--terra)}
   .mini-photo{left:-30px;bottom:-26px;width:160px}
   .form-section{padding-bottom:96px}
   .hero-grid{grid-template-columns:1.02fr .98fr;gap:64px}
-  .stats-grid{grid-template-columns:1.1fr .9fr;gap:64px}
   .year-grid{grid-template-columns:repeat(3,1fr);gap:22px}
   .p-grid{grid-template-columns:repeat(2,1fr)}
   .hook .inner{grid-template-columns:1.05fr .95fr;gap:64px}
@@ -788,12 +787,10 @@ html,body{overflow-x:hidden;max-width:100%}
 .why-section .wrap{max-width:1180px}
 .why-head{text-align:center;max-width:700px;margin:0 auto 40px}
 .why-head h2{margin-bottom:22px}
-.why-lead{display:flex;align-items:flex-start;gap:14px;max-width:540px;margin:0 auto;padding:20px 26px;background:rgba(208,106,63,.08);border:1.5px solid rgba(208,106,63,.26);border-radius:20px;text-align:left}
-.wl-badge{flex:none;width:30px;height:30px;margin-top:2px;border-radius:50%;background:rgba(208,106,63,.16);color:var(--terra-2);display:flex;align-items:center;justify-content:center}
-.wl-badge svg{width:16px;height:16px}
-.why-lead p{margin:0;font-size:.98rem;line-height:1.52;color:#45504a}
-.why-lead p b{color:var(--terra-2);font-weight:700}
-@media(max-width:560px){.why-lead{flex-direction:column;align-items:center;text-align:center;padding:20px 22px}}
+.why-lead{max-width:540px;margin:0 auto;padding-left:22px;border-left:3px solid var(--terra);text-align:left}
+.why-lead .wl-main{font-family:'Fraunces',serif;font-weight:600;font-size:1.28rem;line-height:1.3;color:var(--green);margin-bottom:8px}
+.why-lead .wl-sub{margin:0;font-size:.98rem;line-height:1.52;color:#5b6259}
+@media(max-width:560px){.why-lead{margin:0 auto;text-align:left}}
 .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .why-grid-4{grid-template-columns:repeat(2,1fr)}
 .why-n{font-family:'Fraunces',serif;font-weight:500;font-size:2.1rem;color:var(--terra-2,#B85A3A);line-height:1;margin-bottom:10px;position:relative;display:block}
@@ -806,10 +803,23 @@ html,body{overflow-x:hidden;max-width:100%}
 .feature-row:nth-child(even) .ftxt{order:1}
 .fimg{border-radius:26px;overflow:hidden;box-shadow:0 24px 48px -24px rgba(23,32,27,.32)}
 .fimg img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;display:block}
+.fimg.receipt-slot{border-radius:0;overflow:visible;box-shadow:none;background:none;display:flex;align-items:center;justify-content:center}
+.fimg.receipt-slot .rc-logo{height:auto;object-fit:unset;aspect-ratio:auto}
 .ftxt .fn{font-family:'Fraunces',serif;font-weight:500;font-size:1.5rem;color:var(--terra-2,#B85A3A);line-height:1;display:block;margin-bottom:10px}
 .ftxt h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.55rem;color:var(--green);margin:0 0 10px}
 .fpayoff{display:inline-flex;align-items:center;gap:7px;background:rgba(208,106,63,.1);color:var(--terra-2,#B85A3A);font-weight:700;font-size:.9rem;padding:7px 15px 7px 13px;border-radius:999px;margin-bottom:16px}
 .fpayoff .arrow{font-size:1rem;line-height:1}
+
+/* ---------- waarom-kiezen (editorial lijst, geen icon-cards) ---------- */
+.why-us-section{padding:72px 0 88px}
+.why-us-section .wrap{max-width:860px}
+.wu-list{display:flex;flex-direction:column}
+.wu-item{display:grid;grid-template-columns:64px 1fr;gap:24px;padding:28px 0;border-bottom:1px solid var(--line)}
+.wu-item:first-child{border-top:1px solid var(--line)}
+.wu-num{font-family:'Fraunces',serif;font-weight:500;font-size:1.7rem;color:var(--terra-2);line-height:1}
+.wu-body h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.22rem;color:var(--green);margin:0 0 8px}
+.wu-body p{margin:0;color:#4c554d;font-size:.97rem;line-height:1.55;max-width:46em}
+@media(max-width:560px){.wu-item{grid-template-columns:40px 1fr;gap:14px;padding:22px 0}.wu-num{font-size:1.3rem}}
 .ftxt p{font-size:1rem;line-height:1.62;color:#4c554d;max-width:34em}
 .fimg-compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;box-shadow:none;border-radius:0;overflow:visible}
 .fimg-compare .cmp{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 20px 40px -22px rgba(23,32,27,.3)}
@@ -1214,8 +1224,8 @@ footer a{white-space:nowrap}
     <div class="why-head">
       <h2>Geen kostenpost. <span class="fx">Rendement op vier vlakken.</span></h2>
       <div class="why-lead">
-        <span class="wl-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></span>
-        <p><b>Dezelfde sokken. Nu met jouw naam erop.</b> Je leden kopen ze toch al, elke les. Met jouw logo erop maak je meteen het verschil met de studio om de hoek.</p>
+        <p class="wl-main">Dezelfde sokken. <span class="fx">Nu met jouw naam erop.</span></p>
+        <p class="wl-sub">Je leden kopen ze toch al, elke les. Met jouw logo erop maak je meteen het verschil met de studio om de hoek.</p>
       </div>
     </div>
     <div class="feature-rows">
@@ -1254,8 +1264,24 @@ footer a{white-space:nowrap}
         </div>
       </div>
       <div class="feature-row">
-        <div class="fimg">
-          <picture><source srcset="../images/feature-kassa-marge.webp" type="image/webp"><img src="../images/feature-kassa-marge.jpg" width="1000" height="1241" alt="Lid rekent af bij de receptie, met tumbler en sokken op de balie" loading="lazy"></picture>
+        <div class="fimg receipt-slot">
+          <div class="receipt" role="img" aria-label="Margevoorbeeld: je betaalt 7,50 euro zonder btw, je verkoopt voor 17,95 euro inclusief btw, marge 7,35 euro na btw, 49 procent">
+            <div class="rc-head">
+              <img class="rc-logo" src="../images/logo-mediterrano.svg" alt="Mediterrano Pilates" width="1000" height="377" loading="lazy">
+              <p class="rc-sub">Kassabon</p>
+            </div>
+            <div class="row rc-col"><span>Product</span><span class="rc-in">jij betaalt</span><span class="rc-out">jij verkoopt</span></div>
+            <div class="row rc-col"><span>Antislipsokken</span><span class="rc-in">€ 7,50</span><span class="rc-out">€ 17,95</span></div>
+            <div class="row rc-col"><span>Tumbler 1,2&nbsp;L</span><span class="rc-in">€ 11</span><span class="rc-out">€ 24</span></div>
+            <div class="row rc-col"><span>Tote bag</span><span class="rc-in">€ 6,50</span><span class="rc-out">€ 15</span></div>
+            <div class="row rc-col"><span>Pilatesring</span><span class="rc-in">€ 7</span><span class="rc-out">€ 16,50</span></div>
+            <div class="total">
+              <span class="lbl">JOUW MARGE</span>
+              <span class="val">40–50%</span>
+            </div>
+            <p class="rc-note">gemiddelde marge bij doorverkoop, na btw · jouw prijs, jouw keuze</p>
+            <p class="rc-note">Voorbeeld: sokken kosten je € 7,50 zonder btw en verkoop je voor € 17,95 incl. btw → zo'n € 7,35 marge per paar na btw (49%).</p>
+          </div>
         </div>
         <div class="ftxt">
           <span class="fn">04</span>
@@ -1411,7 +1437,7 @@ footer a{white-space:nowrap}
 <div class="stats">
   <div class="wrap stats-grid">
     <div>
-      <h2>De cijfers, <span class="fx">zonder luchtkastelen</span>.</h2>
+      <h2>Geen vage beloftes. <span class="fx">Dit hou je eraan over.</span></h2>
       <p class="lede">Je koopt in tegen groothandelsprijs, zonder btw. De verkoopprijs bepaal je zelf. Antislipsokken zijn al verplicht in bijna elke les, dus je leden kopen ze toch. De enige vraag is met wiens logo.</p>
       <div class="margin-stat">
         <div class="margin-top">
@@ -1424,25 +1450,64 @@ footer a{white-space:nowrap}
         <p class="margin-foot">Studio’s bestellen <b>meerdere keren per jaar</b> opnieuw</p>
       </div>
     </div>
-    <div class="receipt" role="img" aria-label="Margevoorbeeld: je betaalt 7,50 euro zonder btw, je verkoopt voor 17,95 euro inclusief btw, marge 7,35 euro na btw, 49 procent">
-      <div class="rc-head">
-        <img class="rc-logo" src="../images/logo-mediterrano.svg" alt="Mediterrano Pilates" width="1000" height="377" loading="lazy">
-        <p class="rc-sub">Kassabon</p>
-      </div>
-      <div class="row rc-col"><span>Product</span><span class="rc-in">jij betaalt</span><span class="rc-out">jij verkoopt</span></div>
-      <div class="row rc-col"><span>Antislipsokken</span><span class="rc-in">€ 7,50</span><span class="rc-out">€ 17,95</span></div>
-      <div class="row rc-col"><span>Tumbler 1,2&nbsp;L</span><span class="rc-in">€ 11</span><span class="rc-out">€ 24</span></div>
-      <div class="row rc-col"><span>Tote bag</span><span class="rc-in">€ 6,50</span><span class="rc-out">€ 15</span></div>
-      <div class="row rc-col"><span>Pilatesring</span><span class="rc-in">€ 7</span><span class="rc-out">€ 16,50</span></div>
-      <div class="total">
-        <span class="lbl">JOUW MARGE</span>
-        <span class="val">40–50%</span>
-      </div>
-      <p class="rc-note">gemiddelde marge bij doorverkoop, na btw · jouw prijs, jouw keuze</p>
-      <p class="rc-note">Voorbeeld: sokken kosten je € 7,50 zonder btw en verkoop je voor € 17,95 incl. btw → zo’n € 7,35 marge per paar na btw (49%).</p>
-    </div>
   </div>
 </div>
+</section>
+
+<!-- ============ 9 · WAAROM MEDITERRANO PILATES ============ -->
+<section class="sheet cream">
+<section class="why-us-section">
+  <div class="wrap">
+    <div class="why-head">
+      <h2>Waarom studio's kiezen <span class="fx">voor Mediterrano Pilates</span></h2>
+      <p>Geen marketingpraatjes. Dit is wat er echt anders is als je met ons werkt.</p>
+    </div>
+    <div class="wu-list">
+      <div class="wu-item">
+        <span class="wu-num">01</span>
+        <div class="wu-body">
+          <h3>Je appt met de oprichter, niet met een supportticket</h3>
+          <p>Elke aanvraag komt persoonlijk bij Giel terecht. Een vraag over je ontwerp of een deadline die opschuift krijgt dezelfde dag een eerlijk antwoord, geen wachtrij en geen script.</p>
+        </div>
+      </div>
+      <div class="wu-item">
+        <span class="wu-num">02</span>
+        <div class="wu-body">
+          <h3>Jouw kleur, exact gematcht op Pantone-code</h3>
+          <p>Niet "ongeveer die tint", maar hetzelfde kleursysteem als je logo. Het terracotta van je muren of het groen van je huisstijl, identiek op elk product.</p>
+        </div>
+      </div>
+      <div class="wu-item">
+        <span class="wu-num">03</span>
+        <div class="wu-body">
+          <h3>Vanaf 50 paar, geen pallet vol voorraad</h3>
+          <p>Je hoeft niet duizend stuks te bestellen om mee te doen. Begin klein, kijk hoe het loopt bij je leden en breid uit wanneer jij daar klaar voor bent.</p>
+        </div>
+      </div>
+      <div class="wu-item">
+        <span class="wu-num">04</span>
+        <div class="wu-body">
+          <h3>Mockup binnen 24 uur, gratis en vrijblijvend</h3>
+          <p>Je ziet precies hoe je logo op het product komt te staan voordat je iets bestelt. Geen verrassingen achteraf, geen risico.</p>
+        </div>
+      </div>
+      <div class="wu-item">
+        <span class="wu-num">05</span>
+        <div class="wu-body">
+          <h3>Materiaal gecontroleerd op REACH</h3>
+          <p>Je leden dragen het product tijdens intensieve inspanning, soms blootsvoets. We controleren elk materiaal, inclusief de antislipzool, op de Europese chemicaliënregelgeving. Certificaten beschikbaar op aanvraag.</p>
+        </div>
+      </div>
+      <div class="wu-item">
+        <span class="wu-num">06</span>
+        <div class="wu-body">
+          <h3>Gratis verzending, waar je studio ook staat</h3>
+          <p>Van Valencia tot Amsterdam tot Berlijn: de verzendkosten zijn voor ons, niet weggestopt in een hogere prijs per stuk.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </section>
 
 <!-- ============ 10 · OVER ONS + 11 · FAQ ============ -->
