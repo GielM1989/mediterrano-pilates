@@ -825,12 +825,13 @@ html,body{overflow-x:hidden;max-width:100%}
 /* ---------- waarom-kiezen (editorial lijst, geen icon-cards) ---------- */
 .why-us-section{padding:72px 0 88px}
 .why-us-section .wrap{max-width:1180px}
-.wu-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.wu-item{background:rgba(255,255,255,.6);border:1px solid rgba(208,106,63,.16);border-radius:20px;padding:26px}
-.wu-icon{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:rgba(208,106,63,.13);color:var(--terra-2);margin-bottom:16px}
-.wu-icon svg{width:22px;height:22px}
-.wu-item h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.1rem;color:var(--green);margin:0 0 8px}
-.wu-item p{margin:0;color:#4c554d;font-size:.93rem;line-height:1.5}
+.wu-list{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.wu-item{background:var(--white);border:1px solid rgba(208,106,63,.14);border-radius:22px;padding:28px;box-shadow:0 16px 34px -24px rgba(23,32,27,.3);transition:transform .2s ease,box-shadow .2s ease}
+.wu-item:hover{transform:translateY(-3px);box-shadow:0 20px 40px -20px rgba(23,32,27,.32)}
+.wu-icon{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:rgba(208,106,63,.13);color:var(--terra-2);margin-bottom:16px}
+.wu-icon svg{width:24px;height:24px}
+.wu-item h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.04rem;line-height:1.3;color:var(--green);margin:0 0 6px}
+.wu-item p{margin:0;color:#6b7268;font-size:.86rem;line-height:1.45}
 @media(max-width:900px){.wu-list{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.wu-list{grid-template-columns:1fr}.wu-item{padding:22px}}
 .ftxt p{font-size:1rem;line-height:1.62;color:#4c554d;max-width:34em}
@@ -1182,7 +1183,7 @@ footer a{white-space:nowrap}
       <div class="cta-row">
         <a class="btn" href="#mockup-form">Bekijk je logo op het product</a>
       </div>
-      <a class="hero-link4" href="#wat-verandert">Dat ene detail verdient zichzelf snel terug — op 4 vlakken. Zie hoe ↓</a>
+      <a class="hero-link4" href="#wat-verandert">Dat ene detail verdient zichzelf snel terug, op 4 vlakken. Zie hoe ↓</a>
       <p class="hero-proof"><b>Gratis mockup binnen 24 uur</b> · Vrijblijvend · Exacte kleur via Pantone · Vanaf 50 paar</p>
     </div>
     <div class="hero-visual">
@@ -1254,7 +1255,7 @@ footer a{white-space:nowrap}
           <span class="fn">01</span>
           <h3>Gratis naamsbekendheid</h3>
           <span class="fpayoff"><span class="arrow">→</span>Gratis nieuwe klanten</span>
-          <p>Jouw logo reist mee naar het schoolplein, de sportschool, de supermarkt — overal waar jij niet bij bent. Soms is dat precies het moment dat iemand vraagt: waar is die tas van? En op Instagram staat je logo zelfs in beeld bij elke gedeelde reformerfoto. Allemaal gratis reclame, elke dag opnieuw.</p>
+          <p>Jouw logo reist mee naar het schoolplein, de sportschool en de supermarkt, overal waar jij zelf niet bij bent. Soms is dat precies het moment dat iemand vraagt: waar is die tas van? En op Instagram staat je logo zelfs in beeld bij elke gedeelde reformerfoto. Allemaal gratis reclame, elke dag opnieuw.</p>
         </div>
       </div>
       <div class="feature-row">
@@ -1459,48 +1460,48 @@ footer a{white-space:nowrap}
     <div class="wu-list">
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c0 4.4-4 8-9 8-1.1 0-2.2-.2-3.2-.5L3 21l1.5-4.3C3.5 15.4 3 13.8 3 12c0-4.4 4-8 9-8s9 3.6 9 8Z"/></svg></span>
-        <h3>Je appt met de oprichter, niet met een supportticket</h3>
-        <p>Elke aanvraag komt persoonlijk bij Giel terecht. Een vraag over je ontwerp of een deadline die opschuift krijgt dezelfde dag een eerlijk antwoord, geen wachtrij en geen script.</p>
+        <h3>Je appt met de oprichter</h3>
+        <p>Persoonlijk antwoord, dezelfde dag.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.5 9.6a6.5 6.5 0 1 0 11 0Z"/></svg></span>
-        <h3>Jouw kleur, exact gematcht op Pantone-code</h3>
-        <p>Niet "ongeveer die tint", maar hetzelfde kleursysteem als je logo. Het terracotta van je muren of het groen van je huisstijl, identiek op elk product.</p>
+        <h3>Jouw kleur, op Pantone-code</h3>
+        <p>Identiek aan je logo, op elk product.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span>
-        <h3>Vanaf 50 paar, geen pallet vol voorraad</h3>
-        <p>Je hoeft niet duizend stuks te bestellen om mee te doen. Begin klein, kijk hoe het loopt bij je leden en breid uit wanneer jij daar klaar voor bent.</p>
+        <h3>Vanaf 50 paar</h3>
+        <p>Begin klein, breid uit wanneer jij wil.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
-        <h3>Mockup binnen 24 uur, gratis en vrijblijvend</h3>
-        <p>Je ziet precies hoe je logo op het product komt te staan voordat je iets bestelt. Geen verrassingen achteraf, geen risico.</p>
+        <h3>Mockup binnen 24 uur</h3>
+        <p>Gratis en vrijblijvend. Zie het eerst, beslis daarna.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
-        <h3>Materiaal gecontroleerd op REACH</h3>
-        <p>Je leden dragen het product tijdens intensieve inspanning, soms blootsvoets. We controleren elk materiaal, inclusief de antislipzool, op de Europese chemicaliënregelgeving. Certificaten beschikbaar op aanvraag.</p>
+        <h3>Materiaal getest op REACH</h3>
+        <p>Veilig voor elk lid, ook de antislipzool.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span>
-        <h3>Gratis verzending, waar je studio ook staat</h3>
-        <p>Van Valencia tot Amsterdam tot Berlijn: de verzendkosten zijn voor ons, niet weggestopt in een hogere prijs per stuk.</p>
+        <h3>Gratis verzending</h3>
+        <p>Door heel Europa, altijd inbegrepen.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
-        <h3>Tot wel 58% marge op een product dat je leden toch al kopen</h3>
-        <p>Antislipsokken zijn al verplicht in de les. Met jouw logo erop verdien jij daar zelf aan mee, op vier manieren tegelijk: meer naamsbekendheid, meer retentie, een completer merk en meer marge.</p>
+        <h3>Tot 58% marge</h3>
+        <p>Op een product dat ze toch al kopen.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 5.6L20 11l-5.8 2.4L12 19l-2.2-5.6L4 11l5.8-2.4Z"/></svg></span>
-        <h3>Een professionelere uitstraling, die opvalt tussen de concurrentie</h3>
-        <p>Met eigen merchandise oogt je studio in één klap completer en serieuzer dan de studio om de hoek zonder eigen merk. Precies het soort detail waarmee nieuwe leden sneller voor jou kiezen.</p>
+        <h3>Professionelere uitstraling</h3>
+        <p>Je studio oogt completer, in één oogopslag.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.8 10.6c.6.5 1 1.3 1 2.1v.3h5.6v-.3c0-.8.4-1.6 1-2.1A6 6 0 0 0 12 3Z"/></svg></span>
-        <h3>Wij denken mee over je verkoopplan</h3>
-        <p>Een plank vol merchandise verkoopt zichzelf niet vanzelf. We geven je concrete tips over presentatie, prijsstelling en timing, zodat jij er het beste resultaat uit haalt.</p>
+        <h3>Hulp bij je verkoopplan</h3>
+        <p>Tips over presentatie, prijs en timing.</p>
       </div>
     </div>
   </div>
