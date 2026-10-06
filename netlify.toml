@@ -6,3 +6,11 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
+
+# Korte, nette link voor de Instagram-bio (ES-account). Toont als
+# "mediterranopilates.com/tu-mockup" en stuurt door met UTM-tracking.
+[[redirects]]
+  from = "/tu-mockup"
+  to = "/mockup-gratis/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 301
+  force = true
