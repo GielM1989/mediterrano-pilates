@@ -872,4 +872,56 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Nichepagina: estudios de yoga (ES) -->
+  <url>
+    <loc>https://mediterranopilates.com/merchandising-estudios-yoga/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Nichepagina: yoga studios (EN) -->
+  <url>
+    <loc>https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Nichepagina: Yogastudios (DE) -->
+  <url>
+    <loc>https://mediterranopilates.com/de/merchandise-fuer-yogastudios/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Nichepagina: yogastudio's (NL) -->
+  <url>
+    <loc>https://mediterranopilates.com/nl/merchandise-voor-yogastudios/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
