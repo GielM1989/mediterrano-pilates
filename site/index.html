@@ -751,6 +751,17 @@ html,body{overflow-x:hidden;max-width:100%}
 .mw-dropzone-sub{font-size:.78rem;color:#666E67}
 [hidden]{display:none!important}
 .mw-dropzone-file{display:flex;align-items:center;gap:12px;text-align:left}
+.mw-dropzone-file[hidden]{display:none}
+.mw-sock-panel{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:20px 18px;margin-top:24px;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
+.mw-sock-panel .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 1px 4px rgba(46,64,52,.14)}
+.mw-sock-panel .mw-swatch.is-selected .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 0 0 2px var(--terra),0 2px 6px rgba(46,64,52,.16)}
+.mw-sock-panel .mw-field-custom-color{margin-bottom:4px}
+.mw-style-card svg{color:var(--terra);margin-bottom:2px;flex-shrink:0}
+.mw-insta-note{font-size:.9rem;line-height:1.45;color:var(--ink);background:#fff;border:1px solid var(--line);border-left:3px solid var(--terra);border-radius:12px;padding:12px 14px;margin:16px 0 12px}
+.mw-insta-note b{color:var(--terra-2)}
+.op-form .mw-card-label{font-size:.85rem;padding:8px 10px;line-height:1.25}
+.op-form .mw-dropzone{padding:16px 14px}
+.op-form .mw-dropzone-empty{gap:6px}
 .mw-dropzone-file img{width:52px;height:52px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--line);padding:4px}
 .mw-dropzone-file span:first-of-type{flex:1;font-size:.88rem;font-weight:600;color:var(--ink);word-break:break-all}
 #mwLogoName{flex:1;font-size:.88rem;font-weight:600;color:var(--ink);word-break:break-all}
@@ -1927,21 +1938,7 @@ footer a{white-space:nowrap}
     <div>
             <!-- Netlify Forms: aanvragen verschijnen in je Netlify-dashboard onder Forms -->
       <div class="mockup-wizard" id="mockupWizard">
-        <div class="mw-stepper" id="mwStepper">
-          <div class="mw-stepper-item is-current" data-step-index="1">
-            <span class="mw-stepper-dot">1</span>
-            <span class="mw-stepper-label">Producto</span>
-          </div>
-          <div class="mw-stepper-item" data-step-index="2">
-            <span class="mw-stepper-dot">2</span>
-            <span class="mw-stepper-label">Tus ideas</span>
-          </div>
-          <div class="mw-stepper-item" data-step-index="3">
-            <span class="mw-stepper-dot">3</span>
-            <span class="mw-stepper-label">Contacto</span>
-          </div>
-        </div>
-        <form class="form-card mw-form" id="lead-form" name="mockup-aanvraag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form class="form-card mw-form op-form" id="lead-form" name="mockup-aanvraag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="mockup-aanvraag">
           <p class="hidden-field" style="display:none"><label>No rellenar: <input name="bot-field"></label></p>
           <input type="hidden" name="utm_source" id="utm_source">
@@ -1954,12 +1951,11 @@ footer a{white-space:nowrap}
           <input type="hidden" name="language" value="es">
           <input type="hidden" name="lead_id" id="lead_id_field">
           <input type="hidden" name="productos_elegidos" id="productos_elegidos_field">
+          <p class="hidden-field" style="display:none"><label>No rellenar: <input name="bot-field"></label></p>
 
-                    <!-- STEP 1: PRODUCT (multiple selectable) -->
-          <div class="mw-step" data-step="1">
-            <h3 class="mw-q">¿Qué productos quieres <span class="fx">personalizar</span>?</h3>
-            <p class="mw-hint" style="margin:-6px 0 18px">Puedes elegir más de uno.</p>
-            <div class="mw-product-grid" id="mwProductGrid">
+          <h3 class="mw-q" style="margin:0 0 6px">¿Qué productos quieres <span class="fx">personalizar</span>?</h3>
+          <p class="mw-hint" style="margin:0 0 12px">Puedes elegir más de uno.</p>
+          <div class="mw-product-grid" id="mwProductGrid">
               <button type="button" class="mw-card" data-product="Calcetines antideslizantes">
                 <picture><source srcset="images/product-sokken.webp" type="image/webp"><img src="images/product-sokken.jpg" width="900" height="1200" alt="Calcetines antideslizantes" loading="lazy"></picture>
                 <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -1981,26 +1977,59 @@ footer a{white-space:nowrap}
                 <span class="mw-card-label">Aro de pilates</span>
               </button>
             </div>
-            <div class="mw-actions">
-              <button type="button" class="btn mw-next" data-next disabled>Continuar</button>
-            </div>
-          </div>
 
-          <!-- STEP 2: YOUR IDEAS + LOGO -->
-          <div class="mw-step" data-step="2" hidden>
-            <h3 class="mw-q mw-q-hero">Cuéntanos qué tienes <span class="fx">en mente</span></h3>
-            <p class="mw-hint" style="margin:-6px 0 14px">Color, estilo, dónde va el logo… lo que se te ocurra. Nosotros lo convertimos en un diseño.</p>
-            <textarea id="bericht" name="bericht" class="mw-wishes" rows="4" placeholder="Ej.: algo en tonos terracota, minimalista, con el logo en el lateral…"></textarea>
-            <div class="mw-wish-chips" id="mwWishChips">
-              <button type="button" class="mw-wish-chip" data-add="tono terracota">+ tono terracota</button>
-              <button type="button" class="mw-wish-chip" data-add="verde salvia">+ verde salvia</button>
-              <button type="button" class="mw-wish-chip" data-add="negro">+ negro</button>
-              <button type="button" class="mw-wish-chip" data-add="minimalista">+ minimalista</button>
-              <button type="button" class="mw-wish-chip" data-add="logo en el lateral">+ logo en el lateral</button>
-              <button type="button" class="mw-wish-chip" data-add="lo dejo en vuestras manos">+ elegid vosotros</button>
+          <div id="mwSockOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">El color de tus calcetines</h3>
+              <div class="mw-color-grid" id="mwSockColors">
+                <button type="button" class="mw-swatch" data-color="Negro"><span class="mw-swatch-dot" style="--sw:#26241F"></span><span class="mw-swatch-label">Negro</span></button>
+                <button type="button" class="mw-swatch" data-color="Blanco"><span class="mw-swatch-dot" style="--sw:#FFFFFF"></span><span class="mw-swatch-label">Blanco</span></button>
+                <button type="button" class="mw-swatch" data-color="Crema"><span class="mw-swatch-dot" style="--sw:#EFE4CC"></span><span class="mw-swatch-label">Crema</span></button>
+                <button type="button" class="mw-swatch" data-color="Beige"><span class="mw-swatch-dot" style="--sw:#D8C9B0"></span><span class="mw-swatch-label">Beige</span></button>
+                <button type="button" class="mw-swatch" data-color="Gris"><span class="mw-swatch-dot" style="--sw:#9B9893"></span><span class="mw-swatch-label">Gris</span></button>
+                <button type="button" class="mw-swatch" data-color="Rosa"><span class="mw-swatch-dot" style="--sw:#D8B4B0"></span><span class="mw-swatch-label">Rosa</span></button>
+                <button type="button" class="mw-swatch" data-color="Terracota"><span class="mw-swatch-dot" style="--sw:#C86A4A"></span><span class="mw-swatch-label">Terracota</span></button>
+                <button type="button" class="mw-swatch" data-color="Burdeos"><span class="mw-swatch-dot" style="--sw:#7A3B47"></span><span class="mw-swatch-label">Burdeos</span></button>
+                <button type="button" class="mw-swatch" data-color="Lavanda"><span class="mw-swatch-dot" style="--sw:#B3A4C6"></span><span class="mw-swatch-label">Lavanda</span></button>
+                <button type="button" class="mw-swatch" data-color="Verde salvia"><span class="mw-swatch-dot" style="--sw:#9CAF88"></span><span class="mw-swatch-label">Verde salvia</span></button>
+                <button type="button" class="mw-swatch" data-color="Verde oscuro"><span class="mw-swatch-dot" style="--sw:#2E4034"></span><span class="mw-swatch-label">Verde oscuro</span></button>
+                <button type="button" class="mw-swatch" data-color="Azul marino"><span class="mw-swatch-dot" style="--sw:#2C3E5C"></span><span class="mw-swatch-label">Azul marino</span></button>
+                <button type="button" class="mw-swatch" data-color="Chocolate"><span class="mw-swatch-dot" style="--sw:#6B4F3A"></span><span class="mw-swatch-label">Chocolate</span></button>
+                <button type="button" class="mw-swatch mw-swatch-custom" data-color="__custom__"><span class="mw-swatch-dot"></span><span class="mw-swatch-label">Otro</span></button>
+              </div>
+              <div class="mw-field-custom-color" id="mwCustomColor" hidden>
+                <label for="customColorInput">¿Qué color tienes en mente?</label>
+                <input type="text" id="customColorInput" name="color_otro" placeholder="Ej. terracota suave, lavanda…">
+              </div>
+              <input type="hidden" name="color_calcetin" id="sockColor">
+
+              <h3 class="mw-q" style="margin:22px 0 14px">¿Cómo va tu logo en el calcetín?</h3>
+              <div class="mw-style-grid" id="mwTechGrid" style="margin-bottom:0">
+                <button type="button" class="mw-style-card mw-style-minimal" data-tech="Tejido">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 8.5c3-4 6 4 9 0s6 4 9 0M3 15.5c3-4 6 4 9 0s6 4 9 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  <span class="mw-style-name">Tejido <span class="mw-chip-tag">Recomendado</span></span>
+                  <span class="mw-style-desc">El logo se teje dentro del propio calcetín. Acabado premium que nunca se despega.</span>
+                </button>
+                <button type="button" class="mw-style-card mw-style-elegant" data-tech="Bordado">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20c7-1.5 12.5-7 14.5-14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="3 3"/><path d="M14.5 3.5l6 6M19.5 2.5l2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  <span class="mw-style-name">Bordado</span>
+                  <span class="mw-style-desc">Logo bordado en relieve, con un toque artesanal.</span>
+                </button>
+              </div>
+              <input type="hidden" name="tecnica_logo" id="sockTech">
             </div>
 
-            <h3 class="mw-q mw-q-sub" style="margin-top:28px">Sube el logo de tu estudio</h3>
+          <h3 class="mw-q" style="margin-top:24px">¿Cuántas unidades aproximadamente?</h3>
+            <p class="mw-hint" style="margin:-8px 0 12px">Solo orientativo — no es un compromiso.</p>
+            <div class="mw-chip-grid" id="mwQtyChips">
+              <button type="button" class="mw-chip" data-qty="50">50</button>
+              <button type="button" class="mw-chip mw-chip-bestseller" data-qty="100">100 <span class="mw-chip-tag">Más elegido</span></button>
+              <button type="button" class="mw-chip" data-qty="200">200</button>
+              <button type="button" class="mw-chip" data-qty="Más de 200">Más de 200</button>
+              <button type="button" class="mw-chip mw-chip-ghost" data-qty="Aún no lo sé">Aún no lo sé</button>
+            </div>
+            <input type="hidden" name="cantidad" id="qtyWanted">
+
+          <h3 class="mw-q mw-q-sub" style="margin-top:28px">Sube el logo de tu estudio <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(opcional)</span></h3>
             <p class="mw-hint" style="margin:-8px 0 14px">Lo ideal: PNG o SVG con fondo transparente.</p>
             <div class="mw-dropzone" id="mwDropzone" tabindex="0" role="button" aria-label="Subir logo">
               <input type="file" id="logoFile" name="logo" accept=".png,.jpg,.jpeg,.svg" hidden>
@@ -2019,56 +2048,43 @@ footer a{white-space:nowrap}
               </div>
             </div>
             <p class="mw-upload-error" id="mwUploadError" hidden></p>
-            <p class="mw-logo-alt">¿No tienes el logo a mano? Sigue adelante y déjanos el Instagram de tu estudio en el siguiente paso. Lo sacamos de ahí.</p>
 
-            <div class="mw-actions">
-              <button type="button" class="mw-back" data-back>Atrás</button>
-              <button type="button" class="btn mw-next" data-next>Continuar</button>
-            </div>
+          <p class="mw-insta-note"><b>¿No tienes el logo a mano?</b> No pasa nada: déjanos el Instagram de tu estudio y <b>lo cogemos directamente de tu perfil</b>.</p>
+          <div class="field" style="margin-bottom:0">
+            <label for="instagram">Instagram de tu estudio <span class="opt">(opcional)</span></label>
+                <input type="text" id="instagram" name="instagram" placeholder="@tuestudio">
           </div>
 
-<!-- STEP 3: YOUR STUDIO -->
-          <div class="mw-step" data-step="3" hidden>
-            <h3 class="mw-q">¿Dónde te enviamos <span class="fx">tu diseño</span>?</h3>
-            <div class="field">
-              <label for="nombre">Tu nombre</label>
-              <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="María García">
-            </div>
-            <div class="field">
-              <label for="estudio">Nombre de tu estudio</label>
-              <input type="text" id="estudio" name="estudio" required autocomplete="organization" placeholder="Estudio Reforma">
-            </div>
-            <div class="field">
-              <label for="email">Tu email</label>
-              <input type="email" id="email" name="email" required autocomplete="email" placeholder="maria@tuestudio.com">
-            </div>
-            <div class="field two">
-              <div>
-                <label for="instagram">Instagram de tu estudio <span class="opt">(opcional)</span></label>
-                <input type="text" id="instagram" name="instagram" placeholder="@tuestudio">
-              </div>
-              <div>
-                <label for="telefono">Teléfono / WhatsApp <span class="opt">(opcional)</span></label>
-                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000" autocomplete="tel">
-              </div>
-            </div>
+          <h3 class="mw-q" style="margin-top:24px">Cuéntanos qué tienes <span class="fx">en mente</span> <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(opcional)</span></h3>
+          <textarea id="bericht" name="bericht" class="mw-wishes" rows="2" placeholder="Ej.: algo en tonos terracota, minimalista, con el logo en el lateral…"></textarea>
 
-            <div class="mw-summary" id="mwSummary">
-              <h4>Tu boceto</h4>
-              <dl id="mwSummaryList"></dl>
-            </div>
+          <h3 class="mw-q" style="margin-top:24px">¿Dónde te enviamos <span class="fx">tu diseño</span>?</h3>
+          <div class="field two">
+            <div><label for="nombre">Tu nombre</label>
+              <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="María García"></div>
+            <div><label for="estudio">Nombre de tu estudio</label>
+              <input type="text" id="estudio" name="estudio" required autocomplete="organization" placeholder="Estudio Reforma"></div>
+          </div>
+          <div class="field two">
+            <div><label for="email">Tu email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="maria@tuestudio.com"></div>
+            <div><label for="telefono">Teléfono / WhatsApp <span class="opt">(opcional)</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000" autocomplete="tel"></div>
+          </div>
+          <div class="field">
+            <label for="paisCiudad">País y ciudad <span class="opt">(opcional)</span></label>
+            <input type="text" id="paisCiudad" name="pais_ciudad" placeholder="España · Valencia">
+          </div>
 
-            <p class="mw-disclaimer">El boceto es una primera visualización. Los colores y detalles finales pueden variar ligeramente según el material y la producción.</p>
-            <div class="mw-consent">
+          <p class="mw-disclaimer">El boceto es una primera visualización. Los colores y detalles finales pueden variar ligeramente según el material y la producción.</p>
+          <div class="mw-consent">
               <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>He leído la <a href="/legal.html#privacidad" target="_blank" rel="noopener">política de privacidad</a>.</span></label>
             </div>
 
-            <div class="mw-actions">
-              <button type="button" class="mw-back" data-back>Atrás</button>
-              <button class="btn" type="submit" id="mwSubmitBtn">Quiero mi boceto gratis</button>
-            </div>
-            <p class="form-note">Sin spam, sin llamadas comerciales, solo una respuesta sincera.</p>
+          <div class="mw-actions" style="margin-top:14px">
+            <button class="btn" type="submit" id="mwSubmitBtn">Quiero mi boceto gratis</button>
           </div>
+          <p class="form-note">Sin spam, sin llamadas comerciales, solo una respuesta sincera.</p>
         </form>
       </div>
 
@@ -2220,78 +2236,83 @@ footer a{white-space:nowrap}
 (function(){
   var wizard = document.getElementById('mockupWizard');
   if (!wizard) return;
-  var steps = Array.prototype.slice.call(wizard.querySelectorAll('.mw-step'));
-  var totalSteps = steps.length;
-  var current = 1;
-  var stepperItems = Array.prototype.slice.call(wizard.querySelectorAll('.mw-stepper-item'));
-  var state = { products:[], productLabels:[], logoFile:null };
+  var state = { products: [], logoFile: null };
 
   function track(eventName, params){
     try{
       if (window.MP_CONSENT){
         if (typeof gtag === 'function') gtag('event', eventName, params||{});
-        if (typeof fbq === 'function' && eventName === 'mockup_submitted') fbq('track','Lead');
       }
     }catch(e){}
   }
 
-  function goToStep(n){
-    steps.forEach(function(s){ s.hidden = (parseInt(s.getAttribute('data-step'),10) !== n); });
-    current = n;
-    stepperItems.forEach(function(item){
-      var idx = parseInt(item.getAttribute('data-step-index'),10);
-      item.classList.remove('is-current','is-done');
-      if (idx === n) item.classList.add('is-current');
-      else if (idx < n) item.classList.add('is-done');
-    });
-    wizard.scrollIntoView({behavior:'smooth', block:'start'});
-    track('mockup_step_completed', {step:n});
-    if (n > (wizard._maxStep||1)){ wizard._maxStep = n; track('mockup_step' + n + '_view', {}); }
-    if (n === 3) buildSummary(); /* rechtstreeks aangeroepen bij binnenkomst op de laatste stap, niet afhankelijk van klik-handler-volgorde */
-  }
-
-  wizard.addEventListener('click', function(e){
-    var next = e.target.closest('[data-next]');
-    var back = e.target.closest('[data-back]');
-    if (next && !next.disabled) { if (current < totalSteps) goToStep(current+1); return; }
-    if (back) { if (current > 1) goToStep(current-1); return; }
-  });
-
   var productGrid = document.getElementById('mwProductGrid');
   var productField = document.getElementById('productos_elegidos_field');
-  var step1Next = wizard.querySelector('.mw-step[data-step="1"] .mw-next');
+  var sockOpts = document.getElementById('mwSockOpts');
+
+  function setCard(card, selected){
+    card.classList.toggle('is-selected', selected);
+    var val = card.getAttribute('data-product');
+    var idx = state.products.indexOf(val);
+    if (selected && idx === -1) state.products.push(val);
+    if (!selected && idx > -1) state.products.splice(idx, 1);
+    productField.value = state.products.join(', ');
+    if (sockOpts) sockOpts.hidden = state.products.indexOf('Calcetines antideslizantes') === -1;
+  }
 
   productGrid.addEventListener('click', function(e){
     var card = e.target.closest('.mw-card');
     if (!card) return;
-    card.classList.toggle('is-selected');
-    var val = card.getAttribute('data-product');
-    var label = (card.querySelector('.mw-card-label')||{}).textContent || val;
-    if (card.classList.contains('is-selected')){
-      state.products.push(val);
-      state.productLabels.push(label);
-      track('mockup_product_selected', {product: val});
-    } else {
-      var idx = state.products.indexOf(val);
-      if (idx > -1){ state.products.splice(idx,1); state.productLabels.splice(idx,1); }
-    }
-    productField.value = state.products.join(', ');
-    step1Next.disabled = state.products.length === 0;
+    setCard(card, !card.classList.contains('is-selected'));
+    track('mockup_product_selected', {product: card.getAttribute('data-product')});
   });
 
-  var wishesField = document.getElementById('bericht');
-  var wishChips = document.getElementById('mwWishChips');
-  if (wishChips && wishesField){
-    wishChips.addEventListener('click', function(e){
-      var chip = e.target.closest('.mw-wish-chip');
-      if (!chip) return;
-      var toAdd = chip.getAttribute('data-add');
-      var current = wishesField.value.trim();
-      wishesField.value = current ? (current + ', ' + toAdd) : (toAdd.charAt(0).toUpperCase() + toAdd.slice(1));
-      wishesField.focus();
-      chip.classList.add('is-used');
+  var sockCard = productGrid.querySelector('.mw-card[data-product="Calcetines antideslizantes"]');
+  if (sockCard) setCard(sockCard, true);
+
+  var form = document.getElementById('lead-form');
+  if (form) form.addEventListener('submit', function(e){
+    if (state.products.length === 0){
+      e.preventDefault(); e.stopImmediatePropagation();
+      alert('Elige al menos un producto.');
+      productGrid.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+  }, true);
+
+  function single(gridId, btnSel, dataAttr, hiddenId, onChange){
+    var grid = document.getElementById(gridId);
+    var hid = document.getElementById(hiddenId);
+    if (!grid || !hid) return;
+    grid.addEventListener('click', function(e){
+      var btn = e.target.closest(btnSel);
+      if (!btn || !grid.contains(btn)) return;
+      var wasSel = btn.classList.contains('is-selected');
+      Array.prototype.forEach.call(grid.querySelectorAll(btnSel), function(b){ b.classList.remove('is-selected'); });
+      if (wasSel){ hid.value = ''; if (onChange) onChange(null); return; }
+      btn.classList.add('is-selected');
+      hid.value = btn.getAttribute(dataAttr) || '';
+      if (onChange) onChange(btn);
     });
   }
+  var customWrap = document.getElementById('mwCustomColor');
+  var customInput = document.getElementById('customColorInput');
+  var sockColor = document.getElementById('sockColor');
+  single('mwSockColors', '.mw-swatch', 'data-color', 'sockColor', function(btn){
+    var isCustom = !!btn && btn.getAttribute('data-color') === '__custom__';
+    if (customWrap) customWrap.hidden = !isCustom;
+    if (isCustom && sockColor){
+      sockColor.value = (customInput && customInput.value.trim()) ? customInput.value.trim() : 'Otro';
+      if (customInput) customInput.focus();
+    }
+  });
+  if (customInput && sockColor){
+    customInput.addEventListener('input', function(){
+      var sw = document.querySelector('#mwSockColors .mw-swatch-custom.is-selected');
+      if (sw) sockColor.value = customInput.value.trim() || 'Otro';
+    });
+  }
+  single('mwTechGrid', '.mw-style-card', 'data-tech', 'sockTech');
+  single('mwQtyChips', '.mw-chip', 'data-qty', 'qtyWanted');
 
   var dropzone = document.getElementById('mwDropzone');
   var fileInput = document.getElementById('logoFile');
@@ -2316,15 +2337,9 @@ footer a{white-space:nowrap}
     if (!file) return;
     var ext = (file.name.split('.').pop()||'').toLowerCase();
     if (ALLOWED_EXT.indexOf(ext) === -1 || (file.type && ALLOWED_MIME.indexOf(file.type) === -1 && ext !== 'svg')){
-      showError(ERR_FORMAT);
-      fileInput.value = '';
-      return;
+      showError(ERR_FORMAT); fileInput.value = ''; return;
     }
-    if (file.size > MAX_BYTES){
-      showError(ERR_SIZE);
-      fileInput.value = '';
-      return;
-    }
+    if (file.size > MAX_BYTES){ showError(ERR_SIZE); fileInput.value = ''; return; }
     state.logoFile = file;
     logoName.textContent = file.name;
     dzEmpty.hidden = true; dzFile.hidden = false;
@@ -2355,26 +2370,13 @@ footer a{white-space:nowrap}
       handleFile(f);
     }
   });
-  replaceBtn.addEventListener('click', function(e){ e.stopPropagation(); fileInput.value=''; fileInput.click(); });
-  removeBtn.addEventListener('click', function(e){
+  if (replaceBtn) replaceBtn.addEventListener('click', function(e){ e.stopPropagation(); fileInput.value=''; fileInput.click(); });
+  if (removeBtn) removeBtn.addEventListener('click', function(e){
     e.stopPropagation();
     fileInput.value=''; state.logoFile=null;
     dzEmpty.hidden=false; dzFile.hidden=true; logoPreview.hidden=true; logoPreview.src='';
   });
 
-  var SUMMARY_LABELS = {"products": "Productos", "wishes": "Tus ideas", "logo": "Logo"};
-  var SUMMARY_NOFILE = 'Por Instagram o por email';
-  var SUMMARY_NOWISHES = 'Sin notas adicionales';
-  function buildSummary(){
-    var list = document.getElementById('mwSummaryList');
-    if (!list) return;
-    var rows = [];
-    rows.push([SUMMARY_LABELS.products, state.productLabels.length ? state.productLabels.join(', ') : '-']);
-    var wishesVal = (document.getElementById('bericht')||{}).value || '';
-    rows.push([SUMMARY_LABELS.wishes, wishesVal.trim() ? wishesVal.trim() : SUMMARY_NOWISHES]);
-    rows.push([SUMMARY_LABELS.logo, state.logoFile ? state.logoFile.name : SUMMARY_NOFILE]);
-    list.innerHTML = rows.map(function(r){ return '<dt>'+r[0]+'</dt><dd>'+String(r[1]).replace(/</g,'&lt;')+'</dd>'; }).join('');
-  }
   function makeLeadId(){
     var y = new Date().getFullYear();
     var rand = Math.floor(100000 + Math.random()*900000);
@@ -2384,9 +2386,6 @@ footer a{white-space:nowrap}
   if (leadIdField) leadIdField.value = makeLeadId();
 
   track('mockup_view', {});
-  wizard.addEventListener('click', function(e){
-    if (e.target.closest('.mw-card') && !wizard.dataset.started){ wizard.dataset.started='1'; track('mockup_start', {}); }
-  }, true);
 })();
 </script>
 
