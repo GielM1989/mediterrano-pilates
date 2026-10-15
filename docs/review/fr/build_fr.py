@@ -83,7 +83,7 @@ def extract(s):
 SKIP_EXACT = {"ES", "EN", "DE", "NL", "FR", "→", "M", "xgv1e0t17c8focq9tix8hhuctxu291",
               "width=device-width, initial-scale=1.0", "Mediterrano Pilates", "mockup-aanvraag",
               "hola@mediterranopilates.com", "REACH", "Pantone", "Instagram", "LinkedIn", "WhatsApp",
-              "Tote bag", "Tote bags", "+", "Ecomtierra Group SL", "Mediterrano", "Pilates"}
+              "Tote bag", "Tote bags", "+", "Ecomtierra Group SL", "Mediterrano", "Pilates", "product", "article", "Giel Mallens"}
 
 def norm(t):
     t = html.unescape(t).replace("\xa0", " ")
@@ -171,6 +171,8 @@ def build(src_path, dst_path, fr_path, dict_page_path, check_only=False):
         if fr is not None:
             trmap[norm(t)] = fr
     for k, v in ld_extra.items():
+        trmap[norm(k)] = v
+    for k, v in page.get("_ld_map", {}).items():
         trmap[norm(k)] = v
     for k, v in common.items():
         trmap.setdefault(norm(k), v)
@@ -292,6 +294,11 @@ FR_STYLE = """<style>
 def postprocess(out, src, fr_path, page=None):
     page = page or {}
     fr_url = BASE + fr_path
+    # letterlijke vervangingen (cijfers in numerieke segmenten, enz.)
+    for old, new in page.get("_replace", []):
+        if old not in out:
+            print("WAARSCHUWING: _replace niet gevonden:", old[:60])
+        out = out.replace(old, new)
     # invoegingen (feitenblok "En bref" enz.)
     for ins in page.get("_inserts", []):
         if "after" in ins:
@@ -303,8 +310,10 @@ def postprocess(out, src, fr_path, page=None):
     # extra FAQ-items (zichtbaar; JSON-LD krijgt dezelfde tekst in translate_ld)
     extra = page.get("_faq_extra", [])
     if extra:
-        start = out.index('<div class="faq">')
-        n = len(re.findall(r'<details>', out[start:start + out[start:].index("\n    </div>")]))
+        # bij meerdere FAQ-blokken (FAQ-pagina): achteraan het laatste blok, doornummeren vanaf het eerste
+        first = out.index('<div class="faq">')
+        start = out.rindex('<div class="faq">')
+        n = len(re.findall(r'<details>', out[first:start + out[start:].index("\n    </div>")]))
         block = ""
         for k, item in enumerate(extra, start=n + 1):
             block += f'      <details>\n        <summary><span class="qn">{k:02d}</span>{item["q"]}</summary>\n        <p>{item["a"]}</p>\n      </details>\n'
@@ -320,7 +329,9 @@ def postprocess(out, src, fr_path, page=None):
     # Franse typografie: fijne spatie voor ? na een span (bijv. "personnaliser</span>?")
     out = out.replace("</span>?<", "</span>&nbsp;?<")
     out = re.sub(r">(\+?\d+)%<", r">\1&nbsp;%<", out)
-    out = re.sub(r"(>[^<]*?)\b1er novembre", r"\g<1>1<sup>er</sup> novembre", out)
+    # (niet binnen JSON-LD: daar hoort geen HTML in)
+    parts = re.split(r'(<script type="application/ld\+json">[\s\S]*?</script>)', out)
+    out = "".join(p if p.startswith('<script type="application/ld+json">') else re.sub(r"(>[^<]*?)\b1er novembre", r"\g<1>1<sup>er</sup> novembre", p) for p in parts)
     out = out.replace('href="/#', 'href="/fr/#')
     out = out.replace('href="/"', 'href="/fr/"').replace('href="./"', 'href="/fr/"').replace('href="en/"', 'href="/en/"').replace('href="de/"', 'href="/de/"')
     # interne URL's ES -> FR (langste eerst)
@@ -408,8 +419,9 @@ def check(out, missing, fr_path):
                 faq_q.append(norm(q["name"]))
                 faq_a.append(norm(q["acceptedAnswer"]["text"]))
     if faq_q:
-        visn = norm(vis)
-        rep["faq_match"] = [(q, q in visn) for q in faq_q] + [(a[:60], a in visn) for a in faq_a]
+        # vergelijking zonder spaties: tags in het zichtbare antwoord (links, <sup>) geven extra spaties
+        visn = norm(vis).replace(" ", "")
+        rep["faq_match"] = [(q, q.replace(" ", "") in visn) for q in faq_q] + [(a[:60], a.replace(" ", "") in visn) for a in faq_a]
     # resterende ES-URL's
     rep["es_urls"] = sorted(set(re.findall(r'href="(/(?!fr/|en/|de/|nl/|images/|fonts/|legal)[a-z0-9-]+/[^"]*)"', out)))
     rep["lang"] = re.search(r'<html lang="([a-z]+)">', out).group(1)

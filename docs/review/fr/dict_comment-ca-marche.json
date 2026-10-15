@@ -1,0 +1,62 @@
+{
+ "0": "Comment ça marche · de la maquette à la livraison",
+ "33": "· de votre logo à la livraison",
+ "34": "Du logo de votre studio à la commande livrée à votre accueil,",
+ "35": "en cinq étapes.",
+ "36": "Mediterrano Pilates est le partenaire des studios de Pilates et de yoga pour leurs produits personnalisés, une marque d'Ecomtierra Group SL (Espagne). Sans stock, sans engagement tant que vous n'avez pas validé la maquette, et avec livraison gratuite dans toute l'Europe.",
+ "40": "La marge à l'accueil, c'est bien, mais ce n'est pas l'essentiel. L'essentiel, c'est ceci&nbsp;:",
+ "42": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque produit à votre logo est une publicité qui marche toute seule, sans dépenser un euro en annonces.",
+ "45": "Augmenter la fidélisation de seulement 5&nbsp;% peut représenter jusqu'à 95&nbsp;% de bénéfice en plus. Une marque cohérente, dans le studio comme en dehors, fait partie des raisons pour lesquelles on reste.",
+ "49": "Un studio parfait avec des produits génériques n'est pas perçu comme « presque parfait ». Il est perçu comme négligé. Voilà à quel point le poids d'un seul détail faible est disproportionné.",
+ "55": "Vous recevez un visuel numérique de votre logo sur le produit, sans engagement.",
+ "58": "Nous affinons la couleur, la taille et la position jusqu'à ce que le design soit exactement le vôtre.",
+ "61": "Vous recevez le devis formel avec le prix définitif&nbsp;; votre validation et le paiement intégral réservent votre créneau de production.",
+ "64": "Nous tissons ou brodons, assemblons et vérifions la qualité de chaque unité avant de l'emballer.",
+ "67": "Nous suivons l'envoi jusqu'à son arrivée, directement dans votre studio, où que vous soyez.",
+ "68": "Votre logo, appliqué",
+ "69": "comme vous le souhaitez.",
+ "70": "✳ Sur les chaussettes, nous tissons ou brodons votre logo. Sur la gourde isotherme, le tote bag et l'anneau, nous l'appliquons de la manière qui convient le mieux à chaque produit, toujours dans votre style.",
+ "71": "✳ Couleur de votre marque reproduite avec exactitude d'après le code Pantone, la référence du secteur graphique.",
+ "72": "✳ Échantillons physiques disponibles avant de confirmer la grande commande, leur coût étant déduit si vous donnez suite.",
+ "73": "✳ Matières vérifiées selon REACH, la réglementation européenne sur les substances chimiques.",
+ "76": "Mediterrano Pilates travaille depuis l'Espagne pour des studios de Pilates et de yoga dans toute l'Europe, et livre gratuitement en France, en Belgique, au Luxembourg et en Suisse comme partout ailleurs sur le continent. Où que vous soyez en Europe, la livraison est à notre charge, sans frais cachés.",
+ "77": "Questions fréquentes sur le processus.",
+ "79": "La maquette arrive en 24 heures et n'engage à rien. Une fois le devis validé et le paiement effectué, la fabrication et la livraison prennent au total environ 4 semaines jusqu'à l'arrivée de la commande dans votre studio.",
+ "80": "Comment vendre des produits à ma marque dans mon studio sans avoir de stock&nbsp;?",
+ "81": "Vous demandez une maquette gratuite, vous validez le design et le prix, et la commande n'est produite qu'à ce moment-là. Il n'y a pas de stock préalable au nom du studio&nbsp;: nous fabriquons à la commande, après confirmation.",
+ "82": "Quel est le minimum de commande&nbsp;?",
+ "83": "Pour les chaussettes antidérapantes, 50 paires. Pour les gourdes isothermes, les tote bags et les anneaux de Pilates, nous préparons un devis sur mesure selon la quantité.",
+ "84": "Comment le logo est-il appliqué sur les produits&nbsp;?",
+ "85": "Sur les chaussettes, nous le tissons ou le brodons, nous ne l'imprimons jamais. Sur la gourde isotherme, le tote bag et l'anneau, nous l'appliquons de la manière qui convient le mieux à chaque produit. Toujours dans votre style, et avec la couleur de votre marque reproduite avec exactitude d'après le code Pantone, la référence du secteur graphique.",
+ "87": "Oui. Nous vous envoyons un kit d'échantillons pour un petit montant, intégralement déduit de votre première commande&nbsp;: les échantillons ne vous coûtent donc rien si vous donnez suite.",
+ "89": "Oui, et toujours gratuitement, comme dans toute l'Europe. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis.",
+ "90": "Demandez votre maquette et voyez votre logo sur le produit",
+ "92": "Sans engagement. Vous recevez le visuel sous 24 heures et vous décidez ensuite.",
+ "125": "Comment ça marche : maquette gratuite en 24 h, validation du devis, fabrication et livraison gratuite dans toute l'Europe, en 4 semaines environ.",
+ "126": "Comment ça marche · Mediterrano Pilates",
+ "129": "Comment ça marche : maquette gratuite en 24 h, validation du devis, fabrication et livraison gratuite dans toute l'Europe, en 4 semaines environ.",
+ "_inserts": [],
+ "_faq_extra": [
+  {
+   "q": "Que se passe-t-il si la couleur ou la qualité ne correspond pas&nbsp;?",
+   "a": "Si la couleur livrée diffère du design validé, ou si un défaut de fabrication est signalé dans les 14 jours suivant la réception, nous refabriquons la commande sans frais. La maquette validée sert de référence."
+  },
+  {
+   "q": "Avec qui suis-je en contact pendant la commande&nbsp;?",
+   "a": "Directement avec le fondateur, Giel Mallens, par WhatsApp ou par e-mail, de la maquette à la livraison. Vous recevez la maquette en 24 heures, puis le devis, et nous suivons l'envoi jusqu'à son arrivée dans votre studio."
+  }
+ ],
+ "_ld": {
+  "HowTo": {
+   "name": "Comment fonctionne une commande de produits personnalisés chez Mediterrano Pilates",
+   "description": "Processus de la maquette gratuite à la livraison de la commande dans votre studio de Pilates ou de yoga, en cinq étapes.",
+   "step": [
+    {"@type": "HowToStep", "position": 1, "name": "Maquette numérique", "text": "Vous recevez un visuel numérique de votre logo sur le produit, sans engagement, en 24 heures."},
+    {"@type": "HowToStep", "position": 2, "name": "Ajustements", "text": "Nous affinons la couleur (reproduite d'après le code Pantone), la taille et la position jusqu'à ce que le design soit exactement le vôtre. Le logo est appliqué dans votre style, discret ou bien visible."},
+    {"@type": "HowToStep", "position": 3, "name": "Devis et confirmation", "text": "Vous recevez le devis formel avec le prix définitif ; votre validation et le paiement intégral réservent votre créneau de production."},
+    {"@type": "HowToStep", "position": 4, "name": "Fabrication", "text": "Nous tissons ou brodons, assemblons et vérifions la qualité de chaque unité avant de l'emballer."},
+    {"@type": "HowToStep", "position": 5, "name": "Livraison", "text": "Nous suivons l'envoi, gratuit dans toute l'Europe, jusqu'à son arrivée directement dans votre studio."}
+   ]
+  }
+ }
+}
