@@ -1,0 +1,17 @@
+FIXES=[
+("reproduite exactement d'après le code Pantone","reproduite au plus près du code Pantone"),
+("reproduite exactement grâce au code Pantone","reproduite au plus près du code Pantone"),
+("la couleur exacte reproduite d'après le code Pantone","la couleur reproduite au plus près du code Pantone"),
+("couleur exacte reproduite d'après le code Pantone","couleur reproduite au plus près du code Pantone"),
+("La couleur exacte de votre marque est reproduite d'après votre code Pantone","La couleur de votre marque est reproduite au plus près de votre code Pantone"),
+("nous confirmons la couleur exacte par Pantone","nous confirmons la couleur d'après votre code Pantone"),
+("vous garantit que la couleur du produit est exactement la","vous permet d'obtenir une couleur du produit au plus près de la"),
+("Vous amène de nouvelles élèves","Attire de nouvelles élèves"),
+("Les fait rester","Les fidélise"),
+("Les fait revenir","Les fidélise"),
+("il ne craquelle pas","il ne se craquelle pas"),
+("Votre maquette, vous l'avez en 24 heures","Vous recevez votre maquette en 24 heures"),
+("Nous tissons, assemblons et vérifions la qualité de chaque paire avant de l'emballer.","Nous suivons la fabrication et contrôlons chaque paire avant de l'emballer."),
+("nouveaux élèves","nouvelles élèves"),
+("Pas de minimum fixe comme pour les chaussettes","Contrairement aux chaussettes, pas de minimum fixe"),
+]

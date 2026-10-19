@@ -140,9 +140,13 @@ def translate_ld(txt, trmap, fr_path, page_extra, faq_extra=None):
                                     "acceptedAnswer": {"@type": "Answer", "text": norm(html.unescape(item["a"]))}})
     if t in ("FAQPage", "Article", "BlogPosting", "Product", "WebPage", "CollectionPage", "AboutPage"):
         o.setdefault("inLanguage", "fr")
+    if t in ("Article", "BlogPosting", "Blog", "CollectionPage") and str(o.get("inLanguage","")).startswith("es"):
+        o["inLanguage"] = "fr"
     for k, v in (page_extra.get(t) or {}).items():
         o[k] = v
-    return "\n" + json.dumps(o, ensure_ascii=False, indent=2) + "\n"
+    out = json.dumps(o, ensure_ascii=False, indent=2)
+    out = re.sub(r'("inLanguage": *)"es(-ES)?"', r'\1"fr"', out)
+    return "\n" + out + "\n"
 
 def map_url(u):
     if u.startswith(BASE):
@@ -156,6 +160,9 @@ def map_url(u):
 # ----------------------------------------------------------------- hoofd
 def build(src_path, dst_path, fr_path, dict_page_path, check_only=False):
     s = open(src_path, encoding="utf-8").read()
+    # Fase D voegde aan de bronpagina's een FR-hreflang en een FR-knop toe; die mogen de segmentindexen niet verschuiven.
+    s = re.sub(r'\n[ \t]*<a href="[^"]*" hreflang="fr">FR</a>', '', s)
+    s = re.sub(r'<link rel="alternate" hreflang="fr" href="[^"]*">\n', '', s)
     common = json.load(open(os.path.join(HERE, "dict_common.json"), encoding="utf-8"))
     ld_extra = json.load(open(os.path.join(HERE, "dict_ld.json"), encoding="utf-8")) if os.path.exists(os.path.join(HERE, "dict_ld.json")) else {}
     page = json.load(open(dict_page_path, encoding="utf-8")) if dict_page_path and os.path.exists(dict_page_path) else {}
@@ -218,6 +225,8 @@ JS_STRINGS = {
     "'Formato no admitido. Usa PNG, JPG o SVG.'": "'Format non pris en charge. Utilisez un fichier PNG, JPG ou SVG.'",
     "'El archivo pesa demasiado (máx. 7 MB).'": "'Le fichier est trop lourd (7 Mo maximum).'",
     "'Hola Mediterrano Pilates, tengo una pregunta sobre el merchandising para mi estudio.'": "'Bonjour Mediterrano Pilates, j\\'ai une question au sujet des produits personnalisés pour mon studio.'",
+    "'Hola Mediterrano Pilates, tengo una pregunta sobre el merchandising para mi estudio de yoga.'": "'Bonjour Mediterrano Pilates, j\\'ai une question au sujet des produits personnalisés pour mon studio de yoga.'",
+    "'Hola Mediterrano Pilates, tengo una pregunta sobre el merchandising para mi clínica de fisioterapia.'": "'Bonjour Mediterrano Pilates, j\\'ai une question au sujet des produits personnalisés pour mon cabinet de kinésithérapie.'",
     "'Enviando…'": "'Envoi en cours…'",
     "'.mw-card[data-product=\"Calcetines antideslizantes\"]'": "'.mw-card[data-product=\"Chaussettes antidérapantes\"]'",
     "remember(a.getAttribute('hreflang')||'es')": "remember(a.getAttribute('hreflang')||'fr')",

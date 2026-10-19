@@ -4,13 +4,13 @@
  "35": "partout.",
  "36": "Mediterrano Pilates est le partenaire des studios de Pilates et de yoga pour leurs produits personnalisés, une marque d'Ecomtierra Group SL (Espagne). La gourde isotherme de 1,2&nbsp;L à votre logo transforme chaque cours, chaque salle de sport et chaque terrasse en une publicité pour votre studio.",
  "40": "✳ Gourde isotherme de 1,2&nbsp;L, pensée pour un usage quotidien, dans le studio comme en dehors.",
- "41": "✳ Avec votre logo, dans votre style, et la couleur exacte reproduite d'après le code Pantone.",
+ "41": "✳ Avec votre logo, dans votre style, et la couleur reproduite au plus près du code Pantone.",
  "42": "✳ Pas de minimum de commande fixe : nous préparons un devis sur mesure selon votre quantité.",
  "43": "✳ Maquette gratuite en 24 heures, sans engagement ; vous ne commandez qu'après l'avoir validée.",
  "47": "La marge à la revente, c'est bien, mais ce n'est pas l'essentiel. L'essentiel, c'est ceci :",
  "49": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Une gourde isotherme à votre logo accompagne votre élève au bureau, à la salle de sport et en voyage : une publicité qui marche toute seule, sans dépenser un euro en annonces.",
  "52": "Augmenter la fidélisation de seulement 5&nbsp;% peut représenter jusqu'à 95&nbsp;% de bénéfice en plus. Une marque cohérente, dans le studio comme en dehors, fait partie des raisons pour lesquelles on reste.",
- "56": "Un studio parfait avec des produits génériques n'est pas perçu comme « presque parfait ». Il est perçu comme négligé. Voilà à quel point le poids d'un seul détail faible est disproportionné.",
+ "56": "Un studio parfait avec des produits génériques n'est pas perçu comme « presque parfait ». Il est perçu comme négligé. Un seul détail faible pèse de façon disproportionnée.",
  "58": "Questions fréquentes sur la gourde isotherme personnalisée.",
  "59": "Combien coûte une gourde isotherme personnalisée avec logo et quelle marge puis-je gagner&nbsp;?",
  "60": "La gourde isotherme de 1,2&nbsp;L coûte environ 11&nbsp;€ HT à l'achat et se revend environ 24&nbsp;€ TTC ; après déduction de la TVA (20&nbsp;%), il vous reste environ 9,00&nbsp;€ de marge par unité (environ 45&nbsp;%). Vous recevez la liste complète des prix avec votre maquette.",
@@ -20,7 +20,7 @@
  "64": "Oui. La couleur de votre marque est reproduite avec exactitude d'après son code Pantone, la référence du secteur graphique. Le logo est appliqué dans votre style, discret ou bien visible.",
  "66": "Oui. Nous vous envoyons un kit d'échantillons (chaussette, gourde isotherme et tote bag) pour un petit montant, intégralement déduit de votre première commande : les échantillons ne vous coûtent donc rien si vous donnez suite.",
  "68": "Oui. Nous vérifions que chaque matière est conforme au règlement REACH, la réglementation européenne sur les substances chimiques.",
- "70": "Oui, et toujours gratuitement, comme dans toute l'Europe. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis.",
+ "70": "Oui. Nous expédions depuis l'Espagne dans toute l'Europe, livraison gratuite comprise, et aussi hors d'Europe sur devis. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis.",
  "71": "Demandez la maquette de votre gourde isotherme et",
  "72": "décidez sans engagement.",
  "73": "Pas de minimum de commande fixe et rien à payer tant que vous n'avez pas validé votre devis. Voyez d'abord le design.",
@@ -47,7 +47,7 @@
  "_ld": {
   "Product": {
    "name": "Gourde isotherme personnalisée 1,2 L avec logo",
-   "description": "Gourde isotherme de 1,2 L personnalisée avec le logo de votre studio de Pilates ou de yoga. Votre logo, dans votre style ; couleur exacte reproduite d'après le code Pantone. Devis sur mesure selon la quantité.",
+   "description": "Gourde isotherme de 1,2 L personnalisée avec le logo de votre studio de Pilates ou de yoga. Votre logo, dans votre style ; couleur reproduite au plus près du code Pantone. Devis sur mesure selon la quantité.",
    "category": "Produits personnalisés pour studios de Pilates et de yoga",
    "offers": {
     "@type": "Offer",

@@ -65,7 +65,7 @@ body = f"""<body>
       <ul>
         <li><b>Raison sociale&nbsp;:</b> Ecomtierra Group SL (société à responsabilité limitée de droit espagnol, «&nbsp;S.L.&nbsp;»)</li>
         <li><b>Siège social&nbsp;:</b> Espagne</li>
-        <li><b>Numéro d'identification fiscale (CIF)&nbsp;:</b> B24923328</li>
+        <li><b>Numéro d'identification fiscale (NIF)&nbsp;:</b> B24923328</li>
         <li><b>E-mail&nbsp;:</b> {M}</li>
       </ul>
       <p>Mediterrano Pilates est une marque d'Ecomtierra Group SL. Nous travaillons depuis l'Espagne et fournissons des produits personnalisés à des clients professionnels (studios de Pilates et de yoga) en France, en Belgique, au Luxembourg, en Suisse et dans le reste de l'Europe.</p>
@@ -118,7 +118,7 @@ body = f"""<body>
         <tbody>
           <tr><td>Fonctionnement du site et mémorisation de votre choix</td><td>Stockage local de votre navigateur (clés mp_cookie_consent et mp_cookie_consent_ts)</td><td>Non requis</td></tr>
           <tr><td>Mesure d'audience</td><td>Google Analytics 4 (Google Ireland Ltd.)</td><td>Requis</td></tr>
-          <tr><td>Mesure de nos annonces</td><td>Pixel Meta (Meta Platforms Ireland Ltd.)</td><td>Requis</td></tr>
+          <tr><td>Mesure de nos annonces</td><td>pixel Meta (Meta Platforms Ireland Ltd.)</td><td>Requis</td></tr>
         </tbody>
       </table>
       <p>À votre première visite, un bandeau vous propose «&nbsp;Tout accepter&nbsp;» ou «&nbsp;Tout refuser&nbsp;», avec la même visibilité. Tant que vous n'avez pas choisi, aucun outil de mesure n'est chargé. Le site fonctionne de la même façon dans les deux cas.</p>

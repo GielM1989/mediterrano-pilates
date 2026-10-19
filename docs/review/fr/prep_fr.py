@@ -7,6 +7,7 @@ common = json.load(open(os.path.join(HERE, "dict_common.json"), encoding="utf-8"
 ld = json.load(open(os.path.join(HERE, "dict_ld.json"), encoding="utf-8"))
 src = sys.argv[1]; out = sys.argv[2]
 s = open(os.path.join(ROOT, src), encoding="utf-8").read()
+s = re.sub(r"\n[ \t]*<a href=\"[^\"]*\" hreflang=\"fr\">FR</a>", "", s)
 segs = extract(s)
 todo = {}; ldtodo = []
 for i, (kind, a, b, t) in enumerate(segs):
