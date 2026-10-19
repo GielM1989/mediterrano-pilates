@@ -58,8 +58,8 @@
  "94": "Sans engagement. Vous recevez le visuel avec votre vrai logo sous 24 heures et vous décidez ensuite.",
  "100": "Cadeaux de Noël",
  "101": "Kit de bienvenue",
- "119": "Prix approximatif par paire, ce qui est inclus, minimum de commande, délais et exemple d'une commande de 50 paires au logo de votre studio de Pilates ou de yoga.",
- "124": "Prix approximatif par paire, ce qui est inclus, minimum de commande, délais et exemple d'une commande de 50 paires au logo de votre studio de Pilates ou de yoga.",
+ "119": "Prix approximatif par paire, minimum de commande, délais et exemple d'une commande de 50 paires au logo de votre studio de Pilates ou de yoga.",
+ "124": "Prix approximatif par paire, minimum de commande, délais et exemple d'une commande de 50 paires au logo de votre studio de Pilates ou de yoga.",
  "120": "Combien coûtent des chaussettes antidérapantes personnalisées à votre logo · Mediterrano Pilates",
  "_ld_map": {
   "Aproximadamente 6,95 € por par, precio mayorista sin IVA, con un pedido mínimo de 50 pares. Los estudios en España los venden, de media, a 17,95 €, IVA incluido; después de descontar el IVA, te quedan aproximadamente 7,88 € por par. La cifra exacta se confirma en la cotización gratuita.": "Environ 6,95 € HT la paire, prix de gros hors TVA, avec un minimum de commande de 50 paires. Au prix de vente conseillé en France de 19,95 € TTC, il vous reste environ 9,68 € par paire après TVA. Le chiffre exact est confirmé dans le devis gratuit.",
@@ -110,5 +110,6 @@
    "<td>394,24 €</td>",
    "<td>483,75&nbsp;€</td>"
   ]
- ]
+ ],
+ "0": "Prix des chaussettes antidérapantes personnalisées"
 }

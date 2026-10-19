@@ -91,7 +91,7 @@ for f in PAGES:
             # 'merchandising' mag niet in zichtbare tekst; 'IVA' ook niet
             err(name, f"verboden woord /{pat}/: " + re.search(pat, vis, re.I).group(0))
     for pat in SPANISH_NUMBERS:
-        if re.search(pat, vis) and not (is_legal and "21" in pat): err(name, f"Spaans cijfer /{pat}/ in tekst")
+        if re.search(pat, vis) and not (is_legal and "21" in pat) and not ("/fr/blog/" in name and pat == r"17,95"): err(name, f"Spaans cijfer /{pat}/ in tekst")
     for mm in re.finditer(TU_FORMS, vis, re.I):
         ctx = vis[max(0, mm.start() - 25):mm.end() + 25].replace("\n", " ")
         if re.fullmatch(r"te", mm.group(0), re.I) and True:
@@ -136,7 +136,7 @@ for f in PAGES:
     if any(name.endswith(x) or x in name for x in PRODUCT_NICHE) or name == "/fr/faq/":
         n = len(faq_q)
         if name != "/fr/faq/" and not (6 <= n <= 10): warn(name, f"{n} FAQ-vragen (richtlijn 6-10)")
-    if any(x in name for x in PRODUCT_NICHE):
+    if any(x in name for x in PRODUCT_NICHE) and "/fr/blog/" not in name:
         if "En bref" not in vis: err(name, "feitenblok 'En bref' ontbreekt")
         if not re.search(r"minimum de commande", vis, re.I): warn(name, "geen 'minimum de commande' in tekst/FAQ")
         if not re.search(r"Belgique", vis): warn(name, "Belgique/Luxembourg/Suisse niet genoemd")

@@ -17,3 +17,11 @@ run aro-de-pilates-personalizado anneau-de-pilates-personnalise dict_anneau-de-p
 run merchandising-estudios-yoga produits-personnalises-studios-yoga dict_produits-personnalises-studios-yoga.json
 run merchandising-estudios-barre produits-personnalises-studios-barre dict_produits-personnalises-studios-barre.json
 run merchandising-clinicas-fisioterapia produits-personnalises-cabinets-kinesitherapie dict_produits-personnalises-cabinets-kinesitherapie.json
+# Fase C: blog
+run blog blog dict_blog_blog-index.json
+run blog/regalos-de-navidad-alumnas-pilates blog/cadeaux-de-noel-eleves-pilates dict_blog_regalos.json
+run blog/aumentar-ingresos-estudio-pilates-sin-stock blog/augmenter-chiffre-affaires-studio-pilates-sans-stock dict_blog_aumentar.json
+run blog/fidelizar-alumnas-pilates-productos-marca blog/fideliser-eleves-pilates-produits-a-votre-logo dict_blog_fidelizar.json
+run blog/como-elegir-proveedor-calcetines-personalizados blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees dict_blog_elegir.json
+run blog/cuanto-cuesta-personalizar-calcetines-antideslizantes blog/prix-chaussettes-antiderapantes-personnalisees dict_blog_cuanto.json
+run blog/pack-de-bienvenida-alumnas-nuevas-pilates blog/kit-de-bienvenue-nouveaux-eleves-pilates dict_blog_pack.json
