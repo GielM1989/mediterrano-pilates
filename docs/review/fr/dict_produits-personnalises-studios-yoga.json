@@ -26,7 +26,7 @@
  "57": "Yoga et produits à votre logo&nbsp;:",
  "58": "là où ils ont vraiment leur place.",
  "59": "Mediterrano Pilates est le partenaire des studios de Pilates et de yoga pour leurs produits personnalisés. Nous personnalisons des chaussettes antidérapantes, des gourdes isothermes, des tote bags et des anneaux de Pilates avec le logo de votre studio, pour que vous les vendiez à vos élèves. Un studio de yoga ne fonctionne pas comme un studio de Pilates, et c'est pour cela que cette page existe.",
- "60": "De nombreux studios combinent les deux disciplines dans la même salle, avec les mêmes élèves.",
+ "60": "Certains studios combinent les deux disciplines dans la même salle, avec les mêmes élèves.",
  "61": "En yoga, beaucoup pratiquent pieds nus, et rien n'oblige à changer cela. La chaussette antidérapante trouve sa place là où l'élève la cherche déjà&nbsp;: en yin et en yoga restauratif, avec des postures longues pendant lesquelles les pieds se refroidissent&nbsp;; dans les cours d'hiver ou sur les sols froids&nbsp;; chez celles qui préfèrent ne pas poser le pied nu sur un tapis partagé&nbsp;; et dans tout studio qui propose aussi du Pilates ou de la barre. Le tote bag et la gourde isotherme, eux, servent à toutes vos élèves, quel que soit le style pratiqué.",
  "62": "Yoga et Pilates dans le même studio",
  "63": "Une seule commande de chaussettes couvre les deux plannings&nbsp;: en Pilates, c'est du matériel de cours&nbsp;; en yoga, une option pour celles qui le préfèrent.",
@@ -64,7 +64,7 @@
  "106": "Exemple&nbsp;: vous achetez les chaussettes au prix de gros d'environ 6,95&nbsp;€ HT la paire et vous les vendez à vos élèves 19,95&nbsp;€ TTC&nbsp;; après déduction de la TVA, il vous reste environ 9,68&nbsp;€ de marge par paire. Avec le minimum de commande de 50 paires, cela représente 347,50&nbsp;€ HT d'achat et environ 483,75&nbsp;€ de marge. Le devis exact vous est remis avec votre maquette.",
  "107": "Yoga, Pilates ou les deux&nbsp;:",
  "108": "une seule commande.",
- "109": "De nombreux studios combinent yoga et Pilates, parfois dans la même salle. La chaussette est la même pour les deux disciplines&nbsp;: un logo, une maquette et une seule commande dès 50 paires qui couvre tout le planning du studio.",
+ "109": "Certains studios combinent yoga et Pilates, parfois dans la même salle. La chaussette est la même pour les deux disciplines&nbsp;: un logo, une maquette et une seule commande dès 50 paires qui couvre tout le planning du studio.",
  "110": "Si votre studio ne propose que du yoga, commencez par ce que vos élèves utilisent déjà à chaque visite, le tote bag et la gourde isotherme, et ajoutez les chaussettes pour le yin, le restauratif et les cours d'hiver. Les mêmes produits servent aussi de cadeau de bienvenue ou de Noël&nbsp;; vous trouverez des idées dans notre article sur",
  "111": "le kit de bienvenue pour les nouvelles élèves",
  "113": "de la chaussette.",
@@ -75,7 +75,7 @@
  "118": "Commande dès 50 paires, pour qu'un petit studio puisse commencer sans prendre un gros risque de stock.",
  "119": "De votre logo au comptoir en",
  "123": "Vous recevez un visuel numérique de votre logo sur la chaussette, sans engagement.",
- "126": "Nous affinons la couleur, la taille et la position jusqu'à ce que le design soit exactement le vôtre.",
+ "126": "Nous affinons la couleur, la taille et la position jusqu'à ce que le design vous convienne.",
  "129": "Vous recevez le devis formel avec le prix définitif&nbsp;; votre validation et le paiement intégral réservent votre créneau de production.",
  "132": "Nous suivons la fabrication et contrôlons chaque paire avant de l'emballer.",
  "135": "Nous suivons l'envoi jusqu'à son arrivée, directement dans votre studio, où que vous soyez.",
@@ -166,7 +166,7 @@
   "Service": {
    "name": "Produits personnalisés pour studios de yoga",
    "serviceType": "Produits personnalisés avec logo pour studios de yoga",
-   "description": "Mediterrano Pilates personnalise des chaussettes antidérapantes, des tote bags, des gourdes isothermes et des anneaux de Pilates avec le logo de studios de yoga, pour que le studio les vende à ses élèves. Logo tissé ou brodé sur les chaussettes, couleur reproduite d'après le code Pantone, minimum de commande de 50 paires de chaussettes, maquette gratuite en 24 heures et livraison gratuite dans toute l'Europe, France, Belgique, Luxembourg et Suisse comprises.",
+   "description": "Mediterrano Pilates personnalise des chaussettes antidérapantes, des tote bags, des gourdes isothermes et des anneaux de Pilates avec le logo de studios de yoga, pour que le studio les vende à ses élèves. Logo tissé ou brodé sur les chaussettes, couleur reproduite au plus près du code Pantone, minimum de commande de 50 paires de chaussettes, maquette gratuite en 24 heures et livraison gratuite dans toute l'Europe, France, Belgique, Luxembourg et Suisse comprises.",
    "audience": {
     "@type": "BusinessAudience",
     "name": "Studios de yoga, studios de yoga et de Pilates et centres de bien-être proposant des cours de yoga"
