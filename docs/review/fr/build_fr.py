@@ -341,7 +341,7 @@ def postprocess(out, src, fr_path, page=None):
     out = re.sub(r"(?<=[>\s(])(\d+(?:[,.]\d+)?) (%|€)(?=[\s.,;:)<])", r"\1&nbsp;\2", out)
     # (niet binnen JSON-LD: daar hoort geen HTML in)
     parts = re.split(r'(<script type="application/ld\+json">[\s\S]*?</script>)', out)
-    out = "".join(p if p.startswith('<script type="application/ld+json">') else re.sub(r"(>[^<]*?)\b1er novembre", r"\g<1>1<sup>er</sup> novembre", p) for p in parts)
+    out = "".join(p if p.startswith('<script type="application/ld+json">') else re.sub(r"(>[^<]*?)\b1er novembre", r"\g<1>1er novembre", p) for p in parts)
     out = out.replace('href="/#', 'href="/fr/#')
     out = out.replace('href="/"', 'href="/fr/"').replace('href="./"', 'href="/fr/"').replace('href="en/"', 'href="/en/"').replace('href="de/"', 'href="/de/"')
     # interne URL's ES -> FR (langste eerst)
