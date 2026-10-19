@@ -1,0 +1,13 @@
+# Aanvulling op BRIEF-vertaling.md voor de blogartikelen (fase C)
+
+Lees eerst `docs/review/fr/BRIEF-vertaling.md` volledig; alles daarin geldt ook hier. Aanvullend voor blog:
+
+- Todo-bestanden: `docs/review/fr/todo_blog_<naam>.json`; lever `docs/review/fr/dict_blog_<naam>.json` (zelfde formaat). Bron: `site/blog/<es-slug>/index.html` (index: `site/blog/index.html`).
+- Elk artikel is een EIGEN Franse tekst voor Franse studio-eigenaren, geen woord-voor-woord vertaling. Behoud structuur (koppen, tabellen, lijsten), want de builder vervangt per segment.
+- Franse prijzen en marges (HT/TTC, TVA 20 %, marge = TTC/1,20 − HT): chaussettes 6,95 € HT → 19,95 € TTC, marge 9,68 € (58 %); gourde 1,2 L 11 → 24, marge 9,00 € (45 %); tote bag 6,50 → 15, marge 6,00 € (48 %); anneau 7 → 16,50, marge 6,75 € (49 %); 50 paires = 347,50 € HT, marge 483,75 €; marges 45 à 58 %. Rekenvoorbeelden in de bron met Spaanse bedragen (7,88 €, 19,95 € PVP incl. 21 % IVA enz.) moeten naar deze Franse cijfers: zet ze in `_replace` met de EXACTE HTML-tekst uit de bron (cijfers staan vaak in `_numeric_segments`). Verzin nooit een getal; als een cijfer niet uit deze lijst of uit de bron te herleiden is, laat het weg of herformuleer.
+- Enige toegestane externe statistieken: ASI 85 % en Bain/HBR 5 % → 95 %, en alleen als de Spaanse bron ze al noemt. Spaanse wetten, BOE, Spaanse marktdata, Spaanse steden of kolegios/beroepsorden moeten uit de Franse tekst: herformuleer algemeen ("selon la réglementation de votre pays") of schrap de zin. Geen testimonials, geen klantaantallen; voorbeelden markeren als « exemple ».
+- Data: zichtbare publicatie- en bijwerkdatum vertalen naar Frans formaat (bijv. « 11 octobre 2026 »); laat ISO-data in JSON-LD staan. Kerstdeadline: maquette vragen vóór 1 november, valideren uiterlijk 15 november, productie en levering ± 4 weken, aankomst midden december (zoals in `dict_ld.json`). Gebruik overal deze data.
+- Schrijf vouvoiement, geen uitroeptekens, geen gedachtestreepjes (—), geen superlatieven, geen kortingstaal. Termen: zie brief. « Cadeaux de Noël », « kit de bienvenue », « élèves ».
+- FAQ in JSON-LD (`_ld_map`) woordelijk gelijk aan de zichtbare FAQ. Alle `_ld_strings` krijgen een vertaling.
+- Test je werk: `python3 docs/review/fr/build_fr.py site/blog/<es-slug>/index.html /tmp/test_<naam>.html /fr/blog/<fr-slug>/ docs/review/fr/dict_blog_<naam>.json` en los alle meldingen (onvertaald, Spaanse resten, FAQ-mismatch, waarschuwingen) op. Slugs: zie URL_MAP in `docs/review/fr/build_fr.py`. Schrijf NIET naar `site/`. Raak geen andere bestanden aan.
+- Rapporteer kort: wat is klaar, wat is onopgelost, welke Spaanse feiten/cijfers je moest schrappen of herformuleren.
