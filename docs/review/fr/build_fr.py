@@ -329,6 +329,7 @@ def postprocess(out, src, fr_path, page=None):
     # Franse typografie: fijne spatie voor ? na een span (bijv. "personnaliser</span>?")
     out = out.replace("</span>?<", "</span>&nbsp;?<")
     out = re.sub(r">(\+?\d+)%<", r">\1&nbsp;%<", out)
+    out = re.sub(r"(?<=[>\s(])(\d+(?:[,.]\d+)?) (%|€)(?=[\s.,;:)<])", r"\1&nbsp;\2", out)
     # (niet binnen JSON-LD: daar hoort geen HTML in)
     parts = re.split(r'(<script type="application/ld\+json">[\s\S]*?</script>)', out)
     out = "".join(p if p.startswith('<script type="application/ld+json">') else re.sub(r"(>[^<]*?)\b1er novembre", r"\g<1>1<sup>er</sup> novembre", p) for p in parts)
