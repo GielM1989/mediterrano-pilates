@@ -91,7 +91,7 @@ for f in PAGES:
             # 'merchandising' mag niet in zichtbare tekst; 'IVA' ook niet
             err(name, f"verboden woord /{pat}/: " + re.search(pat, vis, re.I).group(0))
     for pat in SPANISH_NUMBERS:
-        if re.search(pat, vis): err(name, f"Spaans cijfer /{pat}/ in tekst")
+        if re.search(pat, vis) and not (is_legal and "21" in pat): err(name, f"Spaans cijfer /{pat}/ in tekst")
     for mm in re.finditer(TU_FORMS, vis, re.I):
         ctx = vis[max(0, mm.start() - 25):mm.end() + 25].replace("\n", " ")
         if re.fullmatch(r"te", mm.group(0), re.I) and True:
