@@ -1,0 +1,89 @@
+{
+ "0": "Prix et marges des produits personnalisés pour studios",
+ "32": "des produits personnalisés",
+ "33": "Les prix et les marges, en toute transparence,",
+ "34": "avant de commander quoi que ce soit.",
+ "35": "Mediterrano Pilates est le partenaire des studios de Pilates et de yoga pour leurs produits personnalisés, une marque d'Ecomtierra Group SL (Espagne). Vous trouverez ici le prix d'achat, le prix de vente conseillé et la marge des quatre produits, sans avoir à demander un devis au préalable.",
+ "36": "Une précision avant les chiffres&nbsp;: le prix d'achat d'environ 6,95&nbsp;€ HT correspond à une chaussette antidérapante technique, avec semelle à picots en silicone et logo tissé ou brodé, le même type de chaussette que vos élèves achètent déjà pour leurs cours. C'est à cela qu'il convient de la comparer.",
+ "38": "Prix d'achat, prix de vente et marge par produit",
+ "39": "Prix d'achat de gros indicatifs, HT. Le prix de vente est un prix conseillé, TTC&nbsp;; la marge est calculée après déduction de la TVA (20&nbsp;%). Le devis exact pour votre quantité vous est remis avec votre maquette gratuite.",
+ "40": "Produit",
+ "41": "Achat (HT)",
+ "42": "Vente conseillée (TTC)",
+ "43": "Marge (après TVA)",
+ "45": "6,95&nbsp;€",
+ "46": "19,95&nbsp;€",
+ "47": "≈9,68&nbsp;€ (58&nbsp;%)",
+ "48": "Gourde isotherme 1,2&nbsp;L",
+ "49": "≈9,00&nbsp;€ (45&nbsp;%)",
+ "51": "≈6,00&nbsp;€ (48&nbsp;%)",
+ "53": "≈6,75&nbsp;€ (49&nbsp;%)",
+ "54": "Le prix d'achat est le prix de gros HT. Le prix de vente est un prix conseillé, TTC, et c'est vous qui fixez le prix final pour vos élèves. La marge est ce qu'il vous reste après déduction de la TVA (20&nbsp;%).",
+ "55": "Vous souhaitez voir le calcul complet avec la TVA et un exemple sur 50 paires&nbsp;? Lisez",
+ "56": "combien coûtent des chaussettes antidérapantes personnalisées",
+ "59": "La marge à la revente figure dans le tableau ci-dessus, mais ce n'est pas l'essentiel. L'essentiel, c'est ceci&nbsp;:",
+ "61": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque produit à votre logo est une visibilité sans frais d'annonce, sans frais d'annonce.",
+ "64": "Augmenter la fidélisation de seulement 5&nbsp;% peut représenter jusqu'à 95&nbsp;% de bénéfice en plus. Une marque cohérente, dans le studio comme en dehors, fait partie des raisons pour lesquelles on reste.",
+ "68": "Un studio parfait avec des produits génériques n'est pas perçu comme «&nbsp;presque parfait&nbsp;». Il risque d'être perçu comme négligé. Un seul détail faible peut peser de façon disproportionnée.",
+ "70": "Questions fréquentes sur les prix et les marges.",
+ "71": "Combien coûtent des chaussettes antidérapantes personnalisées et quelle marge laissent-elles&nbsp;?",
+ "72": "Les chaussettes coûtent environ 6,95&nbsp;€ HT la paire, au prix de gros. Le prix de vente conseillé en France est de 19,95&nbsp;€ TTC&nbsp;; après déduction de la TVA (20&nbsp;%), il vous reste environ 9,68&nbsp;€ de marge par paire (environ 58&nbsp;%).",
+ "73": "Combien coûte une gourde isotherme personnalisée et quelle marge laisse-t-elle&nbsp;?",
+ "74": "La gourde isotherme de 1,2&nbsp;L coûte environ 11&nbsp;€ HT et se vend autour de 24&nbsp;€ TTC&nbsp;; après déduction de la TVA, il vous reste environ 9,00&nbsp;€ de marge par unité (environ 45&nbsp;%).",
+ "75": "Combien coûte un tote bag personnalisé et quelle marge laisse-t-il&nbsp;?",
+ "76": "Le tote bag en coton coûte environ 6,50&nbsp;€ HT et se vend autour de 15&nbsp;€ TTC&nbsp;; après déduction de la TVA, il vous reste environ 6,00&nbsp;€ de marge par unité (environ 48&nbsp;%).",
+ "77": "Combien coûte un anneau de Pilates personnalisé et quelle marge laisse-t-il&nbsp;?",
+ "78": "L'anneau de Pilates coûte environ 7&nbsp;€ HT et se vend autour de 16,50&nbsp;€ TTC&nbsp;; après déduction de la TVA, il vous reste environ 6,75&nbsp;€ de marge par unité (environ 49&nbsp;%).",
+ "79": "Les prix incluent-ils la TVA&nbsp;?",
+ "80": "Les prix d'achat sont des prix de gros HT. Les prix de vente conseillés sont ce que paient vos élèves, TTC. Les marges de cette page sont calculées avec la TVA française de 20&nbsp;%&nbsp;; selon votre pays et votre situation, le taux applicable peut différer.",
+ "81": "Faut-il payer quelque chose avant de voir le design&nbsp;?",
+ "82": "Non. Vous demandez votre maquette gratuite, vous voyez votre logo sur le produit en 24 heures, et vous ne commandez qu'après avoir validé le design et le prix définitif.",
+ "83": "Demandez votre maquette et",
+ "84": "recevez votre devis exact.",
+ "85": "Sans engagement. Vous recevez le visuel et le prix définitif sous 24 heures.",
+ "98": "Combien coûtent les chaussettes",
+ "116": "Prix d'achat HT, prix de vente conseillé TTC et marge après TVA des chaussettes antidérapantes, gourdes, tote bags et anneaux de Pilates à votre logo.",
+ "117": "Prix et marges · Mediterrano Pilates",
+ "120": "Prix d'achat HT, prix de vente conseillé TTC et marge après TVA des chaussettes antidérapantes, gourdes, tote bags et anneaux de Pilates à votre logo.",
+ "_ld_map": {
+  "Precios y márgenes": "Prix et marges"
+ },
+ "_replace": [
+  [
+   ">11 €</td>",
+   ">11&nbsp;€</td>"
+  ],
+  [
+   ">24 €</td>",
+   ">24&nbsp;€</td>"
+  ],
+  [
+   ">6,50 €</td>",
+   ">6,50&nbsp;€</td>"
+  ],
+  [
+   ">15 €</td>",
+   ">15&nbsp;€</td>"
+  ],
+  [
+   ">7 €</td>",
+   ">7&nbsp;€</td>"
+  ],
+  [
+   ">16,50 €</td>",
+   ">16,50&nbsp;€</td>"
+  ]
+ ],
+ "_inserts": [],
+ "_faq_extra": [
+  {
+   "q": "Combien coûte une première commande de 50 paires&nbsp;?",
+   "a": "À titre d'exemple, 50 paires de chaussettes antidérapantes à votre logo représentent 347,50&nbsp;€ HT, livraison gratuite comprise. Vendues 19,95&nbsp;€ TTC la paire, elles laissent environ 9,68&nbsp;€ de marge par paire après TVA (20&nbsp;%). Vous recevez le devis exact pour votre quantité avec votre maquette gratuite."
+  },
+  {
+   "q": "Comment fonctionne la TVA pour un studio français&nbsp;?",
+   "a": "Mediterrano Pilates facture depuis l'Espagne. Pour une entreprise de l'UE disposant d'un numéro de TVA intracommunautaire valide, la facture est établie en livraison intracommunautaire exonérée et la TVA est due par l'acquéreur dans son pays (autoliquidation)&nbsp;; sans numéro de TVA valide, la TVA espagnole est facturée. Pour la Suisse, la facture est établie hors TVA&nbsp;: la TVA à l'importation (8,1&nbsp;%) et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis."
+  }
+ ],
+ "_ld": {}
+}

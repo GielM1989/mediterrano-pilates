@@ -38,6 +38,10 @@
       target='/nl/'; code='nl';
       msg='Het lijkt erop dat je Nederlands spreekt. Deze pagina in het Nederlands bekijken?';
       btnLabel='Bekijk in het Nederlands';
+    } else if(primary.indexOf('fr')===0){
+      target='/fr/'; code='fr';
+      msg='Il semble que vous préfériez le français. Voir cette page en français ?';
+      btnLabel='Voir en français';
     } else if(primary.indexOf('de')===0){
       target='/de/'; code='de';
       msg='Es sieht so aus, als würdest du Deutsch bevorzugen. Diese Seite auf Deutsch ansehen?';
@@ -82,6 +86,7 @@
 <link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/">
 <link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/">
 <link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/">
+<link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/">
 <link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/">
 <meta property="og:description" content="Calcetines antideslizantes, vasos térmicos premium, tote bags y aros de pilates con el logo de tu estudio. Boceto gratis en 24 horas, sin compromiso, y envío gratis a toda Europa.">
 <meta property="og:locale" content="es_ES">
@@ -1455,6 +1460,7 @@ footer a{white-space:nowrap}
       <a href="en/" hreflang="en">EN</a>
       <a href="de/" hreflang="de">DE</a>
       <a href="/nl/" hreflang="nl">NL</a>
+      <a href="/fr/" hreflang="fr">FR</a>
     </nav>
     <div class="nav-cta">
       <a class="btn btn-wa js-wa" href="#" hidden data-wa-loc="header" aria-label="Escríbenos por WhatsApp">
