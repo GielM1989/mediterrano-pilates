@@ -33,7 +33,7 @@ HEAD = f'''<title>{TITLE}</title>
 <meta property="og:locale" content="es_ES">
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/images/favicon.svg">
-<script>window.MP_PIXEL_ID = '1591577842375803';</script>
+<script>window.MP_PIXEL_ID = '868975239639188';</script>
 <script>window.MP_GA_ID = 'G-Q9SY1F5KKF';</script>
 <script>window.MP_WHATSAPP = '31657408010';</script>
 <script type="application/ld+json">
