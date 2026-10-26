@@ -668,7 +668,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .mw-swatch span.mw-swatch-label{font-size:.72rem;color:var(--ink);text-align:center;line-height:1.15}
 .mw-swatch-custom .mw-swatch-dot{background:conic-gradient(from 0deg,#D06A3F,#E0A24E,#9CAF88,#D8B4B0,#B9A99A,#D06A3F)}
 .mw-field-custom-color{margin:4px 0 20px;animation:mwFadeIn .25s ease}
-.mw-field-custom-color input{width:100%;border:2px solid var(--line);border-radius:12px;padding:12px 14px;font-family:'Inter',sans-serif;font-size:.95rem;background:var(--cream)}
+.mw-field-custom-color input{width:100%;border:2px solid var(--line);border-radius:12px;padding:12px 14px;font-family:'Inter',sans-serif;font-size:16px;background:var(--cream);scroll-margin:120px 0 160px}
 .mw-field-custom-color input:focus-visible{outline:none;border-color:var(--terra);background:#fff}
 .mw-field-custom-color label{display:block;font-size:.85rem;font-weight:600;color:var(--ink);margin-bottom:6px}
 
@@ -2169,10 +2169,12 @@ footer a{white-space:nowrap}
     if (customWrap) customWrap.hidden = !isCustom;
     if (isCustom && sockColor){
       sockColor.value = (customInput && customInput.value.trim()) ? customInput.value.trim() : 'Anders';
-      if (customInput) customInput.focus();
+      if (customInput){ try{ customInput.focus({preventScroll:true}); }catch(err){ customInput.focus(); } }
     }
   });
   if (customInput && sockColor){
+    /* iOS/Instagram: veld pas in beeld schuiven als het toetsenbord open is, anders valt het achter de toetsenbordbalk */
+    customInput.addEventListener('focus', function(){ setTimeout(function(){ try{ customInput.scrollIntoView({block:'center', behavior:'smooth'}); }catch(err){ customInput.scrollIntoView(); } }, 350); });
     customInput.addEventListener('input', function(){
       var sw = document.querySelector('#mwSockColors .mw-swatch-custom.is-selected');
       if (sw) sockColor.value = customInput.value.trim() || 'Anders';
