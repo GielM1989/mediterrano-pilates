@@ -758,7 +758,7 @@ html,body{overflow-x:hidden;max-width:100%}
 .cookie-btn.accept:hover{background:#fff}
 .cookie-btn.decline{background:transparent;color:rgba(245,238,224,.8);border:1.5px solid rgba(245,238,224,.3)}
 .cookie-btn.decline:hover{border-color:var(--cream)}
-@media (max-width:560px){.cookie-bar{flex-direction:column;align-items:stretch;text-align:left;padding:12px 14px;gap:10px;left:10px;right:10px;bottom:10px;border-radius:14px}.cookie-bar p{font-size:.78rem;line-height:1.4;min-width:0}.cookie-actions{justify-content:stretch}.cookie-btn{flex:1;padding:9px 14px;font-size:.85rem}}
+@media (max-width:560px){.cookie-bar{flex-direction:column;align-items:stretch;text-align:left;padding:10px 12px;gap:8px;left:8px;right:8px;bottom:calc(8px + env(safe-area-inset-bottom,0px));border-radius:14px}.cookie-bar p{font-size:.72rem;line-height:1.35;min-width:0}.cookie-actions{justify-content:stretch}.cookie-btn{flex:1;padding:7px 12px;font-size:.82rem}.cookie-actions .cookie-btn{min-width:0}}
 
 /* ============ MOCKUP WIZARD ============ */
 .mw-progress{margin-bottom:18px}
@@ -1371,7 +1371,7 @@ footer a{white-space:nowrap}
 })();
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookies">
-  <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics) et l'efficacité de nos publicités (Meta Pixel). Rien n'est activé sans votre accord. Vous pouvez tout accepter ou tout refuser, et changer d'avis à tout moment via le lien « Gestion des cookies » en bas de page. Votre choix est conservé 6 mois. En savoir plus dans notre <a href="/fr/legal.html#confidentialite">politique de confidentialité</a>.</p>
+  <p>Cookies d'audience (Google Analytics) et publicitaires (Meta Pixel), seulement avec votre accord, modifiable à tout moment en bas de page. <a href="/fr/legal.html#confidentialite">Politique de confidentialité</a>.</p>
   <div class="cookie-actions">
     <button class="cookie-btn decline" id="cookieDecline">Tout refuser</button>
     <button class="cookie-btn accept" id="cookieAccept">Tout accepter</button>
