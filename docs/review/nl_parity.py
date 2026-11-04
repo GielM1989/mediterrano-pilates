@@ -16,7 +16,7 @@ MIN_A = ("Voor antislipsokken 50 paar. Voor tote bags is het minimum 50 stuks. V
          "we maken een offerte op maat voor het aantal dat je in gedachten hebt.")
 SAMPLES = ("Ja. We sturen je een set proefexemplaren (sok, tumbler en tote bag) voor een klein bedrag, dat volledig wordt "
            "verrekend met je eerste bestelling. Bestel je, dan zijn de proefexemplaren dus gratis.")
-SHIP_BLOG = ("Ja, gratis, net als in de rest van Europa. We werken vanuit Spanje met studio's in heel Europa en daarbuiten; buiten Europa leveren we op aanvraag. " + STD)
+SHIP_BLOG = ("Ja, gratis, net als in de rest van Europa. We werken vanuit Spanje met studio's in heel Europa en daarbuiten; levering buiten Europa regelen we op aanvraag. " + STD)
 SHIP_Q = "Leveren jullie ook in Nederland en België?"
 
 PAGES = {
