@@ -144,7 +144,7 @@ PAGES = {
         "block": ("Kurz gesagt", [
             "Mediterrano Pilates personalisiert Stoppersocken, Tumbler und Tote Bags mit dem Logo deiner "
             "Physiotherapie-Praxis zum Verkauf an der Rezeption.",
-            "Das Logo wird in die Socken eingewebt oder aufgestickt, nie aufgedruckt; die Grip-Sohle ist aus PVC "
+            "Das Logo wird in die Socken eingewebt oder auf die Socken gestickt, nie aufgedruckt; die Grip-Sohle ist aus PVC "
             "oder Silikon, das Material REACH-konform.",
             f"Mindestbestellung: 50 Paar Socken für rund 6,95{NB}€ pro Paar zzgl. MwSt. Empfohlener "
             f"Verkaufspreis: 19,95{NB}€ inkl. MwSt., also rund 9,81{NB}€ Marge pro Paar nach 19{NB}% MwSt.",

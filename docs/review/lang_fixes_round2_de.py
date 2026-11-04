@@ -12,7 +12,7 @@ P = [
  ("Das einfachste Produkt für den Start.", "Das Produkt für den Einstieg."),
  ("Die direkte Marge ist die sichtbarste, aber nicht die wichtigste.", "Die direkte Marge sieht man sofort. Sie ist aber nur ein Teil des Gewinns."),
  ("Mediterrano Pilates arbeitet mit einer Mindestbestellmenge von 50 Paar für Stoppersocken und mit einem individuellen Angebot für Trinkflaschen, Taschen und Pilates-Ringe.",
-  "Bei Mediterrano Pilates liegt die Mindestbestellmenge bei 50 Paar Stoppersocken und 50 Tote Bags. Für Tumbler und Pilates-Ringe gibt es keine feste Mindestmenge, die Menge legen wir im Angebot fest."),
+  "Bei Mediterrano Pilates liegt die Mindestbestellmenge bei 50 Paar Stoppersocken. Für Tumbler, Tote Bags und Pilates-Ringe gibt es keine feste Mindestmenge, die Menge legen wir im Angebot fest."),
  ("Bleibt der Preis und die Frage, ob etwas extra berechnet wird.", "Bleiben der Preis und die Frage, ob etwas extra berechnet wird."),
  ("für eine Schwester oder für sie selbst.", "für eine Schwester oder für sich selbst."),
  ("Dennoch kann deine Berufskammer das im Einzelfall anders einschätzen.", "Dennoch kann dein Berufsverband das im Einzelfall anders einschätzen."),

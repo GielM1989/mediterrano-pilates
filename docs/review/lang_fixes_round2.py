@@ -30,7 +30,7 @@ P = [
  ("la référence du secteur graphique", "la référence des professionnels de l'impression"),
  ("nous l'appliquons de la manière la mieux adaptée à chaque produit.", "nous l'appliquons avec la technique adaptée à chaque produit."),
  ("jamais imprimé, pour un logo qui résiste au lavage.", "jamais imprimé, pour qu'il résiste aux lavages."),
- ("à partir de la validation de la maquette, la commande arrive donc dans votre studio à la mi-décembre.", "à partir de la validation de la maquette. Votre commande arrive donc dans votre studio à la mi-décembre."),
+ ("à partir de la validation de la maquette, la commande arrive donc dans votre studio à la mi-décembre.", "à partir de la validation de la maquette. Votre commande peut donc arriver dans votre studio à la mi-décembre."),
  ("et nous préparons un devis sur mesure.", "et nous vous préparons un devis sur mesure."),
  # ES
  ("<h2>Aprueba tu boceto gratis <span class=\"fx\">antes del 15 de noviembre.</span></h2>", "<h2>Aprueba tu boceto gratuito <span class=\"fx\">como muy tarde el 15 de noviembre.</span></h2>"),
@@ -46,9 +46,9 @@ P = [
  ("the mockup needs to be approved by mid-November to have everything", "the mockup needs to be approved by 15 November to have everything"),
  ("Yes. Most of the studios we work with are in Spain and elsewhere in Europe, and shipping is free across Europe, including the UK.", "Yes. We're based in Spain and shipping is free across Europe, including the UK."),
  ("Yes, free of charge, just as we do across the rest of Europe. For deliveries outside the EU, such as to Switzerland, the UK or Norway, import VAT, duties and customs clearance costs are always paid by the recipient. We're based in Spain and work with studios all over Europe.",
-  "Yes, and free of charge, as everywhere else in Europe. Ireland is in the EU, so there is nothing more to pay. For the UK, as for other deliveries outside the EU such as Switzerland or Norway, import VAT, duties and customs clearance costs are always paid by the recipient. We're based in Spain and ship to studios all over Europe."),
+  "Yes, and free of charge, as everywhere else in Europe. Ireland is in the EU, so there is nothing more to pay. For the UK, as for other destinations outside the EU, such as Switzerland or Norway, import VAT, duties and customs clearance costs are always paid by the recipient. We're based in Spain and ship to studios all over Europe."),
  ("no hidden costs from our side", "no hidden costs on our side"),
- ("Approve later and it may still arrive in time, but that's no longer in your hands.", "Approve later and it may still arrive in time, but we can no longer guarantee it."),
+ ("Approve later and it may still arrive in time, but that's no longer in your hands.", "Approve later and it may still arrive in time, but that becomes less certain."),
 ]
 def variants(a, b):
     out = [(a, b)]

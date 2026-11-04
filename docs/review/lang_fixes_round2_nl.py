@@ -4,7 +4,7 @@ P = [
  ("werkt met studio's in Spanje en de rest van Europa, dus ook in Nederland en België. De verzending binnen heel Europa is gratis.", "verzendt gratis naar heel Europa, dus ook naar Nederland en België."),
  ("We zitten in Valencia en werken met studio's door heel Europa.", "We zitten in Valencia en verzenden naar heel Europa."),
  ("De minimale bestelling voor antislipsokken is 50 paar, ook voor barrestudio's. Voor tumblers, tote bags en ringen leggen we het aantal vast in de offerte.",
-  "De minimale bestelling voor antislipsokken is 50 paar, ook voor barrestudio's. Voor tote bags is het minimum 50 stuks. Voor tumblers en pilatesringen leggen we het aantal vast in de offerte."),
+  "De minimale bestelling voor antislipsokken is 50 paar, ook voor barrestudio's. Voor tumblers, tote bags en pilatesringen leggen we het aantal vast in de offerte."),
  ("maakt een offerte op maat voor tumblers, tote bags en pilatesringen. We verzenden vanuit Spanje naar studio's in heel Europa, ook in Nederland en België.",
   "50 tote bags, en maakt een offerte op maat voor tumblers en pilatesringen. We verzenden vanuit Spanje naar studio's in heel Europa, ook naar Nederland en België."),
  ("Het makkelijkste product om mee te beginnen.", "Het logische product om mee te beginnen."),

@@ -12,7 +12,7 @@ BTW_Q = "Hoe werkt de btw voor een studio in Nederland of België?"
 BTW_A = ("Mediterrano Pilates factureert vanuit Spanje. Heeft je bedrijf een geldig btw-identificatienummer in de EU, "
          "dan is de factuur een vrijgestelde intracommunautaire levering en geef je de btw zelf aan in je eigen land "
          "(btw verlegd). Zonder geldig btw-nummer rekenen we Spaanse btw. " + STD)
-MIN_A = ("Voor antislipsokken 50 paar en voor tote bags 50 stuks. Voor tumblers en pilatesringen is er geen vast minimum: "
+MIN_A = ("Voor antislipsokken 50 paar. Voor tumblers, tote bags en pilatesringen is er geen vast minimum: "
          "we maken een offerte op maat voor het aantal dat je in gedachten hebt.")
 SAMPLES = ("Ja. We sturen je een set proefexemplaren (sok, tumbler en tote bag) voor een klein bedrag, dat volledig wordt "
            "verrekend met je eerste bestelling. Bestel je, dan zijn de proefexemplaren dus gratis.")
