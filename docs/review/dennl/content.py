@@ -40,7 +40,7 @@ NL_SAMPLES = ("Kan ik de kwaliteit zien voordat ik bestel?",
               "verrekenen met je eerste bestelling. Bestel je daarna, dan zijn de samples dus gratis.")
 NL_PROMO = ("Wat is het verschil met een goedkope promotiesok?",
             "Een promotiesok is een bedrukt reclameartikel. Onze sok is een echte antislipsok voor de les: een "
-            "antislipzool van PVC of siliconen, een middelhoge schacht, materiaal getest volgens REACH en je logo "
+            "antislipzool van PVC of siliconen, een halfhoge schacht, materiaal getest volgens REACH en je logo "
             "in de sok geweven of geborduurd, nooit bedrukt. Je leden dragen hem in elke les, en daarom kopen ze hem.")
 NL_SHIP_BULLET = ("Gratis verzending binnen heel Europa, ook naar Nederland, België en Luxemburg. Mediterrano Pilates "
                   "is een merk van Ecomtierra Group SL (Spanje).")

@@ -11,7 +11,7 @@ Q = {
  "de": ("Wie gut ist die Qualität eurer Stoppersocken?",
         "Es ist eine echte Stoppersocke, gemacht für die Stunde: Grip-Noppen aus PVC oder Silikon über die gesamte Sohle, Mid-Rise-Schnitt, Material nach REACH geprüft, und dein Logo eingewebt oder aufgestickt, nie aufgedruckt, damit in der Wäsche nichts reißt oder abblättert. Deine Kundinnen tragen sie in jeder Stunde und genau deshalb kaufen sie sie gern."),
  "nl": ("Hoe goed is de kwaliteit van jullie antislipsokken?",
-        "Het is een echte antislipsok, gemaakt voor de les: antislipnopjes van PVC of siliconen over de hele zool, een middelhoge schacht, materiaal getest volgens REACH en je logo in de sok geweven of geborduurd, nooit bedrukt, zodat er in de was niets barst of afbladdert. Je leden dragen hem in elke les, en daarom kopen ze hem graag."),
+        "Het is een echte antislipsok, gemaakt voor de les: antislipnopjes van PVC of siliconen over de hele zool, een halfhoge schacht, materiaal getest volgens REACH en je logo in de sok geweven of geborduurd, nooit bedrukt, zodat er in de was niets barst of afbladdert. Je leden dragen hem in elke les, en daarom kopen ze hem graag."),
  "fr": (f"Quelle est la qualité de vos chaussettes antidérapantes{NB}?",
         f"C'est une vraie chaussette antidérapante faite pour le cours{NB}: semelle à picots en PVC ou silicone, coupe mi-haute, matière conforme à REACH et logo tissé ou brodé dans la maille, jamais imprimé, pour un logo qui résiste au lavage. C'est la chaussette que vos élèves portent à chaque séance, et c'est pour cela qu'elles l'achètent volontiers."),
 }

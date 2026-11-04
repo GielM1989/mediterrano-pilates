@@ -79,7 +79,7 @@ PAGES = {
    "exclusief btw."),
   ("Komen ze op tijd binnen om ze met kerst aan mijn leden te geven?",
    "Ja, als je je mockup uiterlijk 15 november goedkeurt. Productie en levering duren ongeveer vier weken na "
-   "goedkeuring, dus de bestelling is half december in je studio. De mockup heb je binnen 24 uur. Op de blog vind je "
+   "goedkeuring, dus de bestelling kan half december in je studio zijn. De mockup heb je binnen 24 uur. Op de blog vind je "
    "de opties, de termijnen en het budget voor <a href=\"/nl/blog/kerstcadeaus-voor-pilatesleden/\">kerstcadeaus</a>."),
   (BTW_Q, BTW_A)]},
  "gratis-mockup": {"faqs": [
@@ -105,7 +105,7 @@ PAGES = {
  "merchandise-voor-fysiotherapiepraktijken": {"faqs": [
   ("Hoe goed is de kwaliteit van jullie antislipsokken?",
    "Het is een echte antislipsok, gemaakt voor de training: antislipnopjes van PVC of siliconen over de hele zool, "
-   "een middelhoge schacht, materiaal getest volgens REACH en je logo in de sok geweven of geborduurd, nooit "
+   "een halfhoge schacht, materiaal getest volgens REACH en je logo in de sok geweven of geborduurd, nooit "
    "bedrukt, zodat het logo de was goed doorstaat. Je patiënten dragen hem bij elke sessie, en daarom kopen ze hem "
    "graag.")]},
  "blog/meer-omzet-pilatesstudio-zonder-voorraad": {"faqs": [
