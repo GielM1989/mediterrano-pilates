@@ -14,7 +14,7 @@ import glob, html, json, re
 STD = {
     "es": "Para envíos fuera de la UE, como a Suiza, al Reino Unido o a Noruega, el IVA de importación, los aranceles y los gastos de aduana corren siempre a cargo del destinatario.",
     "en": "For deliveries outside the EU, such as to Switzerland, the UK or Norway, import VAT, duties and customs clearance costs are always paid by the recipient.",
-    "de": "Bei Lieferungen außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder Norwegen, trägt der Empfänger immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.",
+    "de": "Bei Lieferungen in Länder außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder Norwegen, trägt der Empfänger immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.",
     "nl": "Bij leveringen buiten de EU, zoals naar Zwitserland, het Verenigd Koninkrijk of Noorwegen, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor rekening van de ontvanger.",
     "fr": "Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
 }
@@ -95,7 +95,7 @@ LEGAL_FIXES = {
     "site/en/legal.html": [("For orders to the United Kingdom, this includes import VAT and any customs duties.",
                             "For deliveries outside the EU, such as to Switzerland, the United Kingdom or Norway, import VAT, duties and customs clearance costs are always paid by the customer.")],
     "site/de/legal.html": [("Etwaige Zölle oder Einfuhrabgaben im Bestimmungsland trägt der Kunde.",
-                            "Etwaige Zölle oder Einfuhrabgaben im Bestimmungsland trägt der Kunde. Bei Lieferungen außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder Norwegen, trägt der Kunde immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.")],
+                            "Bei Lieferungen in Länder außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder Norwegen, trägt der Kunde immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.")],
     "site/nl/legal.html": [("Eventuele invoerrechten of importbelastingen in het land van bestemming zijn voor rekening van de klant.",
                             "Eventuele invoerrechten of importbelastingen in het land van bestemming zijn voor rekening van de klant. Bij leveringen buiten de EU, zoals naar Zwitserland, het Verenigd Koninkrijk of Noorwegen, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor rekening van de klant.")],
     "site/fr/legal.html": [(", sauf accord contraire indiqué dans le devis.", ", dans tous les cas."),
