@@ -1,6 +1,7 @@
 """Verzamelt per taal alle zichtbare tekstsegmenten die nieuw of gewijzigd zijn t.o.v. origin/main (voor taalreview)."""
 import subprocess,re,html,sys,collections
-files=[f for f in subprocess.run(['git','diff','--name-only','origin/main','--','site/'],capture_output=True,text=True).stdout.split()]
+BASE=sys.argv[2] if len(sys.argv)>2 else 'origin/main'
+files=[f for f in subprocess.run(['git','diff','--name-only',BASE,'--','site/'],capture_output=True,text=True).stdout.split()]
 files+= [f for f in subprocess.run(['git','ls-files','--others','--exclude-standard','site/'],capture_output=True,text=True).stdout.split()]
 def segs(s):
     s=re.sub(r'<script.*?</script>|<style.*?</style>','',s,flags=re.S)
@@ -13,10 +14,10 @@ def segs(s):
     return out
 by=collections.defaultdict(collections.OrderedDict)
 for f in files:
-    if not f.endswith('.html'): continue
+    if not f.endswith('.html') or not __import__('os').path.exists(f): continue
     lang=(re.match(r'site/(en|de|nl|fr)/',f) or [None,'es'])[1]
     new=open(f,encoding='utf-8').read()
-    old=subprocess.run(['git','show','origin/main:'+f],capture_output=True,text=True).stdout
+    old=subprocess.run(['git','show',BASE+':'+f],capture_output=True,text=True).stdout
     olds=set(segs(old))
     for t in segs(new):
         if t not in olds: by[lang].setdefault(t,f)

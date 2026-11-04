@@ -73,7 +73,7 @@ def build():
         "offers": {"@type": "Offer", "url": BASE + SLUG, "priceCurrency": "EUR", "price": "6.95",
                    "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 50, "unitCode": "PR"},
                    "availability": "https://schema.org/InStock", "businessFunction": "https://schema.org/Sell",
-                   "description": "Indicatieve inkoopprijs per paar antislipsokken met logo, exclusief btw. Minimale bestelling 50 paar. Tote bags, tumblers en pilatesringen op offerte."}})
+                   "description": "Indicatieve inkoopprijs per paar antislipsokken met logo, exclusief btw. Minimale bestelling 50 paar. Tote bags vanaf 50 stuks; tumblers en pilatesringen op offerte."}})
     faqld = ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": t}} for q, t in faqs]})
     blocks = list(re.finditer(r'<script type="application/ld\+json">.*?</script>', s, re.S))

@@ -17,3 +17,63 @@
   to = "/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/blog/regalos-de-navidad-alumnas-pilates/"
+  to = "/blog/pack-de-bienvenida-alumnas-nuevas-pilates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/regalos-de-navidad-alumnas-pilates"
+  to = "/blog/pack-de-bienvenida-alumnas-nuevas-pilates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/christmas-gifts-for-pilates-clients/"
+  to = "/en/blog/welcome-pack-for-new-pilates-clients/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/christmas-gifts-for-pilates-clients"
+  to = "/en/blog/welcome-pack-for-new-pilates-clients/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog/weihnachtsgeschenke-fuer-pilates-kundinnen/"
+  to = "/de/blog/willkommenspaket-fuer-neue-kundinnen/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog/weihnachtsgeschenke-fuer-pilates-kundinnen"
+  to = "/de/blog/willkommenspaket-fuer-neue-kundinnen/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nl/blog/kerstcadeaus-voor-pilatesleden/"
+  to = "/nl/blog/welkomstpakket-nieuwe-pilatesleden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nl/blog/kerstcadeaus-voor-pilatesleden"
+  to = "/nl/blog/welkomstpakket-nieuwe-pilatesleden/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/blog/cadeaux-de-noel-eleves-pilates/"
+  to = "/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/blog/cadeaux-de-noel-eleves-pilates"
+  to = "/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/"
+  status = 301
+  force = true
