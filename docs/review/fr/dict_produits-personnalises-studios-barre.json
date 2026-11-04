@@ -12,7 +12,7 @@
  "44": "Nous parlons ici de barre fitness, l'entraînement inspiré de la barre de danse classique qui combine des mouvements de danse, de Pilates et de renforcement fonctionnel. Dans la plupart des studios de barre, le cours se fait en chaussettes antidérapantes&nbsp;: le relevé, l'équilibre à la barre et les séries de jambes sur un parquet ou un sol lisse demandent une adhérence qu'une chaussette ordinaire n'offre pas, et pieds nus, l'élève perd en stabilité.",
  "45": "Cela fait de la chaussette une partie de l'uniforme du studio. L'élève l'achète de toute façon&nbsp;; si elle l'achète à l'accueil et à votre logo, chaque cours répète votre marque en silence et la marge reste dans le studio au lieu de partir chez un tiers.",
  "48": "La marge à l'accueil compte, mais elle n'est pas l'essentiel&nbsp;:",
- "50": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque chaussette avec votre logo est une visibilité sans frais d'annonce.",
+ "50": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque chaussette à votre logo vous offre de la visibilité, sans frais publicitaires.",
  "53": "Augmenter la fidélisation de seulement 5&nbsp;% peut représenter jusqu'à 95&nbsp;% de bénéfice en plus. Une marque cohérente, dans le studio comme en dehors, fait partie des raisons pour lesquelles on reste.",
  "57": "Un studio parfait avec une chaussette générique n'est pas perçu comme « presque parfait ». Il risque d'être perçu comme négligé. Un seul détail faible peut peser de façon disproportionnée.",
  "59": "Calculez ce que cela pourrait représenter pour votre studio →",
@@ -42,7 +42,7 @@
  "89": "Maille fine et ajustée, coupe mi-haute, en terracotta ou dans la couleur de votre marque.",
  "90": "Picots en silicone sur toute la semelle, conformes à REACH, la réglementation européenne sur les substances chimiques.",
  "91": "Votre logo tissé dans la chaussette ou brodé, jamais imprimé ni collé&nbsp;: il résiste au lavage, sans craqueler ni se décoller.",
- "92": "Couleur reproduite d'après le code Pantone de votre marque, la référence du secteur graphique.",
+ "92": "Couleur reproduite d'après le code Pantone de votre marque, la référence des professionnels de l'impression.",
  "93": "Commande dès 50 paires, pour qu'un petit studio puisse commencer sans prendre un gros risque de stock.",
  "98": "Vous recevez un visuel numérique de votre logo sur la chaussette, sans engagement.",
  "101": "Nous affinons la couleur, la taille et la position jusqu'à ce que le design vous convienne.",
@@ -61,7 +61,7 @@
  "122": "Oui. La chaussette est la même pour la barre, le Pilates, le Lagree ou le Megaformer&nbsp;: un logo, une maquette et une seule commande dès 50 paires pour tous les cours du studio.",
  "123": "Combien de temps prend la commande pour un studio de barre&nbsp;?",
  "124": "Vous recevez votre maquette en 24 heures. Une fois le devis validé et le paiement effectué, la fabrication et la livraison prennent au total environ 4 semaines jusqu'à l'arrivée de la commande dans votre studio.",
- "126": "Oui. Nous expédions depuis l'Espagne dans toute l'Europe, livraison gratuite comprise, et aussi hors d'Europe sur devis. Pour les livraisons hors de l'Union européenne, comme la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
+ "126": "Oui. Nous expédions gratuitement depuis l'Espagne dans toute l'Europe, et hors d'Europe sur devis. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
  "127": "Demandez votre maquette et voyez votre logo sur la chaussette",
  "129": "Sans engagement. Vous recevez le visuel sous 24 heures et vous décidez ensuite.",
  "142": "Combien coûtent des chaussettes antidérapantes personnalisées",
@@ -77,13 +77,13 @@
  "_inserts": [
   {
    "after": "<div class=\"wrap\" style=\"padding:64px 0 8px\">\n",
-   "html": "    <div class=\"en-bref\" style=\"background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:24px 28px;max-width:44em;margin-bottom:40px\">\n      <p style=\"font-weight:800;color:var(--green);margin-bottom:10px;letter-spacing:.02em\">En bref</p>\n      <ul style=\"margin:0;padding-left:1.1em;line-height:1.6;font-size:.97rem\">\n        <li>Mediterrano Pilates personnalise des chaussettes antidérapantes avec le logo de votre studio de barre fitness, ainsi que des gourdes isothermes, des tote bags et des anneaux de Pilates.</li>\n        <li>En barre, le cours se fait en chaussettes antidérapantes&nbsp;: semelle à picots en silicone, coupe mi-haute, logo tissé (jacquard) ou brodé, jamais imprimé, couleur reproduite d'après votre code Pantone.</li>\n        <li>Minimum de commande&nbsp;: 50 paires, à 6,95&nbsp;€ HT la paire. Prix de vente conseillé en France&nbsp;: 19,95&nbsp;€ TTC, soit environ 9,68&nbsp;€ de marge par paire après TVA (environ 58&nbsp;%).</li>\n        <li>Maquette gratuite en 24 heures, sans engagement. Livraison environ 4 semaines après validation du devis.</li>\n        <li>Livraison gratuite dans toute l'Europe, y compris la France, la Belgique, le Luxembourg et la Suisse. Hors de l'Union européenne, comme en Suisse, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne).</li>\n      </ul>\n    </div>\n"
+   "html": "    <div class=\"en-bref\" style=\"background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:24px 28px;max-width:44em;margin-bottom:40px\">\n      <p style=\"font-weight:800;color:var(--green);margin-bottom:10px;letter-spacing:.02em\">En bref</p>\n      <ul style=\"margin:0;padding-left:1.1em;line-height:1.6;font-size:.97rem\">\n        <li>Mediterrano Pilates personnalise des chaussettes antidérapantes avec le logo de votre studio de barre fitness, ainsi que des gourdes isothermes, des tote bags et des anneaux de Pilates.</li>\n        <li>En barre, le cours se fait en chaussettes antidérapantes&nbsp;: semelle à picots en silicone, coupe mi-haute, logo tissé (jacquard) ou brodé, jamais imprimé, couleur reproduite d'après votre code Pantone.</li>\n        <li>Minimum de commande&nbsp;: 50 paires, à 6,95&nbsp;€ HT la paire. Prix de vente conseillé en France&nbsp;: 19,95&nbsp;€ TTC, soit environ 9,68&nbsp;€ de marge par paire après TVA (environ 58&nbsp;%).</li>\n        <li>Maquette gratuite en 24 heures, sans engagement. Livraison environ 4 semaines après validation du devis.</li>\n        <li>Livraison gratuite dans toute l'Europe, y compris en France, en Belgique, au Luxembourg et en Suisse. Hors de l'Union européenne, comme en Suisse, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne).</li>\n      </ul>\n    </div>\n"
   }
  ],
  "_faq_extra": [
   {
    "q": "Puis-je choisir la couleur pour qu'elle corresponde à ma marque&nbsp;?",
-   "a": "Oui. Nous reproduisons la couleur de votre marque au plus près de son code Pantone, la référence du secteur graphique. Votre logo est tissé dans la chaussette ou brodé, selon votre préférence, jamais imprimé."
+   "a": "Oui. Nous reproduisons la couleur de votre marque au plus près de son code Pantone, la référence des professionnels de l'impression. Votre logo est tissé dans la chaussette ou brodé, selon votre préférence, jamais imprimé."
   },
   {
    "q": "Puis-je voir la qualité avant de commander&nbsp;?",
@@ -91,7 +91,7 @@
   },
   {
    "q": "Quelle est la qualité de vos chaussettes antidérapantes&nbsp;?",
-   "a": "C'est une vraie chaussette antidérapante faite pour le cours&nbsp;: semelle à picots en PVC ou silicone, coupe mi-haute, matière conforme à REACH et logo tissé ou brodé dans la maille, jamais imprimé, pour un logo qui résiste au lavage. C'est la chaussette que vos élèves portent à chaque séance, et c'est pour cela qu'elles l'achètent volontiers."
+   "a": "C'est une vraie chaussette antidérapante faite pour le cours&nbsp;: semelle à picots en PVC ou silicone, coupe mi-haute, matière conforme à REACH et logo tissé ou brodé dans la maille, jamais imprimé, pour qu'il résiste aux lavages. C'est la chaussette que vos élèves portent à chaque séance, et c'est pour cela qu'elles l'achètent volontiers."
   }
  ],
  "_ld": {

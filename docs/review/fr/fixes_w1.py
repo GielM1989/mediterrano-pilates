@@ -1,5 +1,5 @@
 NBSP = '&nbsp;'
-SHIP_NEW = "Oui. Nous expédions depuis l'Espagne dans toute l'Europe, livraison gratuite comprise, et aussi hors d'Europe sur devis. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis."
+SHIP_NEW = "Oui. Nous expédions gratuitement depuis l'Espagne dans toute l'Europe, et hors d'Europe sur devis. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis."
 FIXES = [
  # livraison / clientèle implicite
  ("Oui, et toujours gratuitement, comme dans toute l'Europe, sans exception. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis.", SHIP_NEW),

@@ -12,11 +12,11 @@ Gebruik: python3 docs/review/import_duties.py   (vanuit de repo-root)
 import glob, html, json, re
 
 STD = {
-    "es": "Para envíos fuera de la UE, como a Suiza, Reino Unido o Noruega, el IVA de importación, los aranceles y los gastos de aduana corren siempre a cargo del destinatario.",
+    "es": "Para envíos fuera de la UE, como a Suiza, al Reino Unido o a Noruega, el IVA de importación, los aranceles y los gastos de aduana corren siempre a cargo del destinatario.",
     "en": "For deliveries outside the EU, such as to Switzerland, the UK or Norway, import VAT, duties and customs clearance costs are always paid by the recipient.",
     "de": "Bei Lieferungen außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder Norwegen, trägt der Empfänger immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.",
     "nl": "Bij leveringen buiten de EU, zoals naar Zwitserland, het Verenigd Koninkrijk of Noorwegen, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor rekening van de ontvanger.",
-    "fr": "Pour les livraisons hors de l'Union européenne, comme la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
+    "fr": "Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
 }
 # oude, zwakkere zinnen die verdwijnen (met voorafgaande spatie)
 OLD = [
@@ -85,13 +85,13 @@ BLOCK_FIXES = [
     ("Gratisversand in ganz Europa, auch nach Deutschland, Österreich und in die Schweiz. Mediterrano Pilates ist eine Marke der Ecomtierra Group SL (Spanien).",
      "Gratisversand in ganz Europa, auch nach Deutschland, Österreich und in die Schweiz. Außerhalb der EU, etwa in der Schweiz, trägt der Empfänger immer Einfuhrumsatzsteuer, Zölle und Verzollungskosten. Mediterrano Pilates ist eine Marke der Ecomtierra Group SL (Spanien)."),
     # Franse feitenblokken
-    ("Livraison gratuite dans toute l'Europe, y compris la France, la Belgique, le Luxembourg et la Suisse. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne).",
-     "Livraison gratuite dans toute l'Europe, y compris la France, la Belgique, le Luxembourg et la Suisse. Hors de l'Union européenne, comme en Suisse, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne)."),
+    ("Livraison gratuite dans toute l'Europe, y compris en France, en Belgique, au Luxembourg et en Suisse. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne).",
+     "Livraison gratuite dans toute l'Europe, y compris en France, en Belgique, au Luxembourg et en Suisse. Hors de l'Union européenne, comme en Suisse, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne)."),
 ]
 
 LEGAL_FIXES = {
     "site/legal.html": [("Los posibles aranceles o impuestos de importación en el país de destino corren por cuenta del cliente.",
-                         "Los posibles aranceles o impuestos de importación en el país de destino corren por cuenta del cliente. En envíos fuera de la UE, como a Suiza, Reino Unido o Noruega, el IVA de importación, los aranceles y los gastos de aduana corren siempre a cargo del cliente.")],
+                         "Los posibles aranceles o impuestos de importación en el país de destino corren por cuenta del cliente. En envíos fuera de la UE, como a Suiza, al Reino Unido o a Noruega, el IVA de importación, los aranceles y los gastos de aduana corren siempre a cargo del cliente.")],
     "site/en/legal.html": [("For orders to the United Kingdom, this includes import VAT and any customs duties.",
                             "For deliveries outside the EU, such as to Switzerland, the United Kingdom or Norway, import VAT, duties and customs clearance costs are always paid by the customer.")],
     "site/de/legal.html": [("Etwaige Zölle oder Einfuhrabgaben im Bestimmungsland trägt der Kunde.",
@@ -100,10 +100,10 @@ LEGAL_FIXES = {
                             "Eventuele invoerrechten of importbelastingen in het land van bestemming zijn voor rekening van de klant. Bij leveringen buiten de EU, zoals naar Zwitserland, het Verenigd Koninkrijk of Noorwegen, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor rekening van de klant.")],
     "site/fr/legal.html": [(", sauf accord contraire indiqué dans le devis.", ", dans tous les cas."),
                            ("Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client.",
-                            "Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client. Pour les livraisons hors de l'Union européenne, comme la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du client.")],
+                            "Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du client.")],
     "docs/review/fr/build_legal_fr.py": [(", sauf accord contraire indiqué dans le devis.", ", dans tous les cas."),
                            ("Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client.",
-                            "Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client. Pour les livraisons hors de l'Union européenne, comme la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du client.")],
+                            "Les éventuels droits de douane et taxes à l'importation dans le pays de destination sont à la charge du client. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du client.")],
     "site/llms.txt": [("(for UK orders, import VAT and duties may apply)",
                        "(outside the EU, for example Switzerland, the UK or Norway, import VAT, duties and customs clearance costs are always paid by the recipient)")],
 }

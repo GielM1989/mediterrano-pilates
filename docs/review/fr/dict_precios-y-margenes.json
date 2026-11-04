@@ -22,7 +22,7 @@
  "55": "Vous souhaitez voir le calcul complet avec la TVA et un exemple sur 50 paires&nbsp;? Lisez",
  "56": "combien coûtent des chaussettes antidérapantes personnalisées",
  "59": "La marge à la revente figure dans le tableau ci-dessus, mais ce n'est pas l'essentiel. L'essentiel, c'est ceci&nbsp;:",
- "61": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque produit à votre logo est une visibilité sans frais d'annonce.",
+ "61": "85&nbsp;% des personnes se souviennent de la marque d'un produit qu'elles ont porté. Chaque produit à votre logo vous offre de la visibilité, sans frais publicitaires.",
  "64": "Augmenter la fidélisation de seulement 5&nbsp;% peut représenter jusqu'à 95&nbsp;% de bénéfice en plus. Une marque cohérente, dans le studio comme en dehors, fait partie des raisons pour lesquelles on reste.",
  "68": "Un studio parfait avec des produits génériques n'est pas perçu comme «&nbsp;presque parfait&nbsp;». Il risque d'être perçu comme négligé. Un seul détail faible peut peser de façon disproportionnée.",
  "70": "Questions fréquentes sur les prix et les marges.",
@@ -82,7 +82,7 @@
   },
   {
    "q": "Comment fonctionne la TVA pour un studio français&nbsp;?",
-   "a": "Mediterrano Pilates facture depuis l'Espagne. Pour une entreprise de l'UE disposant d'un numéro de TVA intracommunautaire valide, la facture est établie en livraison intracommunautaire exonérée et la TVA est due par l'acquéreur dans son pays (autoliquidation)&nbsp;; sans numéro de TVA valide, la TVA espagnole est facturée. Pour la Suisse, la facture est établie hors TVA&nbsp;: la TVA à l'importation (8,1&nbsp;%) et les frais de dédouanement restent toujours à la charge du destinataire. Pour les livraisons hors de l'Union européenne, comme la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire."
+   "a": "Mediterrano Pilates facture depuis l'Espagne. Pour une entreprise de l'UE disposant d'un numéro de TVA intracommunautaire valide, la facture est établie en livraison intracommunautaire exonérée et la TVA est due par l'acquéreur dans son pays (autoliquidation)&nbsp;; sans numéro de TVA valide, la TVA espagnole est facturée. Pour la Suisse, la facture est établie hors TVA&nbsp;: la TVA à l'importation (8,1&nbsp;%), les droits de douane éventuels et les frais de dédouanement restent toujours à la charge du destinataire. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire."
   }
  ],
  "_ld": {}

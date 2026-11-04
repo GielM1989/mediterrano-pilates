@@ -14,7 +14,7 @@ FIXES=[
 ("vérifiée selon REACH","conforme à REACH"),
 ("sans dépenser un euro en annonces","sans frais d'annonce"),
 ("une recommandation qui marche toute seule","une façon de faire connaître votre studio"),
-("une publicité qui marche toute seule","une visibilité sans frais d'annonce"),
+("une publicité qui marche toute seule","une visibilité sans frais publicitaires"),
 ("la vôtre porte votre logo","avec votre logo"),
 ("cités dans notre documentation","cités sur ce site"),
 ("Nous travaillons avec des cabinets de toute l'Europe.","Nous livrons les cabinets de toute l'Europe."),
