@@ -8,7 +8,7 @@ NB = "&nbsp;"
 # ---------- Duits ----------
 DE_SHIP_Q_STUDIO = "Versendet ihr auch außerhalb Spaniens?"
 DE_SHIP_Q_NICHE = "Liefert ihr auch außerhalb Spaniens?"
-DE_SHIP_A_STUDIO = ("Ja. Wir arbeiten vor allem mit Studios in Spanien und ganz Europa, und der Versand in ganz Europa "
+DE_SHIP_A_STUDIO = ("Ja. Wir versenden von Spanien aus in ganz Europa, und der Versand in ganz Europa "
                     "ist kostenlos, auch nach Deutschland, Österreich und in die Schweiz. Außerhalb Europas liefern wir "
                     "auf Anfrage. Bei Lieferungen außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder "
                     "Norwegen, trägt der Empfänger immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.")
