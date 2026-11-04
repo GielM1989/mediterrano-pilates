@@ -25,7 +25,7 @@ DE_PROMO = ("Worin unterscheidet sich das von einer günstigen Werbesocke?",
 
 DE_SHIP_BULLET = ("Gratisversand in ganz Europa, auch nach Deutschland, Österreich und in die Schweiz. Außerhalb der "
                   "EU, etwa in der Schweiz, trägt der Empfänger immer Einfuhrumsatzsteuer, Zölle und "
-                  "Verzollungskosten. Mediterrano Pilates ist eine Marke der Ecomtierra Group SL (Spanien) und arbeitet mit Studios in ganz Europa und darüber hinaus.")
+                  "Verzollungskosten. Mediterrano Pilates ist eine Marke der Ecomtierra Group SL (Spanien) und arbeitet mit Studios in Europa und darüber hinaus.")
 DE_MOCKUP_BULLET = ("Kostenloses Mockup in 24 Stunden, unverbindlich. Die Lieferung erfolgt rund 4 Wochen nach Freigabe "
                     "des Angebots.")
 
