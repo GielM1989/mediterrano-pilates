@@ -1,0 +1,80 @@
+"""Taalreview ronde 2 (NL), zichtbaar + JSON-LD + bronscripts. Idempotent."""
+import glob
+P = [
+ ("werkt met studio's in Spanje en de rest van Europa, dus ook in Nederland en België. De verzending binnen heel Europa is gratis.", "verzendt gratis naar heel Europa, dus ook naar Nederland en België."),
+ ("We zitten in Valencia en werken met studio's door heel Europa.", "We zitten in Valencia en verzenden naar heel Europa."),
+ ("De minimale bestelling voor antislipsokken is 50 paar, ook voor barrestudio's. Voor tumblers, tote bags en ringen leggen we het aantal vast in de offerte.",
+  "De minimale bestelling voor antislipsokken is 50 paar, ook voor barrestudio's. Voor tote bags is het minimum 50 stuks. Voor tumblers en pilatesringen leggen we het aantal vast in de offerte."),
+ ("maakt een offerte op maat voor tumblers, tote bags en pilatesringen. We verzenden vanuit Spanje naar studio's in heel Europa, ook in Nederland en België.",
+  "50 tote bags, en maakt een offerte op maat voor tumblers en pilatesringen. We verzenden vanuit Spanje naar studio's in heel Europa, ook naar Nederland en België."),
+ ("Het makkelijkste product om mee te beginnen.", "Het logische product om mee te beginnen."),
+ ("Een nieuw lid met jouw tote bag op straat is de beste kennismaking met je studio voor je volgende lid.", "Een nieuw lid dat met jouw tote bag over straat loopt, laat je studio zien aan wie misschien je volgende lid wordt."),
+ ("komt niet over als 'bijna perfect'. Het loopt het risico slordig over te komen.", "komt niet over als “bijna perfect”. Die loopt het risico slordig over te komen."),
+ ("met daarnaast een anonieme fles of sok in de zaal, komt niet over als “bijna perfect”. Die loopt", "komt met een anonieme fles of sok in de zaal niet over als “bijna perfect”. Die loopt"),
+ ("keur je gratis mockup goed vóór 15 november", "keur je gratis mockup uiterlijk 15 november goed"),
+ ("Keur je mockup goed vóór 15 november.", "Keur je mockup uiterlijk 15 november goed."),
+ ("wint het vertrouwen van nieuwe leden", "kan het vertrouwen van nieuwe leden winnen"),
+ ("Reken je met de maximale levertijd en wil je de producten half december in de studio hebben, dan moet de mockup uiterlijk half november goedgekeurd zijn.", "Wil je de producten half december in de studio hebben, keur je mockup dan uiterlijk 15 november goed."),
+ ("De mockup met je logo is gratis en heb je binnen 24 uur, aanpassingen tot je akkoord bent, zijn inbegrepen en de verzending is gratis binnen heel Europa.",
+  "De mockup met je logo is gratis en heb je binnen 24 uur. Aanpassingen tot je akkoord bent, zijn inbegrepen, en de verzending is gratis binnen heel Europa."),
+ ("De tweede: nieuwe leden.", "De tweede: zichtbaarheid die nieuwe leden kan opleveren."),
+ ("Na goedkeuring geldt de mockup als drukproef voor de productie", "Na goedkeuring geldt de mockup als definitief ontwerp voor de productie"),
+ ("Na goedkeuring van de offerte en de betaling duren productie en levering", "Na je akkoord op de offerte en je betaling duren productie en levering"),
+ ("De antislipzool is van PVC of siliconen, het materiaal getest volgens REACH.", "De antislipzool is van PVC of siliconen en het materiaal is getest volgens REACH."),
+ ("de antislipzool is van PVC of siliconen, het materiaal getest volgens REACH.", "de antislipzool is van PVC of siliconen en het materiaal is getest volgens REACH."),
+ ("<h3>Kan je nieuwe leden opleveren</h3>", "<h3>Kan je studio nieuwe leden opleveren</h3>"),
+ ("Mediterrano Pilates is de merchandisepartner voor pilates- en yogastudio's.", "Mediterrano Pilates is merchandisepartner voor pilates- en yogastudio's."),
+ ("Barrestudio's werken met dezelfde leden en dezelfde producten, en daarom is er deze pagina.", "Barrestudio's hebben hetzelfde soort leden en gebruiken dezelfde producten, en daarom is er deze pagina."),
+ ("de training die is afgeleid van de balletbarre en elementen uit dans, pilates en functionele kracht combineert.", "een training die is geïnspireerd op ballet aan de barre en elementen uit dans, pilates en functionele krachttraining combineert."),
+ ("<li>Bij barre train je op antislipsokken: antislipnopjes van PVC of siliconen, een middelhoge schacht,", "<li>Onze antislipsokken voor barre hebben antislipnopjes van PVC of siliconen, een halfhoge schacht,"),
+ ("Fijn, nauwsluitend en halfhoog gebreid, in terracotta of in de kleur van je merk.", "Fijn en nauwsluitend gebreid, halfhoog, in terracotta of in de kleur van je merk."),
+ ("Alle materialen zijn getest volgens REACH, de Europese regelgeving voor chemische stoffen, ook de antislipzool.", "Alle materialen, ook de antislipzool, zijn getest volgens REACH, de Europese regelgeving voor chemische stoffen."),
+ ("Werkt je studio met ringen bij series voor de binnenkant van de benen en de armen, dan kun je", "Gebruik je pilatesringen in je lessen, bijvoorbeeld voor de binnenkant van de dijen of voor de armen, dan kun je"),
+ ("Veel leden komen direct uit hun werk naar de barreles, met schone kleren en hun sokken in de tas.", "Veel leden komen direct uit hun werk naar de barreles, met hun sportkleding en sokken in de tas."),
+ ("We stemmen kleur, formaat en plaatsing af tot het ontwerp precies van jou is.", "We stemmen kleur, formaat en plaatsing af tot het ontwerp precies is zoals jij het wilt."),
+ ("Met je akkoord en de betaling die in de offerte staat, ligt je productieplek vast.", "Zodra je akkoord gaat en de betaling uit de offerte hebt voldaan, reserveren we je plek in de productie."),
+ ("We volgen de productie en controleren elk paar voordat we inpakken.", "We volgen de productie en controleren elk paar voordat we het inpakken."),
+ ("Ja. We verzenden vanuit Spanje naar heel Europa, gratis, en op aanvraag ook buiten Europa.", "Ja. We verzenden gratis vanuit Spanje naar heel Europa, dus ook naar Nederland, België en Luxemburg, en op aanvraag ook naar landen buiten Europa."),
+ ("Ja. We stemmen de kleur van je merk zo nauwkeurig mogelijk af op de Pantone-code, de standaard in de grafische wereld.", "Ja. We stemmen de kleur zo nauwkeurig mogelijk af op de Pantone-code van je merk, de standaard in de grafische wereld."),
+ ("Inkoopprijzen excl. btw en adviesverkoopprijzen incl. btw, als voorbeeld; het exacte aanbod krijg je samen met je mockup.", "Prijzen ter indicatie: inkoop excl. btw, adviesverkoopprijs incl. btw. De exacte offerte krijg je samen met je mockup."),
+ ("ca.&nbsp;€&nbsp;476,88 marge. Het exacte aanbod krijg je samen met je mockup.", "ca.&nbsp;€&nbsp;476,88 marge. De exacte offerte krijg je samen met je mockup."),
+ ("kan tekortgedaan worden door een anonieme sok in de oefenruimte: één zwak detail", "kan een anonieme sok in de oefenruimte afbreuk doen aan het geheel: één zwak detail"),
+ ("Een verzorgde praktijk, met goede apparatuur en goede zorg, kan een anonieme sok", "In een verzorgde praktijk, met goede apparatuur en goede zorg, kan een anonieme sok"),
+ ("Een tumbler met jouw logo in de wachtkamer en bij de balie is eenvoudig te verkopen.", "Een tumbler met jouw logo kun je eenvoudig in de wachtkamer en aan de balie verkopen."),
+ ("In een yogastudio is het lid met een maandabonnement dat zich thuis voelt in de studio de basis van je studio.", "In een yogastudio vormen leden met een maandabonnement die zich er thuis voelen de basis."),
+ ("Elk lid dat met jouw logo op haar sokken of tote bag de deur uitgaat", "Elk lid dat met jouw logo op de sokken of de tote bag de deur uitgaat"),
+ ("je lid draagt het in elke les en op elke foto.", "je lid gebruikt het in elke les en het staat op elke foto."),
+ ("dan is de factuur een vrijgestelde intracommunautaire levering en geef je de btw zelf aan in je eigen land (btw verlegd).", "dan geldt de levering als intracommunautaire levering tegen 0% btw en geef je de btw zelf aan in je eigen land."),
+ ("Eventuele invoerrechten of importbelastingen in het land van bestemming zijn voor rekening van de klant. ", ""),
+ ("De indicatieve levertijd is ongeveer 4 weken na goedkeuring van het ontwerp en betaling.", "De levertijd is ongeveer 4 weken na goedkeuring van het ontwerp en ontvangst van de betaling."),
+ ("het hele proces gaat online", "het hele proces verloopt online"),
+ ("wordt niet gezien als “bijna perfect”. Die loopt het risico als slordig gezien te worden.", "komt niet over als “bijna perfect”, maar loopt het risico slordig over te komen."),
+ ("Wijkt de geleverde kleur af van het goedgekeurde ontwerp, of meld je binnen 14 dagen na ontvangst een productiefout, dan maakt",
+  "Wijkt de geleverde kleur af van het goedgekeurde ontwerp of is er een productiefout, en meld je dat binnen 14 dagen na ontvangst, dan maakt"),
+ ('je oplevert.</span>', 'je kan opleveren.</span>'),
+ ('<h2>We leveren aan studio\'s in <span class="fx">heel Europa.</span></h2>', '<h2>We verzenden naar studio\'s in <span class="fx">heel Europa.</span></h2>'),
+ ("Mediterrano Pilates levert vanuit Spanje aan pilates-, yoga- en barrestudio's en fysiotherapiepraktijken in heel Europa", "Mediterrano Pilates verzendt vanuit Spanje naar pilates-, yoga- en barrestudio's en fysiotherapiepraktijken in heel Europa"),
+ ("Mediterrano Pilates levert vanuit Spanje aan pilates-, yoga- en barrestudio's in heel Europa", "Mediterrano Pilates verzendt vanuit Spanje naar pilates-, yoga- en barrestudio's in heel Europa"),
+ ("Mediterrano Pilates levert vanuit Spanje aan pilates- en yogastudio's in heel Europa", "Mediterrano Pilates verzendt vanuit Spanje naar pilates-, yoga- en barrestudio's en fysiotherapiepraktijken in heel Europa"),
+ ("en elk nieuw lid is een nieuwe verkoop.", "en elk nieuw lid is een nieuwe kans op een verkoop."),
+ ("en het is in de weken voor kerst eenvoudig te verkopen.", "en dan kun je het in de weken voor kerst eenvoudig verkopen."),
+ ("Het kerstcadeau dat in een pilates- of yogastudio het best werkt", "Het kerstcadeau dat in een pilates- of yogastudio goed werkt"),
+ ("Wie het klantbehoud met slechts 5% verhoogt", "Wie zijn klantbehoud met maar 5% verhoogt"),
+ ("inclusief gratis verzending.", "en de verzending is gratis."),
+ ("op het product dat je kiest, een antislipsok, tumbler, tote bag of pilatesring, in de kleur van je merk.", "op het product dat je kiest (een antislipsok, tumbler, tote bag of pilatesring), in de kleur van je merk."),
+ ("We sturen je een set proefexemplaren (sok, tumbler en tote bag) voor een klein bedrag, dat volledig wordt verrekend met je eerste bestelling. Bestel je, dan zijn de proefexemplaren dus gratis.",
+  "We sturen je een sampleset (sok, tumbler en tote bag) voor een klein bedrag, dat we volledig verrekenen met je eerste bestelling. Bestel je daarna, dan zijn de samples dus gratis."),
+ ("'bijna perfect'", "“bijna perfect”"), ("\\\"bijna perfect\\\"", "“bijna perfect”"), ('"bijna perfect"', "“bijna perfect”"), ("&quot;bijna perfect&quot;", "“bijna perfect”"),
+ ("Bron: de psychologie van negativiteitsdominantie", "Bron: onderzoek naar negativiteitsdominantie"),
+]
+files = glob.glob("site/nl/**/*.html", recursive=True) + ["docs/review/nl_barre/body_nl.html", "docs/review/nl_parity.py", "docs/review/dennl/content.py"]
+hits = {a: 0 for a, _ in P}
+for f in files:
+    s = open(f, encoding="utf-8").read(); o = s
+    for a, b in P:
+        for x, y in ((a, b), (a.replace("'", "&#39;"), b.replace("'", "&#39;"))):
+            if x in s and (y == "" or x not in y):
+                hits[a] += s.count(x); s = s.replace(x, y)
+    if s != o: open(f, "w", encoding="utf-8").write(s)
+for a, n in hits.items():
+    if not n: print("0x:", a[:90])

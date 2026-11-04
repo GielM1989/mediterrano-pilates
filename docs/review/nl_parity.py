@@ -40,7 +40,7 @@ PAGES = {
    "kan het tarief verschillen.")],
   "faqs": [
   ("Wat kost een eerste bestelling van 50 paar?",
-   "Een voorbeeld: 50 paar antislipsokken met je logo kosten € 347,50 exclusief btw, inclusief gratis verzending. "
+   "Een voorbeeld: 50 paar antislipsokken met je logo kosten € 347,50 exclusief btw, en de verzending is gratis. "
    "Verkoop je ze voor € 19,95 inclusief btw per paar, dan houd je na aftrek van 21% btw ongeveer € 9,54 marge per "
    "paar over. De exacte offerte voor jouw aantal krijg je samen met je gratis mockup."),
   (BTW_Q, BTW_A)]},
@@ -65,7 +65,7 @@ PAGES = {
    "geborduurd, vanaf 50 paar, gratis mockup binnen 24 uur en gratis verzending binnen heel Europa. We hebben een "
    "aparte pagina voor <a href=\"/nl/merchandise-voor-barrestudios/\">barrestudio's</a>."),
   ("Is er een leverancier van antislipsokken met logo bij mij in de buurt?",
-   "Een leverancier om de hoek heb je niet nodig: het hele proces gaat online en de verzending is gratis, in "
+   "Een leverancier om de hoek heb je niet nodig: het hele proces verloopt online en de verzending is gratis, in "
    "Nederland en België net als in de rest van Europa. Je krijgt de mockup binnen 24 uur per e-mail, keurt het "
    "ontwerp en de offerte goed, en na ongeveer vier weken is de bestelling in je studio. Mediterrano Pilates is een "
    "merk van Ecomtierra Group SL, gevestigd in Spanje."),
@@ -88,7 +88,7 @@ PAGES = {
    "pilatesring, in de kleur van je merk. Kleur, formaat en positie kun je laten aanpassen voordat je goedkeurt. Na "
    "goedkeuring geldt de mockup als drukproef voor de productie, en je krijgt de offerte erbij."),
   ("Hoeveel tijd zit er tussen de mockup en de levering?",
-   "De mockup heb je binnen 24 uur. Na goedkeuring van de offerte en de betaling duren productie en levering "
+   "De mockup heb je binnen 24 uur. Na je akkoord op de offerte en je betaling duren productie en levering "
    "ongeveer 4 weken, tot de bestelling in je studio is. De verzending is gratis binnen heel Europa."),
   ("Wie beantwoordt mijn aanvraag?",
    "De oprichter van Mediterrano Pilates, Giel Mallens. Hij behandelt elke aanvraag persoonlijk en blijft je vaste "

@@ -62,8 +62,8 @@ def build():
     service = ld({"@context": "https://schema.org", "@type": "Service", "@id": BASE + SLUG + "#service",
         "name": "Antislipsokken met logo voor barrestudio's",
         "serviceType": "Merchandise met logo voor barrestudio's",
-        "description": ("Mediterrano Pilates personaliseert antislipsokken met het logo van barrestudio's, zodat de "
-                        "studio ze aan haar leden verkoopt, en daarnaast tumblers, tote bags en pilatesringen. Logo "
+        "description": ("Mediterrano Pilates personaliseert antislipsokken, tumblers, tote bags en pilatesringen met het "
+                        "logo van barrestudio's, om aan hun leden te verkopen. Logo op de sokken "
                         "geweven of geborduurd, kleur afgestemd op Pantone, minimale bestelling 50 paar, gratis mockup "
                         "binnen 24 uur en gratis verzending binnen heel Europa."),
         "url": BASE + SLUG, "image": IMG, "provider": {"@id": BASE + "/#organization"},
@@ -73,7 +73,7 @@ def build():
         "offers": {"@type": "Offer", "url": BASE + SLUG, "priceCurrency": "EUR", "price": "6.95",
                    "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 50, "unitCode": "PR"},
                    "availability": "https://schema.org/InStock", "businessFunction": "https://schema.org/Sell",
-                   "description": "Indicatieve inkoopprijs per paar antislipsokken met logo, exclusief btw. Minimale bestelling 50 paar. Tote bags, tumblers en ringen op offerte."}})
+                   "description": "Indicatieve inkoopprijs per paar antislipsokken met logo, exclusief btw. Minimale bestelling 50 paar. Tote bags vanaf 50 stuks; tumblers en pilatesringen op offerte."}})
     faqld = ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": t}} for q, t in faqs]})
     blocks = list(re.finditer(r'<script type="application/ld\+json">.*?</script>', s, re.S))

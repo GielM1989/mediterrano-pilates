@@ -159,7 +159,7 @@ PAGES = {
     # ===================== NEDERLANDS =====================
     "nl/antislipsokken-met-logo": {
         "replace": [("<h2>Het product waar de meeste studio's mee beginnen.</h2>",
-                     "<h2>Het makkelijkste product om mee te beginnen.</h2>")],
+                     "<h2>Het logische product om mee te beginnen.</h2>")],
         "block": nl_product(
             "Mediterrano Pilates maakt antislipsokken met het logo van je pilates- of yogastudio, die je aan je "
             "leden doorverkoopt.",
@@ -178,7 +178,7 @@ PAGES = {
     },
     "nl/pilatesring-met-logo": {
         "replace": [("<h2>Waarom een pilatesring met logo <span class=\"fx\">altijd loont.</span></h2>",
-                     "<h2>Wat een pilatesring met logo <span class=\"fx\">je oplevert.</span></h2>")],
+                     "<h2>Wat een pilatesring met logo <span class=\"fx\">je kan opleveren.</span></h2>")],
         "block": nl_product(
             "Mediterrano Pilates zet het logo van je studio op pilatesringen in terracotta met crèmekleurige "
             "handgrepen, om aan je leden door te verkopen.",
@@ -196,7 +196,7 @@ PAGES = {
     },
     "nl/tumblers-met-logo": {
         "replace": [("<h2>Waarom een tumbler met logo <span class=\"fx\">altijd loont.</span></h2>",
-                     "<h2>Wat een tumbler met logo <span class=\"fx\">je oplevert.</span></h2>")],
+                     "<h2>Wat een tumbler met logo <span class=\"fx\">je kan opleveren.</span></h2>")],
         "block": nl_product(
             "Mediterrano Pilates personaliseert tumblers (drinkflessen van 1,2 liter) met het logo van je pilates- "
             "of yogastudio, om aan je leden door te verkopen.",
@@ -213,7 +213,7 @@ PAGES = {
     },
     "nl/tote-bags-met-logo": {
         "replace": [("<h2>Waarom een tote bag met logo <span class=\"fx\">altijd loont.</span></h2>",
-                     "<h2>Wat een tote bag met logo <span class=\"fx\">je oplevert.</span></h2>")],
+                     "<h2>Wat een tote bag met logo <span class=\"fx\">je kan opleveren.</span></h2>")],
         "block": nl_product(
             "Mediterrano Pilates personaliseert katoenen tote bags met het logo van je pilates- of yogastudio, om "
             "aan je leden door te verkopen.",
