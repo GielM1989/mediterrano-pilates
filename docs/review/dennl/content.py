@@ -1,3 +1,4 @@
+# Let op: geen promotiesok-vraag (klantbesluit 04-11-2026: bewust weggelaten).
 # Inhoud voor de AEO-upgrade van /de/ en /nl/ (04-11-2026).
 # Alle cijfers komen van de bestaande pagina's en de kassabon (inkoop 6,95 EUR sokken, adviesprijs 19,95 EUR).
 # Zichtbare tekst gebruikt &nbsp; voor EUR en %; de JSON-LD krijgt automatisch gewone spaties.
@@ -8,9 +9,9 @@ NB = "&nbsp;"
 DE_SHIP_Q_STUDIO = "Versendet ihr auch außerhalb Spaniens?"
 DE_SHIP_Q_NICHE = "Liefert ihr auch außerhalb Spaniens?"
 DE_SHIP_A_STUDIO = ("Ja. Wir arbeiten vor allem mit Studios in Spanien und ganz Europa, und der Versand in ganz Europa "
-                    "ist kostenlos, auch nach Deutschland, Österreich und in die Schweiz. Bei Lieferungen in die Schweiz "
-                    "trägt der Empfänger die Einfuhrumsatzsteuer und die Verzollungskosten, sofern im Angebot nichts "
-                    "anderes steht. Außerhalb Europas liefern wir auf Anfrage.")
+                    "ist kostenlos, auch nach Deutschland, Österreich und in die Schweiz. Außerhalb Europas liefern wir "
+                    "auf Anfrage. Bei Lieferungen außerhalb der EU, etwa in die Schweiz, nach Großbritannien oder "
+                    "Norwegen, trägt der Empfänger immer die Einfuhrumsatzsteuer, Zölle und Verzollungskosten.")
 DE_SHIP_A_NICHE = DE_SHIP_A_STUDIO.replace("mit Studios in Spanien", "mit Studios und Praxen in Spanien")
 
 DE_SAMPLES = ("Kann ich die Qualität vor der Bestellung sehen?",
@@ -22,8 +23,9 @@ DE_PROMO = ("Worin unterscheidet sich das von einer günstigen Werbesocke?",
             "oder aufgestickt, nie aufgedruckt. Deine Kundinnen tragen sie in jeder Stunde und genau deshalb kaufen "
             "sie sie.")
 
-DE_SHIP_BULLET = ("Gratisversand in ganz Europa, auch nach Deutschland, Österreich und in die Schweiz. Mediterrano "
-                  "Pilates ist eine Marke der Ecomtierra Group SL (Spanien).")
+DE_SHIP_BULLET = ("Gratisversand in ganz Europa, auch nach Deutschland, Österreich und in die Schweiz. Außerhalb der "
+                  "EU, etwa in der Schweiz, trägt der Empfänger immer Einfuhrumsatzsteuer, Zölle und "
+                  "Verzollungskosten. Mediterrano Pilates ist eine Marke der Ecomtierra Group SL (Spanien).")
 DE_MOCKUP_BULLET = ("Kostenloses Mockup in 24 Stunden, unverbindlich. Die Lieferung erfolgt rund 4 Wochen nach Freigabe "
                     "des Angebots.")
 
@@ -75,7 +77,6 @@ PAGES = {
              "Bei Mediterrano Pilates. Wir personalisieren Stoppersocken mit dem Logo deines Pilates- oder "
              "Yogastudios, eingewebt oder aufgestickt, nie aufgedruckt. Bestellung ab 50 Paar, kostenloses Mockup "
              "in 24 Stunden und Gratisversand in ganz Europa, auch nach Österreich und in die Schweiz."),
-            DE_PROMO,
             DE_SAMPLES,
         ],
     },
@@ -137,7 +138,7 @@ PAGES = {
     "de/merchandise-fuer-yogastudios": {
         # heeft al een feitenblok ("Auf einen Blick"); alleen vragen en verzendantwoord
         "answers": [(DE_SHIP_Q_NICHE, DE_SHIP_A_NICHE)],
-        "faqs": [DE_PROMO, DE_SAMPLES],
+        "faqs": [DE_SAMPLES],
     },
     "de/merchandising-fuer-physiotherapie-praxen": {
         "block": ("Kurz gesagt", [
@@ -172,7 +173,6 @@ PAGES = {
              "Bij Mediterrano Pilates. We personaliseren antislipsokken met het logo van je pilates- of yogastudio, "
              "geweven of geborduurd, nooit bedrukt. Bestellen kan vanaf 50 paar, met een gratis mockup binnen 24 "
              "uur en gratis verzending binnen heel Europa, ook naar België."),
-            NL_PROMO,
             NL_SAMPLES,
         ],
     },
@@ -229,7 +229,7 @@ PAGES = {
         ],
     },
     "nl/merchandise-voor-yogastudios": {
-        "faqs": [NL_PROMO, NL_SAMPLES],
+        "faqs": [NL_SAMPLES],
     },
     "nl/merchandise-voor-fysiotherapiepraktijken": {
         "block": ("In het kort", [
@@ -257,12 +257,12 @@ NL_ENTITY = ("Waar kan een pilatesstudio antislipsokken met eigen logo bestellen
              "uur en gratis verzending binnen heel Europa, ook naar België.")
 
 PAGES.update({
-    "de/faq": {"faqs": [DE_ENTITY, DE_PROMO]},
-    "de/preise-und-margen": {"faqs": [DE_PROMO, DE_SAMPLES]},
+    "de/faq": {"faqs": [DE_ENTITY]},
+    "de/preise-und-margen": {"faqs": [DE_SAMPLES]},
     "de/kostenloses-mockup": {"faqs": [DE_SAMPLES]},
     "de/ueber-mediterrano-pilates": {"faqs": [DE_ENTITY]},
-    "nl/veelgestelde-vragen": {"faqs": [NL_ENTITY, NL_PROMO]},
-    "nl/prijzen-en-marges": {"faqs": [NL_PROMO, NL_SAMPLES]},
+    "nl/veelgestelde-vragen": {"faqs": [NL_ENTITY]},
+    "nl/prijzen-en-marges": {"faqs": [NL_SAMPLES]},
     "nl/gratis-mockup": {"faqs": [NL_SAMPLES]},
     "nl/over-mediterrano-pilates": {"faqs": [NL_ENTITY]},
 })
