@@ -85,7 +85,7 @@
  "126": "Maille fine et ajustée, coupe mi-haute, en terracotta ou dans la couleur de votre marque.",
  "127": "Picots en silicone sur toute la semelle, conformes à REACH, la réglementation européenne sur les substances chimiques.",
  "128": "Votre logo tissé dans la chaussette ou brodé, jamais imprimé ni collé&nbsp;: il résiste au lavage, sans craqueler ni se décoller.",
- "129": "Couleur reproduite au plus près de votre code Pantone, la référence du secteur graphique.",
+ "129": "Couleur reproduite au plus près de votre code Pantone, la référence des professionnels de l'impression.",
  "130": "Commande dès 50 paires, pour qu'un petit cabinet puisse commencer sans prendre un gros risque de stock.",
  "131": "De votre logo à l'accueil en",
  "135": "Vous recevez un visuel numérique de votre logo sur la chaussette, sans engagement.",
@@ -94,21 +94,21 @@
  "144": "Nous suivons la fabrication et contrôlons chaque paire avant de l'emballer.",
  "147": "Nous suivons l'envoi jusqu'à son arrivée, directement dans votre cabinet, où que vous soyez.",
  "148": "Nous travaillons avec des cabinets de",
- "150": "Mediterrano Pilates s'adresse depuis l'Espagne aux studios de Pilates, de yoga et de barre et des cabinets de kinésithérapie, dans toute l'Europe, et livre en France, en Belgique, au Luxembourg et en Suisse comme partout ailleurs sur le continent. Où que vous soyez en Europe, le transport est à notre charge.",
+ "150": "Depuis l'Espagne, Mediterrano Pilates travaille avec des studios de Pilates, de yoga et de barre ainsi qu'avec des cabinets de kinésithérapie dans toute l'Europe et au-delà, et livre en France, en Belgique, au Luxembourg et en Suisse comme partout ailleurs sur le continent. Où que vous soyez en Europe, le transport est à notre charge.",
  "151": "Questions fréquentes des cabinets de kinésithérapie.",
  "152": "Où un cabinet de kinésithérapie peut-il commander des chaussettes antidérapantes à son logo&nbsp;?",
  "153": "Chez Mediterrano Pilates. Nous personnalisons des chaussettes antidérapantes avec le logo de votre cabinet de kinésithérapie, tissé ou brodé, jamais imprimé, dès 50 paires, avec une maquette gratuite en 24 heures et la livraison gratuite dans toute l'Europe.",
  "154": "Un cabinet de kinésithérapie peut-il vendre des produits à son logo à ses patients&nbsp;?",
  "155": "À notre connaissance, oui, en termes généraux. Vendre une chaussette antidérapante, une gourde isotherme ou un tote bag au logo du cabinet serait la vente d'un produit d'usage courant, pas la publicité d'un service de santé. La communication des professionnels de santé est encadrée par le code de déontologie de chaque profession&nbsp;; ces règles limitent notamment le fait d'attribuer à un produit des effets sur la santé ou d'attirer des patients par des cadeaux ou des promotions. Il s'agit d'une orientation générale et de notre propre interprétation (revue en octobre 2026), pas d'un conseil juridique&nbsp;: confirmez-la auprès de votre ordre professionnel.",
  "156": "Quel est le minimum de commande pour un cabinet de kinésithérapie&nbsp;?",
- "157": "Le minimum de commande pour les chaussettes antidérapantes est de 50 paires, pour les cabinets de kinésithérapie aussi. Pour les gourdes isothermes, les tote bags et les anneaux, la quantité est définie dans le devis.",
+ "157": "Le minimum de commande pour les chaussettes antidérapantes est de 50 paires, pour les cabinets de kinésithérapie aussi. Pour les tote bags, le minimum est de 50 unités. Pour les gourdes isothermes et les anneaux, la quantité est définie dans le devis.",
  "158": "Combien coûtent les chaussettes avec logo et quelle marge laissent-elles à un cabinet&nbsp;?",
  "159": "Les chaussettes coûtent environ 6,95&nbsp;€ HT la paire, au prix de gros. Le prix de vente conseillé en France est de 19,95&nbsp;€ TTC&nbsp;; après déduction de la TVA, il vous reste environ 9,68&nbsp;€ de marge par paire (environ 58&nbsp;%). Vous recevez le devis exact avec votre maquette gratuite.",
  "160": "Pour quelles séances d'un cabinet de kinésithérapie les chaussettes antidérapantes servent-elles&nbsp;?",
  "161": "Pour toute séance où le patient travaille pieds nus ou en chaussettes sur tapis, sol lisse ou Reformer&nbsp;: exercice thérapeutique, Pilates thérapeutique, travail de proprioception et d'équilibre, réathlétisation et cours collectifs. La chaussette est la même pour toutes&nbsp;: un logo, une maquette et une seule commande dès 50 paires.",
  "162": "Combien de temps prend la commande pour un cabinet de kinésithérapie&nbsp;?",
  "163": "Vous recevez votre maquette en 24 heures. Une fois le devis validé et le paiement effectué, la fabrication et la livraison prennent au total environ 4 semaines jusqu'à l'arrivée de la commande dans votre cabinet.",
- "165": "Oui. Nous expédions depuis l'Espagne dans toute l'Europe, livraison gratuite comprise, et aussi hors d'Europe sur devis. Pour la Suisse, la TVA à l'importation et les frais de dédouanement restent à la charge du destinataire, sauf mention contraire dans le devis.",
+ "165": "Oui. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe et au-delà. La livraison est gratuite partout en Europe. Ailleurs, elle se fait sur devis. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.",
  "166": "Nous réalisons gratuitement",
  "167": "la maquette de votre cabinet",
  "168": "Indiquez-nous le nom de votre cabinet et où vous envoyer le design. Nous vous montrons votre logo sur la chaussette en 24 heures et vous décidez ensuite.",
@@ -154,17 +154,17 @@
  "_inserts": [
   {
    "after": "<div class=\"wrap\" style=\"padding:64px 0 8px\">\n",
-   "html": "    <div class=\"en-bref\" style=\"background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:24px 28px;max-width:44em;margin-bottom:40px\">\n      <p style=\"font-weight:800;color:var(--green);margin-bottom:10px;letter-spacing:.02em\">En bref</p>\n      <ul style=\"margin:0;padding-left:1.1em;line-height:1.6;font-size:.97rem\">\n        <li>Mediterrano Pilates personnalise des chaussettes antidérapantes avec le logo de votre cabinet de kinésithérapie, ainsi que des gourdes isothermes, des tote bags et des anneaux de Pilates, à proposer à vos patients à l'accueil.</li>\n        <li>En exercice thérapeutique, en Pilates thérapeutique et en proprioception, la séance se fait en chaussettes antidérapantes&nbsp;: semelle à picots en silicone, coupe mi-haute, logo tissé (jacquard) ou brodé, jamais imprimé, couleur reproduite au plus près de votre code Pantone.</li>\n        <li>Minimum de commande&nbsp;: 50 paires, à 6,95&nbsp;€ HT la paire. Prix de vente conseillé en France&nbsp;: 19,95&nbsp;€ TTC, soit environ 9,68&nbsp;€ de marge par paire après TVA (environ 58&nbsp;%).</li>\n        <li>Maquette gratuite en 24 heures, sans engagement. Livraison environ 4 semaines après validation du devis.</li>\n        <li>Le produit se vend comme matériel de séance et ne se présente jamais comme un traitement&nbsp;: la page explique où se situe la limite et renvoie à votre ordre professionnel.</li>\n        <li>Livraison gratuite dans toute l'Europe, y compris la France, la Belgique, le Luxembourg et la Suisse. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne).</li>\n      </ul>\n    </div>\n"
+   "html": "    <div class=\"en-bref\" style=\"background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:24px 28px;max-width:44em;margin-bottom:40px\">\n      <p style=\"font-weight:800;color:var(--green);margin-bottom:10px;letter-spacing:.02em\">En bref</p>\n      <ul style=\"margin:0;padding-left:1.1em;line-height:1.6;font-size:.97rem\">\n        <li>Mediterrano Pilates personnalise des chaussettes antidérapantes avec le logo de votre cabinet de kinésithérapie, ainsi que des gourdes isothermes, des tote bags et des anneaux de Pilates, à proposer à vos patients à l'accueil.</li>\n        <li>En exercice thérapeutique, en Pilates thérapeutique et en proprioception, la séance se fait en chaussettes antidérapantes&nbsp;: semelle à picots en silicone, coupe mi-haute, logo tissé (jacquard) ou brodé, jamais imprimé, couleur reproduite au plus près de votre code Pantone.</li>\n        <li>Minimum de commande&nbsp;: 50 paires, à 6,95&nbsp;€ HT la paire. Prix de vente conseillé en France&nbsp;: 19,95&nbsp;€ TTC, soit environ 9,68&nbsp;€ de marge par paire après TVA (environ 58&nbsp;%).</li>\n        <li>Maquette gratuite en 24 heures, sans engagement. Livraison environ 4 semaines après validation du devis.</li>\n        <li>Le produit se vend comme matériel de séance et ne se présente jamais comme un traitement&nbsp;: la page explique où se situe la limite et renvoie à votre ordre professionnel.</li>\n        <li>Livraison gratuite dans toute l'Europe, y compris en France, en Belgique, au Luxembourg et en Suisse. Hors de l'Union européenne, comme en Suisse, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne) et travaille avec des studios de toute l'Europe et au-delà.</li>\n      </ul>\n    </div>\n"
   }
  ],
  "_faq_extra": [
   {
-   "q": "Quelle différence avec une chaussette promotionnelle bon marché&nbsp;?",
-   "a": "Une chaussette promotionnelle est un article publicitaire imprimé. La nôtre est une vraie chaussette antidérapante faite pour la séance&nbsp;: semelle à picots en silicone, coupe mi-haute, matière conforme à REACH et logo tissé ou brodé dans la maille, jamais imprimé. C'est la chaussette que vos patients portent à chaque séance d'exercice thérapeutique ou de Pilates thérapeutique, et c'est pour cela qu'ils l'achètent volontiers."
-  },
-  {
    "q": "Puis-je voir la qualité avant de commander&nbsp;?",
    "a": "Oui. Nous vous envoyons un kit d'échantillons (chaussette, gourde isotherme et tote bag) pour un petit montant, intégralement déduit de votre première commande&nbsp;: les échantillons ne vous coûtent donc rien si vous donnez suite."
+  },
+  {
+   "q": "Quelle est la qualité de vos chaussettes antidérapantes&nbsp;?",
+   "a": "C'est une vraie chaussette antidérapante faite pour le cours&nbsp;: semelle à picots en PVC ou silicone, coupe mi-haute, matière conforme à REACH et logo tissé ou brodé dans la maille, jamais imprimé, pour qu'il résiste aux lavages. C'est la chaussette que vos élèves portent à chaque séance, et c'est pour cela qu'elles l'achètent volontiers."
   }
  ],
  "_ld": {
@@ -204,7 +204,7 @@
     },
     "availability": "https://schema.org/InStock",
     "businessFunction": "https://schema.org/Sell",
-    "description": "Prix de gros de référence par paire de chaussettes antidérapantes avec logo, hors TVA. Minimum de commande 50 paires. Gourdes isothermes, tote bags et anneaux sur devis."
+    "description": "Prix de gros de référence par paire de chaussettes antidérapantes avec logo, hors TVA. Minimum de commande 50 paires. Tote bags dès 50 unités, gourdes isothermes et anneaux sur devis."
    }
   }
  },

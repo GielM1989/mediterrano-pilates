@@ -20,7 +20,7 @@
  "52": "Comment démarrer sans vous engager",
  "53": "Vous demandez votre maquette gratuite&nbsp;: vous voyez le logo de votre studio sur le produit en 24 heures.",
  "54": "Vous validez le visuel et le prix final avant tout engagement.",
- "55": "La commande n'est produite qu'ensuite&nbsp;; le minimum de commande est de 50 paires pour les chaussettes, et pour les gourdes isothermes, les tote bags et les anneaux nous préparons un devis sur mesure selon la quantité.",
+ "55": "La commande n'est produite qu'ensuite&nbsp;; le minimum de commande est de 50 paires pour les chaussettes et de 50 unités pour les tote bags. Pour les gourdes isothermes et les anneaux, nous préparons un devis sur mesure selon la quantité.",
  "56": "Production et livraison prennent environ 4 semaines au total, avec livraison gratuite dans toute l'Europe.",
  "57": "C'est un modèle pensé pour les studios qui veulent un revenu complémentaire, et non une boutique à gérer. Vous pouvez lire le fonctionnement complet sur la page ",
  "60": "Comment vendre des produits à ma marque dans mon studio de yoga sans avoir de stock&nbsp;?",
@@ -55,11 +55,11 @@
  "_faq_extra": [
   {
    "q": "Quel est le minimum de commande&nbsp;?",
-   "a": "Le minimum est de 50 paires pour les chaussettes antidérapantes. Pour les gourdes isothermes, les tote bags et les anneaux de Pilates, nous préparons un devis sur mesure selon la quantité."
+   "a": "Le minimum est de 50 paires pour les chaussettes antidérapantes. Pour les tote bags, le minimum est de 50 unités. Pour les gourdes isothermes et les anneaux de Pilates, nous préparons un devis sur mesure selon la quantité."
   },
   {
    "q": "Livrez-vous en France, en Belgique, au Luxembourg et en Suisse&nbsp;?",
-   "a": "Oui. La livraison est gratuite dans toute l'Europe, y compris la France, la Belgique, le Luxembourg et la Suisse. Pour la Suisse, la TVA à l'importation (8,1&nbsp;%) et les frais de dédouanement sont à la charge du destinataire, sauf mention contraire dans le devis."
+   "a": "Oui. La livraison est gratuite dans toute l'Europe, y compris en France, en Belgique, au Luxembourg et en Suisse. Pour les livraisons hors de l'Union européenne, par exemple vers la Suisse, le Royaume-Uni ou la Norvège, la TVA à l'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire."
   }
  ]
 }
