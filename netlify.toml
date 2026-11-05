@@ -10,6 +10,50 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
 
+# Internationale bio-link: mediterranopilates.com/free-design
+# Stuurt naar de gratis-mockup-pagina in de taal van de browser (standaard Spaans), met UTM-tracking.
+
+[[redirects]]
+  from = "/free-design"
+  to = "/en/free-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 302
+  force = true
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/free-design"
+  to = "/de/kostenloses-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 302
+  force = true
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/free-design"
+  to = "/nl/gratis-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 302
+  force = true
+  conditions = {Language = ["nl"]}
+
+[[redirects]]
+  from = "/free-design"
+  to = "/fr/maquette-gratuite/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 302
+  force = true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/free-design"
+  to = "/mockup-gratis/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  status = 302
+  force = true
+
+# Oude bio-link blijft werken
+[[redirects]]
+  from = "/tu-boceto-gratis"
+  to = "/free-design"
+  status = 301
+  force = true
+
 # Korte, nette link voor de Instagram-bio (ES-account). Toont als
 # "mediterranopilates.com/tu-mockup" en stuurt door naar de ES-homepage met UTM-tracking.
 [[redirects]]
