@@ -11,39 +11,39 @@
     X-Content-Type-Options = "nosniff"
 
 # Internationale bio-link: mediterranopilates.com/free-design
-# Stuurt naar de gratis-mockup-pagina in de taal van de browser (standaard Spaans), met UTM-tracking.
+# Stuurt naar het mockupformulier onderaan de homepage in de taal van de browser (standaard Spaans), met UTM-tracking.
 
 [[redirects]]
   from = "/free-design"
-  to = "/en/free-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  to = "/en/?utm_source=instagram&utm_medium=bio&utm_campaign=profile#mockup-form"
   status = 302
   force = true
   conditions = {Language = ["en"]}
 
 [[redirects]]
   from = "/free-design"
-  to = "/de/kostenloses-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  to = "/de/?utm_source=instagram&utm_medium=bio&utm_campaign=profile#mockup-form"
   status = 302
   force = true
   conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "/free-design"
-  to = "/nl/gratis-mockup/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  to = "/nl/?utm_source=instagram&utm_medium=bio&utm_campaign=profile#mockup-form"
   status = 302
   force = true
   conditions = {Language = ["nl"]}
 
 [[redirects]]
   from = "/free-design"
-  to = "/fr/maquette-gratuite/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  to = "/fr/?utm_source=instagram&utm_medium=bio&utm_campaign=profile#mockup-form"
   status = 302
   force = true
   conditions = {Language = ["fr"]}
 
 [[redirects]]
   from = "/free-design"
-  to = "/mockup-gratis/?utm_source=instagram&utm_medium=bio&utm_campaign=profile"
+  to = "/?utm_source=instagram&utm_medium=bio&utm_campaign=profile#mockup-form"
   status = 302
   force = true
 
