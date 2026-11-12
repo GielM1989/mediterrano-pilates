@@ -121,3 +121,64 @@
   to = "/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/"
   status = 301
   force = true
+
+# Pilatesring niet meer in het aanbod (12 nov 2026): oude ringpagina's naar de homepage van dezelfde taal.
+[[redirects]]
+  from = "/aro-de-pilates-personalizado/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aro-de-pilates-personalizado"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/custom-pilates-ring/*"
+  to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/custom-pilates-ring"
+  to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/pilates-ring-mit-logo/*"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/pilates-ring-mit-logo"
+  to = "/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nl/pilatesring-met-logo/*"
+  to = "/nl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nl/pilatesring-met-logo"
+  to = "/nl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/anneau-de-pilates-personnalise/*"
+  to = "/fr/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/anneau-de-pilates-personnalise"
+  to = "/fr/"
+  status = 301
+  force = true
