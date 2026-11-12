@@ -317,43 +317,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Aro de pilates personalizado (ES + EN) -->
-  <url>
-    <loc>https://mediterranopilates.com/aro-de-pilates-personalizado/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/aro-de-pilates-personalizado/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/pilates-ring-mit-logo/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/pilatesring-met-logo/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://mediterranopilates.com/en/custom-pilates-ring/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/aro-de-pilates-personalizado/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/pilates-ring-mit-logo/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/pilatesring-met-logo/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mediterranopilates.com/de/pilates-ring-mit-logo/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/aro-de-pilates-personalizado/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/pilates-ring-mit-logo/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/pilatesring-met-logo/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
 
   <!-- Precios y márgenes (ES + EN) -->
   <url>
@@ -779,19 +742,6 @@
   </url>
 
   <url>
-    <loc>https://mediterranopilates.com/nl/pilatesring-met-logo/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/aro-de-pilates-personalizado/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/pilates-ring-mit-logo/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/pilatesring-met-logo/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://mediterranopilates.com/nl/prijzen-en-marges/</loc>
     <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/precios-y-margenes/" />
@@ -950,7 +900,6 @@
     <priority>0.8</priority>
   </url>
 
-
   <url>
     <loc>https://mediterranopilates.com/fr/</loc>
     <lastmod>2026-11-04</lastmod>
@@ -1051,19 +1000,6 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/aro-de-pilates-personalizado/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/pilates-ring-mit-logo/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/pilatesring-met-logo/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/anneau-de-pilates-personnalise/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-pilates-ring/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
