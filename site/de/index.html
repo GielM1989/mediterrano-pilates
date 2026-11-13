@@ -1642,7 +1642,7 @@ footer a{white-space:nowrap}
       <div style="width:100%">
         <h2>Die Kollektion</h2>
       </div>
-      <p>Drei Produkte. Alle auf dem Niveau deines Studios.</p>
+      <p>Vier Produkte. Alle auf dem Niveau deines Studios.</p>
     </div>
     <div class="p-grid">
       <article class="p-card">
@@ -1675,6 +1675,16 @@ footer a{white-space:nowrap}
           <h3>Stofftasche</h3>
           <p>Robuste Naturbaumwolle mit deinem Logo, dezent oder groß, ganz wie du willst. Die Tasche fürs Studio, den Wochenmarkt und den Strand.</p>
           <p style="margin-top:8px"><a href="/de/stofftaschen-mit-logo/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Details und Preise ansehen →</a></p>
+        </div>
+      </article>
+      <article class="p-card" id="toalla-reformer">
+        <div class="imgbox">
+          <picture><source srcset="../images/product-towel.webp" type="image/webp"><img src="../images/product-towel.jpg" width="900" height="1200" alt="Lavendelfarbenes Reformer-Handtuch Calma mit Logo auf einem Reformer in einem mediterranen Studio" loading="lazy"></picture>
+        </div>
+        <div class="p-body">
+          <h3>Reformer-Handtuch Calma</h3>
+          <p>Gemacht für den Reformer: 99,6 × 61 cm, weiches Suede, das Schweiß aufnimmt, und eine rutschfeste Unterseite aus Silikon, die liegen bleibt. Mit Lasche für die Kopfstütze, deinem Logo und in 8 Farben. Ab 50 Stück. Preis auf Anfrage.</p>
+          <p style="margin-top:8px"><a href="#mockup-form" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Gratis-Mockup anfordern →</a></p>
         </div>
       </article>
     </div>
@@ -1883,6 +1893,11 @@ footer a{white-space:nowrap}
                 <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
                 <span class="mw-card-label">Stofftasche</span>
               </button>
+              <button type="button" class="mw-card" data-product="Toalla reformer Calma">
+                <picture><source srcset="../images/product-towel.webp" type="image/webp"><img src="../images/product-towel.jpg" width="900" height="1200" alt="Reformer-Handtuch" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Reformer-Handtuch</span>
+              </button>
             </div>
 
           <div id="mwSockOpts" class="mw-sock-panel" hidden>
@@ -1911,6 +1926,21 @@ footer a{white-space:nowrap}
 
               <input type="hidden" name="tecnica_logo" id="sockTech" value="Eingewebt">
             </div>
+          <div id="mwTowelOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">Die Farbe deines Handtuchs</h3>
+              <div class="mw-color-grid" id="mwTowelColors">
+                <button type="button" class="mw-swatch" data-color="Lavanda"><span class="mw-swatch-dot" style="--sw:#CDBCCB"></span><span class="mw-swatch-label">Lavanda</span></button>
+                <button type="button" class="mw-swatch" data-color="Menta"><span class="mw-swatch-dot" style="--sw:#C3D2C8"></span><span class="mw-swatch-label">Menta</span></button>
+                <button type="button" class="mw-swatch" data-color="Carbón"><span class="mw-swatch-dot" style="--sw:#232323"></span><span class="mw-swatch-label">Carbón</span></button>
+                <button type="button" class="mw-swatch" data-color="Cielo"><span class="mw-swatch-dot" style="--sw:#A3BFD6"></span><span class="mw-swatch-label">Cielo</span></button>
+                <button type="button" class="mw-swatch" data-color="Niebla"><span class="mw-swatch-dot" style="--sw:#BEBDB9"></span><span class="mw-swatch-label">Niebla</span></button>
+                <button type="button" class="mw-swatch" data-color="Almendro"><span class="mw-swatch-dot" style="--sw:#EFBDB8"></span><span class="mw-swatch-label">Almendro</span></button>
+                <button type="button" class="mw-swatch" data-color="Albahaca"><span class="mw-swatch-dot" style="--sw:#79AE7D"></span><span class="mw-swatch-label">Albahaca</span></button>
+                <button type="button" class="mw-swatch" data-color="Arena"><span class="mw-swatch-dot" style="--sw:#B9A585"></span><span class="mw-swatch-label">Arena</span></button>
+              </div>
+              <input type="hidden" name="color_toalla" id="towelColor">
+            </div>
+
 
           <h3 class="mw-q" style="margin-top:24px">Wie viele ungefähr?</h3>
             <p class="mw-hint" style="margin:-8px 0 12px">Nur zur Orientierung, keine Verpflichtung.</p>
@@ -2152,6 +2182,8 @@ footer a{white-space:nowrap}
     if (!selected && idx > -1) state.products.splice(idx, 1);
     productField.value = state.products.join(', ');
     if (sockOpts) sockOpts.hidden = state.products.indexOf('Calcetines antideslizantes') === -1;
+    var towelOpts = document.getElementById('mwTowelOpts');
+    if (towelOpts) towelOpts.hidden = state.products.indexOf('Toalla reformer Calma') === -1;
   }
 
   productGrid.addEventListener('click', function(e){
@@ -2209,6 +2241,7 @@ footer a{white-space:nowrap}
   }
   single('mwTechGrid', '.mw-style-card', 'data-tech', 'sockTech');
   single('mwQtyChips', '.mw-chip', 'data-qty', 'qtyWanted');
+  single('mwTowelColors', '.mw-swatch', 'data-color', 'towelColor');
 
   var dropzone = document.getElementById('mwDropzone');
   var fileInput = document.getElementById('logoFile');
