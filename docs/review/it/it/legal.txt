@@ -15,7 +15,7 @@ Registro delle imprese:
 iscritta al Registro Mercantil di Valencia, tomo N/A, folio N/A, hoja V-230506
 Email:
 Telefono:
-Mediterrano Pilates è un marchio di Ecomtierra Group SL. Lavoriamo dalla Spagna e forniamo prodotti personalizzati a clienti professionali (studi di pilates, yoga e barre e studi di fisioterapia) in Italia, in Svizzera e nel resto d'Europa.
+Mediterrano Pilates è un marchio di Ecomtierra Group SL. Lavoriamo dalla Spagna e forniamo prodotti personalizzati a clienti professionali (studi di pilates, yoga, barre e fisioterapia) in Italia, in Svizzera e nel resto d'Europa.
 Hosting
 Il sito è ospitato da Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, Stati Uniti (netlify.com).
 Proprietà intellettuale
@@ -52,7 +52,7 @@ Google Analytics 4 (Google Ireland Ltd.; cookie _ga e _ga_*, fino a 2 anni)
 Richiesto
 Misurazione dei nostri annunci
 pixel di Meta (Meta Platforms Ireland Ltd.; cookie _fbp, 90 giorni)
-Alla tua prima visita, un banner ti propone “Accetta tutto” o “Rifiuta tutto”, con la stessa evidenza, oppure di scegliere le singole finalità con “Personalizza”. Chiudere il banner con la X equivale a rifiutare. Finché non scegli, nessuno strumento di misurazione viene caricato. Il sito funziona allo stesso modo in tutti i casi.
+Alla tua prima visita, un banner ti permette di scegliere “Accetta tutto” o “Rifiuta tutto”, con la stessa evidenza, oppure di selezionare le singole finalità con “Personalizza”. Chiudere il banner con la X equivale a rifiutare. Finché non scegli, nessuno strumento di misurazione viene caricato. Il sito funziona allo stesso modo in tutti i casi.
 Conserviamo la tua scelta per 6 mesi nel tuo browser, poi te la chiediamo di nuovo. Puoi modificarla in qualsiasi momento con il link “Gestione dei cookie” in fondo alle pagine del sito, cancellando i dati di questo sito dal tuo browser o scrivendoci a hola@mediterranopilates.com.
 Valide per tutti i preventivi e tutte le forniture a clienti professionali
 1. Ambito di applicazione
@@ -80,7 +80,7 @@ Garantisci di avere i diritti di utilizzo del logo e degli elementi di marca che
 11. Legge applicabile e foro competente
 A tutti i contratti si applica la legge spagnola, fatte salve le disposizioni inderogabili vigenti nel paese del cliente. Ogni controversia che non possa essere risolta in via amichevole è di competenza dei tribunali spagnoli.
 12. Contenuti informativi del sito
-Le informazioni pubblicate su questo sito (compresi il blog, le pagine prodotto e le pagine per settore) hanno carattere generale e informativo. Non costituiscono una consulenza legale, fiscale, medica o professionale di alcun tipo e non sostituiscono il parere del tuo Ordine professionale, della tua federazione o del tuo consulente. Quando citiamo una normativa, lo facciamo secondo una nostra lettura alla data di pubblicazione; può cambiare ed essere diversa nel tuo paese. Prima di qualsiasi decisione basata su questi contenuti, verificala con un professionista qualificato. Ecomtierra Group SL declina ogni responsabilità per decisioni prese unicamente sulla base delle informazioni di questo sito.
+Le informazioni pubblicate su questo sito (compresi il blog, le pagine prodotto e le pagine per settore) hanno carattere generale e informativo. Non costituiscono una consulenza legale, fiscale, medica o professionale di alcun tipo e non sostituiscono il parere del tuo Ordine professionale, della tua federazione o del tuo consulente. Quando citiamo una normativa, lo facciamo secondo una nostra lettura alla data di pubblicazione; può cambiare ed essere diversa nel tuo paese. Prima di qualsiasi decisione basata su questi contenuti, verifica le informazioni con un professionista qualificato. Ecomtierra Group SL declina ogni responsabilità per decisioni prese unicamente sulla base delle informazioni di questo sito.
 13. Lingue
 Le presenti condizioni sono disponibili in italiano, spagnolo, inglese, tedesco, olandese e francese. In caso di divergenza, fa fede la versione spagnola.
 Ultimo aggiornamento: novembre 2026. Una domanda su queste condizioni? Scrivici a hola@mediterranopilates.com.

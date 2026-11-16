@@ -322,6 +322,7 @@ def post(out, src, it_path):
     out = re.sub(r'<time datetime="\d{4}-\d{2}-\d{2}">', '<time datetime="' + TODAY + '">', out)
     out = out.replace("gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});",
                       "gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */")
+    out = out.replace('>Tote bags<', '>Tote bag<')
     for a, b in LEGAL_IDS:
         out = out.replace(a, b)
     return out
