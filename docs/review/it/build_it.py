@@ -308,6 +308,7 @@ def post(out, src, it_path):
         out, n = re.subn(r'<div class="cookie-bar" id="cookieBar"[\s\S]*?</div>\n</div>\n<script>\n\(function\(\)\{[\s\S]*?</script>', lambda m: COOKIE_BLOCK, out, count=1)
         assert n == 1, "cookieblok niet gevonden"
         out = out.replace("</head>", COOKIE_CSS + "\n</head>", 1)
+    out = re.sub(r'<time datetime="\d{4}-\d{2}-\d{2}">', '<time datetime="' + TODAY + '">', out)
     for a, b in LEGAL_IDS:
         out = out.replace(a, b)
     return out
