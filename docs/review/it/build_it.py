@@ -122,7 +122,7 @@ JS = {
     "'.mw-card[data-product=\"Chaussettes antidérapantes\"]'": "'.mw-card[data-product=\"Calze antiscivolo\"]'",
     "'.mw-card[data-product=\"Calcetines antideslizantes\"]'": "'.mw-card[data-product=\"Calze antiscivolo\"]'",
     "remember(a.getAttribute('hreflang')||'fr')": "remember(a.getAttribute('hreflang')||'it')",
-    "toLocaleString('fr-FR')": "toLocaleString('it-IT')",
+    "toLocaleString('fr-FR')": "toLocaleString('de-DE')",  # de-DE groepeert ook 4 cijfers met een punt, zoals gebruikelijk in het Italiaans
     "m=pairs*9.68;": "m=pairs*9.40;",
     "textContent=pct+'\\u00a0%';": "textContent=pct+'%';",
 }
