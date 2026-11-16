@@ -60,6 +60,7 @@ Inkoop is de groothandelsprijs exclusief btw. Adviesprijs is wat het lid betaalt
 ## Overige vaste feiten
 - **Minimum:** 50 paar sokken. **Tote bags minimaal 50 stuks** (klantbesluit 04-11-2026). Tumblers en pilatesringen op offerte, zonder vast minimum. Reformer-handdoek vanaf 50 stuks.
 - **Mockup** met je logo: gratis en binnen 24 uur. Bestelling pas na goedkeuring van de offerte en betaling.
+- **Offerte** (klant 16-11-2026): komt pas als de studio het juiste design heeft gekozen, dus na de mockup en eventuele aanpassingen, niet tegelijk met de mockup. Op /it/ doorgevoerd; andere talen zeggen nog vaak "offerte samen met de mockup".
 - **Levertijd:** productie en levering samen ongeveer 4 weken, gerekend vanaf goedkeuring van de offerte en betaling.
 - **Kwaliteitsgarantie:** wijkt de geleverde kleur af van het goedgekeurde ontwerp, of meld je binnen 14 dagen een productiefout, dan maken we het kosteloos opnieuw.
 - **Samples:** set (sok, tumbler, tote bag) voor een klein bedrag. Dat wordt volledig verrekend met de eerste bestelling.
