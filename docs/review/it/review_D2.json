@@ -1,0 +1,415 @@
+[
+ {
+  "page": "yoga",
+  "line": 6,
+  "old": "Nello yoga molte praticano a piedi nudi, ed è giusto così. Ma nello yin, nello yoga restorative, nelle lezioni invernali e negli studi che propongono anche pilates, la calza antiscivolo fa parte della lezione, e la tote bag come il tumbler termico servono a tutte le tue allieve. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.",
+  "new": "Nello yoga molte praticano a piedi nudi, ed è giusto così. Ma nello yin, nello yoga restorative, nelle lezioni invernali e negli studi che propongono anche pilates, la calza antiscivolo fa parte della lezione, mentre la tote bag e il tumbler termico servono a tutte le tue allieve. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.",
+  "why": "\"la tote bag come il tumbler\" è un calco; \"mentre ... e\" rende il contrasto"
+ },
+ {
+  "page": "yoga",
+  "line": 13,
+  "old": "50 paia di calze. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici la quantità è fissata nel preventivo.",
+  "new": "50 paia di calze. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici la quantità è definita nel preventivo.",
+  "why": "coerenza con la FAQ (\"definita nel preventivo\")"
+ },
+ {
+  "page": "yoga",
+  "line": 26,
+  "old": "Nello yoga molte praticano a piedi nudi, e non c'è alcun bisogno di cambiarlo. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.",
+  "new": "Nello yoga molte praticano a piedi nudi, e non c'è motivo di cambiare. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.",
+  "why": "\"cambiarlo\" senza referente chiaro"
+ },
+ {
+  "page": "yoga",
+  "line": 32,
+  "old": "Lezioni intense durante le quali l'allieva beve per tutta la lezione. Qui il prodotto che si vede è il tumbler termico.",
+  "new": "Lezioni intense in cui l'allieva beve dall'inizio alla fine. Qui il prodotto in vista è il tumbler termico.",
+  "why": "ripetizione lezioni/lezione; formula più naturale"
+ },
+ {
+  "page": "yoga",
+  "line": 35,
+  "old": "L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Un'allieva che va in palestra, in spiaggia o a un'altra lezione con la tote bag o le calze del tuo studio è un modo per far conoscere il tuo studio, senza costi pubblicitari.",
+  "new": "L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Un'allieva che va in palestra, in spiaggia o a un'altra lezione con la tote bag o le calze del tuo studio lo fa conoscere senza costi pubblicitari.",
+  "why": "una persona non \"è un modo\"; evita la ripetizione di \"tuo studio\""
+ },
+ {
+  "page": "yoga",
+  "line": 45,
+  "old": "Nelle lezioni più intense l'allieva beve per tutta la lezione e appoggia il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "new": "Nelle lezioni più intense l'allieva beve spesso e tiene il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "why": "ripetizione lezioni/lezione nella stessa frase"
+ },
+ {
+  "page": "yoga",
+  "line": 46,
+  "old": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi alle tue allieve a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, sono 347,50 € IVA esclusa di acquisto e circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "new": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi alle tue allieve a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, spendi 347,50 € IVA esclusa e ottieni circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "why": "\"sono ... di acquisto\" è goffo"
+ },
+ {
+  "page": "yoga",
+  "line": 49,
+  "old": "Se il tuo studio propone solo yoga, inizia da ciò che le tue allieve usano già a ogni visita, la tote bag e il tumbler termico, e aggiungi le calze per lo yin, il restorative e le lezioni invernali. Gli stessi prodotti funzionano anche come regalo di benvenuto; trovi delle idee nel nostro articolo sul",
+  "new": "Se il tuo studio propone solo yoga, inizia da ciò che le tue allieve usano già ogni volta che vengono in studio, la tote bag e il tumbler termico, e aggiungi le calze per lo yin, il restorative e le lezioni invernali. Gli stessi prodotti funzionano anche come regalo di benvenuto; trovi delle idee nel nostro articolo sul",
+  "why": "\"visita\" è lessico sanitario, non da studio di yoga"
+ },
+ {
+  "page": "yoga",
+  "line": 53,
+  "old": "Dove può ordinare calze antiscivolo con il proprio logo uno studio di yoga?",
+  "new": "Dove ordinare calze antiscivolo con il logo del mio studio di yoga?",
+  "why": "soggetto posposto innaturale; allineata alla FAQ barre"
+ },
+ {
+  "page": "yoga",
+  "line": 55,
+  "old": "Si portano le calze antiscivolo nello yoga?",
+  "new": "Nello yoga si usano le calze antiscivolo?",
+  "why": "ordine più naturale"
+ },
+ {
+  "page": "yoga",
+  "line": 58,
+  "old": "Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando il primo funziona.",
+  "new": "Quelli che l'allieva usa ogni volta che viene in studio: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando il primo funziona.",
+  "why": "\"visita\" lessico sanitario"
+ },
+ {
+  "page": "yoga",
+  "line": 65,
+  "old": "Quanto tempo richiede l'ordine per uno studio di yoga?",
+  "new": "Quanto tempo ci vuole per ricevere l'ordine in uno studio di yoga?",
+  "why": "\"richiede l'ordine\" ambiguo (sembra \"cosa richiede\")"
+ },
+ {
+  "page": "barre",
+  "line": 11,
+  "old": "vanno sempre insieme.",
+  "new": "vanno di pari passo.",
+  "why": "espressione idiomatica, meno assoluta"
+ },
+ {
+  "page": "barre",
+  "line": 25,
+  "old": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi alle tue allieve a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, sono 347,50 € IVA esclusa di acquisto e circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "new": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi alle tue allieve a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, spendi 347,50 € IVA esclusa e ottieni circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "why": "\"sono ... di acquisto\" è goffo"
+ },
+ {
+  "page": "barre",
+  "line": 28,
+  "old": "Se il tuo studio propone solo barre, l'approccio non cambia. La calza si vende alla reception, si ricompra con l'uso perché si consuma con la pratica, e ogni nuova allieva è l'occasione per una nuova vendita.",
+  "new": "Se il tuo studio propone solo barre, l'approccio non cambia. La calza si vende alla reception, si ricompra perché con la pratica si consuma, e ogni nuova allieva è l'occasione per una nuova vendita.",
+  "why": "doppio \"con\" ridondante"
+ },
+ {
+  "page": "barre",
+  "line": 38,
+  "old": "Quanto tempo richiede l'ordine per uno studio di barre?",
+  "new": "Quanto tempo ci vuole per ricevere l'ordine in uno studio di barre?",
+  "why": "\"richiede l'ordine\" ambiguo"
+ },
+ {
+  "page": "fisio",
+  "line": 16,
+  "old": "vanno sempre insieme.",
+  "new": "vanno di pari passo.",
+  "why": "\"sempre\" contraddice la pagina (solo alcune sedute); idiomatico"
+ },
+ {
+  "page": "fisio",
+  "line": 44,
+  "old": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi ai tuoi pazienti a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, sono 347,50 € IVA esclusa di acquisto e circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "new": "Esempio: acquisti le calze a prezzo all'ingrosso di circa 6,95 € al paio IVA esclusa e le vendi ai tuoi pazienti a 19,95 € IVA inclusa; al netto dell'IVA ti restano circa 9,40 € di margine al paio. Con l'ordine minimo di 50 paia, spendi 347,50 € IVA esclusa e ottieni circa 470,12 € di margine. Il preventivo esatto ti arriva insieme al mockup.",
+  "why": "\"sono ... di acquisto\" è goffo"
+ },
+ {
+  "page": "fisio",
+  "line": 49,
+  "old": "In Italia la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione e, per la pubblicità sanitaria, dalla legge 145/2018 (art. 1, comma 525); per i fisioterapisti sul rispetto del codice vigila l'Ordine dei fisioterapisti (OFI). Queste regole servono in particolare a evitare che a un prodotto si attribuiscano effetti sulla salute senza fondamento, e che si cerchi di attirare o fidelizzare il paziente con regali.",
+  "new": "In Italia la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione e, per la pubblicità sanitaria, dalla legge 145/2018 (art. 1, comma 525); per i fisioterapisti, sul rispetto del codice vigila l'Ordine dei fisioterapisti (OFI). Queste regole servono in particolare a evitare che a un prodotto si attribuiscano effetti sulla salute senza fondamento, e che si cerchi di attirare o fidelizzare il paziente con regali.",
+  "why": "virgola dopo il complemento anticipato"
+ },
+ {
+  "page": "fisio",
+  "line": 57,
+  "old": "Descriverla per ciò che è: una calza antiscivolo con suola con grip in PVC o silicone, con il logo dello studio.",
+  "new": "Descriverla per ciò che è: una calza antiscivolo con grip in PVC o silicone sulla suola e il logo dello studio.",
+  "why": "tre \"con\" di fila"
+ },
+ {
+  "page": "fisio",
+  "line": 66,
+  "old": "Prima di applicarlo nel tuo studio, verificalo con il tuo Ordine professionale. Questa pagina non sostituisce quel parere.",
+  "new": "Prima di adottare questo approccio nel tuo studio, verificalo con il tuo Ordine professionale. Questa pagina non sostituisce quel parere.",
+  "why": "\"applicarlo\" senza referente"
+ },
+ {
+  "page": "fisio",
+  "line": 71,
+  "old": "Alcuni studi combinano la visita individuale con una sala esercizi dove si praticano pilates terapeutico, ricondizionamento atletico o piccoli gruppi. In queste sedute il paziente lavora con le calze antiscivolo, quindi il prodotto è lo stesso: un logo, un mockup e un solo ordine da 50 paia.",
+  "new": "Alcuni studi combinano la visita individuale con una sala esercizi dove si fanno pilates terapeutico, ricondizionamento atletico o lezioni in piccoli gruppi. In queste sedute il paziente lavora con le calze antiscivolo, quindi il prodotto è lo stesso: un logo, un mockup e un solo ordine da 50 paia.",
+  "why": "non si \"praticano\" i piccoli gruppi"
+ },
+ {
+  "page": "fisio",
+  "line": 80,
+  "old": "Dove può ordinare calze antiscivolo con il proprio logo uno studio di fisioterapia?",
+  "new": "Dove ordinare calze antiscivolo con il logo del mio studio di fisioterapia?",
+  "why": "soggetto posposto innaturale"
+ },
+ {
+  "page": "fisio",
+  "line": 86,
+  "old": "Quanto costano le calze con logo e quanto margine lasciano a uno studio?",
+  "new": "Quanto costano le calze con logo e quanto margine lasciano a uno studio di fisioterapia?",
+  "why": "coerenza con le altre FAQ"
+ },
+ {
+  "page": "fisio",
+  "line": 89,
+  "old": "Quanto tempo richiede l'ordine per uno studio di fisioterapia?",
+  "new": "Quanto tempo ci vuole per ricevere l'ordine in uno studio di fisioterapia?",
+  "why": "\"richiede l'ordine\" ambiguo"
+ },
+ {
+  "page": "blog",
+  "line": 6,
+  "old": "La risposta breve: una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che evita di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria.",
+  "new": "La risposta breve: una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che impedisce al piede di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria.",
+  "why": "la suola non \"evita di scivolare\": soggetto errato"
+ },
+ {
+  "page": "blog",
+  "line": 20,
+  "old": "guarda il margine reale del tuo studio.",
+  "new": "scopri il margine reale del tuo studio.",
+  "why": "coerenza con b_fatturato; più naturale"
+ },
+ {
+  "page": "blog",
+  "line": 21,
+  "old": "Articoli su entrate extra e fidelizzazione delle allieve negli studi di pilates e yoga, grazie ai prodotti personalizzati con il loro logo.",
+  "new": "Articoli su entrate extra e fidelizzazione delle allieve negli studi di pilates e yoga, grazie ai prodotti personalizzati con il logo dello studio.",
+  "why": "\"loro\" ambiguo (sembra il logo delle allieve)"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 10,
+  "old": "I prodotti personalizzati funzionano meglio quando l'allieva li usa già, perché si tratta di qualcosa di cui ha già bisogno: calze antiscivolo (richieste nella maggior parte delle lezioni di pilates sul reformer), un tumbler termico da 1,2 L e una tote bag in tela. Tutti si personalizzano con il logo del tuo studio, con il colore riprodotto il più vicino possibile al tuo codice Pantone.",
+  "new": "I prodotti personalizzati funzionano meglio quando rispondono a un bisogno che l'allieva ha già: calze antiscivolo (richieste nella maggior parte delle lezioni di pilates sul reformer), un tumbler termico da 1,2 L e una tote bag in tela. Tutti e tre si personalizzano con il logo del tuo studio, con il colore riprodotto il più vicino possibile al tuo codice Pantone.",
+  "why": "tautologia con doppio \"già\"; \"tutti e tre\""
+ },
+ {
+  "page": "b_fatturato",
+  "line": 22,
+  "old": "Richiedi il tuo mockup gratuito, approvi l'anteprima e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è magazzino a nome dello studio: tutto viene prodotto su ordinazione, dopo la conferma.",
+  "new": "Richiedi il tuo mockup gratuito, approvi l'anteprima e il prezzo, e solo a quel punto l'ordine viene prodotto. Lo studio non deve tenere magazzino: tutto viene prodotto su ordinazione, dopo la conferma.",
+  "why": "calco dal francese \"au nom du studio\""
+ },
+ {
+  "page": "b_fatturato",
+  "line": 24,
+  "old": "Tre prodotti che le tue allieve usano già: calze antiscivolo, un tumbler termico da 1,2 L e una tote bag in tela. Tutti si personalizzano con il logo del tuo studio.",
+  "new": "Tre prodotti che le tue allieve usano già: calze antiscivolo, un tumbler termico da 1,2 L e una tote bag in tela. Tutti e tre si personalizzano con il logo del tuo studio.",
+  "why": "\"tutti e tre\" più naturale"
+ },
+ {
+  "page": "b_calze",
+  "line": 4,
+  "old": "La risposta breve: una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che evita di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria. Le tue allieve la comprano comunque; la domanda è solo con quale logo.",
+  "new": "La risposta breve: una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che impedisce al piede di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria. Le tue allieve la comprano comunque; la domanda è solo con quale logo.",
+  "why": "soggetto errato; coerenza con la FAQ"
+ },
+ {
+  "page": "b_calze",
+  "line": 7,
+  "old": "Una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che evita di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria. Le tue allieve la comprano comunque; la domanda è solo con quale logo: quello di un marchio qualsiasi o quello del tuo studio, intessuto o ricamato nella calza.",
+  "new": "Una calza da pilates antiscivolo ha una suola con grip in PVC o silicone, che impedisce al piede di scivolare sul reformer o sul tappetino. In molti studi è obbligatoria. Le tue allieve la comprano comunque; la domanda è solo con quale logo: quello di un marchio qualsiasi o quello del tuo studio, intessuto o ricamato nella calza.",
+  "why": "soggetto errato; coerenza con la FAQ"
+ },
+ {
+  "page": "b_calze",
+  "line": 13,
+  "old": "Non tutte le calze antiscivolo sono uguali. Controlla se la suola in PVC o silicone copre tutta la pianta del piede o solo l'avampiede e il tallone: per un lavoro completo sul reformer, una suola piena offre una migliore aderenza. Controlla anche l'altezza del gambale: un taglio a metà polpaccio resta più fermo durante l'esercizio rispetto a una calza bassa. Materiali conformi alla normativa europea REACH sono un criterio concreto da chiedere al tuo fornitore.",
+  "new": "Non tutte le calze antiscivolo sono uguali. Controlla se la suola in PVC o silicone copre tutta la pianta del piede o solo l'avampiede e il tallone: per un lavoro completo sul reformer, una suola piena aderisce meglio. Controlla anche l'altezza del gambale: un taglio a metà polpaccio resta più fermo durante l'esercizio rispetto a una calza bassa. La conformità dei materiali alla normativa europea REACH è un criterio concreto da verificare con il tuo fornitore.",
+  "why": "\"una migliore aderenza\" pesante; non si \"chiedono\" materiali come criterio"
+ },
+ {
+  "page": "b_calze",
+  "line": 17,
+  "old": "L'ordine minimo è di 50 paia. Il mockup con il tuo logo è gratuito e arriva entro 24 ore; una volta approvati il preventivo e il pagamento, produzione e consegna richiedono circa 4 settimane, con spedizione gratuita in tutta Europa. Il calcolo dettagliato di prezzo e margine è nella pagina",
+  "new": "L'ordine minimo è di 50 paia. Il mockup con il tuo logo è gratuito e arriva entro 24 ore; una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, con spedizione gratuita in tutta Europa. Il calcolo dettagliato di prezzo e margine è nella pagina",
+  "why": "il pagamento non si approva; coerenza con la FAQ"
+ },
+ {
+  "page": "b_calze",
+  "line": 25,
+  "old": "Intessuto o ricamato nella maglia, mai stampato. Il colore è riprodotto il più vicino possibile al codice Pantone del tuo studio.",
+  "new": "Intessuto o ricamato nella maglia, mai stampato. Il colore è riprodotto il più vicino possibile al codice Pantone del tuo brand.",
+  "why": "il Pantone è del brand"
+ },
+ {
+  "page": "b_calze",
+  "line": 27,
+  "old": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.",
+  "new": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, con spedizione gratuita in tutta Europa.",
+  "why": "manca la preposizione"
+ },
+ {
+  "page": "b_calze",
+  "line": 28,
+  "old": "Calze antiscivolo per il pilates: perché le tue allieve le indossano già, a cosa fare attenzione per il materiale e come personalizzarle con il logo del tuo studio.",
+  "new": "Calze antiscivolo per il pilates: perché le tue allieve le usano già, cosa controllare nel materiale e come personalizzarle con il tuo logo.",
+  "why": "meta description 166 caratteri, oltre 155: ridotta a 140"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 10,
+  "old": "Le tecniche più comuni sono tre: la tessitura direttamente nel prodotto, il ricamo o la stampa. Le prime due resistono bene ai lavaggi frequenti e all'usura quotidiana; la stampa, su un tessuto sportivo come una calza, tende a consumarsi più in fretta. Chiedi quale tecnica il fornitore usa di norma, e diffida se “stampato” è l'unica opzione proposta.",
+  "new": "Le tecniche più comuni sono tre: la tessitura direttamente nel prodotto, il ricamo e la stampa. Le prime due resistono bene ai lavaggi frequenti e all'usura quotidiana; la stampa, su un tessuto sportivo come una calza, tende a consumarsi più in fretta. Chiedi quale tecnica il fornitore usa di norma, e diffida se “stampato” è l'unica opzione proposta.",
+  "why": "elenco di tre tecniche: \"e\", non \"o\""
+ },
+ {
+  "page": "b_fornitore",
+  "line": 11,
+  "old": "Conta anche il colore: un fornitore che riproduce il tuo brand in base al codice Pantone (il riferimento dei professionisti della stampa) ti permette di ottenere un colore del prodotto il più vicino possibile al tuo, e non un'approssimazione a occhio.",
+  "new": "Conta anche il colore: un fornitore che riproduce il tuo brand in base al codice Pantone (il riferimento dei professionisti della stampa) ti permette di avere sul prodotto un colore il più vicino possibile a quello del tuo brand, e non un'approssimazione a occhio.",
+  "why": "\"un colore del prodotto ... al tuo\" contorto"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 17,
+  "old": "Come minimo, il materiale, compresa la suola antiscivolo nel caso delle calze, dovrebbe essere conforme a REACH, la normativa europea sulle sostanze chimiche. È una domanda semplice da fare e, per un produttore serio, semplice da gestire. Se il fornitore non ne sa nulla o non può fornire nulla in merito, meglio continuare a cercare.",
+  "new": "Come minimo, il materiale, compresa la suola antiscivolo nel caso delle calze, dovrebbe essere conforme a REACH, la normativa europea sulle sostanze chimiche. È una domanda semplice e, per un produttore serio, la risposta lo è altrettanto. Se il fornitore non ne sa nulla o non è in grado di documentarla, meglio continuare a cercare.",
+  "why": "ripetizioni (semplice/semplice, nulla/nulla); \"fornire nulla in merito\" burocratico"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 21,
+  "old": "Da noi, sulle calze, il logo è intessuto o ricamato, mai stampato, con il colore riprodotto il più vicino possibile al codice Pantone; l'ordine minimo è di 50 paia per le calze e di 50 pezzi per le tote bag, con un preventivo su misura per i tumbler termici; il mockup è gratuito e lo approvi prima di qualsiasi produzione; il materiale è conforme a REACH; e produzione e consegna, gratuita in tutta Europa, richiedono circa 4 settimane dopo l'approvazione del preventivo e il pagamento. Puoi vedere come funziona nel dettaglio nella pagina",
+  "new": "Da noi, sulle calze, il logo è intessuto o ricamato, mai stampato, con il colore riprodotto il più vicino possibile al codice Pantone; l'ordine minimo è di 50 paia per le calze e di 50 pezzi per le tote bag, con un preventivo su misura per i tumbler termici; il mockup è gratuito e lo approvi prima di qualsiasi produzione; il materiale è conforme a REACH; e produzione e consegna richiedono circa 4 settimane dopo l'approvazione del preventivo e il pagamento, con spedizione gratuita in tutta Europa. Puoi vedere come funziona nel dettaglio nella pagina",
+  "why": "\"gratuita\" si riferiva ambiguamente a \"consegna\" in un inciso"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 28,
+  "old": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare anteprima e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.",
+  "new": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo approvare anteprima e prezzo e solo dopo pagare, per intero o nella parte concordata nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.",
+  "why": "frase confusa (\"qualsiasi cosa, o solo quanto\")"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 1,
+  "old": "Fidelizzare le tue allieve con prodotti che portano il tuo logo",
+  "new": "Fidelizzare le allieve con prodotti che portano il tuo logo",
+  "why": "title 63 caratteri, oltre 60: ridotto a 59"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 4,
+  "old": "La risposta breve: un prodotto con il tuo logo che l'allieva usa ogni giorno, dentro e fuori dallo studio, rafforza l'identità del tuo brand a ogni utilizzo, e questa ripetizione spiega in parte perché resta più a lungo.",
+  "new": "La risposta breve: un prodotto con il tuo logo che l'allieva usa ogni giorno, dentro e fuori dallo studio, rafforza l'identità del tuo brand a ogni utilizzo, e questa ripetizione spiega in parte perché l'allieva resta più a lungo.",
+  "why": "soggetto di \"resta\" ambiguo (sembra il prodotto)"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 13,
+  "old": "Uno studio curato in tutto il resto, ma con prodotti generici o senza prodotti con il proprio nome, non viene percepito come “quasi perfetto”: viene percepito come trascurato. Un solo dettaglio debole pesa in modo sproporzionato sull'impressione generale. La coerenza del brand, anche nei prodotti che indossano le tue allieve, fa parte di questa impressione di cura.",
+  "new": "Uno studio curato in tutto il resto, ma con prodotti generici o senza prodotti con il proprio nome, non viene percepito come “quasi perfetto”: viene percepito come trascurato. Un solo dettaglio debole pesa in modo sproporzionato sull'impressione generale. La coerenza del brand, anche nei prodotti che usano le tue allieve, fa parte di questa impressione di cura.",
+  "why": "tote bag e tumbler non si \"indossano\""
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 15,
+  "old": "Non tutti i prodotti fidelizzano allo stesso modo. I più utili sono quelli che l'allieva usa spesso fuori dallo studio: un tumbler termico che porta al lavoro o una tote bag per la spesa. Le calze antiscivolo, spesso richieste a lezione, sono quelle che si ricomprano più spesso e garantiscono quindi la presenza del brand più costante.",
+  "new": "Non tutti i prodotti fidelizzano allo stesso modo. I più utili sono quelli che l'allieva usa spesso fuori dallo studio: un tumbler termico che porta al lavoro o una tote bag per la spesa. Le calze antiscivolo, richieste a lezione in molti studi, sono il prodotto che si ricompra con più frequenza e assicurano quindi al brand la presenza più costante.",
+  "why": "\"spesso ... più spesso\"; \"la presenza del brand più costante\" ordine goffo"
+ },
+ {
+  "page": "b_kit",
+  "line": 9,
+  "old": "Regalare al momento dell'iscrizione ha un effetto che un regalo tardivo non ha: si lega alla decisione di fidarsi di te. L'allieva ricorda questo gesto ogni volta che infila le calze, e quel ricordo è uno dei motivi per cui resta. Aumentare la fidelizzazione anche solo del 5% può portare fino al 95% di utile in più. Un brand coerente, dentro e fuori dallo studio, è uno dei motivi per cui si resta. Fonte: Bain & Company / Harvard Business Review.",
+  "new": "Regalare al momento dell'iscrizione ha un effetto che un regalo tardivo non ha: si lega alla decisione di fidarsi di te. L'allieva ricorda questo gesto ogni volta che infila le calze, e quel ricordo la lega al tuo studio. Aumentare la fidelizzazione anche solo del 5% può portare fino al 95% di utile in più. Un brand coerente, dentro e fuori dallo studio, è uno dei motivi per cui si resta. Fonte: Bain & Company / Harvard Business Review.",
+  "why": "ripete \"uno dei motivi per cui (si) resta\" due frasi dopo"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 5,
+  "old": "Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato sulle calze, mai stampato. Restano il prezzo e la questione dei costi fatturati a parte. Ecco entrambe le risposte, con un esempio completo di ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.",
+  "new": "Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato, mai stampato. Restano il prezzo e la questione dei costi fatturati a parte. Ecco entrambe le risposte, con l'esempio completo di un ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.",
+  "why": "\"sulle calze\" ridondante (si parla di una calza); costrutto"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 36,
+  "old": "In altre parole, con un ordine minimo di 50 paia l'investimento indicativo è di 347,50 € IVA esclusa. Vendendo lo stesso lotto recuperi l'investimento e ottieni circa 470,12 € di margine. Se preferisci regalare una parte dell'ordine (per esempio come regalo di benvenuto alle nuove allieve), il costo per allieva è di circa 6,95 € IVA esclusa.",
+  "new": "In altre parole, con un ordine minimo di 50 paia l'investimento indicativo è di 347,50 € IVA esclusa. Vendendo lo stesso lotto recuperi l'investimento e ottieni circa 470,12 € di margine. Se preferisci regalare una parte dell'ordine (per esempio come benvenuto per le nuove allieve), il costo per allieva è di circa 6,95 € IVA esclusa.",
+  "why": "\"regalare ... regalo\" ripetizione"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 38,
+  "old": "Il margine diretto è solo il primo dei tre. Il secondo è l'acquisizione: l'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza con il tuo logo ti dà visibilità, senza costi pubblicitari (fonte: ASI Global Advertising Impressions Study, 2026). Il terzo è la fidelizzazione: aumentare la fidelizzazione anche solo del 5% può portare fino al 95% di utile in più, e un brand coerente, dentro e fuori dallo studio, è uno dei motivi per cui si resta (fonte: Bain & Company / Harvard Business Review).",
+  "new": "Il margine diretto è solo il primo dei tre margini. Il secondo è l'acquisizione: l'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza con il tuo logo ti dà visibilità, senza costi pubblicitari (fonte: ASI Global Advertising Impressions Study, 2026). Il terzo è la fidelizzazione: aumentare la fidelizzazione anche solo del 5% può portare fino al 95% di utile in più, e un brand coerente, dentro e fuori dallo studio, è uno dei motivi per cui si resta (fonte: Bain & Company / Harvard Business Review).",
+  "why": "\"dei tre\" senza referente nella sezione"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 41,
+  "old": "Invii il tuo logo e il colore del tuo brand (se hai il codice Pantone è meglio; altrimenti lo riproduciamo noi).",
+  "new": "Invii il tuo logo e il colore del tuo brand (se hai il codice Pantone è meglio; altrimenti lo individuiamo noi).",
+  "why": "senza codice non si \"riproduce\" il codice: lo si individua"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 44,
+  "old": "Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, spedizione gratuita in tutta Europa.",
+  "new": "Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, con spedizione gratuita in tutta Europa.",
+  "why": "manca la preposizione"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 50,
+  "old": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma l'importo esatto.",
+  "new": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € al paio IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma l'importo esatto.",
+  "why": "il lotto non costa 19,95 €: manca \"al paio\""
+ },
+ {
+  "page": "b_tote",
+  "line": 6,
+  "old": "Una tote bag con il logo del tuo studio non resta in sala: le tue allieve la portano al lavoro, al mercato, in spiaggia. Questo articolo spiega cosa porta una tote bag personalizzata al tuo studio di pilates, quale materiale si usa e come farne produrre una con il tuo logo.",
+  "new": "Una tote bag con il logo del tuo studio non resta in sala: le tue allieve la portano al lavoro, al mercato, in spiaggia. Questo articolo spiega cosa può dare al tuo studio di pilates una tote bag personalizzata, quale materiale si usa e come farne produrre una con il tuo logo.",
+  "why": "\"portano ... porta\" ripetizione con senso diverso"
+ },
+ {
+  "page": "b_tote",
+  "line": 7,
+  "old": "Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino da yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito entro 24 ore.",
+  "new": "Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino da yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito e arriva entro 24 ore.",
+  "why": "\"gratuito entro 24 ore\" sgrammaticato"
+ },
+ {
+  "page": "b_tote",
+  "line": 11,
+  "old": "La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, una borsa per lo sport, un computer portatile. Il logo è applicato, discreto in un angolo o in grande su tutta la tela, in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, come si addice meglio al tuo brand.",
+  "new": "La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, il cambio per la palestra, il computer portatile. Il logo può stare discreto in un angolo o in grande su tutta la tela, come si addice di più al tuo brand, in un colore riprodotto il più vicino possibile al codice Pantone.",
+  "why": "elenco incoerente (\"una borsa\" dentro una borsa); \"come si addice meglio\" staccato dal suo riferimento"
+ },
+ {
+  "page": "b_tote",
+  "line": 22,
+  "old": "Il logo, in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, va discreto in un angolo o in grande su tutta la tela, a tua scelta.",
+  "new": "Ci invii il logo e il colore del tuo brand e ricevi un mockup gratuito entro 24 ore. Il logo, in un colore riprodotto il più vicino possibile al codice Pantone, può stare discreto in un angolo o in grande su tutta la tela, a tua scelta.",
+  "why": "\"va discreto\" colloquiale; la risposta non spiegava il \"come\" (procedura presa dalla stessa pagina)"
+ },
+ {
+  "page": "b_tote",
+  "line": 26,
+  "old": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.",
+  "new": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, con spedizione gratuita in tutta Europa.",
+  "why": "manca la preposizione"
+ }
+]

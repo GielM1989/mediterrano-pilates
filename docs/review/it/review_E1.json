@@ -1,0 +1,261 @@
+[
+ {
+  "page": "home",
+  "line": 29,
+  "old": "La maggior parte degli studi investe tutto in ciò che accade dentro: le macchine, la luce, la lezione. A ciò che esce dalla porta resta quel che avanza del budget. Eppure le tue allieve portano comunque a casa il tuo brand, che merita quindi lo stesso livello del resto del tuo studio.",
+  "new": "La maggior parte degli studi investe tutto in ciò che accade dentro: le macchine, la luce, la lezione. A ciò che esce dalla porta resta quel che avanza del budget. Eppure le tue allieve portano comunque a casa il tuo brand, che merita quindi la stessa cura del resto del tuo studio.",
+  "why": "“merita lo stesso livello” è un calco; “la stessa cura” è l'espressione naturale"
+ },
+ {
+  "page": "home",
+  "line": 41,
+  "old": "Restano e tornano più spesso",
+  "new": "E tornano più spesso",
+  "why": "Il sottotitolo ripeteva “restano” subito dopo il titolo “Le tue allieve restano più a lungo”"
+ },
+ {
+  "page": "home",
+  "line": 47,
+  "old": "Uno scaffale vuoto alla reception dà un'impressione di incompiuto, per quanto bello sia il resto dello studio. Riempilo con i tuoi prodotti e, all'improvviso, tutta l'esperienza diventa più professionale. Uno studio curato fino all'ultimo dettaglio conquista più in fretta la fiducia di chi è ancora indecisa.",
+  "new": "Uno scaffale vuoto alla reception sa di incompiuto, per quanto bello sia il resto dello studio. Riempilo con i tuoi prodotti e, all'improvviso, tutta l'esperienza diventa più professionale. Uno studio curato fino all'ultimo dettaglio conquista più in fretta la fiducia di chi è ancora indecisa.",
+  "why": "Evita la ripetizione di “impressione” (riga sopra: “fai una buona impressione”); “sa di incompiuto” è più idiomatico"
+ },
+ {
+  "page": "home",
+  "line": 59,
+  "old": "margine medio sulla rivendita, al netto dell'IVA · il prezzo lo decidi tu",
+  "new": "margine sulla rivendita, al netto dell'IVA · il prezzo lo decidi tu",
+  "why": "Un intervallo (44–57%) non è un “margine medio”: l'aggettivo era impreciso"
+ },
+ {
+  "page": "home",
+  "line": 81,
+  "old": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Capisci se funziona solo quando lo vedi sul prodotto. Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino al tuo. Così riduci al minimo le sorprese.",
+  "new": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Capisci se funziona solo quando lo vedi sul prodotto. Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino possibile al tuo codice Pantone. Così riduci al minimo le sorprese.",
+  "why": "Regola della casa: il colore va sempre formulato come “il più vicino possibile al codice Pantone”"
+ },
+ {
+  "page": "home",
+  "line": 102,
+  "old": "Discreto o in grande, sempre verificato.",
+  "new": "Discreto o in grande, come preferisci.",
+  "why": "“sempre verificato” non significava nulla di preciso e ripeteva “verificati” della riga seguente"
+ },
+ {
+  "page": "home",
+  "line": 105,
+  "old": "Controlliamo ogni paio, uno per uno, prima dell'imballaggio.",
+  "new": "Controlliamo ogni paio, uno per uno, prima di imballarlo.",
+  "why": "Evita la doppia “imballaggio” a due righe di distanza (“Scegliamo e progettiamo l'imballaggio”)"
+ },
+ {
+  "page": "home",
+  "line": 108,
+  "old": "In linea con la tua immagine di marca, pronto per lo scaffale della reception.",
+  "new": "In linea con il tuo brand, pronto per lo scaffale della reception.",
+  "why": "Coerenza: in tutto il sito si dice “brand”, non “immagine di marca” (calco da imagen de marca)"
+ },
+ {
+  "page": "home",
+  "line": 135,
+  "old": "Verifica la qualità con le tue mani. L'importo viene scalato dal tuo primo ordine.",
+  "new": "Tocca con mano la qualità, prima di ordinare.",
+  "why": "Il testo ripeteva alla lettera il titolo (“scalati dal tuo primo ordine”); “toccare con mano” è l'idioma italiano"
+ },
+ {
+  "page": "home",
+  "line": 158,
+  "old": "E se il risultato sembra scadente?",
+  "new": "E se il risultato sembrasse scadente?",
+  "why": "Ipotetica: in italiano naturale serve il congiuntivo (“sembrasse”)"
+ },
+ {
+  "page": "home",
+  "line": 174,
+  "old": "Non paghi nulla prima di aver approvato:",
+  "new": "Senza sorprese:",
+  "why": "“Non paghi nulla prima di aver approvato:” non regge l'elenco che segue (mockup, campioni a pagamento, spedizione) e contraddice i campioni a piccolo importo"
+ },
+ {
+  "page": "home",
+  "line": 258,
+  "old": "Calze antiscivolo, tumbler e tote bag con il tuo logo. Fino al 57% di margine, mockup gratuito in 24 ore, spedizione gratuita.",
+  "new": "Calze antiscivolo, tumbler e tote bag con il tuo logo. Fino al 57% di margine, mockup gratuito in 24 ore, spedizione gratuita in Europa.",
+  "why": "Description più completa (136 caratteri) e coerente con le altre pagine"
+ },
+ {
+  "page": "home",
+  "line": 266,
+  "old": "LD Prodotti personalizzati con il logo del tuo studio (calze antiscivolo, tumbler termici e tote bag) per gli studi di pilates e yoga in Italia, in Svizzera e in tutta Europa, con spedizione gratuita in tutta Europa.",
+  "new": "LD Prodotti personalizzati con il logo del tuo studio (calze antiscivolo, tumbler termici e tote bag) per gli studi di pilates e yoga in Italia, in Svizzera e nel resto d'Europa, con spedizione gratuita in tutta Europa.",
+  "why": "Ripetizione “in tutta Europa” due volte nella stessa frase"
+ },
+ {
+  "page": "home",
+  "line": 274,
+  "old": "LD Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, con il colore il più vicino possibile al tuo codice Pantone.",
+  "new": "LD Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, con il colore riprodotto il più vicino possibile al codice Pantone del tuo brand.",
+  "why": "“con il colore il più vicino possibile” mancava del participio: suonava tradotto"
+ },
+ {
+  "page": "socks",
+  "line": 29,
+  "old": "Perché è più di un margine di rivendita?",
+  "new": "Perché le calze con il tuo logo valgono più del margine sulla rivendita?",
+  "why": "La domanda “Perché è più di un margine di rivendita?” non aveva un soggetto chiaro; ora è una domanda che una titolare farebbe davvero"
+ },
+ {
+  "page": "tote",
+  "line": 4,
+  "old": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dal tappetino da yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.",
+  "new": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dalla lezione di yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.",
+  "why": "“passa dal tappetino da yoga al supermercato” era un'immagine incoerente (la borsa non sta sul tappetino)"
+ },
+ {
+  "page": "prezzi",
+  "line": 1,
+  "old": "Prezzi e margini dei prodotti personalizzati per studi",
+  "new": "Prezzi e margini: calze, tumbler e tote bag con logo",
+  "why": "Il title finiva con “per studi”, monco; ora nomina i prodotti cercati (52 caratteri)"
+ },
+ {
+  "page": "prezzi",
+  "line": 41,
+  "old": "Senza impegno. Ricevi l'anteprima e il prezzo definitivo entro 24 ore.",
+  "new": "Senza impegno. Ricevi l'anteprima entro 24 ore e poi il tuo preventivo esatto.",
+  "why": "“il prezzo definitivo entro 24 ore” contraddiceva il processo (preventivo ai giorni 3–5)"
+ },
+ {
+  "page": "faq",
+  "line": 1,
+  "old": "Domande frequenti: prodotti personalizzati per studi",
+  "new": "Domande frequenti su calze, tumbler e tote bag con logo",
+  "why": "Il title finiva con “per studi”, monco; ora contiene i prodotti cercati (55 caratteri)"
+ },
+ {
+  "page": "faq",
+  "line": 3,
+  "old": "Domande frequenti: cosa chiede uno studio",
+  "new": "Le domande che ogni studio si fa",
+  "why": "Il H1 ripeteva “Domande frequenti” subito dopo l'occhiello “Domande frequenti sui prodotti…”"
+ },
+ {
+  "page": "faq",
+  "line": 8,
+  "old": "Da Mediterrano Pilates, il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Personalizziamo calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, perché tu li venda alle tue allieve.",
+  "new": "Da Mediterrano Pilates, il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Personalizziamo calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, perché tu li venda alle tue allieve. Ordini online a partire da 50 paia, con mockup gratuito in 24 ore e spedizione gratuita in Italia.",
+  "why": "La risposta alla domanda “in Italia” non diceva né come né se si spedisce in Italia: ora è citabile da sola (AEO)"
+ },
+ {
+  "page": "faq",
+  "line": 10,
+  "old": "Da Mediterrano Pilates l'ordine minimo è di 50 paia per le calze antiscivolo e di 50 pezzi per le tote bag. I tumbler termici sono su preventivo. Lavoriamo dalla Spagna con studi di tutta Europa e non solo, e la spedizione è gratuita in Italia come nel resto d'Europa.",
+  "new": "Da Mediterrano Pilates l'ordine minimo è di 50 paia per le calze antiscivolo e di 50 pezzi per le tote bag. Per i tumbler termici non c'è un minimo fisso: prepariamo un preventivo su misura. Lavoriamo dalla Spagna con studi di tutta Europa e non solo, e la spedizione è gratuita in Italia come nel resto d'Europa.",
+  "why": "“I tumbler termici sono su preventivo” non rispondeva sul minimo; ora coerente con le pagine prodotto"
+ },
+ {
+  "page": "faq",
+  "line": 12,
+  "old": "Tre prodotti che le tue allieve usano già: calze antiscivolo (che servono a ogni lezione), un tumbler termico da 1,2 L e una tote bag in cotone. Tutti e tre si personalizzano con il logo del tuo studio.",
+  "new": "Calze antiscivolo (che servono a ogni lezione), un tumbler termico da 1,2 L, una tote bag in cotone e il telo per Reformer Calma: tutti personalizzati con il logo del tuo studio.",
+  "why": "Coerenza: la home e Chi siamo parlano di quattro prodotti, qui ne comparivano tre"
+ },
+ {
+  "page": "faq",
+  "line": 38,
+  "old": "Le calze antiscivolo con il logo del tuo studio costano circa 6,95 € al paio IVA esclusa, a prezzo all'ingrosso, con un ordine minimo di 50 paia. Un primo ordine di 50 paia costa circa 347,50 € IVA esclusa, spedizione gratuita in Italia e in tutta Europa compresa. Prima di pagare qualsiasi cosa, ricevi un mockup gratuito in 24 ore e il preventivo esatto per la tua quantità.",
+  "new": "Le calze antiscivolo con il logo del tuo studio costano circa 6,95 € al paio IVA esclusa, a prezzo all'ingrosso, con un ordine minimo di 50 paia. Per esempio, un primo ordine di 50 paia costa circa 347,50 € IVA esclusa, spedizione gratuita in Italia e in tutta Europa compresa. Prima di pagare qualsiasi cosa, ricevi un mockup gratuito in 24 ore e il preventivo esatto per la tua quantità.",
+  "why": "Regola della casa: il calcolo su 50 paia va marcato come esempio"
+ },
+ {
+  "page": "faq",
+  "line": 48,
+  "old": "Una domanda che non trovi qui?",
+  "new": "Non trovi la tua domanda?",
+  "why": "Formula più naturale di “Una domanda che non trovi qui?”"
+ },
+ {
+  "page": "come",
+  "line": 12,
+  "old": "✳ Campioni fisici (calza, tumbler termico, tote bag) disponibili prima di confermare l'ordine, per un piccolo importo scalato per intero se prosegui.",
+  "new": "✳ Campioni fisici (calza, tumbler termico, tote bag) disponibili prima di confermare l'ordine, per un piccolo importo scalato per intero dal tuo primo ordine.",
+  "why": "“scalato per intero se prosegui” era ellittico: scalato da cosa?"
+ },
+ {
+  "page": "come",
+  "line": 23,
+  "old": "Se il colore consegnato è diverso dal design approvato, o se viene segnalato un difetto di fabbricazione entro 14 giorni dal ricevimento, Mediterrano Pilates rifà l'ordine senza costi. Il mockup approvato fa da riferimento.",
+  "new": "Se il colore consegnato è diverso dal design approvato, o se segnali un difetto di fabbricazione entro 14 giorni dalla consegna, Mediterrano Pilates rifà i prodotti interessati senza costi. Il mockup approvato fa da riferimento.",
+  "why": "Coerenza con home e condizioni (“dalla consegna”, “i prodotti interessati”); “rifà l'ordine” prometteva più del fatto; tu attivo invece del passivo"
+ },
+ {
+  "page": "come",
+  "line": 24,
+  "old": "Con chi sono in contatto durante l'ordine?",
+  "new": "Chi è il mio referente durante l'ordine?",
+  "why": "Domanda più naturale di “Con chi sono in contatto durante l'ordine?”"
+ },
+ {
+  "page": "mockup",
+  "line": 7,
+  "old": "✳ Ogni calza con il tuo logo indossata dalle tue allieve fa conoscere il tuo studio.",
+  "new": "✳ Ogni calza con il tuo logo, ai piedi delle tue allieve, fa conoscere il tuo studio.",
+  "why": "La catena “con il tuo logo indossata dalle tue allieve” era pesante; immagine più naturale"
+ },
+ {
+  "page": "mockup",
+  "line": 11,
+  "old": "Sì, e senza alcun impegno. In 24 ore ricevi il mockup del tuo logo sul prodotto, e poi decidi se proseguire.",
+  "new": "Sì, e senza alcun impegno. In 24 ore ricevi il mockup del tuo logo sul prodotto e poi decidi se proseguire.",
+  "why": "Virgola superflua prima di “e poi”"
+ },
+ {
+  "page": "mockup",
+  "line": 17,
+  "old": "È un'anteprima digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup diventa il riferimento per la produzione e con esso ti arriva il preventivo.",
+  "new": "È un'anteprima digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup diventa il riferimento per la produzione e insieme ricevi il preventivo.",
+  "why": "“con esso ti arriva” è burocratico; formula più scorrevole"
+ },
+ {
+  "page": "chisiamo",
+  "line": 11,
+  "old": "Così, invece di investire, ho scelto di fare un'altra cosa: sistemare quel dettaglio per gli studi che semplicemente non hanno né il tempo né le competenze per occuparsene. Tu ti concentri sulla tua community, e io mi assicuro che ciò che le tue allieve portano a casa sia all'altezza dello studio che hanno appena lasciato.",
+  "new": "Così, invece di investire, ho scelto di fare un'altra cosa: sistemare quel dettaglio per gli studi che semplicemente non hanno il tempo di occuparsene. Tu ti concentri sulla tua community, e io mi assicuro che ciò che le tue allieve portano a casa sia all'altezza dello studio che hanno appena lasciato.",
+  "why": "“né le competenze” suona condiscendente verso la lettrice (una titolare esigente)"
+ },
+ {
+  "page": "chisiamo",
+  "line": 25,
+  "old": "Esclusivamente studi di pilates e yoga, mai il consumatore finale",
+  "new": "Esclusivamente studi (pilates, yoga, barre e fisioterapia), mai il consumatore finale",
+  "why": "Coerenza con la riga “Attività” della stessa scheda, che cita barre e fisioterapia"
+ },
+ {
+  "page": "chisiamo",
+  "line": 36,
+  "old": "Via email a hola@mediterranopilates.com, su Instagram o Facebook, oppure richiedendo il tuo mockup gratuito direttamente sul sito: ogni richiesta arriva personalmente al fondatore.",
+  "new": "Via email a hola@mediterranopilates.com, su WhatsApp, Instagram o Facebook, oppure richiedendo il tuo mockup gratuito direttamente sul sito: ogni richiesta arriva personalmente al fondatore.",
+  "why": "Mancava WhatsApp, canale diretto con il fondatore citato in home e FAQ"
+ },
+ {
+  "page": "_common",
+  "line": 19,
+  "old": "Sì. Lavoriamo dalla Spagna con studi di tutta Europa e non solo. La spedizione è gratuita in tutta Europa. Altrove è su preventivo. Per le spedizioni fuori dall'Unione europea, ad esempio in Svizzera, nel Regno Unito o in Norvegia, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "new": "Sì. Lavoriamo dalla Spagna con studi di tutta Europa e non solo. La spedizione è gratuita in tutta Europa; nel resto del mondo è su preventivo. Per le spedizioni fuori dall'Unione europea, ad esempio in Svizzera, nel Regno Unito o in Norvegia, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "why": "“Altrove è su preventivo” era ambiguo subito prima di citare la Svizzera (Europa ma non UE)"
+ },
+ {
+  "page": "_common",
+  "line": 87,
+  "old": "Scrivi al nostro team su WhatsApp",
+  "new": "Scrivici su WhatsApp",
+  "why": "“al nostro team” contraddice “non a un team commerciale” e “WhatsApp diretto con il fondatore”"
+ },
+ {
+  "page": "_common",
+  "line": 93,
+  "old": "Grip in PVC o silicone su tutta la suola, conformi a REACH, la normativa europea sulle sostanze chimiche.",
+  "new": "Grip in PVC o silicone su tutta la suola, conforme a REACH, la normativa europea sulle sostanze chimiche.",
+  "why": "Concordanza: “Grip” è singolare, quindi “conforme”"
+ }
+]

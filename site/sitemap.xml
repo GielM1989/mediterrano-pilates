@@ -10,6 +10,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -23,6 +24,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -36,6 +38,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -50,6 +53,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -63,6 +67,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -76,6 +81,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -90,6 +96,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -103,6 +110,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -116,6 +124,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -130,6 +139,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -143,6 +153,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -156,6 +167,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -170,6 +182,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -183,6 +196,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -196,6 +210,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -210,6 +225,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -223,6 +239,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -236,6 +253,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -250,6 +268,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -262,6 +281,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -274,6 +294,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -288,6 +309,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -300,6 +322,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -312,6 +335,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -327,6 +351,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -339,6 +364,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -351,6 +377,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -365,6 +392,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -377,6 +405,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -389,6 +418,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -403,6 +433,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -415,6 +446,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -427,6 +459,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -441,6 +474,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -453,6 +487,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -465,6 +500,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -479,6 +515,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -491,6 +528,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -503,6 +541,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -516,6 +555,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -529,6 +569,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -542,6 +583,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -555,6 +597,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -568,6 +611,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -581,6 +625,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -593,6 +638,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-barrestudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-barre/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-barre/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -645,6 +691,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -658,6 +705,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -671,6 +719,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -684,6 +733,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -697,6 +747,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -710,6 +761,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -723,6 +775,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -736,6 +789,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -749,6 +803,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -762,6 +817,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -775,6 +831,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -788,6 +845,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -801,6 +859,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -814,6 +873,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -827,6 +887,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -853,6 +914,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -867,6 +929,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -881,6 +944,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -895,6 +959,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -908,6 +973,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -921,6 +987,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -934,6 +1001,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -947,6 +1015,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -960,6 +1029,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -973,6 +1043,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -986,6 +1057,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -999,6 +1071,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1012,6 +1085,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1025,6 +1099,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1038,6 +1113,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1051,6 +1127,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1064,6 +1141,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1077,6 +1155,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1090,6 +1169,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1101,6 +1181,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-barrestudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-barre/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-barre/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1114,6 +1195,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1127,6 +1209,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1139,6 +1222,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1151,6 +1235,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1163,6 +1248,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1175,6 +1261,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1187,6 +1274,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1199,6 +1287,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1211,6 +1300,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1223,6 +1313,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1235,6 +1326,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -1247,8 +1339,255 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-barrestudios/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-barre/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-barre/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <!-- Sezione italiana /it/ (16-11-2026) -->
+  <url>
+    <loc>https://mediterranopilates.com/it/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/calcetines-antideslizantes-personalizados/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-grip-socks/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stoppersocken-mit-logo/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/antislipsokken-met-logo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/calze-antiscivolo-personalizzate/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-grip-socks/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/faq/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/preguntas-frecuentes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/faq/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/faq/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/veelgestelde-vragen/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/faq/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/faq/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/sobre-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ueber-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/over-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/a-propos-de-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/chi-siamo-mediterrano-pilates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/about-mediterrano-pilates/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/come-funziona/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/como-funciona/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/how-it-works/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/ablauf/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/zo-werkt-het/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/comment-ca-marche/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/come-funziona/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/how-it-works/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/mockup-gratuito/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/mockup-gratis/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/free-mockup/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/kostenloses-mockup/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/gratis-mockup/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/maquette-gratuite/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/mockup-gratuito/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/free-mockup/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/tumbler-termico-personalizzato/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/botellas-personalizadas-estudios-pilates/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-water-bottles/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/trinkflaschen-mit-logo/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tumblers-met-logo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/gourde-isotherme-personnalisee/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tumbler-termico-personalizzato/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-water-bottles/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/tote-bag-personalizzata/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/tote-bags-personalizadas-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-tote-bags/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/stofftaschen-mit-logo/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/tote-bags-met-logo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/tote-bag-personnalise/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/tote-bag-personalizzata/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/custom-tote-bags/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/prezzi-e-margini/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/precios-y-margenes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/pricing-margins/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/preise-und-margen/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/prijzen-en-marges/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/prix-et-marges/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prezzi-e-margini/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/pricing-margins/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/aumentar-ingresos-estudio-pilates-sin-stock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/mehr-umsatz-pilates-studio-ohne-lagerbestand/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/meer-omzet-pilatesstudio-zonder-voorraad/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/augmenter-chiffre-affaires-studio-pilates-sans-stock/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/increase-pilates-studio-revenue-without-stock/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/como-elegir-proveedor-calcetines-personalizados/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/leverancier-antislipsokken-met-logo-kiezen/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/choisir-fournisseur-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/choose-a-custom-grip-socks-supplier/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/fidelizar-alumnas-pilates-productos-marca/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/kundenbindung-pilates-studio-markenprodukte/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/klantbinding-pilatesstudio-met-merkproducten/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/fideliser-eleves-pilates-produits-a-votre-logo/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/build-pilates-student-loyalty-branded-products/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/cuanto-cuesta-personalizar-calcetines-antideslizantes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/was-kosten-stoppersocken-mit-logo/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/wat-kosten-antislipsokken-met-logo/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/prix-chaussettes-antiderapantes-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/prezzo-calze-antiscivolo-personalizzate/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/how-much-do-custom-grip-socks-cost/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/pack-de-bienvenida-alumnas-nuevas-pilates/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/willkommenspaket-fuer-neue-kundinnen/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/welkomstpakket-nieuwe-pilatesleden/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/kit-de-bienvenue-nouveaux-eleves-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/welcome-pack-for-new-pilates-clients/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/prodotti-personalizzati-studi-barre/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-barrestudios/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-barre/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-barre/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-barre/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/custom-merchandise-for-yoga-studios/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/merchandise-fuer-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/merchandise-voor-yogastudios/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/produits-personnalises-studios-yoga/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/prodotti-personalizzati-studi-yoga/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/merchandising-estudios-yoga/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/calcetines-antideslizantes-para-pilates/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/socken-mit-logo-besticken-lassen/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/antislipsokken-voor-pilates/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/chaussettes-de-pilates-personnalisees/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/calze-pilates-personalizzate/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/branded-grip-socks-for-your-studio/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediterranopilates.com/blog/tote-bag-personalizada-estudio-pilates-yoga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediterranopilates.com/de/blog/stofftasche-mit-logo-fuer-dein-studio/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://mediterranopilates.com/nl/blog/tote-bag-met-logo-voor-je-studio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mediterranopilates.com/fr/blog/tote-bag-personnalise-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mediterranopilates.com/it/blog/tote-bag-personalizzata-logo-studio-pilates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mediterranopilates.com/en/blog/custom-tote-bags-with-studio-logo/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

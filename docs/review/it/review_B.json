@@ -1,0 +1,793 @@
+[
+ {
+  "page": "_common",
+  "line": 25,
+  "old": "Ho letto l'",
+  "new": "Ho letto",
+  "why": "Con l'apostrofo a fine segmento il sito mostra 'l' informativa' con uno spazio; l'articolo passa nel link"
+ },
+ {
+  "page": "_common",
+  "line": 24,
+  "old": "informativa sulla privacy",
+  "new": "l'informativa sulla privacy",
+  "why": "Articolo elisio spostato qui per evitare 'l' informativa'"
+ },
+ {
+  "page": "_common",
+  "line": 77,
+  "old": "Colore riprodotto in base al codice Pantone del tuo brand, il riferimento dei professionisti della stampa.",
+  "new": "Colore riprodotto il più vicino possibile al codice Pantone del tuo brand, il riferimento dei professionisti della stampa.",
+  "why": "Regola della casa: mai promettere corrispondenza esatta"
+ },
+ {
+  "page": "_common",
+  "line": 86,
+  "old": "Senza impegno. Ricevi l'immagine entro 24 ore e poi decidi.",
+  "new": "Senza impegno. Ricevi l'anteprima entro 24 ore e poi decidi.",
+  "why": "'Visuel' = anteprima grafica; 'l'immagine' è generico"
+ },
+ {
+  "page": "_common",
+  "line": 96,
+  "old": "Ricevi un'immagine digitale del tuo logo sulla calza, senza impegno.",
+  "new": "Ricevi un'anteprima digitale del tuo logo sulla calza, senza impegno.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "_common",
+  "line": 111,
+  "old": "Posso scegliere il colore perché corrisponda al mio brand?",
+  "new": "Posso scegliere il colore in linea con il mio brand?",
+  "why": "'perché corrisponda' è ambiguo (causa/fine) e calcato dal francese"
+ },
+ {
+  "page": "_common",
+  "line": 146,
+  "old": "cosa ci guadagni.",
+  "new": "in concreto.",
+  "why": "L'H2 risultava 'Cosa ci guadagni cosa ci guadagni.' (ripetizione)"
+ },
+ {
+  "page": "_common",
+  "line": 164,
+  "old": "Senza impegno. Ricevi l'immagine in 24 ore e poi decidi.",
+  "new": "Senza impegno. Ricevi l'anteprima in 24 ore e poi decidi.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "_common",
+  "line": 168,
+  "old": "· Di Mediterrano Pilates",
+  "new": "· A cura di Mediterrano Pilates",
+  "why": "Firma editoriale italiana naturale"
+ },
+ {
+  "page": "_common",
+  "line": 173,
+  "old": "Senza impegno. Ricevi l'immagine con il tuo vero logo entro 24 ore e poi decidi.",
+  "new": "Senza impegno. Ricevi l'anteprima con il tuo vero logo entro 24 ore e poi decidi.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "home",
+  "line": 13,
+  "old": "Vedi il mio logo sul prodotto",
+  "new": "Voglio vedere il mio logo sul prodotto",
+  "why": "CTA: imperativo alla 2a persona + 'mio' non concorda"
+ },
+ {
+  "page": "home",
+  "line": 23,
+  "old": "Ci hai pensato più di una volta. E subito arriva il dubbio: non sembrerà qualcosa di poco valore?",
+  "new": "Ci hai pensato più di una volta. E subito arriva il dubbio: non sembrerà una cosa scadente?",
+  "why": "'bas de gamme' reso in modo più naturale"
+ },
+ {
+  "page": "home",
+  "line": 24,
+  "old": "Chi mette in discussione quello che dici loro sulla schiena, sulla postura o sul corpo? Nessuno. Le tue allieve si fidano già di te per l'essenziale. Davvero dubiteranno di una calza con il tuo logo? Al contrario: la comprano proprio perché si fidano di te. E la indossano con orgoglio a casa, per strada e perfino su Instagram.",
+  "new": "Chi mette in discussione quello che dici loro sulla schiena, sulla postura o sul corpo? Nessuno. Le tue allieve si fidano già di te per le cose importanti. Davvero dubiteranno di una calza con il tuo logo? Al contrario: la comprano proprio perché si fidano di te. E la indossano con orgoglio a casa, per strada e perfino su Instagram.",
+  "why": "Più naturale in italiano"
+ },
+ {
+  "page": "home",
+  "line": 33,
+  "old": "È redditività su quattro fronti.",
+  "new": "È un investimento che rende su quattro fronti.",
+  "why": "'È redditività' suona burocratico e calcato"
+ },
+ {
+  "page": "home",
+  "line": 39,
+  "old": "Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. Ed è a volte proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” Su Instagram compare in più in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.",
+  "new": "Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. E a volte è proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” E su Instagram compare anche in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.",
+  "why": "Ordine delle parole innaturale; 'in più' calco di 'en plus'"
+ },
+ {
+  "page": "home",
+  "line": 74,
+  "old": "Le nuove ne hanno bisogno dal primo giorno, le habitué sostituiscono il paio consumato e, con il tuo logo, le calze diventano anche un secondo paio o un regalo.",
+  "new": "Le nuove ne hanno bisogno dal primo giorno, le affezionate sostituiscono il paio consumato e, con il tuo logo, le calze diventano anche un secondo paio o un regalo.",
+  "why": "Francesismo; in italiano 'le affezionate'"
+ },
+ {
+  "page": "home",
+  "line": 81,
+  "old": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Saprai se rende bene solo vedendolo dal vero. Per questo te lo mostriamo: in 24 ore, sul materiale vero e nel tuo colore. Per evitare sorprese sul tuo brand.",
+  "new": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Saprai se rende bene solo vedendolo dal vero. Per questo te lo mostriamo: in 24 ore, sul materiale vero e nel tuo colore. Per ridurre al minimo le sorprese sul tuo brand.",
+  "why": "Il francese dice 'limiter': non promettere zero sorprese"
+ },
+ {
+  "page": "home",
+  "line": 108,
+  "old": "Con la tua immagine di marca, pronto per lo scaffale della reception.",
+  "new": "In linea con la tua immagine di marca, pronto per lo scaffale della reception.",
+  "why": "'Con la tua immagine' non rende 'à votre image'"
+ },
+ {
+  "page": "home",
+  "line": 112,
+  "old": "Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, avvisaci entro 14 giorni dalla consegna e lo rifacciamo senza costi. E a tutte le tue domande risponde il fondatore in persona.",
+  "new": "Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, avvisaci entro 14 giorni dalla consegna e rifacciamo i prodotti senza costi. E a tutte le tue domande risponde il fondatore in persona.",
+  "why": "'lo' senza referente chiaro"
+ },
+ {
+  "page": "home",
+  "line": 116,
+  "old": "Spesso obbligatorie a lezione, soprattutto sul reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.",
+  "new": "Spesso obbligatorie a lezione, soprattutto sul Reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.",
+  "why": "Coerenza con 'telo per Reformer' e con il francese"
+ },
+ {
+  "page": "home",
+  "line": 122,
+  "old": "Pensato per il reformer: 99,6 × 61 cm, tessuto scamosciato morbido che assorbe il sudore e retro antiscivolo in silicone che resta ben fermo. Con una falda per il poggiatesta, il tuo logo e 8 colori a scelta. Da 50 pezzi. Prezzo su preventivo.",
+  "new": "Pensato per il Reformer: 99,6 × 61 cm, tessuto scamosciato morbido che assorbe il sudore e retro antiscivolo in silicone che resta ben fermo. Con un risvolto per il poggiatesta, il tuo logo e 8 colori a scelta. Da 50 pezzi. Prezzo su preventivo.",
+  "why": "Coerenza con il nome del prodotto 'Telo per Reformer'; 'falda' non si usa per un tessuto; 'risvolto' è il termine naturale"
+ },
+ {
+  "page": "home",
+  "line": 129,
+  "old": "Basta scaffale vuoto alla reception.",
+  "new": "Basta con lo scaffale vuoto alla reception.",
+  "why": "Costruzione corretta: 'basta con'"
+ },
+ {
+  "page": "home",
+  "line": 138,
+  "old": "Il tuo colore, in base al codice Pantone",
+  "new": "Il tuo colore, il più vicino possibile al codice Pantone",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "home",
+  "line": 149,
+  "old": "E ovunque vedevo la stessa cosa: sale bellissime, ottime lezioni e poi, alla reception, una calza che non c'entrava niente. Non per trascuratezza. Semplicemente nessuno si era fermato a pensare a ciò che esce dalla porta.",
+  "new": "E ovunque vedevo la stessa cosa: sale splendide, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto. Non per trascuratezza. Semplicemente nessuno si era fermato a pensare a ciò che esce dalla porta.",
+  "why": "Niente superlativi; Senza complemento la frase resta sospesa"
+ },
+ {
+  "page": "home",
+  "line": 157,
+  "old": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarlo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.",
+  "new": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarselo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.",
+  "why": "Forma pronominale naturale"
+ },
+ {
+  "page": "home",
+  "line": 158,
+  "old": "E se il risultato sembra di poco valore?",
+  "new": "E se il risultato sembra scadente?",
+  "why": "Coerenza con la riga 23, più naturale"
+ },
+ {
+  "page": "home",
+  "line": 159,
+  "old": "È il dubbio più logico, e a ragione: un prodotto di poco valore con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore in base al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.",
+  "new": "È il dubbio più logico, e a ragione: un prodotto scadente con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore il più vicino possibile al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.",
+  "why": "Coerenza e naturalezza; Regola della casa sul Pantone"
+ },
+ {
+  "page": "home",
+  "line": 169,
+  "old": "Sì, e te lo consigliamo prima di un primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.",
+  "new": "Sì, e te lo consigliamo prima del primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.",
+  "why": "Ripetizione 'un primo' innaturale"
+ },
+ {
+  "page": "home",
+  "line": 208,
+  "old": "Indicativo, senza impegno.",
+  "new": "A titolo indicativo, senza impegno.",
+  "why": "Aggettivo isolato poco chiaro"
+ },
+ {
+  "page": "home",
+  "line": 274,
+  "old": "LD Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, nel tuo colore Pantone il più fedele possibile.",
+  "new": "LD Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, con il colore il più vicino possibile al tuo codice Pantone.",
+  "why": "Formulazione goffa; formula della casa"
+ },
+ {
+  "page": "socks",
+  "line": 7,
+  "old": "Il logo è intessuto (jacquard) o ricamato, mai stampato, e il colore è riprodotto in base al tuo codice Pantone.",
+  "new": "Il logo è intessuto (jacquard) o ricamato, mai stampato, e il colore è riprodotto il più vicino possibile al tuo codice Pantone.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "socks",
+  "line": 11,
+  "old": "Le calze antiscivolo sono obbligatorie nella maggior parte delle lezioni di pilates e yoga, sul reformer come sul tappetino. Le tue allieve quindi le comprano già, da qualche parte. L'unica domanda è se quella calza porta il logo di un marchio qualsiasi o il tuo. Quando porta il tuo logo, ogni lezione diventa un promemoria silenzioso del tuo brand, e ogni vendita lascia un margine al tuo studio invece che a qualcun altro.",
+  "new": "Le calze antiscivolo sono obbligatorie nella maggior parte delle lezioni di pilates e yoga, sul reformer come sul tappetino. Le tue allieve quindi le comprano già, da qualche parte. L'unica domanda è se quella calza porti il logo di un marchio qualsiasi o il tuo. Quando porta il tuo logo, ogni lezione diventa un promemoria silenzioso del tuo brand, e ogni vendita lascia un margine al tuo studio invece che a qualcun altro.",
+  "why": "Congiuntivo nell'interrogativa indiretta"
+ },
+ {
+  "page": "socks",
+  "line": 12,
+  "old": "Il margine sulla rivendita è un bel vantaggio, non il motivo principale: il vero valore è che il tuo brand esce dallo studio indossato dalle tue stesse allieve.",
+  "new": "Il margine sulla rivendita è un bel vantaggio, non il motivo principale: il vero valore è che il tuo brand esce dallo studio addosso alle tue allieve.",
+  "why": "Un brand non si 'indossa'; 'stesse' superfluo"
+ },
+ {
+  "page": "tumbler",
+  "line": 6,
+  "old": "Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto in base al tuo codice Pantone.",
+  "new": "Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto il più vicino possibile al tuo codice Pantone.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "tumbler",
+  "line": 13,
+  "old": "Il margine sulla rivendita è un bene, ma non è l'essenziale. L'essenziale è questo:",
+  "new": "Il margine sulla rivendita fa piacere, ma non è l'essenziale. L'essenziale è questo:",
+  "why": "'è un bene' calco di 'c'est bien'"
+ },
+ {
+  "page": "tumbler",
+  "line": 25,
+  "old": "Nel modo più adatto al prodotto, nel tuo stile, discreto o ben visibile, con il colore del tuo brand riprodotto in base al codice Pantone. Vedi il risultato sul mockup gratuito prima di decidere qualsiasi cosa.",
+  "new": "Nel modo più adatto al prodotto, nel tuo stile, discreto o ben visibile, con il colore del tuo brand riprodotto il più vicino possibile al codice Pantone. Vedi il risultato sul mockup gratuito prima di decidere qualsiasi cosa.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "tote",
+  "line": 4,
+  "old": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dal tappetino di yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.",
+  "new": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dal tappetino da yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.",
+  "why": "Preposizione d'uso: 'tappetino da yoga'"
+ },
+ {
+  "page": "tote",
+  "line": 6,
+  "old": "Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto in base al tuo codice Pantone.",
+  "new": "Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto il più vicino possibile al tuo codice Pantone.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "tote",
+  "line": 13,
+  "old": "Il margine sulla rivendita è un bene, ma non è l'essenziale. L'essenziale è questo:",
+  "new": "Il margine sulla rivendita fa piacere, ma non è l'essenziale. L'essenziale è questo:",
+  "why": "'è un bene' calco di 'c'est bien'"
+ },
+ {
+  "page": "tote",
+  "line": 25,
+  "old": "Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto in base al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro.",
+  "new": "Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto il più vicino possibile al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "prezzi",
+  "line": 6,
+  "old": "Una precisazione prima dei numeri: il prezzo d'acquisto di circa 6,95 € IVA esclusa si riferisce a una calza antiscivolo tecnica, con suola con grip in PVC o silicone e logo intessuto o ricamato, lo stesso tipo di calza che le tue allieve comprano già per le loro lezioni. È con questa che va confrontata.",
+  "new": "Una precisazione prima dei numeri: il prezzo d'acquisto di circa 6,95 € IVA esclusa si riferisce a una calza antiscivolo tecnica, con grip in PVC o silicone sulla suola e logo intessuto o ricamato, lo stesso tipo di calza che le tue allieve comprano già per le loro lezioni. È con questa che va confrontata.",
+  "why": "Doppio 'con' pesante"
+ },
+ {
+  "page": "prezzi",
+  "line": 41,
+  "old": "Senza impegno. Ricevi l'immagine e il prezzo definitivo entro 24 ore.",
+  "new": "Senza impegno. Ricevi l'anteprima e il prezzo definitivo entro 24 ore.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "faq",
+  "line": 3,
+  "old": "Domande frequenti: ciò che uno studio chiede",
+  "new": "Domande frequenti: cosa chiede uno studio",
+  "why": "Ordine più naturale"
+ },
+ {
+  "page": "faq",
+  "line": 13,
+  "old": "Posso scegliere i colori perché corrispondano al mio brand?",
+  "new": "Posso scegliere i colori in linea con il mio brand?",
+  "why": "Calco ambiguo dal francese"
+ },
+ {
+  "page": "faq",
+  "line": 25,
+  "old": "Il ritmo naturale è di più volte all'anno: le calze si consumano con una pratica intensa, ogni mese arrivano nuove allieve e ogni nuovo colore di stagione fa ripartire l'ordine. I tuoi prodotti personalizzati diventano così una fonte di entrate ricorrente.",
+  "new": "Il ritmo naturale è di più volte all'anno: le calze si consumano con una pratica intensa, ogni mese arrivano nuove allieve e ogni nuovo colore di stagione porta a un nuovo ordine. I tuoi prodotti personalizzati diventano così una fonte di entrate ricorrente.",
+  "why": "'fa ripartire l'ordine' innaturale"
+ },
+ {
+  "page": "faq",
+  "line": 27,
+  "old": "Non è solo un piccolo extra piacevole?",
+  "new": "Non è solo un piccolo extra?",
+  "why": "Doppia attenuazione innaturale"
+ },
+ {
+  "page": "faq",
+  "line": 49,
+  "old": "Richiedi il tuo mockup gratuito e rispondiamo al resto durante il processo, senza impegno.",
+  "new": "Richiedi il tuo mockup gratuito e rispondiamo a tutto il resto strada facendo, senza impegno.",
+  "why": "Più naturale di 'al resto durante il processo'"
+ },
+ {
+  "page": "come",
+  "line": 6,
+  "old": "Ricevi un'immagine digitale del tuo logo sul prodotto, senza impegno.",
+  "new": "Ricevi un'anteprima digitale del tuo logo sul prodotto, senza impegno.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "come",
+  "line": 18,
+  "old": "Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è magazzino anticipato a nome dello studio: produciamo su ordinazione, dopo la tua conferma.",
+  "new": "Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è alcuna scorta anticipata a nome dello studio: produciamo su ordinazione, dopo la tua conferma.",
+  "why": "'magazzino anticipato' non è italiano"
+ },
+ {
+  "page": "come",
+  "line": 31,
+  "old": "LD Ricevi un'immagine digitale del tuo logo sul prodotto, senza impegno, in 24 ore.",
+  "new": "LD Ricevi un'anteprima digitale del tuo logo sul prodotto, senza impegno, in 24 ore.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "come",
+  "line": 32,
+  "old": "LD Perfezioniamo il colore (riprodotto in base al codice Pantone), la dimensione e la posizione finché il design non ti convince. Il logo è applicato nel tuo stile, discreto o ben visibile.",
+  "new": "LD Perfezioniamo il colore (riprodotto il più vicino possibile al codice Pantone), la dimensione e la posizione finché il design non ti convince. Il logo è applicato nel tuo stile, discreto o ben visibile.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "mockup",
+  "line": 4,
+  "old": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). Raccontaci la tua idea e in 24 ore ricevi una vera immagine del tuo logo sul prodotto, senza impegno.",
+  "new": "Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). Raccontaci la tua idea e in 24 ore ricevi una vera anteprima del tuo logo sul prodotto, senza impegno.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "mockup",
+  "line": 13,
+  "old": "Il tuo logo (o una descrizione del tuo brand) e i prodotti che ti interessano. Con questo prepariamo una prima immagine in 24 ore.",
+  "new": "Il tuo logo (o una descrizione del tuo brand) e i prodotti che ti interessano. Con questo prepariamo una prima bozza in 24 ore.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "mockup",
+  "line": 17,
+  "old": "È un'immagine digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup vale come bozza definitiva (visto si stampi) per la produzione e il preventivo ti arriva insieme.",
+  "new": "È un'anteprima digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup vale come bozza approvata per la produzione, e insieme ti arriva il preventivo.",
+  "why": "Terminologia coerente per 'visuel'; 'visto si stampi' evoca la stampa (il logo non è mai stampato); finale 'ti arriva insieme' sospeso"
+ },
+ {
+  "page": "mockup",
+  "line": 25,
+  "old": "Mockup gratuito in 24 ore: un'immagine con il logo del tuo studio sul prodotto, senza impegno. Poi decidi tu. Spedizione gratuita in Europa.",
+  "new": "Mockup gratuito in 24 ore: un'anteprima con il logo del tuo studio sul prodotto, senza impegno. Poi decidi tu. Spedizione gratuita in Europa.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "chisiamo",
+  "line": 1,
+  "old": "Chi è Mediterrano Pilates · chi siamo",
+  "new": "Mediterrano Pilates · chi siamo",
+  "why": "Ridondanza 'Chi è... chi siamo'"
+ },
+ {
+  "page": "chisiamo",
+  "line": 8,
+  "old": "ma trovo che sia una disciplina bellissima.",
+  "new": "ma la trovo una disciplina di grande bellezza.",
+  "why": "Niente superlativi"
+ },
+ {
+  "page": "chisiamo",
+  "line": 10,
+  "old": "Quello che ho notato, invece, con la mia esperienza nel branding e nell'e-commerce: vedevo ovunque lo stesso schema. Spazi bellissimi, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto.",
+  "new": "Quello che ho notato, invece, con la mia esperienza nel branding e nell'e-commerce: vedevo ovunque lo stesso schema. Spazi splendidi, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto.",
+  "why": "Niente superlativi"
+ },
+ {
+  "page": "chisiamo",
+  "line": 12,
+  "old": "E sì, il margine che guadagni su questi prodotti fa piacere, ma non è l'essenziale. Ciò che conta davvero: ogni tumbler termico, ogni tote bag o ogni calza con il tuo brand che la tua community porta con sé può far conoscere il tuo studio, dare un motivo in più per tornare e, a volte, creare un primo contatto con una nuova allieva.",
+  "new": "E sì, il margine che guadagni su questi prodotti fa piacere, ma non è l'essenziale. Ciò che conta davvero: ogni tumbler termico, tote bag o calza con il tuo brand che la tua community porta con sé può far conoscere il tuo studio, dare un motivo in più per tornare e, a volte, creare un primo contatto con una nuova allieva.",
+  "why": "Ripetizione di 'ogni' pesante"
+ },
+ {
+  "page": "yoga",
+  "line": 21,
+  "old": "materiali verificati secondo REACH, suola antiscivolo compresa. Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, segnalacelo entro 14 giorni dalla consegna, con foto: lo rifacciamo senza costi.",
+  "new": "materiali verificati secondo REACH, suola antiscivolo compresa. Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, segnalacelo entro 14 giorni dalla consegna, con foto: rifacciamo l'ordine senza costi.",
+  "why": "'lo' senza referente chiaro"
+ },
+ {
+  "page": "yoga",
+  "line": 26,
+  "old": "Nello yoga molte praticano a piedi nudi, e niente obbliga a cambiarlo. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.",
+  "new": "Nello yoga molte praticano a piedi nudi, e non c'è alcun bisogno di cambiarlo. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.",
+  "why": "Calco di 'rien n'oblige'"
+ },
+ {
+  "page": "yoga",
+  "line": 32,
+  "old": "Lezioni intense durante le quali l'allieva beve per tutta la sessione. Qui il prodotto che si vede è il tumbler termico.",
+  "new": "Lezioni intense durante le quali l'allieva beve per tutta la lezione. Qui il prodotto che si vede è il tumbler termico.",
+  "why": "'sessione' calco di 'séance'; coerenza con 'lezione'"
+ },
+ {
+  "page": "yoga",
+  "line": 45,
+  "old": "Nelle lezioni più intense l'allieva beve per tutta la sessione e appoggia il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "new": "Nelle lezioni più intense l'allieva beve per tutta la lezione e appoggia il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "why": "Coerenza con 'lezione'"
+ },
+ {
+  "page": "yoga",
+  "line": 53,
+  "old": "Dove può ordinare uno studio di yoga calze antiscivolo con il proprio logo?",
+  "new": "Dove può ordinare calze antiscivolo con il proprio logo uno studio di yoga?",
+  "why": "Ordine delle parole: il soggetto spezzava verbo e oggetto"
+ },
+ {
+  "page": "yoga",
+  "line": 58,
+  "old": "Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando funziona.",
+  "new": "Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando il primo funziona.",
+  "why": "Soggetto di 'funziona' poco chiaro"
+ },
+ {
+  "page": "yoga",
+  "line": 81,
+  "old": "Crea gratis il mockup del mio studio",
+  "new": "Voglio il mockup gratuito del mio studio",
+  "why": "CTA: imperativo 'crea' + 'mio' non concorda"
+ },
+ {
+  "page": "yoga",
+  "line": 87,
+  "old": "Richiedi il mio mockup",
+  "new": "Voglio il mio mockup",
+  "why": "CTA: 'richiedi' + 'mio' non concorda"
+ },
+ {
+  "page": "barre",
+  "line": 5,
+  "old": "Nel barre fitness ci si allena con le calze antiscivolo: pliés, relevés e serie alla sbarra su un pavimento che richiede aderenza. Le tue allieve le comprano già; tutta la differenza sta nel portare un marchio qualsiasi o il tuo. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.",
+  "new": "Nel barre fitness ci si allena con le calze antiscivolo: pliés, relevés e serie alla sbarra su un pavimento che richiede aderenza. Le tue allieve le comprano già; l'unica differenza è se portano un marchio qualsiasi o il tuo. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.",
+  "why": "Calco di 'toute la différence est de savoir'"
+ },
+ {
+  "page": "barre",
+  "line": 8,
+  "old": "Nel barre la lezione si fa con le calze antiscivolo: suola con grip in PVC o silicone, taglio a metà polpaccio, logo intessuto (jacquard) o ricamato, mai stampato, colore riprodotto in base al tuo codice Pantone.",
+  "new": "Nel barre la lezione si fa con le calze antiscivolo: suola con grip in PVC o silicone, taglio a metà polpaccio, logo intessuto (jacquard) o ricamato, mai stampato, colore riprodotto il più vicino possibile al tuo codice Pantone.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "barre",
+  "line": 11,
+  "old": "vanno di pari passo.",
+  "new": "vanno sempre insieme.",
+  "why": "'di pari passo' significa 'procedere insieme', non 'essere inseparabili'"
+ },
+ {
+  "page": "barre",
+  "line": 14,
+  "old": "Questo fa della calza una parte della divisa dello studio. L'allieva la compra comunque; se la compra alla reception e con il tuo logo, ogni lezione ripete in silenzio il tuo brand e il margine resta nello studio invece di andare a qualcun altro.",
+  "new": "Questo fa della calza una parte della divisa dello studio. L'allieva la compra comunque; se la compra alla reception e con il tuo logo, ogni lezione ricorda in silenzio il tuo brand e il margine resta nello studio invece di andare a qualcun altro.",
+  "why": "'ripetere un brand' innaturale"
+ },
+ {
+  "page": "barre",
+  "line": 24,
+  "old": "Le serie di barre sono brevi e intense, e il tumbler sta spesso ai piedi della sbarra, sotto gli occhi di tutta la classe. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "new": "Le serie alla sbarra sono brevi e intense, e il tumbler sta spesso ai piedi della sbarra, sotto gli occhi di tutta la classe. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.",
+  "why": "Ambiguo; coerenza con 'serie alla sbarra' (riga 5)"
+ },
+ {
+  "page": "fisio",
+  "line": 16,
+  "old": "vanno di pari passo.",
+  "new": "vanno sempre insieme.",
+  "why": "'di pari passo' usato impropriamente"
+ },
+ {
+  "page": "fisio",
+  "line": 30,
+  "old": "Un paziente che porta le calze del tuo studio al suo club o in palestra fa conoscere il tuo brand senza che tu debba spendere in annunci. I dati sulla notorietà citati in questo sito riguardano i prodotti personalizzati in generale; non sono specifici della fisioterapia.",
+  "new": "Un paziente che porta le calze del tuo studio al suo club o in palestra fa conoscere il tuo brand senza che tu debba spendere in pubblicità. I dati sulla notorietà citati in questo sito riguardano i prodotti personalizzati in generale; non sono specifici della fisioterapia.",
+  "why": "Più naturale"
+ },
+ {
+  "page": "fisio",
+  "line": 49,
+  "old": "In Italia come nella maggior parte dei paesi, la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione , il cui rispetto è vigilato dal suo Ordine professionale. Queste regole servono in particolare a evitare che a un prodotto si attribuiscano effetti sulla salute senza fondamento, e che si cerchi di attirare o fidelizzare il paziente con regali.",
+  "new": "In Italia come nella maggior parte dei paesi, la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione, sul cui rispetto vigila il suo Ordine professionale. Queste regole servono in particolare a evitare che a un prodotto si attribuiscano effetti sulla salute senza fondamento, e che si cerchi di attirare o fidelizzare il paziente con regali.",
+  "why": "Spazio prima della virgola; 'vigilare' è intransitivo (vigilare su)"
+ },
+ {
+  "page": "fisio",
+  "line": 80,
+  "old": "Dove può ordinare uno studio di fisioterapia calze antiscivolo con il proprio logo?",
+  "new": "Dove può ordinare calze antiscivolo con il proprio logo uno studio di fisioterapia?",
+  "why": "Ordine delle parole"
+ },
+ {
+  "page": "fisio",
+  "line": 106,
+  "old": "Crea gratis il mockup del mio studio",
+  "new": "Voglio il mockup gratuito del mio studio",
+  "why": "CTA: imperativo + 'mio' non concorda"
+ },
+ {
+  "page": "fisio",
+  "line": 112,
+  "old": "Richiedi il mio mockup",
+  "new": "Voglio il mio mockup",
+  "why": "CTA: 'richiedi' + 'mio' non concorda"
+ },
+ {
+  "page": "blog",
+  "line": 16,
+  "old": "Come fidelizzare le tue allieve con prodotti con il tuo logo",
+  "new": "Come fidelizzare le tue allieve con prodotti che portano il tuo logo",
+  "why": "Doppio 'con'"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 8,
+  "old": "L'alternativa è ordinare prima e produrre dopo. Richiedi un mockup gratuito con il tuo logo, approvi l'immagine e il prezzo, e solo a quel punto l'ordine viene prodotto. Nessuna merce ferma nel tuo studio, nessun denaro immobilizzato in scatoloni che forse non si venderanno.",
+  "new": "L'alternativa è ordinare prima e produrre dopo. Richiedi un mockup gratuito con il tuo logo, approvi l'anteprima e il prezzo, e solo a quel punto l'ordine viene prodotto. Nessuna merce ferma nel tuo studio, nessun denaro immobilizzato in scatoloni che forse non si venderanno.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 13,
+  "old": "Il margine diretto è il più visibile, ma non il più importante. L'85% delle persone ricorda il marchio di un prodotto che ha indossato (ASI Global Advertising Impressions Study, 2026). Ogni allieva che esce dallo studio con il tuo logo sulle calze o sulla tote bag fa pubblicità camminando, senza che tu spenda un euro in annunci.",
+  "new": "Il margine diretto è il più visibile, ma non il più importante. L'85% delle persone ricorda il marchio di un prodotto che ha indossato (ASI Global Advertising Impressions Study, 2026). Ogni allieva che esce dallo studio con il tuo logo sulle calze o sulla tote bag è una pubblicità che cammina, senza che tu spenda un euro in annunci.",
+  "why": "'fa pubblicità camminando' innaturale"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 17,
+  "old": "Approvi l'immagine e il prezzo finale prima di qualsiasi impegno.",
+  "new": "Approvi l'anteprima e il prezzo finale prima di qualsiasi impegno.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 18,
+  "old": "Solo dopo l'ordine viene prodotto; il minimo è di 50 paia per le calze e di 50 pezzi per le tote bag. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.",
+  "new": "Solo a quel punto l'ordine viene prodotto; il minimo è di 50 paia per le calze e di 50 pezzi per le tote bag. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.",
+  "why": "Ambiguo: si legge 'solo dopo l'ordine'"
+ },
+ {
+  "page": "b_fatturato",
+  "line": 22,
+  "old": "Richiedi il tuo mockup gratuito, approvi l'immagine e il prezzo, e solo dopo l'ordine viene prodotto. Non c'è magazzino a nome dello studio: tutto viene prodotto su ordinazione, dopo la conferma.",
+  "new": "Richiedi il tuo mockup gratuito, approvi l'anteprima e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è magazzino a nome dello studio: tutto viene prodotto su ordinazione, dopo la conferma.",
+  "why": "Ambiguità 'solo dopo l'ordine'; terminologia"
+ },
+ {
+  "page": "b_calze",
+  "line": 19,
+  "old": "Una calza con una suola con grip in PVC o silicone, che impedisce al piede di scivolare sul reformer o sul tappetino. Il taglio è a metà polpaccio e il materiale è conforme alla normativa europea REACH.",
+  "new": "Una calza con grip in PVC o silicone sulla suola, che impedisce al piede di scivolare sul reformer o sul tappetino. Il taglio è a metà polpaccio e il materiale è conforme alla normativa europea REACH.",
+  "why": "Doppio 'con'"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 15,
+  "old": "La cosa più ragionevole è ricevere prima un'immagine digitale con il tuo vero logo sul prodotto, approvare l'immagine e il prezzo, e solo dopo confermare l'ordine. Un fornitore che chiede il pagamento completo prima di mostrarti come appare il tuo brand sul prodotto ti fa correre tutto il rischio: se il risultato non ti convince, hai già pagato.",
+  "new": "La cosa più ragionevole è ricevere prima un'anteprima digitale con il tuo vero logo sul prodotto, approvare l'anteprima e il prezzo, e solo dopo confermare l'ordine. Un fornitore che chiede il pagamento completo prima di mostrarti come appare il tuo brand sul prodotto ti fa correre tutto il rischio: se il risultato non ti convince, hai già pagato.",
+  "why": "Terminologia coerente per 'visuel'"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 19,
+  "old": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine. Diffida di tempi molto più brevi per un prodotto personalizzato: il più delle volte significano merce generica già prodotta, non un ordine fatto per te. Chiedi anche esplicitamente se la spedizione fuori dal tuo paese comporta un costo aggiuntivo; molti fornitori la fatturano a parte senza dirlo prima del pagamento.",
+  "new": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'anteprima. Diffida di tempi molto più brevi per un prodotto personalizzato: il più delle volte significano merce generica già prodotta, non un ordine fatto per te. Chiedi anche esplicitamente se la spedizione fuori dal tuo paese comporta un costo aggiuntivo; molti fornitori la fatturano a parte senza dirlo prima del pagamento.",
+  "why": "Terminologia coerente"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 28,
+  "old": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare immagine e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.",
+  "new": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare anteprima e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.",
+  "why": "Terminologia coerente"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 32,
+  "old": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta.",
+  "new": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'anteprima. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta.",
+  "why": "Terminologia coerente"
+ },
+ {
+  "page": "b_fornitore",
+  "line": 35,
+  "old": "Senza impegno. Ricevi l'immagine con il tuo vero logo in 24 ore e poi decidi.",
+  "new": "Senza impegno. Ricevi l'anteprima con il tuo vero logo in 24 ore e poi decidi.",
+  "why": "Terminologia coerente"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 1,
+  "old": "Fidelizzare le tue allieve con prodotti con il tuo logo",
+  "new": "Fidelizzare le tue allieve con prodotti che portano il tuo logo",
+  "why": "Doppio 'con'"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 3,
+  "old": "con prodotti con il tuo logo.",
+  "new": "con prodotti che portano il tuo logo.",
+  "why": "Doppio 'con' (frammento dell'H1)"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 15,
+  "old": "Non tutti i prodotti fidelizzano allo stesso modo. I più utili sono quelli che l'allieva usa spesso fuori dallo studio: un tumbler termico che porta al lavoro o una tote bag per la spesa. Le calze antiscivolo, spesso richieste a lezione, sono quelle che si ricomprano più spesso e garantiscono quindi la presenza di brand più costante.",
+  "new": "Non tutti i prodotti fidelizzano allo stesso modo. I più utili sono quelli che l'allieva usa spesso fuori dallo studio: un tumbler termico che porta al lavoro o una tote bag per la spesa. Le calze antiscivolo, spesso richieste a lezione, sono quelle che si ricomprano più spesso e garantiscono quindi la presenza del brand più costante.",
+  "why": "Articolo mancante"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 18,
+  "old": "Il processo è lo stesso per ciascuno dei tre prodotti: richiedi un mockup gratuito, vedi il tuo logo applicato in 24 ore, e approvi l'immagine e il prezzo prima di qualsiasi produzione. Puoi vedere come funziona nel dettaglio nella pagina",
+  "new": "Il processo è lo stesso per ciascuno dei tre prodotti: richiedi un mockup gratuito, vedi il tuo logo applicato in 24 ore, e approvi l'anteprima e il prezzo prima di qualsiasi produzione. Puoi vedere come funziona nel dettaglio nella pagina",
+  "why": "Terminologia coerente"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 32,
+  "old": "Fidelizzare le tue allieve con prodotti con il tuo logo · Mediterrano Pilates",
+  "new": "Fidelizzare le tue allieve con prodotti che portano il tuo logo · Mediterrano Pilates",
+  "why": "Doppio 'con'"
+ },
+ {
+  "page": "b_fidelizzare",
+  "line": 33,
+  "old": "LD Come fidelizzare le tue allieve con prodotti con il tuo logo",
+  "new": "LD Come fidelizzare le tue allieve con prodotti che portano il tuo logo",
+  "why": "Doppio 'con'"
+ },
+ {
+  "page": "b_kit",
+  "line": 10,
+  "old": "Il kit fa anche conoscere il tuo studio oltre le sue pareti. L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza, tumbler termico o tote bag con il tuo logo ti dà visibilità, senza costi pubblicitari. Fonte: ASI Global Advertising Impressions Study, 2026. Una nuova allieva che va in giro con la tua tote bag fa scoprire il tuo studio a chi le sta intorno.",
+  "new": "Il kit fa anche conoscere il tuo studio oltre le sue mura. L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza, tumbler termico o tote bag con il tuo logo ti dà visibilità, senza costi pubblicitari. Fonte: ASI Global Advertising Impressions Study, 2026. Una nuova allieva che va in giro con la tua tote bag fa scoprire il tuo studio a chi le sta intorno.",
+  "why": "Espressione idiomatica: 'mura'"
+ },
+ {
+  "page": "b_kit",
+  "line": 29,
+  "old": "Sul reformer come sul tappetino, le calze antiscivolo sono di solito richieste. Una nuova allieva ne ha bisogno dalla prima lezione: regalargliele risponde a un bisogno reale nel momento in cui nasce, e fa sì che fin dal primo giorno porti il tuo logo nello studio. Il resto del kit aggiunge valore percepito; le calze aggiungono utilizzo.",
+  "new": "Sul reformer come sul tappetino, le calze antiscivolo sono di solito richieste. Una nuova allieva ne ha bisogno dalla prima lezione: regalargliele risponde a un bisogno reale nel momento in cui nasce, e fa sì che fin dal primo giorno porti il tuo logo nello studio. Il resto del kit aggiunge valore percepito; le calze aggiungono un uso concreto.",
+  "why": "'aggiungono utilizzo' innaturale"
+ },
+ {
+  "page": "b_kit",
+  "line": 41,
+  "old": "Usalo per il passaparola. Quando un'allieva porta un'amica, entrambe ricevono il kit: chi arriva si iscrive grazie a un gesto, e chi consiglia si sente riconosciuta.",
+  "new": "Usalo per il programma “porta un'amica”. Quando un'allieva porta un'amica, entrambe ricevono il kit: chi arriva si iscrive grazie a un gesto, e chi consiglia si sente riconosciuta.",
+  "why": "'parrainage' è un programma di invito, non il passaparola generico"
+ },
+ {
+  "page": "b_kit",
+  "line": 65,
+  "old": "un momento di brand.",
+  "new": "un momento per il tuo brand.",
+  "why": "'momento di brand' calco"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 5,
+  "old": "Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato sulle calze, mai stampato. Restano il prezzo e la domanda se qualcosa viene fatturato a parte. Ecco entrambe le risposte, con un esempio completo di ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.",
+  "new": "Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato sulle calze, mai stampato. Restano il prezzo e la questione dei costi fatturati a parte. Ecco entrambe le risposte, con un esempio completo di ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.",
+  "why": "Costruzione calcata e pesante"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 6,
+  "old": "Personalizzare calze antiscivolo con il logo del tuo studio costa circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Il prezzo di vendita consigliato in Italia è di 19,95 € al paio IVA inclusa. Al netto dell'IVA (22%) e del costo, ti restano circa 9,40 € al paio: un margine di circa il 57% sulla tua vendita al netto dell'IVA. Il mockup con il tuo logo è gratuito e arriva entro 24 ore, la spedizione è gratuita in tutta Europa e l'ordine viene prodotto solo dopo la tua approvazione. Il numero esatto è nel preventivo che accompagna il mockup.",
+  "new": "Personalizzare calze antiscivolo con il logo del tuo studio costa circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Il prezzo di vendita consigliato in Italia è di 19,95 € al paio IVA inclusa. Al netto dell'IVA (22%) e del costo, ti restano circa 9,40 € al paio: un margine di circa il 57% sulla tua vendita al netto dell'IVA. Il mockup con il tuo logo è gratuito e arriva entro 24 ore, la spedizione è gratuita in tutta Europa e l'ordine viene prodotto solo dopo la tua approvazione. L'importo esatto è nel preventivo che accompagna il mockup.",
+  "why": "'chiffre' qui è un importo"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 8,
+  "old": "Il prezzo al paio comprende la calza stessa (modello a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH), la personalizzazione con il tuo logo intessuto direttamente nella calza o ricamato, mai stampato, e l'adattamento del colore del tuo brand in base al codice Pantone.",
+  "new": "Il prezzo al paio comprende la calza stessa (modello a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH), la personalizzazione con il tuo logo intessuto direttamente nella calza o ricamato, mai stampato, e la riproduzione del colore del tuo brand il più vicino possibile al codice Pantone.",
+  "why": "Regola della casa sul Pantone"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 11,
+  "old": "Il prezzo di 6,95 € al paio IVA esclusa è indicativo. Il numero esatto dipende dalla quantità ordinata e dalla scelta di un logo intessuto o ricamato, e viene confermato nel preventivo che ricevi insieme al mockup. Il preventivo è senza impegno: puoi chiederlo anche solo per fare un confronto.",
+  "new": "Il prezzo di 6,95 € al paio IVA esclusa è indicativo. L'importo esatto dipende dalla quantità ordinata e dalla scelta di un logo intessuto o ricamato, e viene confermato nel preventivo che ricevi insieme al mockup. Il preventivo è senza impegno: puoi chiederlo anche solo per fare un confronto.",
+  "why": "'chiffre' = importo"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 46,
+  "old": "Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. Il numero esatto è confermato nel preventivo gratuito.",
+  "new": "Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. L'importo esatto è confermato nel preventivo gratuito.",
+  "why": "'chiffre' = importo"
+ },
+ {
+  "page": "b_prezzo",
+  "line": 50,
+  "old": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma il numero esatto.",
+  "new": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma l'importo esatto.",
+  "why": "'chiffre' = importo"
+ },
+ {
+  "page": "b_tote",
+  "line": 7,
+  "old": "Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino di yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito entro 24 ore.",
+  "new": "Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino da yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito entro 24 ore.",
+  "why": "Preposizione d'uso"
+ },
+ {
+  "page": "b_tote",
+  "line": 9,
+  "old": "A differenza di una calza antiscivolo, usata solo durante la lezione, una tote bag continua a girare anche dopo. Ogni volta che un'allieva la riempie con la spesa o la porta al lavoro, è visibilità per il tuo studio fuori dalle sue pareti. La tote bag diventa così una pubblicità che non si ferma alla porta dello studio, in aggiunta ai prodotti usati solo durante la pratica.",
+  "new": "A differenza di una calza antiscivolo, usata solo durante la lezione, una tote bag continua a girare anche dopo. Ogni volta che un'allieva la riempie con la spesa o la porta al lavoro, è visibilità per il tuo studio fuori dalle sue mura. La tote bag diventa così una pubblicità che non si ferma alla porta dello studio, in aggiunta ai prodotti usati solo durante la pratica.",
+  "why": "Espressione idiomatica"
+ },
+ {
+  "page": "b_tote",
+  "line": 11,
+  "old": "La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, una borsa per lo sport, un computer portatile. Il logo è applicato in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, discreto in un angolo o in grande su tutta la tela, come si addice di più al tuo brand.",
+  "new": "La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, una borsa per lo sport, un computer portatile. Il logo è applicato in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, discreto in un angolo o in grande su tutta la tela, come si addice meglio al tuo brand.",
+  "why": "Forma corretta: 'si addice meglio'"
+ },
+ {
+  "page": "legal",
+  "line": 61,
+  "old": "I mockup e i preventivi sono gratuiti e senza impegno. L'ordine è vincolante solo dopo la tua approvazione scritta (via email) dell'immagine definitiva e la conferma dell'ordine.",
+  "new": "I mockup e i preventivi sono gratuiti e senza impegno. L'ordine è vincolante solo dopo la tua approvazione scritta (via email) della bozza grafica definitiva e la conferma dell'ordine.",
+  "why": "Termine più preciso in ambito contrattuale"
+ },
+ {
+  "page": "legal",
+  "line": 63,
+  "old": "Tutti i prodotti sono realizzati appositamente per il tuo studio, con il tuo logo e i tuoi colori. Approvando il mockup accetti l'immagine, i colori e le specifiche. Possono esserci lievi differenze di colore tra lo schermo e il prodotto finito. Entro una tolleranza ragionevole non costituiscono un difetto; la corrispondenza Pantone permette di ridurle al minimo.",
+  "new": "Tutti i prodotti sono realizzati appositamente per il tuo studio, con il tuo logo e i tuoi colori. Approvando il mockup accetti la bozza grafica, i colori e le specifiche. Possono esserci lievi differenze di colore tra lo schermo e il prodotto finito. Entro una tolleranza ragionevole non costituiscono un difetto; la corrispondenza Pantone permette di ridurle al minimo.",
+  "why": "Coerenza con art. 2"
+ },
+ {
+  "page": "legal",
+  "line": 68,
+  "old": "I prodotti personalizzati non vengono ritirati né cambiati.",
+  "new": "I prodotti personalizzati non possono essere resi né sostituiti.",
+  "why": "Formula contrattuale italiana usuale"
+ },
+ {
+  "page": "legal",
+  "line": 69,
+  "old": "Poiché ogni prodotto è realizzato secondo le tue specifiche e con il tuo logo, non può essere rivenduto a terzi. Inoltre le nostre vendite sono concluse tra professionisti, ai quali non si applica il diritto di recesso del consumatore.",
+  "new": "Poiché ogni prodotto è realizzato secondo le tue specifiche e con il tuo logo, non può essere rivenduto a terzi. Inoltre le nostre vendite sono concluse tra professionisti, alle quali non si applica il diritto di recesso del consumatore.",
+  "why": "Concordanza con 'vendite' (femminile)"
+ }
+]
