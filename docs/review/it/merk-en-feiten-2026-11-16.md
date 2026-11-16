@@ -36,7 +36,7 @@ _Herschreven op 07-11-2026 met alle klantbesluiten tot en met die datum, aangevu
 
 ## Personalisatie
 - Logo **geweven (jacquard) of geborduurd**, naar keuze. **Nooit bedrukt.**
-- Kleur zo dicht mogelijk bij de Pantone-code van het merk ("au plus près", "as closely as possible", "il più vicino possibile"). Beloof geen exacte match.
+- **Kleur exact volgens de Pantone-code van het merk** (klantbesluit 16-11-2026). Formuleringen: ES "color exacto / de forma exacta según el código Pantone", EN "exact colour by Pantone code", DE "exakt nach Pantone-Code", NL "exact volgens je Pantone-code", FR "exactement d'après le code Pantone", IT "esattamente in base al codice Pantone". De verkoopvoorwaarden houden de clausule over lichte verschillen tussen scherm en product (redelijke tolerantie); de kwaliteitsgarantie (kleur wijkt af van goedgekeurd ontwerp = kosteloos opnieuw) blijft.
 - Op tumbler, tote bag en ring: het logo wordt aangebracht op de manier die het best bij het product past, subtiel of groot. In blogartikelen over "geweven of geborduurd, nooit bedrukt" alleen de sokken noemen.
 
 ## Prijzen en marges (klantbesluit 04-11-2026: dezelfde inkoop in heel Europa)
