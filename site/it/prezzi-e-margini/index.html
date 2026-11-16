@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -130,7 +130,7 @@ window.MP_loadGA = function(){
       "name": "Come funziona l'IVA per uno studio italiano?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mediterrano Pilates fattura dalla Spagna. Per un'impresa dell'UE con una partita IVA comunitaria valida (iscritta al VIES), la fattura è emessa come cessione intracomunitaria non imponibile e l'IVA la assolve l'acquirente nel proprio paese (inversione contabile, reverse charge); senza una partita IVA valida, per esempio nel caso di un'associazione con solo codice fiscale, viene applicata l'IVA spagnola. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario."
+        "text": "Mediterrano Pilates fattura dalla Spagna. Se il tuo studio ha una partita IVA attiva nel VIES (in Italia l'inclusione nel VIES va richiesta all'Agenzia delle Entrate), la fattura è emessa senza IVA come cessione intracomunitaria e l'IVA la assolvi tu in Italia con l'integrazione della fattura (inversione contabile, reverse charge). Senza una partita IVA attiva nel VIES, per esempio nel caso di un'associazione con solo codice fiscale, la fattura riporta l'IVA: di norma quella spagnola, oppure quella italiana quando lo prevedono le regole europee sulle vendite a distanza. Ti indichiamo il trattamento esatto nel preventivo; per i casi particolari (ASD, regime forfettario) verifica con il tuo commercialista. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario."
       }
     }
   ],
@@ -1032,7 +1032,7 @@ footer a{white-space:nowrap}
     <span class="kicker"><span class="kicker-lead">Prezzi e margini</span> dei prodotti personalizzati</span>
     <h1>Prezzi e margini, in tutta trasparenza, <span class="fx">prima di ordinare qualsiasi cosa.</span></h1>
     <p class="sub">Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). Qui trovi il prezzo d'acquisto, il prezzo di vendita consigliato e il margine dei tre prodotti, senza dover prima chiedere un preventivo.</p>
-    <p class="sub" style="margin-top:12px">Una precisazione prima dei numeri: il prezzo d'acquisto di circa 6,95 € IVA esclusa si riferisce a una calza antiscivolo tecnica, con suola con grip in PVC o silicone e logo intessuto o ricamato, lo stesso tipo di calza che le tue allieve comprano già per le loro lezioni. È con questa che va confrontata.</p>
+    <p class="sub" style="margin-top:12px">Una precisazione prima dei numeri: il prezzo d'acquisto di circa 6,95 € IVA esclusa si riferisce a una calza antiscivolo tecnica, con grip in PVC o silicone sulla suola e logo intessuto o ricamato, lo stesso tipo di calza che le tue allieve comprano già per le loro lezioni. È con questa che va confrontata.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
   </div>
 </header>
@@ -1139,7 +1139,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">07</span>Come funziona l'IVA per uno studio italiano?</summary>
-        <p>Mediterrano Pilates fattura dalla Spagna. Per un'impresa dell'UE con una partita IVA comunitaria valida (iscritta al VIES), la fattura è emessa come cessione intracomunitaria non imponibile e l'IVA la assolve l'acquirente nel proprio paese (inversione contabile, reverse charge); senza una partita IVA valida, per esempio nel caso di un'associazione con solo codice fiscale, viene applicata l'IVA spagnola. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.</p>
+        <p>Mediterrano Pilates fattura dalla Spagna. Se il tuo studio ha una partita IVA attiva nel VIES (in Italia l'inclusione nel VIES va richiesta all'Agenzia delle Entrate), la fattura è emessa senza IVA come cessione intracomunitaria e l'IVA la assolvi tu in Italia con l'integrazione della fattura (inversione contabile, reverse charge). Senza una partita IVA attiva nel VIES, per esempio nel caso di un'associazione con solo codice fiscale, la fattura riporta l'IVA: di norma quella spagnola, oppure quella italiana quando lo prevedono le regole europee sulle vendite a distanza. Ti indichiamo il trattamento esatto nel preventivo; per i casi particolari (ASD, regime forfettario) verifica con il tuo commercialista. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.</p>
       </details>
     </div>
   </div>
@@ -1148,7 +1148,7 @@ footer a{white-space:nowrap}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Richiedi il tuo mockup e <span class="fx">ricevi il tuo preventivo esatto.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine e il prezzo definitivo entro 24 ore.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima e il prezzo definitivo entro 24 ore.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/tumbler-termico-personalizzato/" style="color:var(--cream);text-decoration:underline">Tumbler termici</a> · <a href="/it/tote-bag-personalizzata/" style="color:var(--cream);text-decoration:underline">Tote bags</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:var(--cream);text-decoration:underline">Aumenta il tuo fatturato</a> · <a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:var(--cream);text-decoration:underline">Fidelizza le tue allieve</a> · <a href="/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Come scegliere un fornitore</a> · <a href="/it/prodotti-personalizzati-studi-barre/" style="color:var(--cream);text-decoration:underline">Per gli studi di barre</a> · <a href="/it/prodotti-personalizzati-studi-fisioterapia/" style="color:var(--cream);text-decoration:underline">Per gli studi di fisioterapia</a> · <a href="/it/blog/prezzo-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Quanto costano le calze</a></p>
   </div>
@@ -1223,7 +1223,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1254,6 +1254,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1267,12 +1274,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

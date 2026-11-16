@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -110,7 +110,7 @@ window.MP_loadGA = function(){
       "name": "Quanto costano le calze antiscivolo personalizzate con logo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. Il numero esatto è confermato nel preventivo gratuito."
+        "text": "Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. L'importo esatto è confermato nel preventivo gratuito."
       }
     },
     {
@@ -126,7 +126,7 @@ window.MP_loadGA = function(){
       "name": "Quanto costa un ordine minimo di 50 paia?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma il numero esatto."
+        "text": "Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma l'importo esatto."
       }
     },
     {
@@ -142,7 +142,7 @@ window.MP_loadGA = function(){
       "name": "Quali sono i tempi dell'ordine?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Il mockup arriva entro 24 ore. Una volta approvato, produzione e consegna richiedono in tutto circa 4 settimane."
+        "text": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono in tutto circa 4 settimane."
       }
     },
     {
@@ -1063,23 +1063,23 @@ body>.faq-section h2{color:var(--cream)}
     <h1>Quanto costano le calze antiscivolo personalizzate <span class="fx">con il logo del tuo studio?</span></h1>
     <p class="sub">La risposta breve: circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia, 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
-    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-09-29">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-10-06">16 novembre 2026</time>  · Di Mediterrano Pilates</p>
+    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-11-16">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-11-16">16 novembre 2026</time>  · A cura di Mediterrano Pilates</p>
   </div>
 </header>
 
 <section class="sheet cream art">
   <div class="wrap" style="padding:48px 0 8px;max-width:760px">
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato sulle calze, mai stampato. Restano il prezzo e la domanda se qualcosa viene fatturato a parte. Ecco entrambe le risposte, con un esempio completo di ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Se stai confrontando dei fornitori, prima viene la qualità, poi il prezzo. Per noi la qualità conta: una calza a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH e il tuo logo intessuto o ricamato sulle calze, mai stampato. Restano il prezzo e la questione dei costi fatturati a parte. Ecco entrambe le risposte, con un esempio completo di ordine minimo di 50 paia, così puoi calcolare investimento e margine prima di chiedere un preventivo.</p>
 
     <h2>Risposta breve</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Personalizzare calze antiscivolo con il logo del tuo studio costa circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Il prezzo di vendita consigliato in Italia è di 19,95 € al paio IVA inclusa. Al netto dell'IVA (22%) e del costo, ti restano circa 9,40 € al paio: un margine di circa il 57% sulla tua vendita al netto dell'IVA. Il mockup con il tuo logo è gratuito e arriva entro 24 ore, la spedizione è gratuita in tutta Europa e l'ordine viene prodotto solo dopo la tua approvazione. Il numero esatto è nel preventivo che accompagna il mockup.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Personalizzare calze antiscivolo con il logo del tuo studio costa circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Il prezzo di vendita consigliato in Italia è di 19,95 € al paio IVA inclusa. Al netto dell'IVA (22%) e del costo, ti restano circa 9,40 € al paio: un margine di circa il 57% sulla tua vendita al netto dell'IVA. Il mockup con il tuo logo è gratuito e arriva entro 24 ore, la spedizione è gratuita in tutta Europa e l'ordine viene prodotto solo dopo la tua approvazione. L'importo esatto è nel preventivo che accompagna il mockup.</p>
 
     <h2 style="margin-top:44px">Cosa comprende il prezzo al paio (e cosa non viene fatturato a parte)</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il prezzo al paio comprende la calza stessa (modello a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH), la personalizzazione con il tuo logo intessuto direttamente nella calza o ricamato, mai stampato, e l'adattamento del colore del tuo brand in base al codice Pantone.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il prezzo al paio comprende la calza stessa (modello a metà polpaccio con suola antiscivolo, materiali conformi alla normativa europea REACH), la personalizzazione con il tuo logo intessuto direttamente nella calza o ricamato, mai stampato, e la riproduzione del colore del tuo brand il più vicino possibile al codice Pantone.</p>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Cosa non viene fatturato a parte: il mockup con il tuo logo (gratuito, entro 24 ore), le modifiche al mockup fino alla tua approvazione e la spedizione in tutta Europa. Non ci sono costi di progettazione né costi di preparazione del logo.</p>
 
     <h2 style="margin-top:44px">Da cosa dipende il prezzo esatto</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il prezzo di 6,95 € al paio IVA esclusa è indicativo. Il numero esatto dipende dalla quantità ordinata e dalla scelta di un logo intessuto o ricamato, e viene confermato nel preventivo che ricevi insieme al mockup. Il preventivo è senza impegno: puoi chiederlo anche solo per fare un confronto.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il prezzo di 6,95 € al paio IVA esclusa è indicativo. L'importo esatto dipende dalla quantità ordinata e dalla scelta di un logo intessuto o ricamato, e viene confermato nel preventivo che ricevi insieme al mockup. Il preventivo è senza impegno: puoi chiederlo anche solo per fare un confronto.</p>
 
     <h2 style="margin-top:44px">Esempio completo: un ordine minimo di 50 paia</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Esempio indicativo con un costo di 6,95 € al paio IVA esclusa, IVA al 22% e il prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa. Il tuo preventivo può variare leggermente.</p>
@@ -1117,7 +1117,7 @@ body>.faq-section h2{color:var(--cream)}
       <li>Invii il tuo logo e il colore del tuo brand (se hai il codice Pantone è meglio; altrimenti lo riproduciamo noi).</li>
       <li>Entro 24 ore ricevi il mockup gratuito con il tuo logo sulla calza e il preventivo esatto per la quantità desiderata.</li>
       <li>Se ti convince, approvi. Altrimenti, nessun impegno.</li>
-      <li>Produzione e consegna: circa 4 settimane dalla tua approvazione, spedizione gratuita in tutta Europa.</li>
+      <li>Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, spedizione gratuita in tutta Europa.</li>
     </ol>
   </div>
 </section>
@@ -1128,7 +1128,7 @@ body>.faq-section h2{color:var(--cream)}
     <div class="faq">
       <details>
         <summary><span class="qn">01</span>Quanto costano le calze antiscivolo personalizzate con logo?</summary>
-        <p>Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. Il numero esatto è confermato nel preventivo gratuito.</p>
+        <p>Circa 6,95 € al paio, prezzo all'ingrosso IVA esclusa, con un ordine minimo di 50 paia. Al prezzo di vendita consigliato in Italia di 19,95 € IVA inclusa, ti restano circa 9,40 € al paio al netto dell'IVA. L'importo esatto è confermato nel preventivo gratuito.</p>
       </details>
       <details>
         <summary><span class="qn">02</span>Ci sono costi nascosti: progettazione, mockup o spedizione?</summary>
@@ -1136,7 +1136,7 @@ body>.faq-section h2{color:var(--cream)}
       </details>
       <details>
         <summary><span class="qn">03</span>Quanto costa un ordine minimo di 50 paia?</summary>
-        <p>Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma il numero esatto.</p>
+        <p>Con un prezzo indicativo di 6,95 € al paio IVA esclusa, circa 347,50 € IVA esclusa. Venduto a 19,95 € IVA inclusa, questo lotto ti lascia, al netto dell'IVA, circa 470,12 € di margine. Esempio indicativo; il preventivo conferma l'importo esatto.</p>
       </details>
       <details>
         <summary><span class="qn">04</span>Come appare il logo sulla calza?</summary>
@@ -1144,7 +1144,7 @@ body>.faq-section h2{color:var(--cream)}
       </details>
       <details>
         <summary><span class="qn">05</span>Quali sono i tempi dell'ordine?</summary>
-        <p>Il mockup arriva entro 24 ore. Una volta approvato, produzione e consegna richiedono in tutto circa 4 settimane.</p>
+        <p>Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono in tutto circa 4 settimane.</p>
       </details>
       <details>
         <summary><span class="qn">06</span>Spedite in Italia e in Svizzera?</summary>
@@ -1157,7 +1157,7 @@ body>.faq-section h2{color:var(--cream)}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Richiedi il tuo prezzo esatto,  <span class="fx">senza impegno.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine con il tuo vero logo entro 24 ore e poi decidi.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima con il tuo vero logo entro 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/kit-di-benvenuto-nuove-allieve-pilates/" style="color:var(--cream);text-decoration:underline">Kit di benvenuto</a></p>
   </div>
@@ -1232,7 +1232,7 @@ body>.faq-section h2{color:var(--cream)}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1263,6 +1263,13 @@ body>.faq-section h2{color:var(--cream)}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1276,12 +1283,16 @@ body>.faq-section h2{color:var(--cream)}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -110,7 +110,7 @@ window.MP_loadGA = function(){
     },
     {
       "@type": "BlogPosting",
-      "headline": "Come fidelizzare le tue allieve con prodotti con il tuo logo",
+      "headline": "Come fidelizzare le tue allieve con prodotti che portano il tuo logo",
       "url": "https://mediterranopilates.com/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/",
       "datePublished": "2026-09-26",
       "dateModified": "2026-10-06",
@@ -1054,7 +1054,7 @@ footer a{white-space:nowrap}
         <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:#AC512C;font-weight:700;text-decoration:underline">Leggi l'articolo →</a>
       </article>
       <article style="border:1px solid rgba(46,64,52,.14);border-radius:16px;padding:28px 30px">
-        <h2 style="margin:0 0 10px"><a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:inherit;text-decoration:none">Come fidelizzare le tue allieve con prodotti con il tuo logo</a></h2>
+        <h2 style="margin:0 0 10px"><a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:inherit;text-decoration:none">Come fidelizzare le tue allieve con prodotti che portano il tuo logo</a></h2>
         <p style="max-width:none;color:#4c554d;margin-bottom:14px">La risposta breve: un prodotto con il tuo logo che l'allieva usa ogni giorno, dentro e fuori dallo studio, rafforza l'identità del tuo brand a ogni utilizzo.</p>
         <a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:#AC512C;font-weight:700;text-decoration:underline">Leggi l'articolo →</a>
       </article>
@@ -1070,7 +1070,7 @@ footer a{white-space:nowrap}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Richiedi il tuo mockup gratuito e  <span class="fx">guarda il margine reale del tuo studio.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine in 24 ore e poi decidi.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima in 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a></p>
   </div>
@@ -1145,7 +1145,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1176,6 +1176,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1189,12 +1196,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

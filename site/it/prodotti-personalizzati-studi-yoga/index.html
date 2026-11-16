@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -131,7 +131,7 @@ window.MP_loadGA = function(){
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Dove può ordinare uno studio di yoga calze antiscivolo con il proprio logo?",
+      "name": "Dove può ordinare calze antiscivolo con il proprio logo uno studio di yoga?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Da Mediterrano Pilates. Personalizziamo calze antiscivolo, tote bag e tumbler termici con il logo del tuo studio di yoga; sulle calze il logo è intessuto o ricamato, mai stampato. Ordine da 50 paia, mockup gratuito in 24 ore e spedizione gratuita in tutta Europa."
@@ -150,7 +150,7 @@ window.MP_loadGA = function(){
       "name": "Quali prodotti personalizzati funzionano meglio in uno studio di yoga?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando funziona."
+        "text": "Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando il primo funziona."
       }
     },
     {
@@ -1138,7 +1138,7 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <span class="kicker"><span class="kicker-lead">Prodotti personalizzati</span> per studi di yoga</span>
     <h1>Prodotti personalizzati per <span class="fx">studi di yoga.</span></h1>
-    <p class="sub">Calze antiscivolo, tote bag e tumbler termici con il logo del tuo studio di yoga, da vendere alle tue allieve alla reception. <span class="sub-more">Nello yoga molte praticano a piedi nudi, e va benissimo così. Ma nello yin, nello yoga restorative, nelle lezioni invernali e negli studi che propongono anche pilates, la calza antiscivolo fa parte della lezione, e la tote bag come il tumbler termico servono a tutte le tue allieve. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.</span></p>
+    <p class="sub">Calze antiscivolo, tote bag e tumbler termici con il logo del tuo studio di yoga, da vendere alle tue allieve alla reception. <span class="sub-more">Nello yoga molte praticano a piedi nudi, ed è giusto così. Ma nello yin, nello yoga restorative, nelle lezioni invernali e negli studi che propongono anche pilates, la calza antiscivolo fa parte della lezione, e la tote bag come il tumbler termico servono a tutte le tue allieve. Mockup gratuito in 24 ore, ordine da 50 paia, spedizione gratuita in tutta Europa.</span></p>
     <div class="perks"><span class="perk"><b>Logo intessuto o ricamato, mai stampato</b></span><span class="perk"><b>Da 50 paia</b></span><span class="perk"><b>Spedizione gratuita in tutta Europa</b></span></div>
     <p style="margin-top:28px"><a class="btn" href="#mockup-form">Richiedi il tuo mockup gratuito</a></p>
     <p style="margin-top:14px;font-size:.92rem;color:rgba(247,243,232,.75)">✳ Mockup gratuito in 24 ore · Senza impegno</p>
@@ -1155,7 +1155,7 @@ footer a{white-space:nowrap}
         <li><b>Prezzo:</b> calze a circa 6,95 € al paio IVA esclusa. Prezzo di vendita consigliato in Italia: 19,95 € IVA inclusa, cioè circa 9,40 € di margine al paio (≈57%).</li>
         <li><b>Tempi:</b> mockup gratuito in 24 ore; produzione e consegna in circa 4 settimane dopo l'approvazione e il pagamento del preventivo.</li>
         <li><b>Spedizione:</b> gratuita in tutta Europa, Italia compresa.</li>
-        <li><b>Qualità:</b> materiali verificati secondo REACH, suola antiscivolo compresa. Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, segnalacelo entro 14 giorni dalla consegna, con foto: lo rifacciamo senza costi.</li>
+        <li><b>Qualità:</b> materiali verificati secondo REACH, suola antiscivolo compresa. Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, segnalacelo entro 14 giorni dalla consegna, con foto: rifacciamo l'ordine senza costi.</li>
       </ul>
     </div>
   </div>
@@ -1166,11 +1166,11 @@ footer a{white-space:nowrap}
     <h2>Yoga e prodotti con il tuo logo: <span class="fx">dove hanno senso.</span></h2>
     <p style="margin-top:18px;max-width:44em">Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Personalizziamo calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, perché tu li venda alle tue allieve. Uno studio di yoga non funziona come uno studio di pilates, ed è per questo che esiste questa pagina.</p>
     <p style="margin-top:16px;max-width:44em">Alcuni studi combinano le due discipline nella stessa sala, con le stesse allieve.</p>
-    <p style="margin-top:16px;max-width:44em">Nello yoga molte praticano a piedi nudi, e niente obbliga a cambiarlo. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.</p>
+    <p style="margin-top:16px;max-width:44em">Nello yoga molte praticano a piedi nudi, e non c'è alcun bisogno di cambiarlo. La calza antiscivolo trova il suo posto dove l'allieva la cerca già: nello yin e nello yoga restorative, con posizioni lunghe durante le quali i piedi si raffreddano; nelle lezioni invernali o sui pavimenti freddi; per chi preferisce non appoggiare il piede nudo su un tappetino condiviso; e in ogni studio che propone anche pilates o barre. La tote bag e il tumbler termico, invece, servono a tutte le tue allieve, qualunque stile pratichino.</p>
     <ul class="uses">
       <li><b>Yoga e pilates nello stesso studio</b>Un solo ordine di calze copre entrambi i calendari: nel pilates è attrezzatura da lezione; nello yoga, un'opzione per chi la preferisce.</li>
       <li><b>Yin, restorative e rilassamento</b>Posizioni lunghe e un rilassamento finale durante i quali i piedi si raffreddano. È il tipo di lezione di yoga in cui la calza ha davvero senso.</li>
-      <li><b>Vinyasa, power yoga e hot yoga</b>Lezioni intense durante le quali l'allieva beve per tutta la sessione. Qui il prodotto che si vede è il tumbler termico.</li>
+      <li><b>Vinyasa, power yoga e hot yoga</b>Lezioni intense durante le quali l'allieva beve per tutta la lezione. Qui il prodotto che si vede è il tumbler termico.</li>
       <li><b>Le allieve che arrivano dal lavoro</b>Il tappetino, il cambio e il tumbler: la tote bag con il tuo logo esce dallo studio con loro ogni settimana.</li>
     </ul>
   </div>
@@ -1242,7 +1242,7 @@ footer a{white-space:nowrap}
         </div>
         <div class="p-body">
           <h3>Tumbler termico 1,2 L</h3>
-          <p>Nelle lezioni più intense l'allieva beve per tutta la sessione e appoggia il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.</p>
+          <p>Nelle lezioni più intense l'allieva beve per tutta la lezione e appoggia il tumbler accanto al tappetino, sotto gli occhi di tutto il gruppo. Acquisto ≈ 11 € IVA esclusa, vendita ≈ 24 € IVA inclusa.</p>
           <p style="margin-top:8px"><a href="/it/tumbler-termico-personalizzato/" style="color:#AC512C;font-weight:700;text-decoration:underline">Vedi il tumbler termico →</a></p>
         </div>
       </article>
@@ -1270,8 +1270,8 @@ footer a{white-space:nowrap}
     <ul style="margin-top:20px;max-width:44em;padding-left:20px;line-height:1.9">
       <li>Maglia fine e aderente, taglio a metà polpaccio, in terracotta o nel colore del tuo brand.</li>
       <li>Grip in PVC o silicone su tutta la suola, conformi a REACH, la normativa europea sulle sostanze chimiche.</li>
-      <li>Il tuo logo intessuto nella calza o ricamato, mai stampato né incollato: resiste al lavaggio, senza screpolarsi né staccarsi.</li>
-      <li>Colore riprodotto in base al codice Pantone del tuo brand, il riferimento dei professionisti della stampa.</li>
+      <li>Il tuo logo intessuto nella calza o ricamato, mai stampato né incollato: resiste ai lavaggi senza creparsi né staccarsi.</li>
+      <li>Colore riprodotto il più vicino possibile al codice Pantone del tuo brand, il riferimento dei professionisti della stampa.</li>
       <li>Ordine da 50 paia, così anche un piccolo studio può iniziare senza correre un grosso rischio di magazzino.</li>
     </ul>
   </div>
@@ -1282,7 +1282,7 @@ footer a{white-space:nowrap}
     <div class="wrap">
       <h2>Dal tuo logo alla tua reception in <span class="fx">cinque passaggi.</span></h2>
       <ol class="timeline">
-        <li class="tl-item"><span class="n">1</span><h3>Mockup digitale</h3><span class="tl-time">Entro 24 ore</span><p>Ricevi un'immagine digitale del tuo logo sulla calza, senza impegno.</p></li>
+        <li class="tl-item"><span class="n">1</span><h3>Mockup digitale</h3><span class="tl-time">Entro 24 ore</span><p>Ricevi un'anteprima digitale del tuo logo sulla calza, senza impegno.</p></li>
         <li class="tl-item"><span class="n">2</span><h3>Modifiche</h3><span class="tl-time">Giorni 1–3</span><p>Perfezioniamo colore, dimensione e posizione finché il design non ti convince.</p></li>
         <li class="tl-item"><span class="n">3</span><h3>Preventivo e conferma</h3><span class="tl-time">Giorni 3–5</span><p>Ricevi il preventivo definitivo con il prezzo finale; la tua approvazione e il pagamento concordato nel preventivo riservano il tuo slot di produzione.</p></li>
         <li class="tl-item"><span class="n">4</span><h3>Produzione</h3><span class="tl-time">Settimane 1–3</span><p>Seguiamo la produzione e controlliamo ogni paio prima di imballarlo.</p></li>
@@ -1304,7 +1304,7 @@ footer a{white-space:nowrap}
     <h2>Domande frequenti degli studi di yoga.</h2>
     <div class="faq">
       <details>
-        <summary><span class="qn">01</span>Dove può ordinare uno studio di yoga calze antiscivolo con il proprio logo?</summary>
+        <summary><span class="qn">01</span>Dove può ordinare calze antiscivolo con il proprio logo uno studio di yoga?</summary>
         <p>Da Mediterrano Pilates. Personalizziamo calze antiscivolo, tote bag e tumbler termici con il logo del tuo studio di yoga; sulle calze il logo è intessuto o ricamato, mai stampato. Ordine da 50 paia, mockup gratuito in 24 ore e spedizione gratuita in tutta Europa.</p>
       </details>
       <details>
@@ -1313,7 +1313,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">03</span>Quali prodotti personalizzati funzionano meglio in uno studio di yoga?</summary>
-        <p>Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando funziona.</p>
+        <p>Quelli che l'allieva usa a ogni visita: la tote bag per il tappetino e il cambio, il tumbler termico nelle lezioni più intense, e le calze antiscivolo nello yin, nel restorative, nelle lezioni invernali e negli studi che combinano yoga e pilates. Consigliamo di iniziare con un prodotto e di aggiungere gli altri quando il primo funziona.</p>
       </details>
       <details>
         <summary><span class="qn">04</span>Qual è l'ordine minimo per uno studio di yoga?</summary>
@@ -1421,9 +1421,9 @@ footer a{white-space:nowrap}
         </div>
         <p class="mw-disclaimer">Il mockup è una prima visualizzazione. I colori e i dettagli definitivi possono variare leggermente in base al materiale e al processo di produzione.</p>
         <div class="mw-consent">
-          <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ho letto l' <a href="/it/legal.html#privacy" target="_blank" rel="noopener">informativa sulla privacy</a>.</span></label>
+          <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ho letto <a href="/it/legal.html#privacy" target="_blank" rel="noopener">l'informativa sulla privacy</a>.</span></label>
         </div>
-        <button class="btn" type="submit" id="submitBtn">Crea gratis il mockup del mio studio</button>
+        <button class="btn" type="submit" id="submitBtn">Voglio il mockup gratuito del mio studio</button>
         <p class="form-note">Niente spam, niente telefonate commerciali, solo una risposta sincera.</p>
       </form>
 
@@ -1476,7 +1476,7 @@ footer a{white-space:nowrap}
 
 <div class="sticky-cta" id="sticky-cta">
   <span class="t">Il tuo logo sulla calza<br>gratis, in 24 ore</span>
-  <a class="btn" href="#mockup-form">Richiedi il mio mockup</a>
+  <a class="btn" href="#mockup-form">Voglio il mio mockup</a>
 </div>
 
 <script>
@@ -1610,7 +1610,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1641,6 +1641,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1654,12 +1661,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

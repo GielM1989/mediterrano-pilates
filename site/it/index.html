@@ -49,7 +49,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -1081,7 +1081,7 @@ footer a{white-space:nowrap}
     "@type": "BusinessAudience",
     "audienceType": "Studi di pilates e yoga"
   },
-  "description": "Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, nel tuo colore Pantone il più fedele possibile.",
+  "description": "Progettazione, produzione e spedizione gratuita in tutta Europa di calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, con il colore il più vicino possibile al tuo codice Pantone.",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Catalogo Mediterrano Pilates",
@@ -1139,15 +1139,15 @@ footer a{white-space:nowrap}
       "name": "Il mio studio è troppo piccolo o troppo nuovo per questo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarlo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa."
+        "text": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarselo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa."
       }
     },
     {
       "@type": "Question",
-      "name": "E se il risultato sembra di poco valore?",
+      "name": "E se il risultato sembra scadente?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "È il dubbio più logico, e a ragione: un prodotto di poco valore con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore in base al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design."
+        "text": "È un dubbio comprensibile, e a ragione: un prodotto scadente con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore il più vicino possibile al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design."
       }
     },
     {
@@ -1195,7 +1195,7 @@ footer a{white-space:nowrap}
       "name": "Posso vedere la qualità prima di ordinare?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sì, e te lo consigliamo prima di un primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo."
+        "text": "Sì, e te lo consigliamo prima del primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo."
       }
     },
     {
@@ -1466,7 +1466,7 @@ footer a{white-space:nowrap}
       <h1 class="h1-long">Ogni dettaglio del tuo studio è premium.<br><span class="fx">Tranne ciò che vendi. Tutte le tue allieve indossano calze. Poche indossano le tue. Per ora.</span></h1>
       <p class="sub">Calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, realizzati con la stessa cura che hai messo nella tua sala. Perché il tuo studio torni a casa con loro.</p>
       <div class="cta-row">
-        <a class="btn" href="#mockup-form">Vedi il mio logo sul prodotto</a>
+        <a class="btn" href="#mockup-form">Voglio vedere il mio logo sul prodotto</a>
         <a class="btn btn-wa hero-wa js-wa" href="#" hidden data-wa-loc="hero"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.91-9.91a9.82 9.82 0 00-2.9-7.02zm-7.01 15.24h-.01a8.2 8.2 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 015.82 2.42 8.18 8.18 0 012.41 5.82c-.01 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.06 0 1.21.88 2.38 1.01 2.55.12.16 1.74 2.66 4.21 3.73.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg><span>Oppure scrivici su WhatsApp</span></a>
       </div>
       <p class="hero-proof"><b>Mockup gratuito in 24 ore</b> · Senza impegno · Da 50 paia · <a class="hero-link4" href="#que-cambia">Ecco cosa ti rende ↓</a></p>
@@ -1488,8 +1488,8 @@ footer a{white-space:nowrap}
       <h2>Ogni reformer. Ogni colore. Ogni istruttrice. <span class="fx">Hai scelto tutto con il cuore.</span></h2>
       <p>Ci hai messo i tuoi risparmi, i tuoi weekend e più di una notte insonne perché tutto fosse in armonia. Eppure le tue allieve escono dalla porta senza portare via niente di te. Né il tuo logo, né la minima traccia del tuo brand.</p>
       <p>Alla reception, uno scaffale vuoto. Oppure calze di un altro marchio.</p>
-      <p class="doubt">Ci hai pensato più di una volta. E subito arriva il dubbio: non sembrerà qualcosa di poco valore?</p>
-      <p class="reassure">Chi mette in discussione quello che dici loro sulla schiena, sulla postura o sul corpo? Nessuno. Le tue allieve si fidano già di te per l'essenziale. Davvero dubiteranno di una calza con il tuo logo? Al contrario: la comprano proprio perché si fidano di te. E la indossano con orgoglio a casa, per strada e perfino su Instagram.</p>
+      <p class="doubt">Ci hai pensato più di una volta. E subito arriva il dubbio: non sembrerà una cosa scadente?</p>
+      <p class="reassure">Chi mette in discussione quello che dici loro sulla schiena, sulla postura o sul corpo? Nessuno. Le tue allieve si fidano già di te per le cose importanti. Davvero dubiteranno di una calza con il tuo logo? Al contrario: la comprano proprio perché si fidano di te. E la indossano con orgoglio a casa, per strada e perfino su Instagram.</p>
     </div>
     <div class="scene-photo">
       <picture><source srcset="/images/product-sokken.webp" type="image/webp"><img src="/images/product-sokken.jpg" width="900" height="1200" alt="Esercizio sul reformer con calze antiscivolo" loading="lazy"></picture>
@@ -1524,7 +1524,7 @@ footer a{white-space:nowrap}
 <section class="why-section" id="que-cambia">
   <div class="wrap">
     <div class="why-head">
-      <h2>Non è una spesa. <span class="fx">È redditività su quattro fronti.</span></h2>
+      <h2>Non è una spesa. <span class="fx">È un investimento che rende su quattro fronti.</span></h2>
       <div class="why-lead">
         <p class="wl-main">Le stesse calze. <span class="fx">Ora con il tuo nome.</span></p>
         <p class="wl-sub">Le tue allieve le comprano già. Tanto vale che portino il tuo nome invece di quello di un altro marchio.</p>
@@ -1539,7 +1539,7 @@ footer a{white-space:nowrap}
           <span class="fn">01</span>
           <h3>Visibilità gratuita</h3>
           <span class="fpayoff"><span class="arrow">→</span>Nuove allieve senza spendere in pubblicità</span>
-          <p>Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. Ed è a volte proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” Su Instagram compare in più in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.</p>
+          <p>Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. E a volte è proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” E su Instagram compare anche in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.</p>
         </div>
       </div>
       <div class="feature-row">
@@ -1604,7 +1604,7 @@ footer a{white-space:nowrap}
               <div><span class="mc-num" id="mcMonth">376 €</span><span class="mc-lbl">di margine al mese</span></div>
               <div class="mc-big"><span class="mc-num" id="mcYear">4.512 €</span><span class="mc-lbl">di margine all'anno</span></div>
             </div>
-            <p class="mc-estimate"><b>Ipotesi di calcolo, da adattare ai tuoi numeri: il 20% delle tue allieve attive compra un paio al mese (esempio).</b> Le nuove ne hanno bisogno dal primo giorno, le habitué sostituiscono il paio consumato e, con il tuo logo, le calze diventano anche un secondo paio o un regalo.</p>
+            <p class="mc-estimate"><b>Ipotesi di calcolo, da adattare ai tuoi numeri: il 20% delle tue allieve attive compra un paio al mese (esempio).</b> Le nuove ne hanno bisogno dal primo giorno, le affezionate sostituiscono il paio consumato e, con il tuo logo, le calze diventano anche un secondo paio o un regalo.</p>
             <div class="mc-plus"><span class="mc-plus-ico" aria-hidden="true">+</span><p><b>E questo solo con le calze.</b> Aggiungi i tumbler termici e le tote bag.</p></div>
             <p class="mc-note">Calcolo basato su 9,40 € di margine al paio, al netto dell'IVA, con un prezzo di vendita di 19,95 €.</p>
           </div>
@@ -1612,7 +1612,7 @@ footer a{white-space:nowrap}
           (function(){
             var L=document.getElementById('mcLeden'),P=document.getElementById('mcPct');
             if(!L||!P)return;
-            function eur(n){return Math.round(n).toLocaleString('it-IT')+'\u00a0€';}
+            function eur(n){return Math.round(n).toLocaleString('de-DE')+'\u00a0€';}
             function up(){
               var leden=+L.value,pct=+P.value,pairs=Math.round(leden*pct/100),m=pairs*9.40;
               document.getElementById('mcLedenOut').textContent=leden;
@@ -1641,7 +1641,7 @@ footer a{white-space:nowrap}
     <div class="hook-copy">
       <p class="hook-eyebrow">Prima di decidere qualsiasi cosa</p>
       <h2>Il dubbio sparisce <span class="fx">appena lo vedi.</span></h2>
-      <p>Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Saprai se rende bene solo vedendolo dal vero. Per questo te lo mostriamo: in 24 ore, sul materiale vero e nel tuo colore. Per evitare sorprese sul tuo brand.</p>
+      <p>Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Saprai se rende bene solo vedendolo dal vero. Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino al tuo. Per ridurre al minimo le sorprese sul tuo brand.</p>
       <ul class="hook-proof">
         <li>Gratuito e del tutto senza impegno</li>
         <li>Nella tua casella email entro 24 ore</li>
@@ -1688,14 +1688,14 @@ footer a{white-space:nowrap}
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></span><div><b>Il tuo logo, nel tuo stile.</b><span class="ci-txt">Discreto o in grande, sempre verificato.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>Materiali verificati secondo REACH.</b><span class="ci-txt">La norma europea, applicata anche alla suola antiscivolo, non solo al tessuto.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span><div><b>Controlliamo ogni paio, uno per uno, prima dell'imballaggio.</b><span class="ci-txt">Non parte nulla che non sia all'altezza.</span></div></div>
-        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span><div><b>Scegliamo e progettiamo l'imballaggio.</b><span class="ci-txt">Con la tua immagine di marca, pronto per lo scaffale della reception.</span></div></div>
+        <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></span><div><b>Scegliamo e progettiamo l'imballaggio.</b><span class="ci-txt">In linea con la tua immagine di marca, pronto per lo scaffale della reception.</span></div></div>
         <div class="care-item"><span class="ci-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><div><b>Spedizione tracciata fino alla tua porta.</b><span class="ci-txt">Senza intermediari, senza complicazioni.</span></div></div>
       </div>
 
      </div>
       <div class="care-guarantee">
         <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
-        <p><b>Garanzia di qualità.</b> Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, avvisaci entro 14 giorni dalla consegna e lo rifacciamo senza costi. E a tutte le tue domande risponde il fondatore in persona.</p>
+        <p><b>Garanzia di qualità.</b> Se il colore non corrisponde al design approvato o in caso di difetto di fabbricazione, avvisaci entro 14 giorni dalla consegna e rifacciamo i prodotti senza costi. E a tutte le tue domande risponde il fondatore in persona.</p>
       </div>
     </div>
 
@@ -1719,7 +1719,7 @@ footer a{white-space:nowrap}
         </div>
         <div class="p-body">
           <h3>Calze antiscivolo</h3>
-          <p>Spesso obbligatorie a lezione, soprattutto sul reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.</p>
+          <p>Spesso obbligatorie a lezione, soprattutto sul Reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.</p>
           <p style="margin-top:8px"><a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Vedi dettagli e prezzi →</a></p>
         </div>
       </article>
@@ -1730,7 +1730,7 @@ footer a{white-space:nowrap}
         </div>
         <div class="p-body">
           <h3>Tumbler termico 1,2 L</h3>
-          <p>Acciaio inox a doppia parete che mantiene il freddo per 24 ore. Le accompagna ovunque. Con il tuo logo, nel tuo colore.</p>
+          <p>Acciaio inox a doppia parete, termico. Le accompagna ovunque. Con il tuo logo, nel tuo colore.</p>
           <p style="margin-top:8px"><a href="/it/tumbler-termico-personalizzato/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Vedi dettagli e prezzi →</a></p>
         </div>
       </article>
@@ -1750,7 +1750,7 @@ footer a{white-space:nowrap}
         </div>
         <div class="p-body">
           <h3>Telo per Reformer Calma</h3>
-          <p>Pensato per il reformer: 99,6 × 61 cm, tessuto scamosciato morbido che assorbe il sudore e retro antiscivolo in silicone che resta ben fermo. Con una falda per il poggiatesta, il tuo logo e 8 colori a scelta. Da 50 pezzi. Prezzo su preventivo.</p>
+          <p>Pensato per il Reformer: 99,6 × 61 cm, tessuto scamosciato morbido che assorbe il sudore e retro antiscivolo in silicone che resta ben fermo. Con un risvolto per il poggiatesta, il tuo logo e 8 colori a scelta. Da 50 pezzi. Prezzo su preventivo.</p>
           <p style="margin-top:8px"><a href="#mockup-form" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Richiedi il tuo mockup gratuito →</a></p>
         </div>
       </article>
@@ -1781,7 +1781,7 @@ footer a{white-space:nowrap}
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
         <h3>Un brand completo e professionale</h3>
-        <p>Basta scaffale vuoto alla reception.</p>
+        <p>Basta con lo scaffale vuoto alla reception.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="9.2" cy="9.2" r="1.1"/><circle cx="14.8" cy="14.8" r="1.1"/><path d="m8.5 15.5 7-7"/></svg></span>
@@ -1806,11 +1806,11 @@ footer a{white-space:nowrap}
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c0 4.4-4 8-9 8-1.1 0-2.2-.2-3.2-.5L3 21l1.5-4.3C3.5 15.4 3 13.8 3 12c0-4.4 4-8 9-8s9 3.6 9 8Z"/></svg></span>
         <h3>WhatsApp diretto con il fondatore</h3>
-        <p>Una risposta personale, in giornata.</p>
+        <p>Una risposta personale, entro 24 ore.</p>
       </div>
       <div class="wu-item">
         <span class="wu-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.5 9.6a6.5 6.5 0 1 0 11 0Z"/></svg></span>
-        <h3>Il tuo colore, in base al codice Pantone</h3>
+        <h3>Il tuo colore, il più vicino possibile al codice Pantone</h3>
         <p>Coerente con il tuo logo, su ogni prodotto.</p>
       </div>
       <div class="wu-item">
@@ -1844,7 +1844,7 @@ footer a{white-space:nowrap}
       <div>
         <span class="about-kicker">Chi siamo</span>
         <div class="about-name">Non faccio pilates. <span class="fx">Ma qualcosa ha attirato la mia attenzione.</span></div>
-        <p class="about-text">Mi ha sempre affascinato il fatto che il mondo del pilates sia bello quanto la disciplina stessa. La calma di uno studio ben curato, quella luce del mattino, tutto pensato fino all'ultimo dettaglio.</p><p class="about-text">E ovunque vedevo la stessa cosa: sale bellissime, ottime lezioni e poi, alla reception, una calza che non c'entrava niente. Non per trascuratezza. Semplicemente nessuno si era fermato a pensare a ciò che esce dalla porta.</p><p class="about-text">Così ho deciso di concentrarmi su questo. Tu ti concentri sulla tua community; io mi assicuro che ciò che le tue allieve portano a casa sia all'altezza del tuo studio. Seguo personalmente ogni richiesta.</p>
+        <p class="about-text">Mi ha sempre affascinato il fatto che il mondo del pilates sia bello quanto la disciplina stessa. La calma di uno studio ben curato, quella luce del mattino, tutto pensato fino all'ultimo dettaglio.</p><p class="about-text">E ovunque vedevo la stessa cosa: sale splendide, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto. Non per trascuratezza. Semplicemente nessuno si era fermato a pensare a ciò che esce dalla porta.</p><p class="about-text">Così ho deciso di concentrarmi su questo. Tu ti concentri sulla tua community; io mi assicuro che ciò che le tue allieve portano a casa sia all'altezza del tuo studio. Seguo personalmente ogni richiesta.</p>
         <span class="about-sign">Giel Mallens, fondatore di Mediterrano Pilates</span>
         <p style="margin-top:14px"><a href="/it/chi-siamo-mediterrano-pilates/" style="color:var(--terra-2);font-weight:700;text-decoration:underline">Leggi tutta la storia →</a></p>
         <span class="about-loc"><span class="dot"></span>Con sede in Spagna · Spedizione gratuita in tutta Europa</span>
@@ -1860,11 +1860,11 @@ footer a{white-space:nowrap}
     <div class="faq">
       <details>
         <summary><span class="qn">01</span>Il mio studio è troppo piccolo o troppo nuovo per questo?</summary>
-        <p>No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarlo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.</p>
+        <p>No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarselo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.</p>
       </details>
       <details>
-        <summary><span class="qn">02</span>E se il risultato sembra di poco valore?</summary>
-        <p>È il dubbio più logico, e a ragione: un prodotto di poco valore con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore in base al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.</p>
+        <summary><span class="qn">02</span>E se il risultato sembra scadente?</summary>
+        <p>È un dubbio comprensibile, e a ragione: un prodotto scadente con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore il più vicino possibile al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.</p>
       </details>
       <details>
         <summary><span class="qn">03</span>Posso iniziare con una piccola quantità?</summary>
@@ -1888,7 +1888,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">08</span>Posso vedere la qualità prima di ordinare?</summary>
-        <p>Sì, e te lo consigliamo prima di un primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.</p>
+        <p>Sì, e te lo consigliamo prima del primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.</p>
       </details>
       <details>
         <summary><span class="qn">09</span>I materiali sono sicuri?</summary>
@@ -2010,7 +2010,7 @@ footer a{white-space:nowrap}
 
 
           <h3 class="mw-q" style="margin-top:24px">Circa quanti pezzi?</h3>
-            <p class="mw-hint" style="margin:-8px 0 12px">Indicativo, senza impegno.</p>
+            <p class="mw-hint" style="margin:-8px 0 12px">A titolo indicativo, senza impegno.</p>
             <div class="mw-chip-grid" id="mwQtyChips">
               <button type="button" class="mw-chip" data-qty="50">50</button>
               <button type="button" class="mw-chip mw-chip-bestseller" data-qty="100">100 <span class="mw-chip-tag">Per iniziare</span></button>
@@ -2069,7 +2069,7 @@ footer a{white-space:nowrap}
 
           <p class="mw-disclaimer">Il mockup è una prima visualizzazione. I colori e i dettagli definitivi possono variare leggermente in base al materiale e alla produzione.</p>
           <div class="mw-consent">
-              <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ho letto l' <a href="/it/legal.html#privacy" target="_blank" rel="noopener">informativa sulla privacy</a>.</span></label>
+              <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ho letto <a href="/it/legal.html#privacy" target="_blank" rel="noopener">l'informativa sulla privacy</a>.</span></label>
             </div>
 
           <div class="mw-actions" style="margin-top:14px">
@@ -2445,7 +2445,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -2476,6 +2476,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -2489,12 +2496,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

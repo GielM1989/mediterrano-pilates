@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -120,7 +120,7 @@ window.MP_loadGA = function(){
     },
     {
       "@type": "Question",
-      "name": "Posso scegliere il colore perché corrisponda al mio brand?",
+      "name": "Posso scegliere il colore in linea con il mio brand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sì. Il colore del tuo brand è riprodotto il più vicino possibile al suo codice Pantone, il riferimento dei professionisti della stampa. Il logo è applicato nel tuo stile, discreto o ben visibile."
@@ -163,7 +163,7 @@ window.MP_loadGA = function(){
       "name": "Perché proporre una tote bag con il tuo logo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto in base al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro."
+        "text": "Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto il più vicino possibile al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro."
       }
     }
   ],
@@ -1064,7 +1064,7 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <span class="kicker"><span class="kicker-lead">Tote bag personalizzate</span> per gli studi di pilates e yoga</span>
     <h1>Una tote bag che le tue allieve <span class="fx">usano davvero.</span></h1>
-    <p class="sub">Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dal tappetino di yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.</p>
+    <p class="sub">Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati, un marchio di Ecomtierra Group SL (Spagna). La tote bag in cotone con il tuo logo passa dal tappetino da yoga al supermercato, e ogni tragitto può diventare pubblicità per il tuo studio.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
   </div>
 </header>
@@ -1075,14 +1075,14 @@ footer a{white-space:nowrap}
       <p style="font-weight:800;color:var(--green);margin-bottom:10px;letter-spacing:.02em">In breve</p>
       <ul style="margin:0;padding-left:1.1em;line-height:1.6;font-size:.97rem">
         <li>Mediterrano Pilates personalizza tote bag in tela di cotone con il logo del tuo studio di pilates o di yoga.</li>
-        <li>Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto in base al tuo codice Pantone.</li>
+        <li>Il logo è applicato nel tuo stile, discreto o ben visibile, e il colore è riprodotto il più vicino possibile al tuo codice Pantone.</li>
         <li>Prezzo d'acquisto: circa 6,50 € a tote bag IVA esclusa. Prezzo di vendita consigliato in Italia: 15 € IVA inclusa, cioè circa 5,80 € di margine a pezzo al netto dell'IVA (circa il 47%).</li>
         <li>Ordine minimo: 50 pezzi, preventivo su misura in base alla quantità, che indichi nella tua richiesta di mockup.</li>
         <li>Mockup gratuito in 24 ore, senza impegno. Consegna circa 4 settimane dopo l'approvazione del preventivo.</li>
         <li>Spedizione gratuita in tutta Europa, Italia compresa. Fuori dall'Unione europea, come in Svizzera, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario. Mediterrano Pilates è un marchio di Ecomtierra Group SL (Spagna) e lavora con studi di tutta Europa e non solo.</li>
       </ul>
     </div>
-    <h2>Cosa ci guadagni <span class="fx">cosa ci guadagni.</span></h2>
+    <h2>Cosa ci guadagni <span class="fx">in concreto.</span></h2>
     <ul style="margin-top:16px;max-width:44em;display:grid;gap:10px;list-style:none;padding:0">
       <li>✳ Tote bag in tela di cotone, pensata per l'uso di tutti i giorni, dentro e fuori dallo studio.</li>
       <li>✳ Con il tuo logo, nel tuo stile, e il colore riprodotto il più vicino possibile al codice Pantone.</li>
@@ -1098,7 +1098,7 @@ footer a{white-space:nowrap}
   <div class="wrap">
     <div class="why-head">
       <h2>Non si tratta solo di margine. <span class="fx">Si tratta di questo.</span></h2>
-      <p>Il margine sulla rivendita è un bene, ma non è l'essenziale. L'essenziale è questo:</p>
+      <p>Il margine sulla rivendita fa piacere, ma non è l'essenziale. L'essenziale è questo:</p>
     </div>
     <div class="why-grid">
       <div class="why-card">
@@ -1137,7 +1137,7 @@ footer a{white-space:nowrap}
         <p>L'ordine minimo per le tote bag personalizzate è di 50 pezzi, come per le calze. Dicci la quantità e ti prepariamo un preventivo su misura.</p>
       </details>
       <details>
-        <summary><span class="qn">03</span>Posso scegliere il colore perché corrisponda al mio brand?</summary>
+        <summary><span class="qn">03</span>Posso scegliere il colore in linea con il mio brand?</summary>
         <p>Sì. Il colore del tuo brand è riprodotto il più vicino possibile al suo codice Pantone, il riferimento dei professionisti della stampa. Il logo è applicato nel tuo stile, discreto o ben visibile.</p>
       </details>
       <details>
@@ -1158,7 +1158,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">08</span>Perché proporre una tote bag con il tuo logo?</summary>
-        <p>Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto in base al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro.</p>
+        <p>Perché è fatta per essere usata: tela di cotone, logo applicato nel tuo stile e il colore del tuo brand riprodotto il più vicino possibile al codice Pantone. Le tue allieve la usano per andare a lezione, al lavoro o a fare la spesa, ed è per questo che la comprano e che il tuo brand gira con loro.</p>
       </details>
     </div>
   </div>
@@ -1242,7 +1242,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1273,6 +1273,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1286,12 +1293,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

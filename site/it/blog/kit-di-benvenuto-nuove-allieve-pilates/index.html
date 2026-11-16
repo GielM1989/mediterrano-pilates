@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -1063,7 +1063,7 @@ body>.faq-section h2{color:var(--cream)}
     <h1>Kit di benvenuto per le nuove allieve: <span class="fx">cosa metterci, quanto costa e come ottenere più iscrizioni.</span></h1>
     <p class="sub">La risposta breve: uno, due o tre prodotti con il tuo logo che l'allieva usa a lezione, iniziando da un paio di calze antiscivolo a circa 6,95 € IVA esclusa per allieva. Annunciato prima dell'iscrizione, il kit diventa un motivo per iscriversi subito.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
-    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-09-29">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-10-06">16 novembre 2026</time>  · Di Mediterrano Pilates</p>
+    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-11-16">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-11-16">16 novembre 2026</time>  · A cura di Mediterrano Pilates</p>
   </div>
 </header>
 
@@ -1072,11 +1072,11 @@ body>.faq-section h2{color:var(--cream)}
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il momento in cui un'allieva si iscrive è quello in cui si fida di più del tuo studio ed è più attenta ai dettagli. Un kit di benvenuto con il tuo logo sfrutta questo momento in tre modi: dà un motivo concreto per iscriversi, lascia un ricordo legato al tuo brand ed esce dallo studio con lei, come una pubblicità a ogni lezione. Questa guida spiega cosa metterci, quanto costa per allieva e come inserirlo nel tuo listino perché non sia una spesa.</p>
 
     <h2>Risposta breve</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Un kit di benvenuto per le nuove allieve di pilates o di yoga comprende uno, due o tre prodotti con il logo dello studio che l'allieva userà a lezione: nella versione base, un paio di calze antiscivolo (costo di circa 6,95 € IVA esclusa per allieva); nel kit intermedio, calze e tote bag (circa 13,45 € IVA esclusa); nel kit completo, calze, tote bag e tumbler termico (circa 24,45 € IVA esclusa). Il costo si inserisce nella quota di iscrizione, nel primo mese o in un'offerta di benvenuto. Il logo è intessuto o ricamato sulle calze, mai stampato, e il mockup è gratuito entro 24 ore.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Un kit di benvenuto per le nuove allieve di pilates o di yoga comprende uno, due o tre prodotti con il logo dello studio che l'allieva userà a lezione: nella versione base, un paio di calze antiscivolo (costo di circa 6,95 € IVA esclusa per allieva); nel kit intermedio, calze e tote bag (circa 13,45 € IVA esclusa); nel kit completo, calze, tote bag e tumbler termico (circa 24,45 € IVA esclusa). Il costo si inserisce nella quota di iscrizione, nel primo mese o in un'offerta di benvenuto. Il logo è intessuto o ricamato sulle calze, mai stampato, e il mockup, gratuito, arriva entro 24 ore.</p>
 
     <h2 style="margin-top:44px">Perché l'iscrizione è un buon momento per fare un regalo</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Regalare al momento dell'iscrizione ha un effetto che un regalo tardivo non ha: si lega alla decisione di fidarsi di te. L'allieva ricorda questo gesto ogni volta che infila le calze, e quel ricordo è uno dei motivi per cui resta. Aumentare la fidelizzazione anche solo del 5% può portare fino al 95% di utile in più. Un brand coerente, dentro e fuori dallo studio, è uno dei motivi per cui si resta. Fonte: Bain &amp; Company / Harvard Business Review.</p>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il kit fa anche conoscere il tuo studio oltre le sue pareti. L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza, tumbler termico o tote bag con il tuo logo ti dà visibilità, senza costi pubblicitari. Fonte: ASI Global Advertising Impressions Study, 2026. Una nuova allieva che va in giro con la tua tote bag fa scoprire il tuo studio a chi le sta intorno.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il kit fa anche conoscere il tuo studio oltre le sue mura. L'85% delle persone ricorda il marchio di un prodotto che ha indossato. Ogni calza, tumbler termico o tote bag con il tuo logo ti dà visibilità, senza costi pubblicitari. Fonte: ASI Global Advertising Impressions Study, 2026. Una nuova allieva che va in giro con la tua tote bag fa scoprire il tuo studio a chi le sta intorno.</p>
 
     <h2 style="margin-top:44px">Cosa mettere nel kit di benvenuto: tre livelli (esempio)</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">I tre livelli sono esempi. I costi sono il prezzo all'ingrosso approssimativo di ciascun prodotto, IVA esclusa, e i totali sono la somma di questi prezzi.</p>
@@ -1089,7 +1089,7 @@ body>.faq-section h2{color:var(--cream)}
       </tbody>
     </table></div>
     <h3>Perché le calze antiscivolo sono la base</h3>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Sul reformer come sul tappetino, le calze antiscivolo sono di solito richieste. Una nuova allieva ne ha bisogno dalla prima lezione: regalargliele risponde a un bisogno reale nel momento in cui nasce, e fa sì che fin dal primo giorno porti il tuo logo nello studio. Il resto del kit aggiunge valore percepito; le calze aggiungono utilizzo.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">In molti studi, soprattutto sul reformer, le calze antiscivolo sono richieste. Una nuova allieva ne ha bisogno dalla prima lezione: regalargliele risponde a un bisogno reale nel momento in cui nasce, e fa sì che fin dal primo giorno porti il tuo logo nello studio. Il resto del kit aggiunge valore percepito; le calze aggiungono un uso concreto.</p>
 
     <h2 style="margin-top:44px">Come inserire il costo nel tuo listino: il kit come investimento</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Il kit di benvenuto fa parte del costo di acquisizione di ogni allieva, e ha un vantaggio su qualsiasi annuncio: sai esattamente quanto costa per allieva prima di iniziare. Tre modi comuni per inserirlo:</p>
@@ -1104,9 +1104,9 @@ body>.faq-section h2{color:var(--cream)}
     <ul>
       <li>Annuncialo prima, non dopo. In prevendita, durante l'open day e la lezione di prova, il kit è un motivo concreto per fare il passo subito.</li>
       <li>Mostralo. Un kit esposto alla reception, con il logo ben visibile, vale più di qualsiasi descrizione.</li>
-      <li>Consegnalo di persona, alla prima lezione. È il momento in cui l'allieva è più attenta, e quello che si ricorda.</li>
+      <li>Consegnalo di persona, alla prima lezione. È il momento in cui l'allieva è più attenta, e quello che ricorderà.</li>
       <li>Chiedi la foto. Una nuova allieva con le sue calze e la sua tote bag è contenuto di brand che condivide lei stessa.</li>
-      <li>Usalo per il passaparola. Quando un'allieva porta un'amica, entrambe ricevono il kit: chi arriva si iscrive grazie a un gesto, e chi consiglia si sente riconosciuta.</li>
+      <li>Usalo per il programma “porta un'amica”. Quando un'allieva porta un'amica, entrambe ricevono il kit: chi arriva si iscrive grazie a un gesto, e chi consiglia si sente riconosciuta.</li>
     </ul>
 
     <h2 style="margin-top:44px">Errori frequenti con il kit di benvenuto</h2>
@@ -1122,7 +1122,7 @@ body>.faq-section h2{color:var(--cream)}
       <li>Invii il tuo logo e richiedi il mockup gratuito. Lo ricevi entro 24 ore, con il preventivo per la combinazione di prodotti che desideri.</li>
       <li>Scegli come appare il logo sulle calze: intessuto o ricamato, mai stampato. Il colore del tuo brand è riprodotto il più vicino possibile al codice Pantone.</li>
       <li>Approvi il mockup e il preventivo. Solo a quel punto l'ordine viene prodotto.</li>
-      <li>Produzione e consegna: circa 4 settimane dalla tua approvazione, con spedizione gratuita in tutta Europa.</li>
+      <li>Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, con spedizione gratuita in tutta Europa.</li>
     </ol>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Ordine minimo: 50 paia di calze. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici la quantità è definita nel preventivo. I materiali rispettano la normativa europea REACH.</p>
   </div>
@@ -1162,8 +1162,8 @@ body>.faq-section h2{color:var(--cream)}
 
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
-    <h2 style="max-width:none">Fai di ogni iscrizione  <span class="fx">un momento di brand.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine con il tuo vero logo entro 24 ore e poi decidi.</p>
+    <h2 style="max-width:none">Fai di ogni iscrizione  <span class="fx">un momento per il tuo brand.</span></h2>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima con il tuo vero logo entro 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/prezzo-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Quanto costano le calze</a></p>
   </div>
@@ -1238,7 +1238,7 @@ body>.faq-section h2{color:var(--cream)}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1269,6 +1269,13 @@ body>.faq-section h2{color:var(--cream)}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1282,12 +1289,16 @@ body>.faq-section h2{color:var(--cream)}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

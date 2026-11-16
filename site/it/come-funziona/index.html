@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -84,13 +84,13 @@ window.MP_loadGA = function(){
       "@type": "HowToStep",
       "position": 1,
       "name": "Mockup digitale",
-      "text": "Ricevi un'immagine digitale del tuo logo sul prodotto, senza impegno, in 24 ore."
+      "text": "Ricevi un'anteprima digitale del tuo logo sul prodotto, senza impegno, in 24 ore."
     },
     {
       "@type": "HowToStep",
       "position": 2,
       "name": "Modifiche",
-      "text": "Perfezioniamo il colore (riprodotto in base al codice Pantone), la dimensione e la posizione finché il design non ti convince. Il logo è applicato nel tuo stile, discreto o ben visibile."
+      "text": "Perfezioniamo il colore (riprodotto il più vicino possibile al codice Pantone), la dimensione e la posizione finché il design non ti convince. Il logo è applicato nel tuo stile, discreto o ben visibile."
     },
     {
       "@type": "HowToStep",
@@ -131,7 +131,7 @@ window.MP_loadGA = function(){
       "name": "Come vendere prodotti con il mio brand nel mio studio senza avere magazzino?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è magazzino anticipato a nome dello studio: produciamo su ordinazione, dopo la tua conferma."
+        "text": "Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è alcuna scorta anticipata a nome dello studio: produciamo su ordinazione, dopo la tua conferma."
       }
     },
     {
@@ -139,7 +139,7 @@ window.MP_loadGA = function(){
       "name": "Qual è l'ordine minimo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Per le calze antiscivolo, 50 paia. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità."
+        "text": "Per le calze antiscivolo, 50 paia. Per le tote bag e il telo per Reformer il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità."
       }
     },
     {
@@ -1121,7 +1121,7 @@ footer a{white-space:nowrap}
     <div class="wrap">
       <h2>Dal tuo logo alla tua reception in <span class="fx">cinque passaggi.</span></h2>
       <ol class="timeline">
-        <li class="tl-item"><span class="n">1</span><h3>Mockup digitale</h3><span class="tl-time">Entro 24 ore</span><p>Ricevi un'immagine digitale del tuo logo sul prodotto, senza impegno.</p></li>
+        <li class="tl-item"><span class="n">1</span><h3>Mockup digitale</h3><span class="tl-time">Entro 24 ore</span><p>Ricevi un'anteprima digitale del tuo logo sul prodotto, senza impegno.</p></li>
         <li class="tl-item"><span class="n">2</span><h3>Modifiche</h3><span class="tl-time">Giorni 1–3</span><p>Perfezioniamo colore, dimensione e posizione finché il design non ti convince.</p></li>
         <li class="tl-item"><span class="n">3</span><h3>Preventivo e conferma</h3><span class="tl-time">Giorni 3–5</span><p>Ricevi il preventivo definitivo con il prezzo finale; la tua approvazione e il pagamento concordato nel preventivo riservano il tuo slot di produzione.</p></li>
         <li class="tl-item"><span class="n">4</span><h3>Produzione</h3><span class="tl-time">Settimane 1–3</span><p>Intessiamo o ricamiamo, assembliamo e controlliamo la qualità di ogni pezzo prima di imballarlo.</p></li>
@@ -1160,11 +1160,11 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">02</span>Come vendere prodotti con il mio brand nel mio studio senza avere magazzino?</summary>
-        <p>Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è magazzino anticipato a nome dello studio: produciamo su ordinazione, dopo la tua conferma.</p>
+        <p>Richiedi un mockup gratuito, approvi il design e il prezzo, e solo a quel punto l'ordine viene prodotto. Non c'è alcuna scorta anticipata a nome dello studio: produciamo su ordinazione, dopo la tua conferma.</p>
       </details>
       <details>
         <summary><span class="qn">03</span>Qual è l'ordine minimo?</summary>
-        <p>Per le calze antiscivolo, 50 paia. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.</p>
+        <p>Per le calze antiscivolo, 50 paia. Per le tote bag e il telo per Reformer il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.</p>
       </details>
       <details>
         <summary><span class="qn">04</span>Come viene applicato il logo sui prodotti?</summary>
@@ -1193,7 +1193,7 @@ footer a{white-space:nowrap}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Richiedi il tuo mockup e guarda il tuo logo sul prodotto <span class="fx">prima di decidere qualsiasi cosa.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine entro 24 ore e poi decidi.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima entro 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/tumbler-termico-personalizzato/" style="color:var(--cream);text-decoration:underline">Tumbler termici</a> · <a href="/it/tote-bag-personalizzata/" style="color:var(--cream);text-decoration:underline">Tote bags</a> · <a href="/it/faq/" style="color:var(--cream);text-decoration:underline">Tutte le domande frequenti</a> · <a href="/it/chi-siamo-mediterrano-pilates/" style="color:var(--cream);text-decoration:underline">Chi è Mediterrano Pilates</a> · <a href="/it/mockup-gratuito/" style="color:var(--cream);text-decoration:underline">Mockup gratuito</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:var(--cream);text-decoration:underline">Aumenta il tuo fatturato</a> · <a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:var(--cream);text-decoration:underline">Fidelizza le tue allieve</a> · <a href="/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Come scegliere un fornitore</a> · <a href="/it/prodotti-personalizzati-studi-barre/" style="color:var(--cream);text-decoration:underline">Per gli studi di barre</a> · <a href="/it/prodotti-personalizzati-studi-fisioterapia/" style="color:var(--cream);text-decoration:underline">Per gli studi di fisioterapia</a></p>
   </div>
@@ -1268,7 +1268,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1299,6 +1299,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1312,12 +1319,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

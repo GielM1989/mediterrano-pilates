@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -126,7 +126,7 @@ window.MP_loadGA = function(){
       "name": "Devo pagare tutto l'ordine in anticipo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare immagine e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio."
+        "text": "La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare anteprima e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio."
       }
     },
     {
@@ -142,7 +142,7 @@ window.MP_loadGA = function(){
       "name": "Quali tempi sono ragionevoli per un ordine?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta."
+        "text": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione del preventivo e dal pagamento. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta."
       }
     },
     {
@@ -1053,34 +1053,34 @@ footer a{white-space:nowrap}
     <h1>Come scegliere un fornitore di calze  <span class="fx">antiscivolo personalizzate.</span></h1>
     <p class="sub">La risposta breve: guarda come viene applicato il logo (intessuto o ricamato, mai solo stampato), qual è il vero ordine minimo, se puoi approvare un mockup prima di pagare, se il materiale è conforme a REACH e se tempi e spedizione sono chiari fin dall'inizio. Queste cinque domande aiutano a distinguere un produttore serio da un rivenditore di prodotti generici.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
-    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-09-27">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-10-06">16 novembre 2026</time>  · Di Mediterrano Pilates</p>
+    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-11-16">16 novembre 2026</time>  · Aggiornato il  <time datetime="2026-11-16">16 novembre 2026</time>  · A cura di Mediterrano Pilates</p>
   </div>
 </header>
 
 <section class="sheet cream">
   <div class="wrap" style="padding:48px 0 8px;max-width:760px">
     <h2>Perché questa scelta conta più di quanto sembri</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Una calza, un tumbler termico o una tote bag con il tuo logo, le tue allieve li usano ogni settimana, dentro e fuori dallo studio. Se la personalizzazione si screpola, se il colore non corrisponde al tuo brand o se l'ordine richiede il doppio del tempo promesso, il problema non resta in un magazzino: resta addosso alle tue allieve. Per questo vale la pena valutare un fornitore con più attenzione di quanta se ne dedichi di solito all'acquisto di materiale per l'ufficio.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Una calza, un tumbler termico o una tote bag con il tuo logo, le tue allieve li usano ogni settimana, dentro e fuori dallo studio. Se la personalizzazione si crepa, se il colore non corrisponde al tuo brand o se l'ordine richiede il doppio del tempo promesso, il problema non resta in un magazzino: resta addosso alle tue allieve. Per questo vale la pena valutare un fornitore con più attenzione di quanta se ne dedichi di solito all'acquisto di materiale per l'ufficio.</p>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Non serve confrontare cataloghi interi. Bastano cinque domande precise per distinguere un produttore serio da un rivenditore che si limita a mettere un logo su un prodotto generico.</p>
 
     <h2 style="margin-top:44px">1. Come viene applicato il logo?</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Le tecniche più comuni sono tre: la tessitura direttamente nel prodotto, il ricamo o la stampa. Le prime due resistono bene ai lavaggi frequenti e all'usura quotidiana; la stampa, su un tessuto sportivo come una calza, tende a consumarsi più in fretta. Chiedi quale tecnica il fornitore usa di default, e diffida se “stampato” è l'unica opzione proposta.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Le tecniche più comuni sono tre: la tessitura direttamente nel prodotto, il ricamo o la stampa. Le prime due resistono bene ai lavaggi frequenti e all'usura quotidiana; la stampa, su un tessuto sportivo come una calza, tende a consumarsi più in fretta. Chiedi quale tecnica il fornitore usa di norma, e diffida se “stampato” è l'unica opzione proposta.</p>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Conta anche il colore: un fornitore che riproduce il tuo brand in base al codice Pantone (il riferimento dei professionisti della stampa) ti permette di ottenere un colore del prodotto il più vicino possibile al tuo, e non un'approssimazione a occhio.</p>
 
     <h2 style="margin-top:44px">2. Qual è il vero ordine minimo?</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Un ordine minimo pensato per i piccoli studi può aggirarsi intorno ai 50 pezzi per modello, da confermare con il fornitore, e non diverse centinaia. Un minimo molto alto ti obbliga a comprare più di quanto puoi vendere a breve, e quell'eccedenza è proprio il rischio di magazzino che i prodotti personalizzati dovrebbero evitarti. Se il fornitore non sa darti un numero preciso prima di chiederti i dati di pagamento, è segno che tratta caso per caso, senza vera trasparenza.</p>
 
     <h2 style="margin-top:44px">3. Puoi vedere un mockup prima di pagare?</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">La cosa più ragionevole è ricevere prima un'immagine digitale con il tuo vero logo sul prodotto, approvare l'immagine e il prezzo, e solo dopo confermare l'ordine. Un fornitore che chiede il pagamento completo prima di mostrarti come appare il tuo brand sul prodotto ti fa correre tutto il rischio: se il risultato non ti convince, hai già pagato.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">La cosa più ragionevole è ricevere prima un'anteprima digitale con il tuo vero logo sul prodotto, approvare l'anteprima e il prezzo, e solo dopo confermare l'ordine. Un fornitore che chiede il pagamento completo prima di mostrarti come appare il tuo brand sul prodotto ti fa correre tutto il rischio: se il risultato non ti convince, hai già pagato.</p>
 
     <h2 style="margin-top:44px">4. Quale conformità dei materiali può dimostrare?</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Come minimo, il materiale, compresa la suola antiscivolo nel caso delle calze, dovrebbe essere conforme a REACH, la normativa europea sulle sostanze chimiche. È una domanda semplice da fare e, per un produttore serio, semplice da gestire. Se il fornitore non ne sa nulla o non può fornire nulla in merito, meglio continuare a cercare.</p>
 
     <h2 style="margin-top:44px">5. Tempi e spedizione sono chiari fin dall'inizio?</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine. Diffida di tempi molto più brevi per un prodotto personalizzato: il più delle volte significano merce generica già prodotta, non un ordine fatto per te. Chiedi anche esplicitamente se la spedizione fuori dal tuo paese comporta un costo aggiuntivo; molti fornitori la fatturano a parte senza dirlo prima del pagamento.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione del preventivo e dal pagamento. Tempi molto più brevi per un prodotto personalizzato meritano una domanda: chiedi se si tratta di merce già prodotta e non di un ordine fatto per te. Chiedi anche esplicitamente se la spedizione fuori dal tuo paese comporta un costo aggiuntivo; molti fornitori la fatturano a parte senza dirlo prima del pagamento.</p>
 
     <h2 style="margin-top:44px">Come risponde Mediterrano Pilates a questi cinque punti</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Da noi, sulle calze, il logo è intessuto o ricamato, mai stampato, con il colore riprodotto il più vicino possibile al codice Pantone; l'ordine minimo è di 50 paia per le calze e di 50 pezzi per le tote bag, con un preventivo su misura per i tumbler termici; il mockup è gratuito e approvato prima di qualsiasi produzione; il materiale è conforme a REACH; e produzione e consegna, gratuita in tutta Europa, richiedono circa 4 settimane. Puoi vedere come funziona nel dettaglio nella pagina  <a href="/it/come-funziona/" style="color:#AC512C;font-weight:700;text-decoration:underline">Come funziona</a>  oppure richiedere il tuo mockup per verificarlo con il tuo vero logo.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Da noi, sulle calze, il logo è intessuto o ricamato, mai stampato, con il colore riprodotto il più vicino possibile al codice Pantone; l'ordine minimo è di 50 paia per le calze e di 50 pezzi per le tote bag, con un preventivo su misura per i tumbler termici; il mockup è gratuito e lo approvi prima di qualsiasi produzione; il materiale è conforme a REACH; e produzione e consegna, gratuita in tutta Europa, richiedono circa 4 settimane dopo l'approvazione del preventivo e il pagamento. Puoi vedere come funziona nel dettaglio nella pagina  <a href="/it/come-funziona/" style="color:#AC512C;font-weight:700;text-decoration:underline">Come funziona</a>  oppure richiedere il tuo mockup per verificarlo con il tuo vero logo.</p>
   </div>
 </section>
 
@@ -1098,7 +1098,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">03</span>Devo pagare tutto l'ordine in anticipo?</summary>
-        <p>La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare immagine e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.</p>
+        <p>La cosa più ragionevole è vedere prima un mockup con il tuo vero logo e approvare anteprima e prezzo prima di pagare qualsiasi cosa, o solo quanto concordato nel preventivo. Un fornitore che pretende il pagamento completo prima di mostrarti come appare il tuo logo sul prodotto ti fa correre tutto il rischio.</p>
       </details>
       <details>
         <summary><span class="qn">04</span>Cosa chiedere sulla conformità dei materiali?</summary>
@@ -1106,7 +1106,7 @@ footer a{white-space:nowrap}
       </details>
       <details>
         <summary><span class="qn">05</span>Quali tempi sono ragionevoli per un ordine?</summary>
-        <p>Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta.</p>
+        <p>Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione del preventivo e dal pagamento. Tempi molto più brevi per ordini personalizzati sono poco realistici; tempi molto più lunghi senza spiegazione meritano una domanda diretta.</p>
       </details>
       <details>
         <summary><span class="qn">06</span>Spedite in Italia e in Svizzera?</summary>
@@ -1119,7 +1119,7 @@ footer a{white-space:nowrap}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Verifica questi cinque punti con il tuo  <span class="fx">mockup gratuito.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine con il tuo vero logo in 24 ore e poi decidi.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima con il tuo vero logo in 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:var(--cream);text-decoration:underline">Aumenta il tuo fatturato</a> · <a href="/it/blog/prezzo-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Quanto costano le calze</a></p>
   </div>
@@ -1194,7 +1194,7 @@ footer a{white-space:nowrap}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1225,6 +1225,13 @@ footer a{white-space:nowrap}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1238,12 +1245,16 @@ footer a{white-space:nowrap}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

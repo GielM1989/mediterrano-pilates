@@ -45,7 +45,7 @@ gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_pers
 window.MP_loadGA = function(){
   if (window.MP_GA_LOADED) return;
   window.MP_GA_LOADED = true;
-  gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});
+  gtag('consent','update',{'analytics_storage':'granted'}); /* segnali pubblicitari solo con il consenso marketing, vedi startPixel */
   gtag('js', new Date());
   gtag('config', window.MP_GA_ID);
   var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+window.MP_GA_ID;document.head.appendChild(s);
@@ -126,7 +126,7 @@ window.MP_loadGA = function(){
       "name": "Come personalizzo la tote bag con il mio logo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Il colore del tuo logo è riprodotto il più vicino possibile al codice Pantone del tuo studio, in modo discreto in un angolo o in grande su tutta la tela, a tua scelta."
+        "text": "Il logo, in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, va discreto in un angolo o in grande su tutta la tela, a tua scelta."
       }
     },
     {
@@ -142,7 +142,7 @@ window.MP_loadGA = function(){
       "name": "Quanto tempo passa tra l'ordine e la consegna?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Il mockup arriva entro 24 ore. Una volta approvato, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa."
+        "text": "Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa."
       }
     }
   ],
@@ -1055,7 +1055,7 @@ body>.faq-section h2{color:var(--cream)}
     <h1>Tote bag personalizzata con <span class="fx">il logo del tuo studio di pilates</span></h1>
     <p class="sub">La risposta breve: una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo.</p>
     <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
-    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-10-27">16 novembre 2026</time>  · Di Mediterrano Pilates</p>
+    <p class="post-date" style="margin-top:16px;font-size:.86rem;opacity:.78">Pubblicato il  <time datetime="2026-11-16">16 novembre 2026</time>  · A cura di Mediterrano Pilates</p>
   </div>
 </header>
 
@@ -1064,13 +1064,13 @@ body>.faq-section h2{color:var(--cream)}
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">Una tote bag con il logo del tuo studio non resta in sala: le tue allieve la portano al lavoro, al mercato, in spiaggia. Questo articolo spiega cosa porta una tote bag personalizzata al tuo studio di pilates, quale materiale si usa e come farne produrre una con il tuo logo.</p>
 
     <h2>Risposta breve</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino di yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito entro 24 ore.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">Una tote bag personalizzata è una borsa in tela di cotone con il logo del tuo studio, che le tue allieve usano dopo la lezione, dal tappetino da yoga al supermercato. L'ordine minimo è di 50 pezzi, come per le calze antiscivolo, e il mockup con il tuo logo è gratuito entro 24 ore.</p>
 
     <h2 style="margin-top:44px">Perché una tote bag personalizzata invece di una borsa generica</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">A differenza di una calza antiscivolo, usata solo durante la lezione, una tote bag continua a girare anche dopo. Ogni volta che un'allieva la riempie con la spesa o la porta al lavoro, è visibilità per il tuo studio fuori dalle sue pareti. La tote bag diventa così una pubblicità che non si ferma alla porta dello studio, in aggiunta ai prodotti usati solo durante la pratica.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">A differenza di una calza antiscivolo, usata solo durante la lezione, una tote bag continua a girare anche dopo. Ogni volta che un'allieva la riempie con la spesa o la porta al lavoro, è visibilità per il tuo studio fuori dalle sue mura. La tote bag diventa così una pubblicità che non si ferma alla porta dello studio, in aggiunta ai prodotti usati solo durante la pratica.</p>
 
     <h2 style="margin-top:44px">Quale materiale: una tela di cotone pensata per durare</h2>
-    <p style="max-width:none;color:#4c554d;margin-bottom:18px">La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, una borsa per lo sport, un computer portatile. Il logo è applicato in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, discreto in un angolo o in grande su tutta la tela, come si addice di più al tuo brand.</p>
+    <p style="max-width:none;color:#4c554d;margin-bottom:18px">La tote bag è realizzata in una resistente tela di cotone, pensata per l'uso di tutti i giorni: la spesa, una borsa per lo sport, un computer portatile. Il logo è applicato, discreto in un angolo o in grande su tutta la tela, in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, come si addice meglio al tuo brand.</p>
 
     <h2 style="margin-top:44px">Come personalizzarla con il logo del tuo studio</h2>
     <p style="max-width:none;color:#4c554d;margin-bottom:18px">La tote bag che portano le tue allieve può essere personalizzata con il logo del tuo studio. Invii il tuo logo e il colore del tuo brand, ricevi un mockup gratuito entro 24 ore e ordini solo dopo aver approvato il design. La spedizione è gratuita in tutta Europa. Le specifiche complete sono nella pagina <a href="/it/tote-bag-personalizzata/" style="color:var(--terra-2);text-decoration:underline">Tote bag personalizzata</a>.</p>
@@ -1094,7 +1094,7 @@ body>.faq-section h2{color:var(--cream)}
       </details>
       <details>
         <summary><span class="qn">03</span>Come personalizzo la tote bag con il mio logo?</summary>
-        <p>Il colore del tuo logo è riprodotto il più vicino possibile al codice Pantone del tuo studio, in modo discreto in un angolo o in grande su tutta la tela, a tua scelta.</p>
+        <p>Il logo, in un colore riprodotto il più vicino possibile al codice Pantone del tuo studio, va discreto in un angolo o in grande su tutta la tela, a tua scelta.</p>
       </details>
       <details>
         <summary><span class="qn">04</span>Qual è l'ordine minimo per una tote bag personalizzata?</summary>
@@ -1102,7 +1102,7 @@ body>.faq-section h2{color:var(--cream)}
       </details>
       <details>
         <summary><span class="qn">05</span>Quanto tempo passa tra l'ordine e la consegna?</summary>
-        <p>Il mockup arriva entro 24 ore. Una volta approvato, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.</p>
+        <p>Il mockup arriva entro 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.</p>
       </details>
     </div>
   </div>
@@ -1111,7 +1111,7 @@ body>.faq-section h2{color:var(--cream)}
 <section class="sheet green">
   <div class="wrap" style="padding:56px 0;text-align:center">
     <h2 style="max-width:none">Richiedi il tuo prezzo esatto,  <span class="fx">senza impegno.</span></h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'immagine con il tuo vero logo entro 24 ore e poi decidi.</p>
+    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Senza impegno. Ricevi l'anteprima con il tuo vero logo entro 24 ore e poi decidi.</p>
     <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
     <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/tote-bag-personalizzata/" style="color:var(--cream);text-decoration:underline">Tote bag personalizzata</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/" style="color:var(--cream);text-decoration:underline">Blog</a></p>
   </div>
@@ -1186,7 +1186,7 @@ body>.faq-section h2{color:var(--cream)}
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookie">
   <button type="button" class="cookie-x" id="cookieClose" aria-label="Chiudi senza accettare">×</button>
-  <p>Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
+  <p>Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare solo con i cookie tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina. <a href="/it/legal.html#cookie">Cookie policy</a> · <a href="/it/legal.html#privacy">Informativa sulla privacy</a>.</p>
   <div class="cookie-choices" id="cookieChoices" hidden>
     <label><input type="checkbox" checked disabled> Necessari (sempre attivi)</label>
     <label><input type="checkbox" id="ckStats"> Statistica (Google Analytics)</label>
@@ -1217,6 +1217,13 @@ body>.faq-section h2{color:var(--cream)}
       fbq('init', window.MP_PIXEL_ID);
       fbq('track','PageView');
     }
+    if(typeof window.gtag==='function'){ gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'}); }
+  }
+  function wipe(){
+    /* revoca: elimina i cookie di Google Analytics e Meta e ricarica la pagina, così nessuno strumento resta attivo */
+    document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim();
+      if(/^_ga|^_gid|^_fbp|^_fbc/.test(n)){ ['', '; domain='+location.hostname, '; domain=.'+location.hostname.replace(/^www[.]/,'')].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } });
+    location.reload();
   }
   function startGA(){ if(typeof window.MP_loadGA==='function') window.MP_loadGA(); }
   function apply(v){
@@ -1230,12 +1237,16 @@ body>.faq-section h2{color:var(--cream)}
   if(!ts || (Date.now()-ts)>MAX_AGE){ saved=null; }
   if(saved==='granted' || saved==='denied' || (saved && saved.indexOf('custom:')===0)){ apply(saved); }
   else { bar.classList.add('show'); }
+  function running(){ return !!(window.MP_GA_LOADED || window.MP_CONSENT); }
+  function refuse(){ var was=running(); save('denied'); close(); if(was) wipe(); }
   document.getElementById('cookieAccept').addEventListener('click',function(){ save('granted'); close(); apply('granted'); });
-  document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });
-  document.getElementById('cookieClose').addEventListener('click',function(){ save('denied'); close(); });
+  document.getElementById('cookieDecline').addEventListener('click',refuse);
+  document.getElementById('cookieClose').addEventListener('click',refuse);
   custom.addEventListener('click',function(){
     if(box.hidden){ box.hidden=false; custom.textContent='Salva le scelte'; return; }
-    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0'); save(v); close(); apply(v);
+    var v='custom:'+(cS.checked?'s1':'s0')+(cM.checked?'m1':'m0');
+    var drop=(window.MP_GA_LOADED && !cS.checked) || (window.MP_CONSENT && !cM.checked);
+    save(v); close(); if(drop){ wipe(); } else { apply(v); }
   });
   var prefs=document.getElementById('cookiePrefs');
   if(prefs){ prefs.addEventListener('click',function(e){ e.preventDefault(); bar.classList.add('show'); }); }

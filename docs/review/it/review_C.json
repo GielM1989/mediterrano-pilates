@@ -1,0 +1,362 @@
+[
+ {
+  "page": "faq.txt",
+  "line": 33,
+  "old": "Sempre più studi di pilates, yoga e barre, in tutta Europa e non solo, vendono i propri prodotti con il loro brand grazie a Mediterrano Pilates.",
+  "new": "Lavoriamo dalla Spagna con studi di pilates, yoga e barre in tutta Europa e non solo.",
+  "severity": "high",
+  "why": "Implies an existing, growing customer base. Source of truth: no customers yet, never imply a number of customers. Unsubstantiated social proof is misleading advertising between businesses (d.lgs. 145/2007, art. 2-3; Spain: Ley 3/1991 de Competencia Desleal art. 5). Also present in the FAQPage JSON-LD of site/it/faq/index.html; fix both. Same sentence exists in the French source (De plus en plus de studios...), so fix FR too. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-08-02;145"
+ },
+ {
+  "page": "chisiamo.txt",
+  "line": 30,
+  "old": "Sempre più studi di pilates, yoga e barre, in tutta Europa e non solo, vendono i propri prodotti con il loro brand grazie a Mediterrano Pilates.",
+  "new": "Lavoriamo dalla Spagna con studi di pilates, yoga e barre in tutta Europa e non solo.",
+  "severity": "high",
+  "why": "Same unsubstantiated customer-base claim as faq.txt line 33 (also in FAQPage JSON-LD of site/it/chi-siamo-mediterrano-pilates/index.html). No customers yet per source of truth. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-08-02;145"
+ },
+ {
+  "page": "prezzi.txt",
+  "line": 38,
+  "old": "Mediterrano Pilates fattura dalla Spagna. Per un'impresa dell'UE con una partita IVA comunitaria valida (iscritta al VIES), la fattura è emessa come cessione intracomunitaria non imponibile e l'IVA la assolve l'acquirente nel proprio paese (inversione contabile, reverse charge); senza una partita IVA valida, per esempio nel caso di un'associazione con solo codice fiscale, viene applicata l'IVA spagnola. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "new": "Mediterrano Pilates fattura dalla Spagna. Se il tuo studio ha una partita IVA attiva nel VIES (in Italia l'inclusione nel VIES va richiesta all'Agenzia delle Entrate), la fattura è emessa senza IVA come cessione intracomunitaria e l'IVA la assolvi tu in Italia con l'integrazione della fattura (inversione contabile, reverse charge). Senza una partita IVA attiva nel VIES, per esempio nel caso di un'associazione con solo codice fiscale, la fattura riporta l'IVA: di norma quella spagnola, oppure quella italiana quando lo prevedono le regole europee sulle vendite a distanza. Ti indichiamo il trattamento esatto nel preventivo; per i casi particolari (ASD, regime forfettario) verifica con il tuo commercialista. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "severity": "high",
+  "why": "Too absolute for Italian buyers, many of whom are ASD/SSD: (1) an Italian partita IVA is not automatically in VIES (opt-in, art. 35 c.2 lett. e-bis DPR 633/1972); without VIES validity the exemption fails (art. 138 Dir. 2006/112 as amended by Dir. 2018/1910). (2) Enti non commerciali without VAT number must self-assess Italian VAT once their intra-EU purchases exceed EUR 10,000/year (art. 38 c.5 lett. c DL 331/1993, https://www.ecnews.it/fiscale/fisco-e-patrimonio/iva/liva-sugli-scambi-intracomunitari-di-beni-degli-enti-non-commerciali/). (3) Supplies of goods shipped to non-VAT-registered buyers are distance sales: above the EU-wide EUR 10,000 threshold Ecomtierra must charge Italian 22% via OSS, not Spanish 21% (art. 14(4) and 59c Dir. 2006/112, https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce/one-stop-shop_en). Source of truth says this is to be confirmed by the accountant; the page may say so but currently does not. Swiss import VAT 8.1% is correct (standard rate since 1.1.2024)."
+ },
+ {
+  "page": "faq.txt",
+  "line": 47,
+  "old": "Mediterrano Pilates fattura dalla Spagna. Per un'impresa dell'UE con una partita IVA comunitaria valida (iscritta al VIES), la fattura è emessa come cessione intracomunitaria non imponibile e l'IVA la assolve l'acquirente nel proprio paese (inversione contabile, reverse charge); senza una partita IVA valida, per esempio nel caso di un'associazione con solo codice fiscale, viene applicata l'IVA spagnola. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "new": "Mediterrano Pilates fattura dalla Spagna. Se il tuo studio ha una partita IVA attiva nel VIES (in Italia l'inclusione nel VIES va richiesta all'Agenzia delle Entrate), la fattura è emessa senza IVA come cessione intracomunitaria e l'IVA la assolvi tu in Italia con l'integrazione della fattura (inversione contabile, reverse charge). Senza una partita IVA attiva nel VIES, per esempio nel caso di un'associazione con solo codice fiscale, la fattura riporta l'IVA: di norma quella spagnola, oppure quella italiana quando lo prevedono le regole europee sulle vendite a distanza. Ti indichiamo il trattamento esatto nel preventivo; per i casi particolari (ASD, regime forfettario) verifica con il tuo commercialista. Per la Svizzera la fattura è emessa senza IVA: IVA all'importazione (8,1%), eventuali dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.",
+  "severity": "high",
+  "why": "Too absolute for Italian buyers, many of whom are ASD/SSD: (1) an Italian partita IVA is not automatically in VIES (opt-in, art. 35 c.2 lett. e-bis DPR 633/1972); without VIES validity the exemption fails (art. 138 Dir. 2006/112 as amended by Dir. 2018/1910). (2) Enti non commerciali without VAT number must self-assess Italian VAT once their intra-EU purchases exceed EUR 10,000/year (art. 38 c.5 lett. c DL 331/1993, https://www.ecnews.it/fiscale/fisco-e-patrimonio/iva/liva-sugli-scambi-intracomunitari-di-beni-degli-enti-non-commerciali/). (3) Supplies of goods shipped to non-VAT-registered buyers are distance sales: above the EU-wide EUR 10,000 threshold Ecomtierra must charge Italian 22% via OSS, not Spanish 21% (art. 14(4) and 59c Dir. 2006/112, https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce/one-stop-shop_en). Source of truth says this is to be confirmed by the accountant; the page may say so but currently does not. Swiss import VAT 8.1% is correct (standard rate since 1.1.2024). Also update the matching FAQPage JSON-LD on prezzi-e-margini and faq."
+ },
+ {
+  "page": "legal.txt",
+  "line": 65,
+  "old": "Senza una partita IVA valida si applica l'IVA spagnola (21%).",
+  "new": "Senza una partita IVA attiva nel VIES la fattura riporta l'IVA applicabile: di norma l'IVA spagnola (21%), oppure l'IVA del paese di destinazione quando lo prevedono le regole europee sulle vendite a distanza (sportello unico OSS). L'aliquota applicata è indicata nel preventivo.",
+  "severity": "high",
+  "why": "Contract terms fix Spanish 21% for every buyer without VAT number; wrong once the EU-wide EUR 10,000 distance-sales threshold is passed (destination VAT via OSS) and for Italian non-commercial entities above EUR 10,000 of intra-EU purchases. Have the accountant confirm. https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce/one-stop-shop_en"
+ },
+ {
+  "page": "legal.txt",
+  "line": 15,
+  "old": "iscritta al Registro Mercantil di Valencia, tomo N/A, folio N/A, hoja V-230506",
+  "new": null,
+  "severity": "high",
+  "why": "Placeholder 'N/A' published in the legal notice. Art. 10.1.b Ley 34/2002 (LSSI-CE) requires the commercial-registry entry data (tomo, folio, hoja). Fill in tomo and folio from the escritura/nota simple, or state only 'hoja V-230506' if that is all that is recorded. Also consider adding the intra-EU VAT number (NIF-IVA ESB24923328, if active in VIES), which Italian buyers need to apply reverse charge. https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758#a10"
+ },
+ {
+  "page": "index.html (cookie/GA script)",
+  "line": null,
+  "old": "gtag('consent','update',{'ad_storage':'granted','ad_user_data':'granted','ad_personalization':'granted','analytics_storage':'granted'});",
+  "new": "gtag('consent','update',{'analytics_storage':'granted'}); /* ad_storage, ad_user_data, ad_personalization are granted only in the marketing branch (startPixel / custom m1) */",
+  "severity": "high",
+  "why": "MP_loadGA() runs for 'Statistica' consent alone (custom:s1m0) but grants all Google advertising signals too. That is advertising/profiling consent the user did not give; the Garante guidelines require granular consent per purpose (par. 4 and 7). Same script on all 20 /it/ pages. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876"
+ },
+ {
+  "page": "index.html (cookieBar text, all /it/ pages)",
+  "line": null,
+  "old": "Usiamo cookie di statistica (Google Analytics) e di marketing (Meta Pixel) solo con il tuo consenso. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina.",
+  "new": "Usiamo cookie tecnici e, solo con il tuo consenso, cookie di statistica (Google Analytics) e di marketing (Meta Pixel). Chiudendo il banner con la X continui a navigare senza cookie diversi da quelli tecnici. Puoi cambiare idea in qualsiasi momento con “Gestione dei cookie” in fondo alla pagina.",
+  "severity": "medium",
+  "why": "The X works correctly in code (saves 'denied'), but the Garante guidelines (par. 7.1) list among the banner contents the notice that closing via the X keeps default settings, i.e. browsing continues without non-technical cookies; the banner should also mention technical cookies. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876"
+ },
+ {
+  "page": "index.html (cookie script, all /it/ pages)",
+  "line": null,
+  "old": "document.getElementById('cookieDecline').addEventListener('click',function(){ save('denied'); close(); });",
+  "new": null,
+  "severity": "medium",
+  "why": "Withdrawal is not effective in the current page view: if a user who previously accepted reopens 'Gestione dei cookie' and refuses, GA/Pixel already loaded keep running and _ga/_ga_*/_fbp cookies stay set. On a downgrade, call gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'}), delete _ga*, _fbp cookies on the domain and reload. Art. 7(3) GDPR: withdrawing must be as easy, and as effective, as giving consent. Also: window.MP_CONSENT is set only in startPixel(), so GA conversion events never fire if MP_PIXEL_ID is unset or the user consented to statistics only (functional, not legal)."
+ },
+ {
+  "page": "legal.html",
+  "line": 56,
+  "old": "Puoi modificarla in qualsiasi momento con il link “Gestione dei cookie” in fondo a ogni pagina",
+  "new": null,
+  "severity": "low",
+  "why": "site/it/legal.html itself has no cookieBar and no 'Gestione dei cookie' link (no trackers load there, which is fine), so the statement 'in fondo a ogni pagina' is untrue on the very page that contains the policy. Add the banner + #cookiePrefs link to legal.html or change wording. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876"
+ },
+ {
+  "page": "legal.txt",
+  "line": 47,
+  "old": "Funzionamento del sito e memorizzazione della tua scelta",
+  "new": null,
+  "severity": "low",
+  "why": "Cookie table lists tools but not the cookies themselves and their duration (GA4: _ga, _ga_<ID>, up to 2 years; Meta: _fbp, 90 days) nor links to the third parties' policies. The Garante guidelines (par. 7) expect the extended policy to state the cookies/third parties, purposes and retention. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876"
+ },
+ {
+  "page": "legal.txt",
+  "line": 33,
+  "old": "Per il tempo necessario a gestire la tua richiesta. Se inizia una collaborazione, li conserviamo per la durata del rapporto commerciale e poi per i termini di conservazione contabile e fiscale previsti dalla legge in Spagna.",
+  "new": "Se alla richiesta non segue un ordine, cancelliamo i tuoi dati entro 12 mesi dall'ultimo contatto. Se effettui un ordine, conserviamo i dati per la durata del rapporto commerciale e poi i documenti contabili per 6 anni (art. 30 del Código de Comercio spagnolo) e per i termini previsti dalla normativa fiscale spagnola.",
+  "severity": "medium",
+  "why": "Art. 13(2)(a) GDPR requires the retention period or the criteria to determine it; 'il tempo necessario' is too vague. The 12-month period is a proposal (company must confirm); 6 years is the Spanish Commercial Code period. https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+ },
+ {
+  "page": "legal.txt",
+  "line": 35,
+  "old": "Il nostro sito e il relativo modulo sono ospitati da Netlify, Inc. (hosting e ricezione dei moduli, Stati Uniti).",
+  "new": null,
+  "severity": "low",
+  "why": "Processor list is incomplete: WhatsApp (Meta) is offered as a contact channel on every page and the email provider receives all requests/logos. Also, for the Meta Pixel Ecomtierra is joint controller with Meta for collection/transmission (CJEU C-40/17 Fashion ID); mention it. https://curia.europa.eu/juris/liste.jsf?num=C-40/17"
+ },
+ {
+  "page": "legal.txt",
+  "line": 71,
+  "old": "Rimedieremo con una sostituzione, una nuova consegna o un indennizzo adeguato.",
+  "new": "In questi casi rifacciamo senza costi i prodotti interessati.",
+  "severity": "medium",
+  "why": "Contract terms are weaker than the advertised guarantee (home, come-funziona, yoga: 'lo rifacciamo senza costi'). Source of truth: colour differs from approved design or production fault within 14 days -> remade free of charge. Advertising a promise the terms then dilute is misleading (d.lgs. 145/2007 art. 3)."
+ },
+ {
+  "page": "legal.txt",
+  "line": 5,
+  "old": "Informazioni fornite ai sensi dell'articolo 10 della legge spagnola 34/2002 (LSSI-CE) e dell'articolo 7 del decreto legislativo italiano 70/2003 sul commercio elettronico",
+  "new": "Informazioni fornite ai sensi dell'articolo 10 della legge spagnola 34/2002 (LSSI-CE), che recepisce la direttiva 2000/31/CE sul commercio elettronico (in Italia recepita con il d.lgs. 70/2003)",
+  "severity": "low",
+  "why": "Reference is correct in content (art. 7 d.lgs. 70/2003 = informazioni generali obbligatorie) but d.lgs. 70/2003 governs providers established in Italy; under the country-of-origin principle (art. 3 Dir. 2000/31/CE) a Spanish provider is governed by LSSI-CE. Citing the Italian decree as the legal basis is imprecise. https://www.normattiva.it/eli/id/2003/04/14//003G0090/CONSOLIDATED"
+ },
+ {
+  "page": "legal.txt",
+  "line": 73,
+  "old": "Il tempo di consegna indicativo è di circa 4 settimane dopo l'approvazione del mockup e il pagamento.",
+  "new": "Il tempo di consegna indicativo è di circa 4 settimane dopo l'approvazione del preventivo e il pagamento.",
+  "severity": "low",
+  "why": "Source of truth: about 4 weeks after quote approval and payment. Also the next sentences repeat the import-duty rule twice ('a carico del cliente' / 'sempre a carico del cliente'); keep one."
+ },
+ {
+  "page": "legal.txt",
+  "line": 81,
+  "old": "Ogni controversia che non possa essere risolta in via amichevole è di competenza dei tribunali spagnoli.",
+  "new": "Ogni controversia che non possa essere risolta in via amichevole è di competenza esclusiva dei tribunali di Valencia (Spagna).",
+  "severity": "low",
+  "why": "A specific court is clearer. A choice-of-court clause in B2B terms is valid if agreed in writing (art. 25 Reg. 1215/2012); make the quote/order confirmation refer to and accept these conditions (click-wrap/written acceptance, CJEU C-322/14 El Majdoub). https://eur-lex.europa.eu/eli/reg/2012/1215/oj"
+ },
+ {
+  "page": "legal.txt",
+  "line": 63,
+  "old": "la corrispondenza Pantone permette di ridurle al minimo.",
+  "new": "il riferimento Pantone permette di ridurle al minimo.",
+  "severity": "low",
+  "why": "'Corrispondenza Pantone' suggests an exact Pantone match; source of truth: colour as close as possible to Pantone, never an exact promise."
+ },
+ {
+  "page": "legal.txt",
+  "line": 75,
+  "old": "Tutti gli ordini si pagano interamente in anticipo.",
+  "new": null,
+  "severity": "low",
+  "why": "Inconsistent with _common.txt line 97 ('il pagamento concordato nel preventivo') and b_fornitore.txt line 28 ('o solo quanto concordato nel preventivo'), which suggest partial payment is possible. Align. Late-payment references checked and correct: Ley 3/2004 (arts. 7-8, EUR 40 recovery costs) and Directive 2011/7/EU art. 6. https://www.boe.es/buscar/act.php?id=BOE-A-2004-21614"
+ },
+ {
+  "page": "site/it/prodotti-personalizzati-studi-fisioterapia/index.html (stat card; text from _common.txt line 82)",
+  "line": null,
+  "old": "+95%",
+  "new": null,
+  "severity": "medium",
+  "why": "On the rendered physio page (site/it/prodotti-personalizzati-studi-fisioterapia/index.html) the '+95%' figure is shown above 'Un brand coerente' without any source line (Bain does not appear on the page) and without saying what 95% refers to. Hard rule: external stats only with source. Add 'Aumentare la fidelizzazione del 5% può portare fino al 95% di utile in più. Fonte: Bain & Company / Harvard Business Review' or remove the figure; for health professionals a bare '+95%' next to a patient-facing text is best removed."
+ },
+ {
+  "page": "fisio.txt",
+  "line": 21,
+  "old": "Sedute individuali o in piccoli gruppi, sul tappetino o sul reformer. Il paziente viene più volte a settimana e ricompra le calze con l'uso.",
+  "new": "Sedute individuali o in piccoli gruppi, sul tappetino o sul reformer. Chi segue un percorso di più sedute può ricomprare le calze quando si consumano.",
+  "severity": "medium",
+  "why": "Framing visit frequency as a sales driver can be read as linking product sales to the care pathway, which the page itself says to avoid. Italian health-professional communication must be informative, not promotional (L. 145/2018, art. 1 c. 525; FNOFI codice deontologico). https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2018-12-30;145"
+ },
+ {
+  "page": "fisio.txt",
+  "line": 27,
+  "old": "Schiena, pavimento pelvico, post-parto, senior attivi. Gruppi stabili che tornano ogni settimana e che costituiscono la base della vendita alla reception.",
+  "new": "Schiena, pavimento pelvico, post-parto, senior attivi. Gruppi stabili che tornano ogni settimana.",
+  "severity": "medium",
+  "why": "Describing patient groups (post-partum, seniors) as 'the base of reception sales' is sensitive wording for a health professional; keep the page to selling an everyday product."
+ },
+ {
+  "page": "fisio.txt",
+  "line": 23,
+  "old": "Lavoro su superfici lisce o instabili, dove conta l'aderenza del piede. È la seduta in cui una calza che non scivola si nota di più.",
+  "new": "Lavoro su superfici lisce o instabili, dove la calza antiscivolo fa parte dell'attrezzatura della seduta.",
+  "severity": "low",
+  "why": "Borderline functional/health implication in a balance-training context; the page's own 'cosa evitare' list warns against claims like 'migliora il tuo equilibrio'. Neutral wording is safer."
+ },
+ {
+  "page": "fisio.txt",
+  "line": 49,
+  "old": "In Italia come nella maggior parte dei paesi, la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione , il cui rispetto è vigilato dal suo Ordine professionale.",
+  "new": "In Italia la comunicazione di un professionista sanitario è regolata dal codice deontologico della sua professione e, per la pubblicità sanitaria, dalla legge 145/2018 (art. 1, comma 525); per i fisioterapisti il rispetto del codice è vigilato dall'Ordine dei Fisioterapisti (OFI) territoriale.",
+  "severity": "low",
+  "why": "'Ordine professionale' is accurate: physiotherapists have had their own Ordini (OFI) and national federation FNOFI since DM 183/2022 under L. 3/2018 (https://fnofi.it/). Naming OFI is more precise; mentioning L.145/2018 c.525 covers health advertising. Also fixes the stray space before the comma."
+ },
+ {
+  "page": "fisio.txt",
+  "line": 50,
+  "old": "Da verificare comunque con il tuo Ordine professionale, che può precisare questa lettura in base alla tua situazione.",
+  "new": "Da verificare comunque con il tuo Ordine professionale, che può precisare questa lettura in base alla tua situazione, e con il tuo commercialista: la vendita di prodotti è un'attività commerciale distinta dalle prestazioni sanitarie (IVA al 22%, codice ATECO dedicato).",
+  "severity": "medium",
+  "why": "Physiotherapy services are VAT-exempt (art. 10 n. 18 DPR 633/1972); selling goods is a separate commercial activity (22% IVA, ATECO code, business income, possible pro-rata effects). The page's margin example assumes 22% IVA; a physio reading it could otherwise start selling without the right set-up. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1972-10-26;633"
+ },
+ {
+  "page": "home.txt",
+  "line": 119,
+  "old": "Acciaio inox a doppia parete che mantiene il freddo per 24 ore. Le accompagna ovunque. Con il tuo logo, nel tuo colore.",
+  "new": "Acciaio inox a doppia parete, termico. Le accompagna ovunque. Con il tuo logo, nel tuo colore.",
+  "severity": "medium",
+  "why": "'Mantiene il freddo per 24 ore' is a performance claim not in the source of truth (only: 1.2 L insulated tumbler). Remove or substantiate with supplier spec sheet (also in FR source)."
+ },
+ {
+  "page": "home.txt",
+  "line": 81,
+  "old": "Per questo te lo mostriamo: in 24 ore, sul materiale vero e nel tuo colore.",
+  "new": "Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino al tuo.",
+  "severity": "medium",
+  "why": "The free mockup is a digital image (mockup.txt line 17, come.txt line 6); 'sul materiale vero' suggests a physical sample, and 'nel tuo colore' (FR: 'couleur exacte') edges toward an exact-colour promise."
+ },
+ {
+  "page": "socks.txt",
+  "line": 11,
+  "old": "Le calze antiscivolo sono obbligatorie nella maggior parte delle lezioni di pilates e yoga, sul reformer come sul tappetino.",
+  "new": "Le calze antiscivolo sono richieste in molti studi di pilates, soprattutto sul reformer, e si usano anche in alcune lezioni di yoga.",
+  "severity": "medium",
+  "why": "Unverifiable and contradicted by the yoga page ('Nello yoga molte praticano a piedi nudi'). Avoid generalised factual claims without source."
+ },
+ {
+  "page": "b_kit.txt",
+  "line": 29,
+  "old": "Sul reformer come sul tappetino, le calze antiscivolo sono di solito richieste.",
+  "new": "In molti studi, soprattutto sul reformer, le calze antiscivolo sono richieste.",
+  "severity": "low",
+  "why": "Same overgeneralisation as socks.txt line 11."
+ },
+ {
+  "page": "chisiamo.txt",
+  "line": 38,
+  "old": "Tre prodotti con il logo del tuo studio: calze antiscivolo (logo intessuto o ricamato, mai stampato), tumbler termici da 1,2 L e tote bag.",
+  "new": "Quattro prodotti con il logo del tuo studio: calze antiscivolo (logo intessuto o ricamato, mai stampato), tumbler termici da 1,2 L, tote bag in cotone e il telo per Reformer Calma (da 50 pezzi, prezzo su preventivo).",
+  "severity": "medium",
+  "why": "Contradicts home.txt line 114 ('Quattro prodotti') and the Reformer towel offer. Entity facts used by AI answers should be consistent."
+ },
+ {
+  "page": "chisiamo.txt",
+  "line": 19,
+  "old": "Prodotti personalizzati (B2B) per studi di pilates e yoga: calze antiscivolo, tumbler termici e tote bag con il logo dello studio",
+  "new": "Prodotti personalizzati (B2B) per studi di pilates, yoga e barre e studi di fisioterapia: calze antiscivolo, tumbler termici, tote bag e teli per Reformer con il logo dello studio",
+  "severity": "low",
+  "why": "Company fact sheet omits the towel and the barre/physio audiences served elsewhere (legal.txt line 18, faq.txt line 45). Same in chisiamo line 25 'Esclusivamente studi di pilates e yoga'."
+ },
+ {
+  "page": "_common.txt",
+  "line": 153,
+  "old": "Per le calze antiscivolo, 50 paia. Per le tote bag il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.",
+  "new": "Per le calze antiscivolo, 50 paia. Per le tote bag e il telo per Reformer il minimo è di 50 pezzi. Per i tumbler termici prepariamo un preventivo su misura in base alla quantità.",
+  "severity": "low",
+  "why": "Towel minimum (from 50 units) missing from the minimum-order answer."
+ },
+ {
+  "page": "b_fornitore.txt",
+  "line": 19,
+  "old": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione dell'immagine.",
+  "new": "Produzione e consegna richiedono in genere circa 4 settimane dall'approvazione del preventivo e dal pagamento.",
+  "severity": "medium",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event. Same sentence on line 32."
+ },
+ {
+  "page": "b_fornitore.txt",
+  "line": 21,
+  "old": "e produzione e consegna, gratuita in tutta Europa, richiedono circa 4 settimane.",
+  "new": "e produzione e consegna, gratuita in tutta Europa, richiedono circa 4 settimane dopo l'approvazione del preventivo e il pagamento.",
+  "severity": "low",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event."
+ },
+ {
+  "page": "b_kit.txt",
+  "line": 51,
+  "old": "Produzione e consegna: circa 4 settimane dalla tua approvazione, con spedizione gratuita in tutta Europa.",
+  "new": "Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, con spedizione gratuita in tutta Europa.",
+  "severity": "medium",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event. Also lines 45 ('dall'approvazione del mockup') and 62 ('dall'approvazione')."
+ },
+ {
+  "page": "b_calze.txt",
+  "line": 17,
+  "old": "una volta approvato, produzione e consegna richiedono circa 4 settimane",
+  "new": "una volta approvati il preventivo e il pagamento, produzione e consegna richiedono circa 4 settimane",
+  "severity": "medium",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event. Same on line 27."
+ },
+ {
+  "page": "b_tote.txt",
+  "line": 26,
+  "old": "Una volta approvato, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.",
+  "new": "Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono circa 4 settimane, spedizione gratuita in tutta Europa.",
+  "severity": "medium",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event."
+ },
+ {
+  "page": "b_prezzo.txt",
+  "line": 44,
+  "old": "Produzione e consegna: circa 4 settimane dalla tua approvazione, spedizione gratuita in tutta Europa.",
+  "new": "Produzione e consegna: circa 4 settimane dall'approvazione del preventivo e dal pagamento, spedizione gratuita in tutta Europa.",
+  "severity": "medium",
+  "why": "Source of truth: production + delivery about 4 weeks after quote approval AND payment, not after mockup/image approval. Time promises should start from the right event. Same issue on line 54 ('Una volta approvato, ...')."
+ },
+ {
+  "page": "home.txt",
+  "line": 137,
+  "old": "Una risposta personale, in giornata.",
+  "new": "Una risposta personale, entro 24 ore.",
+  "severity": "low",
+  "why": "'In giornata' (same day) is a stronger promise than the 24 h stated everywhere else."
+ },
+ {
+  "page": "home.txt",
+  "line": 105,
+  "old": "Controlliamo ogni paio, uno per uno, prima dell'imballaggio.",
+  "new": null,
+  "severity": "low",
+  "why": "Per-pair inspection is not in the source of truth (also _common.txt line 89, come.txt line 7 'ogni pezzo'). Keep only if the producer really inspects 100%; otherwise 'Controlliamo la qualità prima dell'imballaggio'."
+ },
+ {
+  "page": "b_prezzo.txt",
+  "line": 9,
+  "old": "Non ci sono costi di progettazione né costi di preparazione del logo.",
+  "new": null,
+  "severity": "low",
+  "why": "Not in the source of truth (no setup/design fee stated). Confirm with pricing policy; if quotes can include a setup fee for embroidery/jacquard, remove."
+ },
+ {
+  "page": "_common.txt",
+  "line": 147,
+  "old": "L'85% delle persone ricorda il marchio di un prodotto che ha indossato.",
+  "new": null,
+  "severity": "low",
+  "why": "Check the wording against the ASI study: the ASI figure is about recall of the advertiser on a promotional product received, not specifically one 'worn'. The same sentence is used for the tumbler and tote (tumbler.txt line 14), where 'indossato' does not fit. Suggested: 'L'85% delle persone ricorda il marchio di un prodotto promozionale ricevuto.' Keep the source line next to every use."
+ },
+ {
+  "page": "b_fornitore.txt",
+  "line": 19,
+  "old": "Diffida di tempi molto più brevi per un prodotto personalizzato: il più delle volte significano merce generica già prodotta, non un ordine fatto per te.",
+  "new": "Tempi molto più brevi per un prodotto personalizzato meritano una domanda: chiedi se si tratta di merce già prodotta.",
+  "severity": "low",
+  "why": "Unsubstantiated generalisation about competitors ('il più delle volte'); low risk of denigration claims (art. 2598 c.c.; Ley 3/1991 art. 9)."
+ },
+ {
+  "page": "home.txt",
+  "line": 265,
+  "old": "Tejido",
+  "new": null,
+  "severity": "low",
+  "why": "Spanish value of hidden form field sockTech (value=\"Tejido\") on site/it/index.html; harmless for users but inconsistent; data-tech values could be Italian or neutral codes. Also towel colour names lines 201-206 are Spanish (Carbón, Niebla...); fine only if they are fixed product names."
+ },
+ {
+  "page": "site/it/tote-bag-personalizzata/index.html (Product JSON-LD)",
+  "line": null,
+  "old": "\"price\": \"6.50\"",
+  "new": null,
+  "severity": "low",
+  "why": "Product offers on socks/tote/tumbler pages lack priceSpecification.valueAddedTaxIncluded:false and eligibleCustomerType/B2B hints, so Google may show the wholesale ex-VAT price as a consumer price; the tote offer also lacks eligibleQuantity minValue 50. The home Service catalog has these correctly."
+ }
+]
