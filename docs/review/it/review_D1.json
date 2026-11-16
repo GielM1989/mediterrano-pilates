@@ -1,0 +1,268 @@
+[
+ {
+  "page": "home",
+  "line": 17,
+  "old": "Ecco cosa ti rende ↓",
+  "new": "Ecco quanto ti rende ↓",
+  "why": "“rende” si riferisce al guadagno: “quanto”, non “cosa”"
+ },
+ {
+  "page": "home",
+  "line": 29,
+  "old": "La maggior parte degli studi investe tutto in ciò che accade dentro: le macchine, la luce, la lezione. A ciò che esce dalla porta resta quel che avanza del budget. Eppure le tue allieve portano comunque il tuo brand a casa. Merita quindi lo stesso livello del resto del tuo studio.",
+  "new": "La maggior parte degli studi investe tutto in ciò che accade dentro: le macchine, la luce, la lezione. A ciò che esce dalla porta resta quel che avanza del budget. Eppure le tue allieve portano comunque a casa il tuo brand, che merita quindi lo stesso livello del resto del tuo studio.",
+  "why": "soggetto ambiguo di “Merita”: si lega esplicitamente al brand"
+ },
+ {
+  "page": "home",
+  "line": 39,
+  "old": "Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. E a volte è proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” E su Instagram compare anche in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.",
+  "new": "Il tuo logo arriva fino al cancello della scuola, in palestra e al supermercato: tutti quei posti che tu non raggiungi. E a volte è proprio lì che qualcuno chiede: “Scusa, dove l'hai presa questa borsa?” Su Instagram, poi, compare in ogni foto di reformer condivisa. Pubblicità gratuita, ogni giorno.",
+  "why": "evita la doppia ripresa “E a volte… E su Instagram”"
+ },
+ {
+  "page": "home",
+  "line": 42,
+  "old": "Vede la calza sullo stendino e pensa: “Devo rimettermi a fare pilates.” E quello che vede è il tuo logo. Così torna nel tuo studio, non in quello di fronte. A volte è proprio la spinta che le serviva per prenotare quella lezione in più questa settimana, semplicemente perché il tuo brand gliel'ha ricordato. I tuoi prodotti tengono vivo il tuo nome, anche nelle settimane in cui non viene.",
+  "new": "Un'allieva vede la calza sullo stendino e pensa: “Devo rimettermi a fare pilates.” E quello che vede è il tuo logo. Così torna nel tuo studio, non in quello di fronte. A volte è proprio la spinta che le serviva per prenotare quella lezione in più questa settimana, semplicemente perché il tuo brand gliel'ha ricordato. I tuoi prodotti tengono vivo il tuo nome, anche nelle settimane in cui non viene.",
+  "why": "soggetto mancante: dopo il titolo al plurale “Vede” resta sospeso"
+ },
+ {
+  "page": "home",
+  "line": 81,
+  "old": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Saprai se rende bene solo vedendolo dal vero. Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino al tuo. Per ridurre al minimo le sorprese sul tuo brand.",
+  "new": "Conosci la sensazione: un logo incollato sulla foto di un prodotto generico non ti dice niente. Capisci se funziona solo quando lo vedi sul prodotto. Per questo te lo mostriamo: in 24 ore, in un'immagine realistica del prodotto, nel colore più vicino al tuo. Così riduci al minimo le sorprese.",
+  "why": "“dal vero” contraddice il mockup digitale; “sorprese sul tuo brand” è un calco"
+ },
+ {
+  "page": "home",
+  "line": 90,
+  "old": "Il premium non è solo il prodotto. È anche il fatto che tu non debba fare nulla: dal primo mockup allo scatolone davanti alla porta del tuo studio, ci occupiamo di tutto noi.",
+  "new": "Il premium non è solo il prodotto. È anche il fatto che tu non debba fare nulla: dal primo mockup al pacco davanti alla porta del tuo studio, ci occupiamo di tutto noi.",
+  "why": "“scatolone” troppo colloquiale per un registro premium"
+ },
+ {
+  "page": "home",
+  "line": 94,
+  "old": "Una email, niente di più.",
+  "new": "Un'email, niente di più.",
+  "why": "forma standard con elisione, coerente con “un'anteprima”"
+ },
+ {
+  "page": "home",
+  "line": 99,
+  "old": "Riproduciamo il colore in base al codice Pantone.",
+  "new": "Riproduciamo il colore del tuo brand.",
+  "why": "evita “codice Pantone” ripetuto due volte di seguito (99+100)"
+ },
+ {
+  "page": "home",
+  "line": 100,
+  "old": "Il più vicino possibile al codice Pantone del tuo brand.",
+  "new": "Il più vicino possibile al suo codice Pantone.",
+  "why": "vedi riga 99; mantiene la formula della casa"
+ },
+ {
+  "page": "home",
+  "line": 116,
+  "old": "Spesso obbligatorie a lezione, soprattutto sul Reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.",
+  "new": "Spesso obbligatorie a lezione, soprattutto sul reformer. Maglia fine, grip in PVC o silicone su tutta la suola e il tuo logo intessuto o ricamato, nel tuo colore. Da 50 paia.",
+  "why": "coerenza: la macchina è minuscola altrove (home 19, 39; socks 11); maiuscola solo in “telo per Reformer”"
+ },
+ {
+  "page": "home",
+  "line": 119,
+  "old": "Acciaio inox a doppia parete, termico. Le accompagna ovunque. Con il tuo logo, nel tuo colore.",
+  "new": "Termico, in acciaio inox a doppia parete. Le accompagna ovunque. Con il tuo logo, nel tuo colore.",
+  "why": "“a doppia parete, termico” ha un ordine innaturale"
+ },
+ {
+  "page": "home",
+  "line": 133,
+  "old": "Inizia con calma e amplia quando vuoi.",
+  "new": "Inizia con calma e aumenta le quantità quando vuoi.",
+  "why": "“amplia” senza complemento suona tradotto"
+ },
+ {
+  "page": "home",
+  "line": 144,
+  "old": "Consigli per presentarli, al prezzo giusto e al momento giusto.",
+  "new": "Consigli su come presentarli, a che prezzo e in quale momento.",
+  "why": "“per presentarli, al prezzo giusto” è sintatticamente zoppo"
+ },
+ {
+  "page": "home",
+  "line": 157,
+  "old": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E il tuo brand non ha bisogno di anni per meritarselo: esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.",
+  "new": "No. Puoi iniziare con 50 paia, senza rischi di magazzino. E non servono anni per avere un brand: il tuo esiste dal giorno in cui la tua prima allieva è tornata. Con il mockup gratuito vedi tutto prima di decidere qualsiasi cosa.",
+  "why": "“meritarselo” non ha un referente chiaro (calco di “pour le mériter”)"
+ },
+ {
+  "page": "home",
+  "line": 159,
+  "old": "È un dubbio comprensibile, e a ragione: un prodotto scadente con il tuo logo abbassa davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore il più vicino possibile al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.",
+  "new": "È un dubbio legittimo: un prodotto scadente con il tuo logo danneggia davvero l'immagine del tuo brand. Per questo riproduciamo il tuo colore il più vicino possibile al codice Pantone, ti inviamo dei campioni il cui importo viene scalato per intero dal tuo primo ordine e non produciamo nulla finché non hai approvato il design.",
+  "why": "“comprensibile, e a ragione” è ridondante; “abbassa l'immagine” è poco idiomatico"
+ },
+ {
+  "page": "home",
+  "line": 162,
+  "old": "Il mockup lo ricevi in 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna richiedono in tutto circa quattro settimane fino al tuo studio. Ti aggiorniamo a ogni passaggio, così sai sempre a che punto è il tuo ordine.",
+  "new": "Il mockup lo ricevi in 24 ore. Una volta approvato il preventivo ed effettuato il pagamento, produzione e consegna nel tuo studio richiedono in tutto circa quattro settimane. Ti aggiorniamo a ogni passaggio, così sai sempre a che punto è il tuo ordine.",
+  "why": "“fino al tuo studio” in coda alla frase è goffo"
+ },
+ {
+  "page": "home",
+  "line": 169,
+  "old": "Sì, e te lo consigliamo prima del primo ordine. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.",
+  "new": "Sì, ed è proprio quello che ti consigliamo di fare. Ti inviamo un kit di campioni (calza, tumbler termico e tote bag) per un piccolo importo, scalato per intero dal tuo primo ordine. Se prosegui, i campioni sono di fatto gratuiti. Chiedilo nella tua richiesta di mockup o rispondendo al mockup che ti inviamo.",
+  "why": "evita “prima del primo”"
+ },
+ {
+  "page": "_common",
+  "line": 138,
+  "old": "Ordine da 50 paia, così anche un piccolo studio può iniziare senza correre un grosso rischio di magazzino.",
+  "new": "Ordine minimo di 50 paia, così anche un piccolo studio può iniziare senza correre un grosso rischio di magazzino.",
+  "why": "“Ordine da 50 paia” è ambiguo: si intende il minimo"
+ },
+ {
+  "page": "socks",
+  "line": 17,
+  "old": "Suola con grip in PVC o silicone, taglio a metà polpaccio, materiale conforme a REACH e il tuo logo intessuto o ricamato nella maglia, una finitura più duratura della solita stampa. È la calza di cui le tue allieve hanno bisogno e che indossano a ogni lezione, parte della loro attrezzatura da pilates, ed è per questo che la comprano volentieri. Confrontala con la calza tecnica che indossano già.",
+  "new": "Suola con grip in PVC o silicone, taglio a metà polpaccio, materiale conforme a REACH e il tuo logo intessuto o ricamato nella maglia, una finitura più duratura della solita stampa. È la calza di cui le tue allieve hanno bisogno a ogni lezione, parte della loro attrezzatura da pilates: per questo la comprano volentieri. Confrontala con la calza tecnica che indossano già.",
+  "why": "frase troppo appesantita da incisi in serie"
+ },
+ {
+  "page": "socks",
+  "line": 24,
+  "old": "Quanto costano le calze personalizzate con logo e quanto margine posso guadagnare?",
+  "new": "Quanto costano le calze personalizzate con logo e quanto margine mi resta?",
+  "why": "“guadagnare margine” è un calco; coerente con “ti restano … di margine” nella risposta"
+ },
+ {
+  "page": "tumbler",
+  "line": 16,
+  "old": "Quanto costa un tumbler termico personalizzato con logo e quanto margine posso guadagnare?",
+  "new": "Quanto costa un tumbler termico personalizzato con logo e quanto margine mi resta?",
+  "why": "come socks 24"
+ },
+ {
+  "page": "tumbler",
+  "line": 34,
+  "old": "LD Prezzo all'ingrosso di riferimento a pezzo, per gli studi di pilates e yoga che rivendono alle loro allieve. Ordine minimo in base alla quantità, preventivo su misura. Prezzi IVA esclusa.",
+  "new": "LD Prezzo all'ingrosso di riferimento a pezzo, per gli studi di pilates e yoga che rivendono alle loro allieve. Nessun ordine minimo fisso, preventivo su misura in base alla quantità. Prezzi IVA esclusa.",
+  "why": "“Ordine minimo in base alla quantità” è contraddittorio e incoerente con la pagina (“Nessun ordine minimo fisso”)"
+ },
+ {
+  "page": "tote",
+  "line": 16,
+  "old": "Quanto costa una tote bag personalizzata con logo e quanto margine posso guadagnare?",
+  "new": "Quanto costa una tote bag personalizzata con logo e quanto margine mi resta?",
+  "why": "come socks 24"
+ },
+ {
+  "page": "prezzi",
+  "line": 42,
+  "old": "Prezzo d'acquisto IVA esclusa, prezzo di vendita consigliato IVA inclusa e margine al netto dell'IVA di calze antiscivolo, tumbler termici e tote bag con il tuo logo.",
+  "new": "Prezzo d'acquisto, prezzo di vendita consigliato e margine al netto dell'IVA di calze antiscivolo, tumbler termici e tote bag con il tuo logo.",
+  "why": "meta description di 166 caratteri: oltre il limite di 155"
+ },
+ {
+  "page": "faq",
+  "line": 8,
+  "old": "Da Mediterrano Pilates. Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Personalizziamo calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, perché tu li venda alle tue allieve.",
+  "new": "Da Mediterrano Pilates, il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Personalizziamo calze antiscivolo, tumbler termici e tote bag con il logo del tuo studio, perché tu li venda alle tue allieve.",
+  "why": "evita “Da Mediterrano Pilates. Mediterrano Pilates è…”"
+ },
+ {
+  "page": "faq",
+  "line": 12,
+  "old": "Tre prodotti che le tue allieve usano già: calze antiscivolo (un prodotto che usano a ogni lezione), un tumbler termico da 1,2 L e una tote bag in cotone. Tutti si personalizzano con il logo del tuo studio.",
+  "new": "Tre prodotti che le tue allieve usano già: calze antiscivolo (che servono a ogni lezione), un tumbler termico da 1,2 L e una tote bag in cotone. Tutti e tre si personalizzano con il logo del tuo studio.",
+  "why": "ripetizione “usano già… usano a ogni lezione”"
+ },
+ {
+  "page": "faq",
+  "line": 20,
+  "old": "Quanto costano le calze da pilates personalizzate con logo e quanto margine posso guadagnare?",
+  "new": "Quanto costano le calze da pilates personalizzate con logo e quanto margine mi resta?",
+  "why": "come socks 24"
+ },
+ {
+  "page": "faq",
+  "line": 41,
+  "old": "Personalizzate calze antiscivolo per gli studi di yoga?",
+  "new": "Personalizzate calze antiscivolo anche per gli studi di yoga?",
+  "why": "senza “anche” la domanda suona brusca e tradotta"
+ },
+ {
+  "page": "faq",
+  "line": 45,
+  "old": "Sì, purché si tratti di uno studio di pilates, yoga o barre, o di uno studio di fisioterapia: sono queste le aziende con cui lavoriamo. Personalizziamo le calze con il tuo logo da 50 paia, a circa 6,95 € al paio IVA esclusa.",
+  "new": "Sì, purché si tratti di uno studio di pilates, yoga o barre, o di uno studio di fisioterapia: sono queste le aziende con cui lavoriamo. Personalizziamo le calze con il tuo logo a partire da 50 paia, a circa 6,95 € al paio IVA esclusa.",
+  "why": "“con il tuo logo da 50 paia” si legge come “logo da 50 paia”"
+ },
+ {
+  "page": "mockup",
+  "line": 13,
+  "old": "Il tuo logo (o una descrizione del tuo brand) e i prodotti che ti interessano. Con questo prepariamo una prima bozza in 24 ore.",
+  "new": "Il tuo logo (o una descrizione del tuo brand) e i prodotti che ti interessano. Ci basta questo per preparare una prima bozza in 24 ore.",
+  "why": "“Con questo” non concorda con due elementi"
+ },
+ {
+  "page": "mockup",
+  "line": 17,
+  "old": "È un'anteprima digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup vale come bozza approvata per la produzione, e insieme ti arriva il preventivo.",
+  "new": "È un'anteprima digitale del tuo logo posizionato sul prodotto scelto, calza antiscivolo, tumbler termico o tote bag, nel colore del tuo brand. Puoi chiedere modifiche a colore, dimensione e posizione prima di approvare; una volta approvato, il mockup diventa il riferimento per la produzione e con esso ti arriva il preventivo.",
+  "why": "ripetizione “approvato… approvata”"
+ },
+ {
+  "page": "chisiamo",
+  "line": 1,
+  "old": "Mediterrano Pilates · chi siamo",
+  "new": "Chi siamo · Mediterrano Pilates",
+  "why": "stesso schema “Pagina · Mediterrano Pilates” dei title delle altre pagine"
+ },
+ {
+  "page": "chisiamo",
+  "line": 9,
+  "old": "Una cosa mi ha sempre colpito: tutto ciò che circonda questa disciplina è bello quanto la disciplina stessa. La calma di uno studio ben curato, quella luce del mattino, il modo in cui tutto è pensato fino all'ultimo dettaglio. A volte mi sono chiesto: non dovrei investirci?",
+  "new": "Una cosa mi ha sempre colpito: tutto ciò che la circonda è bello quanto la disciplina stessa. La calma di uno studio ben curato, quella luce del mattino, il modo in cui tutto è pensato fino all'ultimo dettaglio. A volte mi sono chiesto: non dovrei investirci?",
+  "why": "“disciplina” tre volte in due frasi (anche nel titolo sopra)"
+ },
+ {
+  "page": "chisiamo",
+  "line": 10,
+  "old": "Quello che ho notato, invece, con la mia esperienza nel branding e nell'e-commerce: vedevo ovunque lo stesso schema. Spazi splendidi, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto.",
+  "new": "Con la mia esperienza nel branding e nell'e-commerce, però, ho notato un'altra cosa: ovunque vedevo lo stesso schema. Spazi splendidi, ottime lezioni e poi, alla reception, una calza che non c'entrava niente con il resto.",
+  "why": "anacoluto (“Quello che ho notato…: vedevo…”)"
+ },
+ {
+  "page": "chisiamo",
+  "line": 19,
+  "old": "Prodotti personalizzati (B2B) per studi di pilates, yoga e barre e studi di fisioterapia: calze antiscivolo, tumbler termici, tote bag e teli per Reformer con il logo dello studio",
+  "new": "Prodotti personalizzati (B2B) per studi di pilates, yoga, barre e fisioterapia: calze antiscivolo, tumbler termici, tote bag e teli per Reformer con il logo dello studio",
+  "why": "“e barre e studi di” pesante"
+ },
+ {
+  "page": "legal",
+  "line": 18,
+  "old": "Mediterrano Pilates è un marchio di Ecomtierra Group SL. Lavoriamo dalla Spagna e forniamo prodotti personalizzati a clienti professionali (studi di pilates, yoga e barre e studi di fisioterapia) in Italia, in Svizzera e nel resto d'Europa.",
+  "new": "Mediterrano Pilates è un marchio di Ecomtierra Group SL. Lavoriamo dalla Spagna e forniamo prodotti personalizzati a clienti professionali (studi di pilates, yoga, barre e fisioterapia) in Italia, in Svizzera e nel resto d'Europa.",
+  "why": "come chisiamo 19"
+ },
+ {
+  "page": "legal",
+  "line": 55,
+  "old": "Alla tua prima visita, un banner ti propone “Accetta tutto” o “Rifiuta tutto”, con la stessa evidenza, oppure di scegliere le singole finalità con “Personalizza”. Chiudere il banner con la X equivale a rifiutare. Finché non scegli, nessuno strumento di misurazione viene caricato. Il sito funziona allo stesso modo in tutti i casi.",
+  "new": "Alla tua prima visita, un banner ti permette di scegliere “Accetta tutto” o “Rifiuta tutto”, con la stessa evidenza, oppure di selezionare le singole finalità con “Personalizza”. Chiudere il banner con la X equivale a rifiutare. Finché non scegli, nessuno strumento di misurazione viene caricato. Il sito funziona allo stesso modo in tutti i casi.",
+  "why": "costruzione incoerente “ti propone X… oppure di scegliere”"
+ },
+ {
+  "page": "legal",
+  "line": 83,
+  "old": "Le informazioni pubblicate su questo sito (compresi il blog, le pagine prodotto e le pagine per settore) hanno carattere generale e informativo. Non costituiscono una consulenza legale, fiscale, medica o professionale di alcun tipo e non sostituiscono il parere del tuo Ordine professionale, della tua federazione o del tuo consulente. Quando citiamo una normativa, lo facciamo secondo una nostra lettura alla data di pubblicazione; può cambiare ed essere diversa nel tuo paese. Prima di qualsiasi decisione basata su questi contenuti, verificala con un professionista qualificato. Ecomtierra Group SL declina ogni responsabilità per decisioni prese unicamente sulla base delle informazioni di questo sito.",
+  "new": "Le informazioni pubblicate su questo sito (compresi il blog, le pagine prodotto e le pagine per settore) hanno carattere generale e informativo. Non costituiscono una consulenza legale, fiscale, medica o professionale di alcun tipo e non sostituiscono il parere del tuo Ordine professionale, della tua federazione o del tuo consulente. Quando citiamo una normativa, lo facciamo secondo una nostra lettura alla data di pubblicazione; può cambiare ed essere diversa nel tuo paese. Prima di qualsiasi decisione basata su questi contenuti, verifica le informazioni con un professionista qualificato. Ecomtierra Group SL declina ogni responsabilità per decisioni prese unicamente sulla base delle informazioni di questo sito.",
+  "why": "“verificala” si riferisce alla decisione, non alle informazioni"
+ }
+]
