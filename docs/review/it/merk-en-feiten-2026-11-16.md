@@ -86,7 +86,7 @@ Inkoop is de groothandelsprijs exclusief btw. Adviesprijs is wat het lid betaalt
 
 ## Contact en tracking (bevestigd)
 - WhatsApp: +31 6 57408010. Instagram: @mediterranopilates. LinkedIn-bedrijfspagina live.
-- GA4 `G-Q9SY1F5KKF`, Meta Pixel `1591577842375803`. Dit zijn eigen accounts van de klant. (Let op: in de broncode van de site staat Pixel-ID `868975239639188`; laten bevestigen welke juist is.)
+- GA4 `G-Q9SY1F5KKF`, Meta Pixel `868975239639188` ("mediterranopilates pixel", aangemaakt 21-10-2026, de enige pixel in advertentieaccount 1104291388727719; gecontroleerd 16-11-2026: actief, PageView, Lead en Contact komen binnen). Het oude ID 1591577842375803 niet meer gebruiken.
 - Formulier `mockup-aanvraag` (Netlify Forms), meldingen naar hola@mediterranopilates.com. Bevat referrer, landingspagina en UTM's.
 - Meta-advertentieaccount "Mediterrano Pilates" (1104291388727719). Campagnes "Leads campaign" en "ES - Ad 2 ES - Leads". Een groot deel van de aanvragen kwam via deze advertenties; sinds 03-11-2026 gepauzeerd.
 
