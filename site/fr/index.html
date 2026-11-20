@@ -2411,6 +2411,35 @@ footer a{white-space:nowrap}
 })();
 </script>
 
+<!-- ============ ADVERTENTIEVERKEER: DIRECT NAAR HET FORMULIER ============ -->
+<!-- Bezoekers uit een advertentie (utm_medium=paid) landen meteen bij het mockupformulier,
+     op desktop en mobiel. Overig verkeer (organisch, bio-link, blog) blijft bovenaan beginnen. -->
+<script>
+(function(){
+  try{
+    var p = new URLSearchParams(location.search);
+    if (p.get('utm_medium') !== 'paid' || location.hash) return;
+    var target = document.getElementById('mockup-form');
+    if (!target) return;
+    var touched = false;
+    ['touchstart','wheel','keydown','mousedown'].forEach(function(ev){
+      window.addEventListener(ev, function(){ touched = true; }, {passive:true, once:true});
+    });
+    function jump(){
+      if (touched) return;
+      var root = document.documentElement;
+      var prev = root.style.scrollBehavior;
+      root.style.scrollBehavior = 'auto';           /* direct springen, niet 20 schermen animeren */
+      target.scrollIntoView({block:'start'});
+      root.style.scrollBehavior = prev;
+    }
+    jump();
+    /* afbeeldingen die later laden verschuiven de pagina: daarna nog een keer goedzetten */
+    window.addEventListener('load', function(){ jump(); setTimeout(jump, 600); });
+  }catch(e){}
+})();
+</script>
+
 <!-- ============ TAALKEUZE ONTHOUDEN ============ -->
 <script>
 (function(){
