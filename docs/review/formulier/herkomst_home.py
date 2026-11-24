@@ -1,4 +1,4 @@
-"""Herkomstvraag + eerste bron in het mockupformulier van de 6 homepages (idempotent)."""
+"""Eerste bron (zonder zichtbare vraag; die is op 24-11-2026 geschrapt) in het mockupformulier van de 6 homepages (idempotent)."""
 import re, sys
 ROOT = sys.argv[1] if len(sys.argv) > 1 else 'site'
 SEL_STYLE = ("width:100%;background:var(--cream);border:1.5px solid var(--line);border-radius:14px;"
@@ -47,7 +47,7 @@ FT_JS = r"""<script data-mp="first-touch">
 
 def patch(t, lang):
     label, ph, opts = T[lang]
-    if 'id="hoe_gevonden"' not in t:
+    if False:  # zichtbare herkomstvraag geschrapt (klantbesluit 24-11-2026: geen extra veld in het formulier)
         opt = '\n'.join(f'              <option value="{v}">{o}</option>' for v, o in zip(VALUES, opts))
         block = (f'          <div class="field">\n'
                  f'            <label for="hoe_gevonden">{label}</label>\n'
@@ -75,8 +75,8 @@ if __name__ == '__main__':
         if n != s: open(f, 'w', encoding='utf-8').write(n); print('bijgewerkt', f)
         else: print('al gedaan', f)
     f = f'{ROOT}/__forms.html'; s = open(f, encoding='utf-8').read()
-    if 'name="hoe_gevonden"' not in s:
+    if 'name="first_landing"' not in s:
         s = s.replace('  <input type="hidden" name="landing_page" />\n',
                       '  <input type="hidden" name="landing_page" />\n  <input type="hidden" name="first_source" />\n'
-                      '  <input type="hidden" name="first_landing" />\n  <select name="hoe_gevonden"><option value="">-</option></select>\n')
-        assert 'hoe_gevonden' in s; open(f, 'w', encoding='utf-8').write(s); print('bijgewerkt', f)
+                      '  <input type="hidden" name="first_landing" />\n')
+        assert 'first_landing' in s; open(f, 'w', encoding='utf-8').write(s); print('bijgewerkt', f)
