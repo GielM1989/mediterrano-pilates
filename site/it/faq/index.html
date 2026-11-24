@@ -1104,6 +1104,24 @@ footer a{white-space:nowrap}
 .cookie-actions{flex-wrap:wrap}
 @media (max-width:560px){.cookie-actions .cookie-btn{flex:1 1 30%}.cookie-choices{font-size:.75rem;gap:4px 12px}}
 </style>
+<style data-mp-form-css>.mw-dropzone-file[hidden]{display:none}
+.mw-sock-panel{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:20px 18px;margin-top:24px;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
+.mw-sock-panel .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 1px 4px rgba(46,64,52,.14)}
+.mw-sock-panel .mw-swatch.is-selected .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 0 0 2px var(--terra),0 2px 6px rgba(46,64,52,.16)}
+.mw-sock-panel .mw-field-custom-color{margin-bottom:4px}
+.mw-style-card svg{color:var(--terra);margin-bottom:2px;flex-shrink:0}
+.mw-insta-note{font-size:.9rem;line-height:1.45;color:var(--ink);background:#fff;border:1px solid var(--line);border-left:3px solid var(--terra);border-radius:12px;padding:12px 14px;margin:16px 0 12px}
+.mw-insta-note b{color:var(--terra-2)}
+.op-form .mw-card-label{font-size:.85rem;padding:8px 10px;line-height:1.25}
+.op-form .mw-dropzone{padding:16px 14px}
+.op-form .mw-dropzone-empty{gap:6px}
+.nav-cta .btn-wa{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1.5px rgba(245,238,224,.4)}
+.nav-cta .btn-wa:hover{background:rgba(245,238,224,.08)}
+.nav-cta .btn-wa svg{color:#25D366}
+@media (max-width:1499px){
+.nav-cta .btn-wa span{display:none}
+.nav-cta .btn-wa{padding:11px 13px}
+}</style><!-- /mp-form-css -->
 </head>
 <body>
 <div class="topbar" aria-label="Vantaggi">
@@ -1143,7 +1161,7 @@ footer a{white-space:nowrap}
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.91-9.91a9.82 9.82 0 00-2.9-7.02zm-7.01 15.24h-.01a8.2 8.2 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 015.82 2.42 8.18 8.18 0 012.41 5.82c-.01 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.06 0 1.21.88 2.38 1.01 2.55.12.16 1.74 2.66 4.21 3.73.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
         <span>Scrivici</span>
       </a>
-      <a class="btn" href="/it/#mockup-form">Mockup gratuito</a>
+      <a class="btn" href="#mockup-form">Mockup gratuito</a>
     </div>
   </div>
 </nav>
@@ -1152,7 +1170,7 @@ footer a{white-space:nowrap}
     <span class="kicker"><span class="kicker-lead">Domande frequenti</span> sui prodotti personalizzati per studi di pilates e yoga</span>
     <h1>Le domande che ogni studio si fa <span class="fx">prima di decidere.</span></h1>
     <p class="sub">Mediterrano Pilates è il partner degli studi di pilates e yoga per i loro prodotti personalizzati. Ecco le risposte complete su prezzi, ordini minimi, tempi, IVA e spedizione, senza dover prima chiedere un preventivo.</p>
-    <p style="margin-top:28px"><a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a></p>
+    <p style="margin-top:28px"><a class="btn" href="#mockup-form">Richiedi il tuo mockup gratuito</a></p>
   </div>
 </header>
 
@@ -1295,14 +1313,471 @@ footer a{white-space:nowrap}
   </div>
 </div>
 
-<section class="sheet green">
-  <div class="wrap" style="padding:56px 0;text-align:center">
-    <h2 style="max-width:none">Non trovi la tua domanda?</h2>
-    <p style="margin:18px auto 28px;max-width:36em;color:rgba(247,243,232,.82)">Richiedi il tuo mockup gratuito e rispondiamo a tutto il resto strada facendo, senza impegno.</p>
-    <a class="btn" href="/it/#mockup-form">Richiedi il tuo mockup gratuito</a>
-    <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo personalizzate</a> · <a href="/it/tumbler-termico-personalizzato/" style="color:var(--cream);text-decoration:underline">Tumbler termici</a> · <a href="/it/tote-bag-personalizzata/" style="color:var(--cream);text-decoration:underline">Tote bag</a> · <a href="/it/chi-siamo-mediterrano-pilates/" style="color:var(--cream);text-decoration:underline">Chi è Mediterrano Pilates</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/mockup-gratuito/" style="color:var(--cream);text-decoration:underline">Mockup gratuito</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:var(--cream);text-decoration:underline">Aumenta il tuo fatturato</a> · <a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:var(--cream);text-decoration:underline">Fidelizza le tue allieve</a> · <a href="/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Come scegliere un fornitore</a> · <a href="/it/prodotti-personalizzati-studi-barre/" style="color:var(--cream);text-decoration:underline">Per gli studi di barre</a> · <a href="/it/prodotti-personalizzati-studi-fisioterapia/" style="color:var(--cream);text-decoration:underline">Per gli studi di fisioterapia</a></p>
+<!-- MP-FORM:start (gegenereerd door docs/review/formulier/inject_form.py) -->
+<section class="sheet green" id="mockup-form">
+<div class="form-section" style="padding-bottom:48px">
+  <div class="wrap form-inner">
+    <div>
+      <h2>Guarda il tuo logo <span class="fx">sul prodotto</span>.</h2>
+      <p class="intro">Raccontaci la tua idea e inviaci il tuo logo. Ti mostriamo come potrebbe essere la tua collezione.</p>
+      <p class="intro" style="font-weight:600;color:var(--ochre);font-size:.92rem">Senza impegno · Gratuito · Entro 24 ore</p>
+      <p class="risk-title">Senza sorprese:</p>
+      <ul class="points">
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Mockup gratuito, senza alcun impegno</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Ordini solo dopo aver approvato il design</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Una calza campione con il tuo logo, quando vuoi</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Spedizione gratuita, senza costi nascosti</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Risposta personale entro 24 ore</li>
+      </ul>
+      <div class="founder-note">
+        <img src="/images/sobre-mi.jpg" alt="Giel Mallens, fondatore di Mediterrano Pilates" width="58" height="58" loading="lazy" onerror="this.remove()">
+        <p>“Seguo personalmente ogni richiesta. Ricevi una risposta sincera, non un discorso commerciale.”<span>Giel Mallens, fondatore di Mediterrano Pilates</span></p>
+      </div>
+    </div>
+    <div>
+            <!-- Netlify Forms: aanvragen verschijnen in je Netlify-dashboard onder Forms -->
+      <div class="mockup-wizard" id="mockupWizard">
+        <form class="form-card mw-form op-form" id="lead-form" name="mockup-aanvraag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="mockup-aanvraag">
+          <p class="hidden-field" style="display:none"><label>Non compilare: <input name="bot-field"></label></p>
+          <input type="hidden" name="utm_source" id="utm_source">
+          <input type="hidden" name="utm_medium" id="utm_medium">
+          <input type="hidden" name="utm_campaign" id="utm_campaign">
+          <input type="hidden" name="utm_content" id="utm_content">
+          <input type="hidden" name="utm_term" id="utm_term">
+          <input type="hidden" name="referrer" id="referrer_field">
+          <input type="hidden" name="landing_page" id="landing_page_field">
+          <input type="hidden" name="first_source" id="first_source_field">
+          <input type="hidden" name="first_landing" id="first_landing_field">
+          <input type="hidden" name="language" value="it">
+          <input type="hidden" name="lead_id" id="lead_id_field">
+          <input type="hidden" name="productos_elegidos" id="productos_elegidos_field">
+          <p class="hidden-field" style="display:none"><label>Non compilare: <input name="bot-field"></label></p>
+
+          <h3 class="mw-q" style="margin:0 0 6px">Quali prodotti vuoi <span class="fx">personalizzare</span>?</h3>
+          <p class="mw-hint" style="margin:0 0 12px">Puoi sceglierne più di uno.</p>
+          <div class="mw-product-grid" id="mwProductGrid">
+              <button type="button" class="mw-card" data-product="Calze antiscivolo">
+                <picture><source srcset="/images/product-sokken.webp" type="image/webp"><img src="/images/product-sokken.jpg" width="900" height="1200" alt="Calze antiscivolo" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Calze antiscivolo</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Tumbler termico 1,2 L">
+                <picture><source srcset="/images/product-tumbler.webp" type="image/webp"><img src="/images/product-tumbler.jpg" width="900" height="1200" alt="Tumbler termico premium" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Tumbler termico premium</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Tote bag">
+                <picture><source srcset="/images/product-tote.webp" type="image/webp"><img src="/images/product-tote.jpg" width="900" height="1200" alt="Tote bag" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Tote bag</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Telo Reformer Calma">
+                <picture><source srcset="/images/product-towel.webp" type="image/webp"><img src="/images/product-towel.jpg" width="900" height="1200" alt="Telo per Reformer" style="object-position:50% 40%" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Telo per Reformer</span>
+              </button>
+            </div>
+
+          <div id="mwSockOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">Il colore delle tue calze</h3>
+              <div class="mw-color-grid" id="mwSockColors">
+                <button type="button" class="mw-swatch" data-color="Negro"><span class="mw-swatch-dot" style="--sw:#26241F"></span><span class="mw-swatch-label">Nero</span></button>
+                <button type="button" class="mw-swatch" data-color="Blanco"><span class="mw-swatch-dot" style="--sw:#FFFFFF"></span><span class="mw-swatch-label">Bianco</span></button>
+                <button type="button" class="mw-swatch" data-color="Crema"><span class="mw-swatch-dot" style="--sw:#EFE4CC"></span><span class="mw-swatch-label">Crema</span></button>
+                <button type="button" class="mw-swatch" data-color="Beige"><span class="mw-swatch-dot" style="--sw:#D8C9B0"></span><span class="mw-swatch-label">Beige</span></button>
+                <button type="button" class="mw-swatch" data-color="Gris"><span class="mw-swatch-dot" style="--sw:#9B9893"></span><span class="mw-swatch-label">Grigio</span></button>
+                <button type="button" class="mw-swatch" data-color="Rosa"><span class="mw-swatch-dot" style="--sw:#D8B4B0"></span><span class="mw-swatch-label">Rosa</span></button>
+                <button type="button" class="mw-swatch" data-color="Terracota"><span class="mw-swatch-dot" style="--sw:#C86A4A"></span><span class="mw-swatch-label">Terracotta</span></button>
+                <button type="button" class="mw-swatch" data-color="Burdeos"><span class="mw-swatch-dot" style="--sw:#7A3B47"></span><span class="mw-swatch-label">Bordeaux</span></button>
+                <button type="button" class="mw-swatch" data-color="Lavanda"><span class="mw-swatch-dot" style="--sw:#B3A4C6"></span><span class="mw-swatch-label">Lavanda</span></button>
+                <button type="button" class="mw-swatch" data-color="Verde salvia"><span class="mw-swatch-dot" style="--sw:#9CAF88"></span><span class="mw-swatch-label">Verde salvia</span></button>
+                <button type="button" class="mw-swatch" data-color="Verde oscuro"><span class="mw-swatch-dot" style="--sw:#2E4034"></span><span class="mw-swatch-label">Verde scuro</span></button>
+                <button type="button" class="mw-swatch" data-color="Azul marino"><span class="mw-swatch-dot" style="--sw:#2C3E5C"></span><span class="mw-swatch-label">Blu navy</span></button>
+                <button type="button" class="mw-swatch" data-color="Chocolate"><span class="mw-swatch-dot" style="--sw:#6B4F3A"></span><span class="mw-swatch-label">Cioccolato</span></button>
+                <button type="button" class="mw-swatch mw-swatch-custom" data-color="__custom__"><span class="mw-swatch-dot"></span><span class="mw-swatch-label">Altro</span></button>
+              </div>
+              <div class="mw-field-custom-color" id="mwCustomColor" hidden>
+                <label for="customColorInput">Che colore hai in mente?</label>
+                <input type="text" id="customColorInput" name="color_otro" placeholder="Es.: terracotta tenue, lavanda…">
+              </div>
+              <input type="hidden" name="color_calcetin" id="sockColor">
+
+              <input type="hidden" name="tecnica_logo" id="sockTech" value="Tejido">
+            </div>
+          <div id="mwTowelOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">Il colore del tuo telo</h3>
+              <div class="mw-color-grid" id="mwTowelColors">
+                <button type="button" class="mw-swatch" data-color="Lavanda"><span class="mw-swatch-dot" style="--sw:#CDBCCB"></span><span class="mw-swatch-label">Lavanda</span></button>
+                <button type="button" class="mw-swatch" data-color="Menta"><span class="mw-swatch-dot" style="--sw:#C3D2C8"></span><span class="mw-swatch-label">Menta</span></button>
+                <button type="button" class="mw-swatch" data-color="Carbón"><span class="mw-swatch-dot" style="--sw:#232323"></span><span class="mw-swatch-label">Carbón</span></button>
+                <button type="button" class="mw-swatch" data-color="Cielo"><span class="mw-swatch-dot" style="--sw:#A3BFD6"></span><span class="mw-swatch-label">Cielo</span></button>
+                <button type="button" class="mw-swatch" data-color="Niebla"><span class="mw-swatch-dot" style="--sw:#BEBDB9"></span><span class="mw-swatch-label">Niebla</span></button>
+                <button type="button" class="mw-swatch" data-color="Almendro"><span class="mw-swatch-dot" style="--sw:#EFBDB8"></span><span class="mw-swatch-label">Almendro</span></button>
+                <button type="button" class="mw-swatch" data-color="Albahaca"><span class="mw-swatch-dot" style="--sw:#79AE7D"></span><span class="mw-swatch-label">Albahaca</span></button>
+                <button type="button" class="mw-swatch" data-color="Arena"><span class="mw-swatch-dot" style="--sw:#B9A585"></span><span class="mw-swatch-label">Arena</span></button>
+              </div>
+              <input type="hidden" name="color_toalla" id="towelColor">
+            </div>
+
+
+          <h3 class="mw-q" style="margin-top:24px">Circa quanti pezzi?</h3>
+            <p class="mw-hint" style="margin:-8px 0 12px">A titolo indicativo, senza impegno.</p>
+            <div class="mw-chip-grid" id="mwQtyChips">
+              <button type="button" class="mw-chip" data-qty="50">50</button>
+              <button type="button" class="mw-chip mw-chip-bestseller" data-qty="100">100 <span class="mw-chip-tag">Per iniziare</span></button>
+              <button type="button" class="mw-chip" data-qty="200">200</button>
+              <button type="button" class="mw-chip" data-qty="Más de 200">Più di 200</button>
+              <button type="button" class="mw-chip mw-chip-ghost" data-qty="Aún no lo sé">Non lo so ancora</button>
+            </div>
+            <input type="hidden" name="cantidad" id="qtyWanted">
+
+          <h3 class="mw-q mw-q-sub" style="margin-top:28px">Il tuo logo: caricalo o indica semplicemente il tuo Instagram <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(facoltativo)</span></h3>
+            <p class="mw-hint" style="margin:-8px 0 14px">L'ideale: un PNG o un SVG su sfondo trasparente.</p>
+            <div class="mw-dropzone" id="mwDropzone" tabindex="0" role="button" aria-label="Carica il logo">
+              <input type="file" id="logoFile" name="logo" accept=".png,.jpg,.jpeg,.svg" hidden>
+              <div class="mw-dropzone-empty" id="mwDropzoneEmpty">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span>Trascina qui il tuo logo oppure <span class="mw-dropzone-link">clicca per selezionarlo</span></span>
+                <span class="mw-dropzone-sub">PNG, JPG o SVG · max 7 MB</span>
+              </div>
+              <div class="mw-dropzone-file" id="mwDropzoneFile" hidden>
+                <img id="mwLogoPreview" alt="" hidden>
+                <span id="mwLogoName"></span>
+                <div class="mw-dropzone-file-actions">
+                  <button type="button" class="mw-file-replace" id="mwFileReplace">Cambia</button>
+                  <button type="button" class="mw-file-remove" id="mwFileRemove">Rimuovi</button>
+                </div>
+              </div>
+            </div>
+            <p class="mw-upload-error" id="mwUploadError" hidden></p>
+
+          <p class="mw-insta-note"><b>Non hai il logo a portata di mano?</b> Nessun problema: indicaci l'Instagram del tuo studio e <b>lo recuperiamo direttamente dal tuo profilo</b>.</p>
+          <div class="field" style="margin-bottom:0">
+            <label for="instagram">Instagram del tuo studio <span class="opt">(facoltativo)</span></label>
+                <input type="text" id="instagram" name="instagram" placeholder="@iltuostudio">
+          </div>
+
+          <h3 class="mw-q" style="margin-top:24px">Raccontaci cosa hai <span class="fx">in mente</span> <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(facoltativo)</span></h3>
+          <textarea id="bericht" name="bericht" class="mw-wishes" rows="2" placeholder="Es.: toni terracotta, stile minimalista, logo sul lato…"></textarea>
+
+          <h3 class="mw-q" style="margin-top:24px">Dove ti inviamo <span class="fx">il tuo mockup</span>?</h3>
+          <div class="field two">
+            <div><label for="nombre">Il tuo nome</label>
+              <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Giulia Rossi"></div>
+            <div><label for="estudio">Nome del tuo studio</label>
+              <input type="text" id="estudio" name="estudio" required autocomplete="organization" placeholder="Studio Reform"></div>
+          </div>
+          <div class="field two">
+            <div><label for="email">La tua email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="giulia@iltuostudio.it"></div>
+            <div><label for="telefono">Telefono / WhatsApp <span class="opt">(facoltativo)</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000" autocomplete="tel"></div>
+          </div>
+          <div class="field">
+            <label for="paisCiudad">Paese e città <span class="opt">(facoltativo)</span></label>
+            <input type="text" id="paisCiudad" name="pais_ciudad" placeholder="Italia · Milano">
+          </div>
+
+          <p class="mw-disclaimer">Il mockup è una prima visualizzazione. I colori e i dettagli definitivi possono variare leggermente in base al materiale e alla produzione.</p>
+          <div class="mw-consent">
+              <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ho letto <a href="/it/legal.html#privacy" target="_blank" rel="noopener">l'informativa sulla privacy</a>.</span></label>
+            </div>
+
+          <div class="mw-actions" style="margin-top:14px">
+            <button class="btn" type="submit" id="mwSubmitBtn">Voglio il mio mockup gratuito</button>
+          </div>
+          <p class="form-note">Niente spam, niente telefonate commerciali, solo una risposta sincera.</p>
+        </form>
+      </div>
+
+      <div class="wa-alt js-wa-block" hidden>
+        <span class="wa-alt-line">Una domanda veloce?</span>
+        <a class="btn btn-wa btn-wa-big js-wa" href="#" aria-label="Scrivici su WhatsApp">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.91-9.91a9.82 9.82 0 00-2.9-7.02zm-7.01 15.24h-.01a8.2 8.2 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 015.82 2.42 8.18 8.18 0 012.41 5.82c-.01 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.06 0 1.21.88 2.38 1.01 2.55.12.16 1.74 2.66 4.21 3.73.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+          <span>Scrivici</span>
+        </a>
+      </div>
+      <div class="success" id="success">
+        <h3>Grazie, abbiamo tutto quello che ci serve.</h3>
+        <p id="successStudioLine">Di norma ricevi il tuo mockup entro 24 ore.</p>
+        <p class="success-ref" id="successRef"></p>
+        <a class="success-ig" href="https://www.instagram.com/mediterranopilates/" target="_blank" rel="noopener">Seguici su Instagram @mediterranopilates</a>
+      </div>
+    </div>
   </div>
+</div>
 </section>
+<!-- MP-FORM:links --><section class="sheet green"><div class="wrap" style="padding-bottom:40px;text-align:center">
+    <p style="margin-top:32px;font-size:.92rem"><a href="/it/" style="color:var(--cream);text-decoration:underline">Torna alla home</a> · <a href="/it/calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze antiscivolo personalizzate</a> · <a href="/it/tumbler-termico-personalizzato/" style="color:var(--cream);text-decoration:underline">Tumbler termici</a> · <a href="/it/tote-bag-personalizzata/" style="color:var(--cream);text-decoration:underline">Tote bag</a> · <a href="/it/chi-siamo-mediterrano-pilates/" style="color:var(--cream);text-decoration:underline">Chi è Mediterrano Pilates</a> · <a href="/it/come-funziona/" style="color:var(--cream);text-decoration:underline">Come funziona</a> · <a href="/it/mockup-gratuito/" style="color:var(--cream);text-decoration:underline">Mockup gratuito</a> · <a href="/it/prezzi-e-margini/" style="color:var(--cream);text-decoration:underline">Prezzi e margini</a> · <a href="/it/blog/aumentare-fatturato-studio-pilates-senza-magazzino/" style="color:var(--cream);text-decoration:underline">Aumenta il tuo fatturato</a> · <a href="/it/blog/fidelizzare-allieve-pilates-prodotti-con-logo/" style="color:var(--cream);text-decoration:underline">Fidelizza le tue allieve</a> · <a href="/it/blog/scegliere-fornitore-calze-antiscivolo-personalizzate/" style="color:var(--cream);text-decoration:underline">Come scegliere un fornitore</a> · <a href="/it/blog/calze-pilates-personalizzate/" style="color:var(--cream);text-decoration:underline">Calze da pilates personalizzate</a> · <a href="/it/blog/tote-bag-personalizzata-logo-studio-pilates/" style="color:var(--cream);text-decoration:underline">Tote bag personalizzata con il tuo logo</a> · <a href="/it/prodotti-personalizzati-studi-barre/" style="color:var(--cream);text-decoration:underline">Per gli studi di barre</a> · <a href="/it/prodotti-personalizzati-studi-fisioterapia/" style="color:var(--cream);text-decoration:underline">Per gli studi di fisioterapia</a></p>
+  </div></section><!-- /MP-FORM:links -->
+<script>
+(function(){
+  /* formulier */
+  var form = document.getElementById('lead-form');
+  var success = document.getElementById('success');
+  var wizardEl = document.getElementById('mockupWizard');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = form.querySelector('button[type=submit]');
+    var originalBtnText = btn.textContent;
+    btn.disabled = true; btn.textContent = 'Invio in corso…';
+    var data = new FormData(form);
+    fetch('/', {
+      method:'POST',
+      body: data
+    }).then(function(r){
+      if (r.ok){
+        if (wizardEl) wizardEl.style.display='none'; else form.style.display='none';
+        success.style.display='block';
+        var studioName = (document.getElementById('estudio')||{}).value || '';
+        var studioLine = document.getElementById('successStudioLine');
+        if (studioLine && studioName){
+          studioLine.textContent = 'Stiamo già preparando una prima proposta per ' + studioName + '. Di norma la riceverai entro 24 ore.';
+        }
+        var refEl = document.getElementById('successRef');
+        var leadIdField = document.getElementById('lead_id_field');
+        if (refEl && leadIdField && leadIdField.value) refEl.textContent = 'Riferimento: ' + leadIdField.value;
+        success.scrollIntoView({behavior:'smooth', block:'start'});
+        if (window.MP_CONSENT){
+          if (typeof fbq === 'function') fbq('track','Lead');
+          if (typeof gtag === 'function'){
+            var productField = document.getElementById('productos_elegidos_field');
+            gtag('event','generate_lead',{
+              event_category: 'mockup_request',
+              event_label: (productField && productField.value) ? productField.value : ''
+            });
+            gtag('event','mockup_submitted',{});
+          }
+        }
+      } else {
+        btn.disabled=false; btn.textContent=originalBtnText;
+        alert('Invio non riuscito. Controlla i campi e riprova, oppure scrivici a hola@mediterranopilates.com');
+      }
+    }).catch(function(){
+      btn.disabled=false; btn.textContent=originalBtnText;
+      alert('Invio non riuscito. Controlla la connessione e riprova, oppure scrivici a hola@mediterranopilates.com');
+    });
+  });
+
+  /* sticky mobiele CTA */
+  var bar = document.getElementById('sticky-cta');
+  var formSec = document.getElementById('mockup-form');
+  function onScroll(){
+    if (!bar || !formSec) return;
+    var heroEl = document.getElementById('top');
+    var heroBottom = heroEl ? heroEl.offsetHeight - 100 : 700;
+    var past = window.scrollY > heroBottom;
+    var nearForm = formSec.getBoundingClientRect().top < window.innerHeight;
+    if (past && !nearForm) bar.classList.add('show');
+    else bar.classList.remove('show');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+<script>
+(function(){
+  var wizard = document.getElementById('mockupWizard');
+  if (!wizard) return;
+  var state = { products: [], logoFile: null };
+
+  function track(eventName, params){
+    try{
+      if (window.MP_CONSENT){
+        if (typeof gtag === 'function') gtag('event', eventName, params||{});
+      }
+    }catch(e){}
+  }
+
+  var productGrid = document.getElementById('mwProductGrid');
+  var productField = document.getElementById('productos_elegidos_field');
+  var sockOpts = document.getElementById('mwSockOpts');
+
+  function setCard(card, selected){
+    card.classList.toggle('is-selected', selected);
+    var val = card.getAttribute('data-product');
+    var idx = state.products.indexOf(val);
+    if (selected && idx === -1) state.products.push(val);
+    if (!selected && idx > -1) state.products.splice(idx, 1);
+    productField.value = state.products.join(', ');
+    if (sockOpts) sockOpts.hidden = state.products.indexOf('Calze antiscivolo') === -1 && state.products.indexOf('Chaussettes antidérapantes') === -1 && state.products.indexOf('Calcetines antideslizantes') === -1;
+    var towelOpts = document.getElementById('mwTowelOpts');
+    if (towelOpts) towelOpts.hidden = state.products.indexOf('Telo Reformer Calma') === -1 && state.products.indexOf('Toalla reformer Calma') === -1;
+  }
+
+  productGrid.addEventListener('click', function(e){
+    var card = e.target.closest('.mw-card');
+    if (!card) return;
+    setCard(card, !card.classList.contains('is-selected'));
+    track('mockup_product_selected', {product: card.getAttribute('data-product')});
+  });
+
+  var sockCard = productGrid.querySelector('.mw-card[data-product="Calze antiscivolo"]');
+  if (sockCard) setCard(sockCard, true);
+
+  var form = document.getElementById('lead-form');
+  if (form) form.addEventListener('submit', function(e){
+    if (state.products.length === 0){
+      e.preventDefault(); e.stopImmediatePropagation();
+      alert('Scegli almeno un prodotto.');
+      productGrid.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+  }, true);
+
+  function single(gridId, btnSel, dataAttr, hiddenId, onChange){
+    var grid = document.getElementById(gridId);
+    var hid = document.getElementById(hiddenId);
+    if (!grid || !hid) return;
+    grid.addEventListener('click', function(e){
+      var btn = e.target.closest(btnSel);
+      if (!btn || !grid.contains(btn)) return;
+      var wasSel = btn.classList.contains('is-selected');
+      Array.prototype.forEach.call(grid.querySelectorAll(btnSel), function(b){ b.classList.remove('is-selected'); });
+      if (wasSel){ hid.value = ''; if (onChange) onChange(null); return; }
+      btn.classList.add('is-selected');
+      hid.value = btn.getAttribute(dataAttr) || '';
+      if (onChange) onChange(btn);
+    });
+  }
+  var customWrap = document.getElementById('mwCustomColor');
+  var customInput = document.getElementById('customColorInput');
+  var sockColor = document.getElementById('sockColor');
+  single('mwSockColors', '.mw-swatch', 'data-color', 'sockColor', function(btn){
+    var isCustom = !!btn && btn.getAttribute('data-color') === '__custom__';
+    if (customWrap) customWrap.hidden = !isCustom;
+    if (isCustom && sockColor){
+      sockColor.value = (customInput && customInput.value.trim()) ? customInput.value.trim() : 'Otro';
+      if (customInput){ try{ customInput.focus({preventScroll:true}); }catch(err){ customInput.focus(); } }
+    }
+  });
+  if (customInput && sockColor){
+    /* iOS/Instagram: veld pas in beeld schuiven als het toetsenbord open is, anders valt het achter de toetsenbordbalk */
+    customInput.addEventListener('focus', function(){ setTimeout(function(){ try{ customInput.scrollIntoView({block:'center', behavior:'smooth'}); }catch(err){ customInput.scrollIntoView(); } }, 350); });
+    customInput.addEventListener('input', function(){
+      var sw = document.querySelector('#mwSockColors .mw-swatch-custom.is-selected');
+      if (sw) sockColor.value = customInput.value.trim() || 'Otro';
+    });
+  }
+  single('mwTechGrid', '.mw-style-card', 'data-tech', 'sockTech');
+  single('mwQtyChips', '.mw-chip', 'data-qty', 'qtyWanted');
+  single('mwTowelColors', '.mw-swatch', 'data-color', 'towelColor');
+
+  var dropzone = document.getElementById('mwDropzone');
+  var fileInput = document.getElementById('logoFile');
+  var dzEmpty = document.getElementById('mwDropzoneEmpty');
+  var dzFile = document.getElementById('mwDropzoneFile');
+  var logoPreview = document.getElementById('mwLogoPreview');
+  var logoName = document.getElementById('mwLogoName');
+  var uploadError = document.getElementById('mwUploadError');
+  var replaceBtn = document.getElementById('mwFileReplace');
+  var removeBtn = document.getElementById('mwFileRemove');
+  var ALLOWED_EXT = ['png','jpg','jpeg','svg'];
+  var ALLOWED_MIME = ['image/png','image/jpeg','image/svg+xml'];
+  var MAX_BYTES = 7*1024*1024;
+  var ERR_FORMAT = 'Formato non supportato. Usa un file PNG, JPG o SVG.';
+  var ERR_SIZE = 'Il file è troppo pesante (max 7 MB).';
+
+  function showError(msg){ uploadError.textContent = msg; uploadError.hidden = false; }
+  function clearError(){ uploadError.hidden = true; uploadError.textContent=''; }
+
+  function handleFile(file){
+    clearError();
+    if (!file) return;
+    var ext = (file.name.split('.').pop()||'').toLowerCase();
+    if (ALLOWED_EXT.indexOf(ext) === -1 || (file.type && ALLOWED_MIME.indexOf(file.type) === -1 && ext !== 'svg')){
+      showError(ERR_FORMAT); fileInput.value = ''; return;
+    }
+    if (file.size > MAX_BYTES){ showError(ERR_SIZE); fileInput.value = ''; return; }
+    state.logoFile = file;
+    logoName.textContent = file.name;
+    dzEmpty.hidden = true; dzFile.hidden = false;
+    if (file.type && file.type.indexOf('image/') === 0 && ext !== 'svg'){
+      var reader = new FileReader();
+      reader.onload = function(ev){ logoPreview.src = ev.target.result; logoPreview.hidden = false; };
+      reader.readAsDataURL(file);
+    } else { logoPreview.hidden = true; }
+    track('mockup_logo_uploaded', {});
+  }
+
+  dropzone.addEventListener('click', function(e){
+    if (e.target.closest('.mw-file-replace') || e.target.closest('.mw-file-remove')) return;
+    fileInput.click();
+  });
+  dropzone.addEventListener('keydown', function(e){ if (e.key==='Enter' || e.key===' ') { e.preventDefault(); fileInput.click(); } });
+  fileInput.addEventListener('change', function(){ handleFile(fileInput.files[0]); });
+  ['dragover','dragenter'].forEach(function(evt){
+    dropzone.addEventListener(evt, function(e){ e.preventDefault(); dropzone.classList.add('is-dragover'); });
+  });
+  ['dragleave','drop'].forEach(function(evt){
+    dropzone.addEventListener(evt, function(e){ e.preventDefault(); dropzone.classList.remove('is-dragover'); });
+  });
+  dropzone.addEventListener('drop', function(e){
+    var f = e.dataTransfer.files[0];
+    if (f){
+      var dt = new DataTransfer(); dt.items.add(f); fileInput.files = dt.files;
+      handleFile(f);
+    }
+  });
+  if (replaceBtn) replaceBtn.addEventListener('click', function(e){ e.stopPropagation(); fileInput.value=''; fileInput.click(); });
+  if (removeBtn) removeBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    fileInput.value=''; state.logoFile=null;
+    dzEmpty.hidden=false; dzFile.hidden=true; logoPreview.hidden=true; logoPreview.src='';
+  });
+
+  function makeLeadId(){
+    var y = new Date().getFullYear();
+    var rand = Math.floor(100000 + Math.random()*900000);
+    return 'MP-'+y+'-'+rand;
+  }
+  var leadIdField = document.getElementById('lead_id_field');
+  if (leadIdField) leadIdField.value = makeLeadId();
+
+  track('mockup_view', {});
+})();
+</script>
+<script>
+(function(){
+  var p = new URLSearchParams(location.search);
+  var map = {utm_source:'utm_source', utm_medium:'utm_medium', utm_campaign:'utm_campaign', utm_content:'utm_content', utm_term:'utm_term'};
+  Object.keys(map).forEach(function(k){
+    var v = p.get(k);
+    var el = document.getElementById(map[k]);
+    if (v && el) el.value = v;
+  });
+  var refField = document.getElementById('referrer_field');
+  if (refField) refField.value = document.referrer || '';
+  var landingField = document.getElementById('landing_page_field');
+  if (landingField) landingField.value = location.pathname + location.search;
+})();
+</script>
+<script data-mp="first-touch">
+(function(){
+  /* Eerste bron van het bezoek (bv. advertentie, Google, ChatGPT) blijft bewaard tot het formulier wordt verstuurd,
+     ook na doorklikken of een taalwissel. Alleen met toestemming voor statistiek; zonder toestemming wordt niets bewaard
+     en wordt een eerder bewaarde waarde gewist. */
+  var K='mp_first_touch', MAX=30*24*60*60*1000;
+  function statsOK(){ try{ var v=localStorage.getItem('mp_cookie_consent')||''; return v==='granted' || (v.indexOf('custom:')===0 && v.indexOf('s1')>-1); }catch(e){ return false; } }
+  function current(){
+    var p=new URLSearchParams(location.search), s=p.get('utm_source'), m=p.get('utm_medium'), r='';
+    try{ if(document.referrer){ var u=new URL(document.referrer); if(u.hostname!==location.hostname) r=u.hostname; } }catch(e){}
+    var src = s ? (s+(m?' / '+m:'')) : (r ? r+' / referral' : (document.referrer ? 'intern (toestemming na doorklikken)' : 'direct'));
+    return {s:src.slice(0,80), l:(location.pathname+location.search).slice(0,200), t:Date.now()};
+  }
+  function read(){ try{ var o=JSON.parse(localStorage.getItem(K)||'null'); if(o && o.t && (Date.now()-o.t)<MAX) return o; }catch(e){} return null; }
+  function sync(){
+    if(!statsOK()){ try{ localStorage.removeItem(K); }catch(e){} return; }
+    var o=read();
+    if(!o){ o=current(); try{ localStorage.setItem(K, JSON.stringify(o)); }catch(e){} }
+    var a=document.getElementById('first_source_field'), b=document.getElementById('first_landing_field');
+    if(a) a.value=o.s; if(b) b.value=o.l;
+  }
+  sync();
+  document.addEventListener('click', function(e){ if(e.target.closest && e.target.closest('#cookieAccept,#cookieDecline,#cookieClose,#cookieCustom')) setTimeout(sync,0); });
+})();
+</script>
+<!-- MP-FORM:end -->
 <script>
 (function(){
   var tlItems = document.querySelectorAll('.tl-item');

@@ -1360,6 +1360,22 @@ footer a{white-space:nowrap}
     </div>
   </div>
 </header>
+<!-- MP-JANUARI:start (tijdelijk, verdwijnt vanzelf op 16-12-2026) -->
+<section class="sheet cream" id="januari">
+  <div class="wrap" style="padding-top:28px;padding-bottom:28px">
+    <div style="background:#fff;border:1.5px solid var(--line);border-left:6px solid var(--terra);border-radius:18px;padding:22px 24px;display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;justify-content:space-between">
+      <div style="flex:1 1 420px;min-width:0">
+        <p style="margin:0 0 6px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--terra-2)">Voor januari</p>
+        <h2 style="margin:0 0 8px;font-size:1.35rem;line-height:1.25;max-width:none">Nieuwe leden in januari? Keur je ontwerp goed vóór 15 december.</h2>
+        <p style="margin:0;color:var(--ink);line-height:1.55">Veel studio's krijgen in januari nieuwe leden. Productie en levering duren ongeveer 4 weken nadat je de offerte hebt goedgekeurd en betaald. Rond je dat af vóór 15 december, dan heb je je bestelling rond half januari in je studio. De mockup is gratis en krijg je binnen 24 uur.</p>
+      </div>
+      <a class="btn" href="#mockup-form" style="flex:0 1 auto;max-width:100%;white-space:normal;text-align:center">Vraag je gratis mockup aan</a>
+    </div>
+  </div>
+  <script>(function(){var s=document.currentScript.closest("section");if(Date.now()>=Date.UTC(2026,11,16))s.remove();})();</script>
+</section>
+<!-- MP-JANUARI:end -->
+
 
 <!-- ============ 2 · DE SCÈNE + 3 · DE DRAAI ============ -->
 <section class="sheet cream">
@@ -1813,6 +1829,8 @@ footer a{white-space:nowrap}
           <input type="hidden" name="utm_term" id="utm_term">
           <input type="hidden" name="referrer" id="referrer_field">
           <input type="hidden" name="landing_page" id="landing_page_field">
+          <input type="hidden" name="first_source" id="first_source_field">
+          <input type="hidden" name="first_landing" id="first_landing_field">
           <input type="hidden" name="language" value="nl">
           <input type="hidden" name="lead_id" id="lead_id_field">
           <input type="hidden" name="productos_elegidos" id="productos_elegidos_field">
@@ -2272,6 +2290,31 @@ footer a{white-space:nowrap}
   if (refField) refField.value = document.referrer || '';
   var landingField = document.getElementById('landing_page_field');
   if (landingField) landingField.value = location.pathname + location.search;
+})();
+</script>
+<script data-mp="first-touch">
+(function(){
+  /* Eerste bron van het bezoek (bv. advertentie, Google, ChatGPT) blijft bewaard tot het formulier wordt verstuurd,
+     ook na doorklikken of een taalwissel. Alleen met toestemming voor statistiek; zonder toestemming wordt niets bewaard
+     en wordt een eerder bewaarde waarde gewist. */
+  var K='mp_first_touch', MAX=30*24*60*60*1000;
+  function statsOK(){ try{ var v=localStorage.getItem('mp_cookie_consent')||''; return v==='granted' || (v.indexOf('custom:')===0 && v.indexOf('s1')>-1); }catch(e){ return false; } }
+  function current(){
+    var p=new URLSearchParams(location.search), s=p.get('utm_source'), m=p.get('utm_medium'), r='';
+    try{ if(document.referrer){ var u=new URL(document.referrer); if(u.hostname!==location.hostname) r=u.hostname; } }catch(e){}
+    var src = s ? (s+(m?' / '+m:'')) : (r ? r+' / referral' : (document.referrer ? 'intern (toestemming na doorklikken)' : 'direct'));
+    return {s:src.slice(0,80), l:(location.pathname+location.search).slice(0,200), t:Date.now()};
+  }
+  function read(){ try{ var o=JSON.parse(localStorage.getItem(K)||'null'); if(o && o.t && (Date.now()-o.t)<MAX) return o; }catch(e){} return null; }
+  function sync(){
+    if(!statsOK()){ try{ localStorage.removeItem(K); }catch(e){} return; }
+    var o=read();
+    if(!o){ o=current(); try{ localStorage.setItem(K, JSON.stringify(o)); }catch(e){} }
+    var a=document.getElementById('first_source_field'), b=document.getElementById('first_landing_field');
+    if(a) a.value=o.s; if(b) b.value=o.l;
+  }
+  sync();
+  document.addEventListener('click', function(e){ if(e.target.closest && e.target.closest('#cookieAccept,#cookieDecline,#cookieClose,#cookieCustom')) setTimeout(sync,0); });
 })();
 </script>
 

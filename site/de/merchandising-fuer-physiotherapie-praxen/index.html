@@ -700,6 +700,149 @@ html,body{overflow-x:hidden;max-width:100%}
 /* Duits: menu pas vanaf 1024px, anders valt de mockup-knop buiten beeld */
 @media (max-width:1023px){.nav-links{display:none}}
 </style>
+<style data-mp-form-css>:root{--sand:#EDE3D0;--shadow-warm:rgba(46,64,52,.10);--shadow-terra:rgba(200,106,74,.18)}
+.mw-progress{margin-bottom:18px}
+.mw-step-label{font-size:.82rem;font-weight:700;color:#AC512C;letter-spacing:.02em}
+.mw-bar{height:5px;background:var(--line);border-radius:6px;margin-top:8px;overflow:hidden}
+.mw-bar-fill{height:100%;background:var(--terra);border-radius:6px;width:25%;transition:width .35s ease}
+.mw-form{overflow:hidden}
+.mw-step{animation:mwFadeIn .3s ease}
+.mw-q{font-family:'Inter',sans-serif;font-weight:800;font-size:clamp(1.24rem,4.8vw,1.42rem);line-height:1.14;letter-spacing:-.025em;color:var(--green);margin:0 0 16px;text-wrap:balance}
+.mw-q .fx{color:var(--terra);font-size:1.07em;letter-spacing:-.005em}
+.mw-q.mw-q-sub{font-size:1.08rem;font-weight:700;letter-spacing:-.015em}
+.mw-substep{margin-bottom:22px}
+.mw-hint{font-size:.9rem;line-height:1.45;color:#7d766a;margin:8px 0 0}
+.mw-product-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:6px}
+.mw-card{border:2px solid var(--line);border-radius:16px;background:var(--cream);cursor:pointer;overflow:hidden;padding:0;text-align:left;transition:all .18s ease;position:relative;font-family:inherit}
+.mw-card:hover{border-color:var(--terra)}
+.mw-card.is-selected{border-color:var(--terra);box-shadow:0 0 0 2px rgba(208,106,63,.15);background:#fff}
+.mw-card img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;display:block}
+.mw-card-label{display:block;padding:12px 14px;font-weight:600;font-size:.93rem;letter-spacing:-.005em;color:var(--ink)}
+.mw-card-check{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;background:var(--terra);color:#fff;display:flex;align-items:center;justify-content:center;opacity:0;transform:scale(.6);transition:all .18s ease}
+.mw-card.is-selected .mw-card-check{opacity:1;transform:scale(1)}
+.mw-chip-grid{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.mw-chip{border:2px solid var(--line);border-radius:999px;background:var(--cream);padding:10px 18px;font-size:.88rem;font-weight:600;color:var(--ink);cursor:pointer;transition:all .15s ease;font-family:inherit}
+.mw-chip:hover{border-color:var(--terra)}
+.mw-chip.is-selected{border-color:var(--terra);background:#fff;box-shadow:0 0 0 2px rgba(208,106,63,.12);color:var(--terra-2)}
+.mw-chip-ghost{background:transparent;border-style:dashed;color:#8a8375}
+.mw-chip-bestseller{position:relative}
+.mw-chip-tag{display:inline-block;margin-left:6px;font-size:.68rem;font-weight:700;color:#fff;background:var(--ochre);border-radius:6px;padding:1px 6px;vertical-align:middle}
+.mw-color-grid{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:6px}
+.mw-swatch{display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:none;cursor:pointer;font-family:inherit;padding:2px;width:64px}
+.mw-swatch-dot{width:38px;height:38px;border-radius:50%;background:var(--sw,#ccc);border:2px solid var(--line);box-shadow:inset 0 0 0 3px #fff;transition:all .15s ease}
+.mw-swatch.is-selected .mw-swatch-dot{border-color:var(--terra);box-shadow:inset 0 0 0 3px #fff,0 0 0 2px var(--terra)}
+.mw-swatch span.mw-swatch-label{font-size:.72rem;color:var(--ink);text-align:center;line-height:1.15}
+.mw-swatch-custom .mw-swatch-dot{background:conic-gradient(from 0deg,#D06A3F,#E0A24E,#9CAF88,#D8B4B0,#B9A99A,#D06A3F)}
+.mw-field-custom-color{margin:4px 0 20px;animation:mwFadeIn .25s ease}
+.mw-field-custom-color input{width:100%;border:2px solid var(--line);border-radius:12px;padding:12px 14px;font-family:'Inter',sans-serif;font-size:16px;background:var(--cream);scroll-margin:120px 0 160px}
+.mw-field-custom-color input:focus-visible{outline:none;border-color:var(--terra);background:#fff}
+.mw-field-custom-color label{display:block;font-size:.85rem;font-weight:600;color:var(--ink);margin-bottom:6px}
+.mw-style-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.mw-style-card{border:2px solid var(--line);border-radius:16px;padding:16px 14px;cursor:pointer;text-align:left;transition:all .18s ease;font-family:inherit;min-height:88px;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.mw-style-card:hover{border-color:var(--terra)}
+.mw-style-card.is-selected{border-color:var(--terra);box-shadow:0 0 0 2px rgba(208,106,63,.15)}
+.mw-style-minimal{background:linear-gradient(135deg,#F5EEE0,#FFFFFF)}
+.mw-style-mediterranean{background:linear-gradient(135deg,#F5EEE0,#EFD9BE)}
+.mw-style-elegant{background:linear-gradient(135deg,#F0EBE3,#E3DCCF)}
+.mw-style-sporty{background:linear-gradient(135deg,#F5EEE0,#E8D8CC)}
+.mw-style-name{font-weight:700;color:var(--green);font-size:.98rem}
+.mw-style-desc{font-size:.8rem;color:#726b5c}
+.mw-style-any{width:100%;text-align:center;justify-content:center}
+.mw-dropzone{border:2px dashed var(--line);border-radius:18px;padding:26px 18px;text-align:center;background:var(--cream);cursor:pointer;transition:all .15s ease;margin-bottom:6px}
+.mw-dropzone.is-dragover{border-color:var(--terra);background:#fff}
+.mw-dropzone-empty{display:flex;flex-direction:column;align-items:center;gap:10px;color:#726b5c}
+.mw-dropzone-empty svg{color:var(--terra)}
+.mw-dropzone-link{color:var(--terra-2);font-weight:700;text-decoration:underline}
+.mw-dropzone-sub{font-size:.78rem;color:#666E67}
+.mw-dropzone-file{display:flex;align-items:center;gap:12px;text-align:left}
+.mw-dropzone-file[hidden]{display:none}
+.mw-sock-panel{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:20px 18px;margin-top:24px;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
+.mw-sock-panel .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 1px 4px rgba(46,64,52,.14)}
+.mw-sock-panel .mw-swatch.is-selected .mw-swatch-dot{box-shadow:inset 0 0 0 3px #fff,0 0 0 2px var(--terra),0 2px 6px rgba(46,64,52,.16)}
+.mw-sock-panel .mw-field-custom-color{margin-bottom:4px}
+.mw-style-card svg{color:var(--terra);margin-bottom:2px;flex-shrink:0}
+.mw-insta-note{font-size:.9rem;line-height:1.45;color:var(--ink);background:#fff;border:1px solid var(--line);border-left:3px solid var(--terra);border-radius:12px;padding:12px 14px;margin:16px 0 12px}
+.mw-insta-note b{color:var(--terra-2)}
+.op-form .mw-card-label{font-size:.85rem;padding:8px 10px;line-height:1.25}
+.op-form .mw-dropzone{padding:16px 14px}
+.op-form .mw-dropzone-empty{gap:6px}
+.mw-dropzone-file img{width:52px;height:52px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--line);padding:4px}
+.mw-dropzone-file span:first-of-type{flex:1;font-size:.88rem;font-weight:600;color:var(--ink);word-break:break-all}
+.mw-dropzone-file-actions{display:flex;gap:8px;flex-shrink:0}
+.mw-file-replace,.mw-file-remove{border:1px solid var(--line);background:#fff;border-radius:10px;padding:6px 10px;font-size:.78rem;font-weight:600;cursor:pointer;color:var(--ink);font-family:inherit}
+.mw-file-replace:hover{border-color:var(--terra);color:var(--terra-2)}
+.mw-file-remove:hover{border-color:#c0392b;color:#c0392b}
+.mw-upload-error{color:#c0392b;font-size:.82rem;margin:10px 0 0;font-weight:600}
+.mw-actions{display:flex;gap:12px;margin-top:22px}
+.mw-actions .btn{flex:1;margin-top:0}
+.mw-actions .btn:disabled{opacity:.45;cursor:not-allowed;transform:none!important;box-shadow:none!important}
+.mw-back{background:none;border:2px solid var(--line);border-radius:999px;padding:0 20px;font-weight:700;font-size:.92rem;color:var(--ink);cursor:pointer;font-family:inherit;transition:all .15s ease}
+.mw-back:hover{border-color:var(--terra);color:var(--terra-2)}
+.mw-summary{background:var(--cream);border-radius:16px;padding:18px 20px;margin:22px 0}
+.mw-summary h4{font-family:'Inter',sans-serif;font-weight:700;letter-spacing:-.015em;color:var(--green);margin:0 0 10px;font-size:1rem}
+.mw-summary dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.86rem}
+.mw-summary dt{color:#8a8375;font-weight:600}
+.mw-summary dd{margin:0;color:var(--ink);font-weight:600}
+.mw-disclaimer{font-size:.74rem;color:#666E67;line-height:1.4;margin:0 0 14px}
+.mw-consent{margin-bottom:16px}
+.mw-checkbox-line{display:flex;align-items:flex-start;gap:9px;font-size:.84rem;color:var(--ink);cursor:pointer}
+.mw-checkbox-line input{margin-top:3px;accent-color:var(--terra);width:16px;height:16px;flex-shrink:0}
+.mw-checkbox-line a{color:var(--terra-2);text-decoration:underline}
+.success-ref{font-size:.82rem;color:#666E67;margin-top:10px!important}
+.success-ig{display:inline-block;margin-top:14px;font-weight:700;color:var(--terra-2);text-decoration:underline;font-size:.9rem}
+@media(max-width:640px){
+.mw-product-grid,.mw-style-grid{grid-template-columns:1fr 1fr}
+.mw-color-grid{gap:10px}
+.mw-swatch{width:56px}
+.mw-swatch-dot{width:34px;height:34px}
+}
+.mw-color-disclaimer{font-size:.78rem;color:#666E67;font-style:italic;margin:-10px 0 18px;line-height:1.4}
+.mw-stepper{display:flex;align-items:flex-start;margin-bottom:24px;padding:0 4px}
+.mw-stepper-item{flex:1;display:flex;flex-direction:column;align-items:center;position:relative;text-align:center}
+.mw-stepper-item:not(:last-child)::after{content:'';position:absolute;top:13px;left:calc(50% + 20px);right:calc(-50% + 20px);height:2px;background:var(--line);z-index:0}
+.mw-stepper-item.is-done:not(:last-child)::after{background:var(--terra)}
+.mw-stepper-dot{width:26px;height:26px;border-radius:50%;background:#fff;border:2px solid var(--line);display:flex;align-items:center;justify-content:center;z-index:1;transition:all .3s ease;font-family:'Fraunces',serif;font-size:.8rem;color:#666E67}
+.mw-stepper-item.is-current .mw-stepper-dot{border-color:var(--terra);background:var(--terra);color:#fff;box-shadow:0 0 0 5px var(--shadow-terra)}
+.mw-stepper-item.is-done .mw-stepper-dot{border-color:var(--terra);background:var(--terra);color:#fff}
+.mw-stepper-label{font-size:.72rem;color:rgba(247,243,232,.6);margin-top:7px;font-weight:600;transition:color .3s ease}
+.mw-stepper-item.is-current .mw-stepper-label{color:var(--ochre)}
+.mw-stepper-item.is-done .mw-stepper-label{color:var(rgba(247,243,232,.8))}
+.mw-form{background:linear-gradient(155deg,#fff 0%,var(--sand) 130%);border-radius:24px;box-shadow:0 18px 40px -18px var(--shadow-warm),0 4px 14px -6px var(--shadow-warm)}
+.mw-card{box-shadow:0 2px 8px -4px var(--shadow-warm);transform:translateZ(0)}
+.mw-card:hover{box-shadow:0 6px 16px -6px var(--shadow-warm);transform:translateY(-2px)}
+.mw-card.is-selected{box-shadow:0 0 0 2px var(--shadow-terra),0 8px 20px -8px var(--shadow-terra);transform:translateY(-2px)}
+.mw-style-card{box-shadow:0 2px 8px -4px var(--shadow-warm);transition:all .18s ease}
+.mw-style-card:hover{transform:translateY(-2px);box-shadow:0 6px 16px -6px var(--shadow-warm)}
+.mw-style-card.is-selected{transform:translateY(-2px);box-shadow:0 0 0 2px var(--shadow-terra),0 8px 20px -8px var(--shadow-terra)}
+.mw-swatch-dot{transition:all .2s cubic-bezier(.34,1.56,.64,1)}
+.mw-swatch:hover .mw-swatch-dot{transform:scale(1.08)}
+.mw-swatch.is-selected .mw-swatch-dot{transform:scale(1.12)}
+.mw-actions .btn{box-shadow:0 10px 24px -10px var(--shadow-terra);transition:all .15s ease}
+.mw-actions .btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 14px 28px -10px var(--shadow-terra)}
+.mw-actions .btn:active:not(:disabled){transform:translateY(0px) scale(.98)}
+.mw-step{animation:mwStepIn .35s cubic-bezier(.22,.68,.32,1)}
+@media(max-width:640px){
+.mw-stepper-label{font-size:.62rem}
+.mw-stepper-dot{width:22px;height:22px;font-size:.7rem}
+}
+.mw-q-hero{margin-bottom:14px}
+.mw-wishes{width:100%;min-height:120px;resize:vertical; border:2px solid var(--line);border-radius:18px; background:linear-gradient(155deg,#fff 0%,var(--sand) 160%); padding:16px 18px;font-family:'Inter',sans-serif;font-size:1rem;line-height:1.5;color:var(--ink); box-shadow:0 2px 8px -4px var(--shadow-warm); transition:all .2s ease;}
+.mw-wishes::placeholder{color:#a89e8c;font-style:italic;font-family:'Fraunces',serif}
+.mw-wishes:focus-visible{outline:none;border-color:var(--terra);box-shadow:0 0 0 4px var(--shadow-terra),0 4px 12px -6px var(--shadow-warm);background:#fff}
+.mw-wish-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+.mw-wish-chip{border:1.5px dashed #c9bfa8;border-radius:999px;background:transparent; padding:7px 14px;font-size:.82rem;font-weight:600;color:#8a8375;cursor:pointer; font-family:inherit;transition:all .15s ease;}
+.mw-wish-chip:hover{border-color:var(--terra);color:var(--terra-2);border-style:solid;background:var(--cream)}
+.mw-wish-chip.is-used{opacity:.4;border-style:solid;pointer-events:none}
+.mw-logo-alt{font-size:.86rem;line-height:1.45;color:#7d766a;margin:12px 0 0}
+.mw-sample{margin-bottom:12px}
+.founder-note{display:flex;gap:16px;align-items:center;margin-top:30px;padding-top:26px;border-top:1px solid rgba(245,238,224,.16);max-width:30em}
+.founder-note img{width:58px;height:58px;border-radius:50%;object-fit:cover;object-position:center 20%;flex:none;border:2px solid rgba(245,238,224,.5)}
+.founder-note p{font-family:'Fraunces',serif;font-style:italic;font-weight:400;font-size:1.04rem;line-height:1.45;color:rgba(247,243,232,.92);margin:0;max-width:none}
+.founder-note p span{display:block;margin-top:6px;font-family:'Inter',sans-serif;font-style:normal;font-size:.8rem;font-weight:600;color:rgba(247,243,232,.6)}
+.form-card .mw-checkbox-line{font-weight:500;line-height:1.45}
+.nav-cta .btn-wa{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1.5px rgba(245,238,224,.4)}
+.nav-cta .btn-wa:hover{background:rgba(245,238,224,.08)}
+.nav-cta .btn-wa svg{color:#25D366}</style><!-- /mp-form-css -->
 </head>
 <body>
 <div class="topbar" aria-label="Vorteile">
@@ -988,132 +1131,468 @@ html,body{overflow-x:hidden;max-width:100%}
   </div>
 </div>
 
+<!-- MP-FORM:start (gegenereerd door docs/review/formulier/inject_form.py) -->
 <section class="sheet green" id="mockup-form">
-<div class="form-section">
+<div class="form-section" style="padding-bottom:48px">
   <div class="wrap form-inner">
     <div>
-      <h2>Wir gestalten das Mockup <span class="fx">deiner Praxis kostenlos</span>.</h2>
-      <p class="intro">Sag uns, wie deine Praxis heißt und wohin wir das Design schicken sollen. Wir zeigen dir dein Logo innerhalb von 24 Stunden auf der Socke, und du entscheidest danach.</p>
-      <p class="intro" style="font-weight:600;color:var(--ochre);font-size:.92rem">Unverbindlich · Kostenlos · Du erhältst es in 24 Std.</p>
-      <p class="risk-title">So gewinnst du in jedem Fall:</p>
+      <h2>Dein Logo <span class="fx">auf dem Produkt</span>.</h2>
+      <p class="intro">Erzähl uns deine Idee und lade dein Logo hoch. Wir zeigen dir, wie deine eigene Kollektion aussehen kann.</p>
+      <p class="intro" style="font-weight:600;color:var(--ochre);font-size:.92rem">Unverbindlich · Kostenlos · In 24 Stunden</p>
+      <p class="risk-title">Du hast nichts zu verlieren:</p>
       <ul class="points">
-        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Kostenloses Mockup, völlig unverbindlich</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Gratis-Mockup, völlig unverbindlich</li>
         <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Du bestellst erst, wenn du das Design freigegeben hast</li>
-        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Jedes Paar, das deine Patientinnen und Patienten tragen, ist kostenlose Werbung</li>
-        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Kostenloser Versand, ohne versteckte Kosten</li>
-        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Eine persönliche Antwort innerhalb von 24 Stunden</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Eine Mustersocke mit deinem Logo, wann immer du willst</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Kostenloser Versand, keine versteckten Kosten</li>
+        <li><span class="tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Persönliche Antwort innerhalb von 24 Stunden</li>
       </ul>
       <div class="founder-note">
-        <img src="/images/sobre-mi.jpg" alt="" width="58" height="58" loading="lazy" onerror="this.remove()">
-        <p>„Jede Anfrage landet bei mir persönlich. Du bekommst eine ehrliche Antwort, kein Verkaufsgespräch.“<span>Gründer, Mediterrano Pilates</span></p>
+        <img src="/images/sobre-mi.jpg" alt="Giel Mallens, Gründer von Mediterrano Pilates" width="58" height="58" loading="lazy" onerror="this.remove()">
+        <p>„Jede Anfrage landet bei mir persönlich. Du bekommst eine ehrliche Antwort, kein Verkaufsgespräch.“<span>Giel Mallens, Gründer von Mediterrano Pilates</span></p>
       </div>
     </div>
     <div>
-      <!-- Netlify Forms: mismo formulario "mockup-aanvraag" que la página principal; landing_page identifica esta página -->
-      <form class="form-card" id="lead-form" name="mockup-aanvraag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="mockup-aanvraag">
-        <p class="hidden-field" style="display:none"><label>Bitte leer lassen: <input name="bot-field"></label></p>
-        <input type="hidden" name="utm_source" id="utm_source">
-        <input type="hidden" name="utm_medium" id="utm_medium">
-        <input type="hidden" name="utm_campaign" id="utm_campaign">
-        <input type="hidden" name="utm_content" id="utm_content">
-        <input type="hidden" name="utm_term" id="utm_term">
-        <input type="hidden" name="referrer" id="referrer_field">
-        <input type="hidden" name="landing_page" id="landing_page_field" value="/de/merchandising-fuer-physiotherapie-praxen/">
-        <input type="hidden" name="language" value="de">
-        <input type="hidden" name="lead_id" id="lead_id_field">
-        <input type="hidden" name="productos_elegidos" id="productos_elegidos_field" value="Stoppersocken">
+            <!-- Netlify Forms: aanvragen verschijnen in je Netlify-dashboard onder Forms -->
+      <div class="mockup-wizard" id="mockupWizard">
+        <form class="form-card mw-form op-form" id="lead-form" name="mockup-aanvraag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="mockup-aanvraag">
+          <p class="hidden-field" style="display:none"><label>Bitte leer lassen: <input name="bot-field"></label></p>
+          <input type="hidden" name="utm_source" id="utm_source">
+          <input type="hidden" name="utm_medium" id="utm_medium">
+          <input type="hidden" name="utm_campaign" id="utm_campaign">
+          <input type="hidden" name="utm_content" id="utm_content">
+          <input type="hidden" name="utm_term" id="utm_term">
+          <input type="hidden" name="referrer" id="referrer_field">
+          <input type="hidden" name="landing_page" id="landing_page_field">
+          <input type="hidden" name="first_source" id="first_source_field">
+          <input type="hidden" name="first_landing" id="first_landing_field">
+          <input type="hidden" name="language" value="de">
+          <input type="hidden" name="lead_id" id="lead_id_field">
+          <input type="hidden" name="productos_elegidos" id="productos_elegidos_field">
+          <p class="hidden-field" style="display:none"><label>No rellenar: <input name="bot-field"></label></p>
 
-        <h3 class="mw-q">Dein Logo auf der Socke, <span class="fx">in 24 Stunden</span></h3>
+          <h3 class="mw-q" style="margin:0 0 6px">Welche Produkte sollen <span class="fx">dein Logo</span> tragen?</h3>
+          <p class="mw-hint" style="margin:0 0 12px">Du kannst mehrere auswählen.</p>
+          <div class="mw-product-grid" id="mwProductGrid">
+              <button type="button" class="mw-card" data-product="Calcetines antideslizantes">
+                <picture><source srcset="/images/product-sokken.webp" type="image/webp"><img src="/images/product-sokken.jpg" width="900" height="1200" alt="Stoppersocken" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Stoppersocken</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Tumbler premium">
+                <picture><source srcset="/images/product-tumbler.webp" type="image/webp"><img src="/images/product-tumbler.jpg" width="900" height="1200" alt="Premium-Tumbler" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Premium-Tumbler</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Tote bag">
+                <picture><source srcset="/images/product-tote.webp" type="image/webp"><img src="/images/product-tote.jpg" width="900" height="1200" alt="Stofftasche" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Stofftasche</span>
+              </button>
+              <button type="button" class="mw-card" data-product="Toalla reformer Calma">
+                <picture><source srcset="/images/product-towel.webp" type="image/webp"><img src="/images/product-towel.jpg" width="900" height="1200" alt="Reformer-Handtuch" style="object-position:50% 40%" loading="lazy"></picture>
+                <span class="mw-card-check" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="mw-card-label">Reformer-Handtuch</span>
+              </button>
+            </div>
 
-        <div class="field chk-group">
-          <label>Was möchtest du mit deinem Logo sehen? <span class="opt">(du kannst mehrere auswählen)</span></label>
-          <div class="checks" id="productChecks">
-            <label class="chk"><input type="checkbox" name="producto" value="Stoppersocken" checked> Stoppersocken</label>
-            <label class="chk"><input type="checkbox" name="producto" value="Premium-Tumbler"> Premium-Tumbler</label>
-            <label class="chk"><input type="checkbox" name="producto" value="Tote Bag"> Tote Bag</label>
+          <div id="mwSockOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">Die Farbe deiner Socken</h3>
+              <div class="mw-color-grid" id="mwSockColors">
+                <button type="button" class="mw-swatch" data-color="Schwarz"><span class="mw-swatch-dot" style="--sw:#26241F"></span><span class="mw-swatch-label">Schwarz</span></button>
+                <button type="button" class="mw-swatch" data-color="Weiß"><span class="mw-swatch-dot" style="--sw:#FFFFFF"></span><span class="mw-swatch-label">Weiß</span></button>
+                <button type="button" class="mw-swatch" data-color="Creme"><span class="mw-swatch-dot" style="--sw:#EFE4CC"></span><span class="mw-swatch-label">Creme</span></button>
+                <button type="button" class="mw-swatch" data-color="Beige"><span class="mw-swatch-dot" style="--sw:#D8C9B0"></span><span class="mw-swatch-label">Beige</span></button>
+                <button type="button" class="mw-swatch" data-color="Grau"><span class="mw-swatch-dot" style="--sw:#9B9893"></span><span class="mw-swatch-label">Grau</span></button>
+                <button type="button" class="mw-swatch" data-color="Rosa"><span class="mw-swatch-dot" style="--sw:#D8B4B0"></span><span class="mw-swatch-label">Rosa</span></button>
+                <button type="button" class="mw-swatch" data-color="Terrakotta"><span class="mw-swatch-dot" style="--sw:#C86A4A"></span><span class="mw-swatch-label">Terrakotta</span></button>
+                <button type="button" class="mw-swatch" data-color="Bordeaux"><span class="mw-swatch-dot" style="--sw:#7A3B47"></span><span class="mw-swatch-label">Bordeaux</span></button>
+                <button type="button" class="mw-swatch" data-color="Lavendel"><span class="mw-swatch-dot" style="--sw:#B3A4C6"></span><span class="mw-swatch-label">Lavendel</span></button>
+                <button type="button" class="mw-swatch" data-color="Salbei"><span class="mw-swatch-dot" style="--sw:#9CAF88"></span><span class="mw-swatch-label">Salbei</span></button>
+                <button type="button" class="mw-swatch" data-color="Dunkelgrün"><span class="mw-swatch-dot" style="--sw:#2E4034"></span><span class="mw-swatch-label">Dunkelgrün</span></button>
+                <button type="button" class="mw-swatch" data-color="Marine"><span class="mw-swatch-dot" style="--sw:#2C3E5C"></span><span class="mw-swatch-label">Marine</span></button>
+                <button type="button" class="mw-swatch" data-color="Schoko"><span class="mw-swatch-dot" style="--sw:#6B4F3A"></span><span class="mw-swatch-label">Schoko</span></button>
+                <button type="button" class="mw-swatch mw-swatch-custom" data-color="__custom__"><span class="mw-swatch-dot"></span><span class="mw-swatch-label">Andere</span></button>
+              </div>
+              <div class="mw-field-custom-color" id="mwCustomColor" hidden>
+                <label for="customColorInput">Welche Farbe schwebt dir vor?</label>
+                <input type="text" id="customColorInput" name="color_otro" placeholder="z. B. sanftes Terrakotta, Lavendel…">
+              </div>
+              <input type="hidden" name="color_calcetin" id="sockColor">
+
+              <input type="hidden" name="tecnica_logo" id="sockTech" value="Eingewebt">
+            </div>
+          <div id="mwTowelOpts" class="mw-sock-panel" hidden>
+              <h3 class="mw-q" style="margin:0 0 14px">Die Farbe deines Handtuchs</h3>
+              <div class="mw-color-grid" id="mwTowelColors">
+                <button type="button" class="mw-swatch" data-color="Lavanda"><span class="mw-swatch-dot" style="--sw:#CDBCCB"></span><span class="mw-swatch-label">Lavanda</span></button>
+                <button type="button" class="mw-swatch" data-color="Menta"><span class="mw-swatch-dot" style="--sw:#C3D2C8"></span><span class="mw-swatch-label">Menta</span></button>
+                <button type="button" class="mw-swatch" data-color="Carbón"><span class="mw-swatch-dot" style="--sw:#232323"></span><span class="mw-swatch-label">Carbón</span></button>
+                <button type="button" class="mw-swatch" data-color="Cielo"><span class="mw-swatch-dot" style="--sw:#A3BFD6"></span><span class="mw-swatch-label">Cielo</span></button>
+                <button type="button" class="mw-swatch" data-color="Niebla"><span class="mw-swatch-dot" style="--sw:#BEBDB9"></span><span class="mw-swatch-label">Niebla</span></button>
+                <button type="button" class="mw-swatch" data-color="Almendro"><span class="mw-swatch-dot" style="--sw:#EFBDB8"></span><span class="mw-swatch-label">Almendro</span></button>
+                <button type="button" class="mw-swatch" data-color="Albahaca"><span class="mw-swatch-dot" style="--sw:#79AE7D"></span><span class="mw-swatch-label">Albahaca</span></button>
+                <button type="button" class="mw-swatch" data-color="Arena"><span class="mw-swatch-dot" style="--sw:#B9A585"></span><span class="mw-swatch-label">Arena</span></button>
+              </div>
+              <input type="hidden" name="color_toalla" id="towelColor">
+            </div>
+
+
+          <h3 class="mw-q" style="margin-top:24px">Wie viele ungefähr?</h3>
+            <p class="mw-hint" style="margin:-8px 0 12px">Nur zur Orientierung, keine Verpflichtung.</p>
+            <div class="mw-chip-grid" id="mwQtyChips">
+              <button type="button" class="mw-chip" data-qty="50">50</button>
+              <button type="button" class="mw-chip mw-chip-bestseller" data-qty="100">100 <span class="mw-chip-tag">Am beliebtesten</span></button>
+              <button type="button" class="mw-chip" data-qty="200">200</button>
+              <button type="button" class="mw-chip" data-qty="Mehr als 200">Mehr als 200</button>
+              <button type="button" class="mw-chip mw-chip-ghost" data-qty="Weiß ich noch nicht">Weiß ich noch nicht</button>
+            </div>
+            <input type="hidden" name="cantidad" id="qtyWanted">
+
+          <h3 class="mw-q mw-q-sub" style="margin-top:28px">Dein Logo: hochladen oder einfach Instagram angeben <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(optional)</span></h3>
+            <p class="mw-hint" style="margin:-8px 0 14px">PNG oder SVG mit transparentem Hintergrund eignen sich am besten.</p>
+            <div class="mw-dropzone" id="mwDropzone" tabindex="0" role="button" aria-label="Logo hochladen">
+              <input type="file" id="logoFile" name="logo" accept=".png,.jpg,.jpeg,.svg" hidden>
+              <div class="mw-dropzone-empty" id="mwDropzoneEmpty">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span>Zieh dein Logo hierher oder <span class="mw-dropzone-link">klick zum Hochladen</span></span>
+                <span class="mw-dropzone-sub">PNG, JPG oder SVG · max. 7&nbsp;MB</span>
+              </div>
+              <div class="mw-dropzone-file" id="mwDropzoneFile" hidden>
+                <img id="mwLogoPreview" alt="" hidden>
+                <span id="mwLogoName"></span>
+                <div class="mw-dropzone-file-actions">
+                  <button type="button" class="mw-file-replace" id="mwFileReplace">Ersetzen</button>
+                  <button type="button" class="mw-file-remove" id="mwFileRemove">Entfernen</button>
+                </div>
+              </div>
+            </div>
+            <p class="mw-upload-error" id="mwUploadError" hidden></p>
+
+          <p class="mw-insta-note"><b>Logo gerade nicht zur Hand?</b> Kein Problem: Hinterlass uns den Instagram-Account deines Studios und <b>wir holen es direkt von deinem Profil</b>.</p>
+          <div class="field" style="margin-bottom:0">
+            <label for="instagram">Instagram deines Studios <span class="opt">(optional)</span></label>
+                <input type="text" id="instagram" name="instagram" placeholder="@deinstudio">
           </div>
-        </div>
-        <div class="field">
-          <label for="nombre">Dein Name</label>
-          <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Anna Schmidt">
-        </div>
-        <div class="field">
-          <label for="estudio">Name deiner Praxis</label>
-          <input type="text" id="estudio" name="estudio" required autocomplete="organization" placeholder="Physiopraxis Sonnenschein">
-        </div>
-        <div class="field">
-          <label for="email">Deine E-Mail</label>
-          <input type="email" id="email" name="email" required autocomplete="email" placeholder="anna@deinepraxis.de">
-        </div>
-        <div class="field two">
-          <div>
-            <label for="telefono">Telefon / WhatsApp <span class="opt">(optional)</span></label>
-            <input type="tel" id="telefono" name="telefono" placeholder="+49 151 00000000" autocomplete="tel">
+
+          <h3 class="mw-q" style="margin-top:24px">Erzähl uns, was dir <span class="fx">vorschwebt</span> <span style="font-size:.72em;color:#9a9484;font-weight:400;font-family:'Inter',sans-serif">(optional)</span></h3>
+          <textarea id="bericht" name="bericht" class="mw-wishes" rows="2" placeholder="Z.&nbsp;B. etwas in Terrakottatönen, minimalistisch, mit dem Logo an der Seite …"></textarea>
+
+          <h3 class="mw-q" style="margin-top:24px">Wohin dürfen wir <span class="fx">dein Design</span> schicken?</h3>
+          <div class="field two">
+            <div><label for="nombre">Dein Name</label>
+              <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Anna Schmidt"></div>
+            <div><label for="estudio">Name deines Studios</label>
+              <input type="text" id="estudio" name="estudio" required autocomplete="organization" placeholder="Studio Reform"></div>
           </div>
-          <div>
-            <label for="instagram">Instagram oder Website deiner Praxis <span class="opt">(optional)</span></label>
-            <input type="text" id="instagram" name="instagram" placeholder="@deinepraxis">
+          <div class="field two">
+            <div><label for="email">Deine E-Mail-Adresse</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="anna@deinstudio.de"></div>
+            <div><label for="telefono">Telefon / WhatsApp <span class="opt">(optional)</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+49 151 12345678" autocomplete="tel"></div>
           </div>
-        </div>
-        <div class="field">
-          <label for="bericht">Farbe, Stil, wo das Logo hin soll … <span class="opt">(optional)</span></label>
-          <textarea id="bericht" name="bericht" rows="3" placeholder="Z. B. in der Farbe unserer Praxis, kleines Logo seitlich. Falls du das Logo nicht griffbereit hast, holen wir es uns von deiner Website oder Instagram."></textarea>
-        </div>
-        <p class="mw-disclaimer">Das Mockup ist eine erste Visualisierung. Farben und Details können je nach Material und Produktion leicht abweichen.</p>
-        <div class="mw-consent">
-          <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ich habe die <a href="/de/legal.html#privacidad" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen.</span></label>
-        </div>
-        <button class="btn" type="submit" id="submitBtn">Kostenloses Mockup für meine Praxis erstellen</button>
-        <p class="form-note">Kein Spam, keine Verkaufsanrufe, nur eine ehrliche Antwort.</p>
-      </form>
+          <div class="field">
+            <label for="paisCiudad">Land und Stadt <span class="opt">(optional)</span></label>
+            <input type="text" id="paisCiudad" name="pais_ciudad" placeholder="Deutschland · Berlin">
+          </div>
+
+          <p class="mw-disclaimer">Das Mockup ist eine erste Visualisierung. Farben und Details können je nach Material und Produktion leicht abweichen.</p>
+          <div class="mw-consent">
+              <label class="mw-checkbox-line"><input type="checkbox" id="privacyConsent" required><span>Ich habe die <a href="/de/legal.html#privacidad" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen.</span></label>
+            </div>
+
+          <div class="mw-actions" style="margin-top:14px">
+            <button class="btn" type="submit" id="mwSubmitBtn">Gratis-Mockup anfordern</button>
+          </div>
+          <p class="form-note">Kein Spam, keine Verkaufsanrufe, nur eine ehrliche Antwort.</p>
+        </form>
+      </div>
 
       <div class="wa-alt js-wa-block" hidden>
-        <span class="wa-alt-line">Lieber kurz fragen?</span>
-        <a class="btn btn-wa btn-wa-big js-wa" href="#" aria-label="Schreib unserem Team auf WhatsApp">
+        <span class="wa-alt-line">Lieber kurz etwas fragen?</span>
+        <a class="btn btn-wa btn-wa-big js-wa" href="#" aria-label="Schreib uns auf WhatsApp">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.91-9.91a9.82 9.82 0 00-2.9-7.02zm-7.01 15.24h-.01a8.2 8.2 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 015.82 2.42 8.18 8.18 0 012.41 5.82c-.01 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.06 0 1.21.88 2.38 1.01 2.55.12.16 1.74 2.66 4.21 3.73.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.2-.58.2-1.07.14-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
-          <span>Schreib unserem Team</span>
+          <span>Schreib uns</span>
         </a>
       </div>
       <div class="success" id="success">
-        <h3>Danke, wir haben jetzt alles, was wir brauchen.</h3>
-        <p id="successStudioLine">In der Regel erhältst du das Mockup innerhalb von 24 Stunden.</p>
+        <h3>Danke, wir haben alles, was wir brauchen.</h3>
+        <p id="successStudioLine">Dein Mockup bekommst du meist innerhalb von 24 Stunden.</p>
         <p class="success-ref" id="successRef"></p>
-        <a class="success-ig" href="https://www.instagram.com/mediterranopilates" target="_blank" rel="noopener">Folge uns auf Instagram @mediterranopilates</a>
+        <a class="success-ig" href="https://www.instagram.com/mediterranopilates/" target="_blank" rel="noopener">Folge uns auf Instagram @mediterranopilates</a>
       </div>
     </div>
   </div>
-
-  <div class="wrap">
-    <p style="margin-top:40px;font-size:.92rem;max-width:none;text-align:center;color:rgba(247,243,232,.8)"><a href="/de/" style="color:var(--cream);text-decoration:underline">Zurück zur Startseite</a> · <a href="/de/stoppersocken-mit-logo/" style="color:var(--cream);text-decoration:underline">Individuelle Stoppersocken</a> · <a href="/de/trinkflaschen-mit-logo/" style="color:var(--cream);text-decoration:underline">Individuelle Tumbler</a> · <a href="/de/stofftaschen-mit-logo/" style="color:var(--cream);text-decoration:underline">Individuelle Tote Bags</a> · <a href="/de/merchandise-fuer-yogastudios/" style="color:var(--cream);text-decoration:underline">Für Yogastudios</a> · <a href="/de/faq/" style="color:var(--cream);text-decoration:underline">Alle häufigen Fragen</a> · <a href="/de/ueber-mediterrano-pilates/" style="color:var(--cream);text-decoration:underline">Über Mediterrano Pilates</a> · <a href="/de/ablauf/" style="color:var(--cream);text-decoration:underline">So funktioniert's</a> · <a href="/de/preise-und-margen/" style="color:var(--cream);text-decoration:underline">Preise und Margen</a> · <a href="/de/blog/was-kosten-stoppersocken-mit-logo/" style="color:var(--cream);text-decoration:underline">Was kosten Stoppersocken mit Logo</a> · <a href="/de/blog/lieferant-fuer-stoppersocken-mit-logo-waehlen/" style="color:var(--cream);text-decoration:underline">Lieferant auswählen</a></p>
-    <img class="foot-mark" src="/images/logo-mediterrano-light.svg" alt="" aria-hidden="true" width="1000" height="377" loading="lazy">
-    <footer style="background:transparent;padding:0">
-      <div class="foot-row">
-        <span>Made for Pilates &amp; Yoga studios · Merchandise mit deinem Logo</span>
-        <a href="mailto:hola@mediterranopilates.com">hola@mediterranopilates.com</a>
-        <span class="foot-social">
-          <a href="https://www.instagram.com/mediterranopilates" target="_blank" rel="noopener" aria-label="Instagram: @mediterranopilates">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg>
-            @mediterranopilates
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=61594143537644" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 8.5V6.8c0-.8.3-1.3 1.4-1.3H17V2.7c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.2v1.7H8v3h2.6V22h3.1v-8.5H16l.5-3H14z" fill="currentColor"/></svg>
-            Facebook
-          </a>
-          <a href="https://www.linkedin.com/company/146662748/" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2.5" y="2.5" width="19" height="19" rx="3.5" stroke="currentColor" stroke-width="1.8"/><rect x="6.3" y="9.7" width="2.6" height="8.3" fill="currentColor"/><circle cx="7.6" cy="6.6" r="1.5" fill="currentColor"/><path d="M11.4 9.7h2.5v1.3c.5-.8 1.5-1.5 3-1.5 2.4 0 3.6 1.5 3.6 4.3v4.5h-2.6v-4c0-1.3-.5-2.1-1.7-2.1-1 0-1.6.7-1.8 1.4-.1.2-.1.5-.1.9v3.9h-2.6c0-6.7 0-7.5 0-8.7z" fill="currentColor"/></svg>
-            LinkedIn
-          </a>
-        </span>
-        <span>© 2026</span>
-      </div>
-      <div class="foot-legal">
-        <span>Ecomtierra Group SL · CIF B24923328 · Calle Luis Santangel 20, piso 4, puerta 13, 46005 Valencia, Spanien · hola@mediterranopilates.com · +31657408010 &nbsp;·&nbsp; <a href="/de/legal.html#aviso">Impressum</a> · <a href="/de/legal.html#privacidad">Datenschutz</a> · <a href="/de/legal.html#condiciones">AGB</a> · <a href="#" id="cookiePrefs">Cookies</a></span>
-      </div>
-    </footer>
-  </div>
 </div>
 </section>
+<script>
+(function(){
+  /* formulier */
+  var form = document.getElementById('lead-form');
+  var success = document.getElementById('success');
+  var wizardEl = document.getElementById('mockupWizard');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = form.querySelector('button[type=submit]');
+    var originalBtnText = btn.textContent;
+    btn.disabled = true; btn.textContent = 'Wird gesendet…';
+    var data = new FormData(form);
+    fetch('/', {
+      method:'POST',
+      body: data
+    }).then(function(r){
+      if (r.ok){
+        if (wizardEl) wizardEl.style.display='none'; else form.style.display='none';
+        success.style.display='block';
+        var studioName = (document.getElementById('estudio')||{}).value || '';
+        var studioLine = document.getElementById('successStudioLine');
+        if (studioLine && studioName){
+          studioLine.textContent = 'Wir erstellen einen ersten Vorschlag für ' + studioName + '. Du bekommst ihn meist innerhalb von 24 Stunden.';
+        }
+        var refEl = document.getElementById('successRef');
+        var leadIdField = document.getElementById('lead_id_field');
+        if (refEl && leadIdField && leadIdField.value) refEl.textContent = 'Referenz: ' + leadIdField.value;
+        success.scrollIntoView({behavior:'smooth', block:'start'});
+        if (window.MP_CONSENT){
+          if (typeof fbq === 'function') fbq('track','Lead');
+          if (typeof gtag === 'function'){
+            var productField = document.getElementById('productos_elegidos_field');
+            gtag('event','generate_lead',{
+              event_category: 'mockup_request',
+              event_label: (productField && productField.value) ? productField.value : ''
+            });
+            gtag('event','mockup_submitted',{});
+          }
+        }
+      } else {
+        btn.disabled=false; btn.textContent=originalBtnText;
+        alert('Da ist etwas schiefgelaufen. Bitte prüfe deine Angaben und versuche es erneut, oder schreib uns an hola@mediterranopilates.com');
+      }
+    }).catch(function(){
+      btn.disabled=false; btn.textContent=originalBtnText;
+      alert('Da ist etwas schiefgelaufen. Bitte prüfe deine Verbindung und versuche es erneut, oder schreib uns an hola@mediterranopilates.com');
+    });
+  });
+
+  /* sticky mobiele CTA */
+  var bar = document.getElementById('sticky-cta');
+  var formSec = document.getElementById('mockup-form');
+  function onScroll(){
+    if (!bar || !formSec) return;
+    var heroEl = document.getElementById('top');
+    var heroBottom = heroEl ? heroEl.offsetHeight - 100 : 700;
+    var past = window.scrollY > heroBottom;
+    var nearForm = formSec.getBoundingClientRect().top < window.innerHeight;
+    if (past && !nearForm) bar.classList.add('show');
+    else bar.classList.remove('show');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+<script>
+(function(){
+  var wizard = document.getElementById('mockupWizard');
+  if (!wizard) return;
+  var state = { products: [], logoFile: null };
+
+  function track(eventName, params){
+    try{
+      if (window.MP_CONSENT){
+        if (typeof gtag === 'function') gtag('event', eventName, params||{});
+      }
+    }catch(e){}
+  }
+
+  var productGrid = document.getElementById('mwProductGrid');
+  var productField = document.getElementById('productos_elegidos_field');
+  var sockOpts = document.getElementById('mwSockOpts');
+
+  function setCard(card, selected){
+    card.classList.toggle('is-selected', selected);
+    var val = card.getAttribute('data-product');
+    var idx = state.products.indexOf(val);
+    if (selected && idx === -1) state.products.push(val);
+    if (!selected && idx > -1) state.products.splice(idx, 1);
+    productField.value = state.products.join(', ');
+    if (sockOpts) sockOpts.hidden = state.products.indexOf('Calcetines antideslizantes') === -1;
+    var towelOpts = document.getElementById('mwTowelOpts');
+    if (towelOpts) towelOpts.hidden = state.products.indexOf('Toalla reformer Calma') === -1;
+  }
+
+  productGrid.addEventListener('click', function(e){
+    var card = e.target.closest('.mw-card');
+    if (!card) return;
+    setCard(card, !card.classList.contains('is-selected'));
+    track('mockup_product_selected', {product: card.getAttribute('data-product')});
+  });
+
+  var sockCard = productGrid.querySelector('.mw-card[data-product="Calcetines antideslizantes"]');
+  if (sockCard) setCard(sockCard, true);
+
+  var form = document.getElementById('lead-form');
+  if (form) form.addEventListener('submit', function(e){
+    if (state.products.length === 0){
+      e.preventDefault(); e.stopImmediatePropagation();
+      alert('Wähle mindestens ein Produkt.');
+      productGrid.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+  }, true);
+
+  function single(gridId, btnSel, dataAttr, hiddenId, onChange){
+    var grid = document.getElementById(gridId);
+    var hid = document.getElementById(hiddenId);
+    if (!grid || !hid) return;
+    grid.addEventListener('click', function(e){
+      var btn = e.target.closest(btnSel);
+      if (!btn || !grid.contains(btn)) return;
+      var wasSel = btn.classList.contains('is-selected');
+      Array.prototype.forEach.call(grid.querySelectorAll(btnSel), function(b){ b.classList.remove('is-selected'); });
+      if (wasSel){ hid.value = ''; if (onChange) onChange(null); return; }
+      btn.classList.add('is-selected');
+      hid.value = btn.getAttribute(dataAttr) || '';
+      if (onChange) onChange(btn);
+    });
+  }
+  var customWrap = document.getElementById('mwCustomColor');
+  var customInput = document.getElementById('customColorInput');
+  var sockColor = document.getElementById('sockColor');
+  single('mwSockColors', '.mw-swatch', 'data-color', 'sockColor', function(btn){
+    var isCustom = !!btn && btn.getAttribute('data-color') === '__custom__';
+    if (customWrap) customWrap.hidden = !isCustom;
+    if (isCustom && sockColor){
+      sockColor.value = (customInput && customInput.value.trim()) ? customInput.value.trim() : 'Andere';
+      if (customInput){ try{ customInput.focus({preventScroll:true}); }catch(err){ customInput.focus(); } }
+    }
+  });
+  if (customInput && sockColor){
+    /* iOS/Instagram: veld pas in beeld schuiven als het toetsenbord open is, anders valt het achter de toetsenbordbalk */
+    customInput.addEventListener('focus', function(){ setTimeout(function(){ try{ customInput.scrollIntoView({block:'center', behavior:'smooth'}); }catch(err){ customInput.scrollIntoView(); } }, 350); });
+    customInput.addEventListener('input', function(){
+      var sw = document.querySelector('#mwSockColors .mw-swatch-custom.is-selected');
+      if (sw) sockColor.value = customInput.value.trim() || 'Andere';
+    });
+  }
+  single('mwTechGrid', '.mw-style-card', 'data-tech', 'sockTech');
+  single('mwQtyChips', '.mw-chip', 'data-qty', 'qtyWanted');
+  single('mwTowelColors', '.mw-swatch', 'data-color', 'towelColor');
+
+  var dropzone = document.getElementById('mwDropzone');
+  var fileInput = document.getElementById('logoFile');
+  var dzEmpty = document.getElementById('mwDropzoneEmpty');
+  var dzFile = document.getElementById('mwDropzoneFile');
+  var logoPreview = document.getElementById('mwLogoPreview');
+  var logoName = document.getElementById('mwLogoName');
+  var uploadError = document.getElementById('mwUploadError');
+  var replaceBtn = document.getElementById('mwFileReplace');
+  var removeBtn = document.getElementById('mwFileRemove');
+  var ALLOWED_EXT = ['png','jpg','jpeg','svg'];
+  var ALLOWED_MIME = ['image/png','image/jpeg','image/svg+xml'];
+  var MAX_BYTES = 7*1024*1024;
+  var ERR_FORMAT = 'Dieses Dateiformat wird nicht unterstützt. Bitte nutze PNG, JPG oder SVG.';
+  var ERR_SIZE = 'Die Datei ist zu groß (max. 7 MB).';
+
+  function showError(msg){ uploadError.textContent = msg; uploadError.hidden = false; }
+  function clearError(){ uploadError.hidden = true; uploadError.textContent=''; }
+
+  function handleFile(file){
+    clearError();
+    if (!file) return;
+    var ext = (file.name.split('.').pop()||'').toLowerCase();
+    if (ALLOWED_EXT.indexOf(ext) === -1 || (file.type && ALLOWED_MIME.indexOf(file.type) === -1 && ext !== 'svg')){
+      showError(ERR_FORMAT); fileInput.value = ''; return;
+    }
+    if (file.size > MAX_BYTES){ showError(ERR_SIZE); fileInput.value = ''; return; }
+    state.logoFile = file;
+    logoName.textContent = file.name;
+    dzEmpty.hidden = true; dzFile.hidden = false;
+    if (file.type && file.type.indexOf('image/') === 0 && ext !== 'svg'){
+      var reader = new FileReader();
+      reader.onload = function(ev){ logoPreview.src = ev.target.result; logoPreview.hidden = false; };
+      reader.readAsDataURL(file);
+    } else { logoPreview.hidden = true; }
+    track('mockup_logo_uploaded', {});
+  }
+
+  dropzone.addEventListener('click', function(e){
+    if (e.target.closest('.mw-file-replace') || e.target.closest('.mw-file-remove')) return;
+    fileInput.click();
+  });
+  dropzone.addEventListener('keydown', function(e){ if (e.key==='Enter' || e.key===' ') { e.preventDefault(); fileInput.click(); } });
+  fileInput.addEventListener('change', function(){ handleFile(fileInput.files[0]); });
+  ['dragover','dragenter'].forEach(function(evt){
+    dropzone.addEventListener(evt, function(e){ e.preventDefault(); dropzone.classList.add('is-dragover'); });
+  });
+  ['dragleave','drop'].forEach(function(evt){
+    dropzone.addEventListener(evt, function(e){ e.preventDefault(); dropzone.classList.remove('is-dragover'); });
+  });
+  dropzone.addEventListener('drop', function(e){
+    var f = e.dataTransfer.files[0];
+    if (f){
+      var dt = new DataTransfer(); dt.items.add(f); fileInput.files = dt.files;
+      handleFile(f);
+    }
+  });
+  if (replaceBtn) replaceBtn.addEventListener('click', function(e){ e.stopPropagation(); fileInput.value=''; fileInput.click(); });
+  if (removeBtn) removeBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    fileInput.value=''; state.logoFile=null;
+    dzEmpty.hidden=false; dzFile.hidden=true; logoPreview.hidden=true; logoPreview.src='';
+  });
+
+  function makeLeadId(){
+    var y = new Date().getFullYear();
+    var rand = Math.floor(100000 + Math.random()*900000);
+    return 'MP-'+y+'-'+rand;
+  }
+  var leadIdField = document.getElementById('lead_id_field');
+  if (leadIdField) leadIdField.value = makeLeadId();
+
+  track('mockup_view', {});
+})();
+</script>
+<script>
+(function(){
+  var p = new URLSearchParams(location.search);
+  var map = {utm_source:'utm_source', utm_medium:'utm_medium', utm_campaign:'utm_campaign', utm_content:'utm_content', utm_term:'utm_term'};
+  Object.keys(map).forEach(function(k){
+    var v = p.get(k);
+    var el = document.getElementById(map[k]);
+    if (v && el) el.value = v;
+  });
+  var refField = document.getElementById('referrer_field');
+  if (refField) refField.value = document.referrer || '';
+  var landingField = document.getElementById('landing_page_field');
+  if (landingField) landingField.value = location.pathname + location.search;
+})();
+</script>
+<script data-mp="first-touch">
+(function(){
+  /* Eerste bron van het bezoek (bv. advertentie, Google, ChatGPT) blijft bewaard tot het formulier wordt verstuurd,
+     ook na doorklikken of een taalwissel. Alleen met toestemming voor statistiek; zonder toestemming wordt niets bewaard
+     en wordt een eerder bewaarde waarde gewist. */
+  var K='mp_first_touch', MAX=30*24*60*60*1000;
+  function statsOK(){ try{ var v=localStorage.getItem('mp_cookie_consent')||''; return v==='granted' || (v.indexOf('custom:')===0 && v.indexOf('s1')>-1); }catch(e){ return false; } }
+  function current(){
+    var p=new URLSearchParams(location.search), s=p.get('utm_source'), m=p.get('utm_medium'), r='';
+    try{ if(document.referrer){ var u=new URL(document.referrer); if(u.hostname!==location.hostname) r=u.hostname; } }catch(e){}
+    var src = s ? (s+(m?' / '+m:'')) : (r ? r+' / referral' : (document.referrer ? 'intern (toestemming na doorklikken)' : 'direct'));
+    return {s:src.slice(0,80), l:(location.pathname+location.search).slice(0,200), t:Date.now()};
+  }
+  function read(){ try{ var o=JSON.parse(localStorage.getItem(K)||'null'); if(o && o.t && (Date.now()-o.t)<MAX) return o; }catch(e){} return null; }
+  function sync(){
+    if(!statsOK()){ try{ localStorage.removeItem(K); }catch(e){} return; }
+    var o=read();
+    if(!o){ o=current(); try{ localStorage.setItem(K, JSON.stringify(o)); }catch(e){} }
+    var a=document.getElementById('first_source_field'), b=document.getElementById('first_landing_field');
+    if(a) a.value=o.s; if(b) b.value=o.l;
+  }
+  sync();
+  document.addEventListener('click', function(e){ if(e.target.closest && e.target.closest('#cookieAccept,#cookieDecline,#cookieClose,#cookieCustom')) setTimeout(sync,0); });
+})();
+</script>
+<!-- MP-FORM:end -->
 
 <div class="sticky-cta" id="sticky-cta">
   <span class="t">Dein Logo auf der Socke<br>kostenlos, in 24 Stunden</span>
@@ -1161,92 +1640,6 @@ html,body{overflow-x:hidden;max-width:100%}
     var wa = e.target.closest('.js-wa');
     if (wa){ ev('whatsapp_click', {location: wa.getAttribute('data-wa-loc') || (wa.closest('.nav') ? 'header' : 'form'), page: 'physiotherapie-praxen'}); try{ if(window.MP_CONSENT && typeof fbq==='function') fbq('track','Contact'); }catch(x){} }
   });
-})();
-</script>
-<script>
-(function(){
-  /* UTM, referrer y referencia de la solicitud */
-  try{
-    var q = new URLSearchParams(location.search);
-    ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){
-      var el = document.getElementById(k); if (el && q.get(k)) el.value = q.get(k);
-    });
-    var ref = document.getElementById('referrer_field'); if (ref) ref.value = document.referrer || '';
-    var lid = document.getElementById('lead_id_field');
-    if (lid){ var d = new Date(); lid.value = 'MP-FISIO-' + d.getFullYear().toString().slice(2) + ('0'+(d.getMonth()+1)).slice(-2) + ('0'+d.getDate()).slice(-2) + '-' + Math.random().toString(36).slice(2,6).toUpperCase(); }
-  }catch(e){}
-
-  /* productos elegidos → campo resumen */
-  var checks = document.querySelectorAll('#productChecks input[type=checkbox]');
-  var chosen = document.getElementById('productos_elegidos_field');
-  function syncChosen(){
-    var v = []; checks.forEach(function(c){ if (c.checked) v.push(c.value); });
-    if (chosen) chosen.value = v.join(', ');
-  }
-  checks.forEach(function(c){ c.addEventListener('change', syncChosen); });
-  syncChosen();
-
-  /* formulario */
-  var form = document.getElementById('lead-form');
-  var success = document.getElementById('success');
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    var any = false; checks.forEach(function(c){ if (c.checked) any = true; });
-    if (!any){ checks[0].checked = true; syncChosen(); }
-    var btn = document.getElementById('submitBtn');
-    var originalBtnText = btn.textContent;
-    btn.disabled = true; btn.textContent = 'Wird gesendet…';
-    var data = new FormData(form);
-    fetch('/', { method:'POST', body: data }).then(function(r){
-      if (r.ok){
-        form.style.display='none';
-        var waBlock = document.querySelector('.wa-alt'); if (waBlock) waBlock.style.display='none';
-        success.style.display='block';
-        var clinicName = (document.getElementById('estudio')||{}).value || '';
-        var line = document.getElementById('successStudioLine');
-        if (line && clinicName){ line.textContent = 'Wir bereiten einen ersten Entwurf für ' + clinicName + ' vor, den du in der Regel innerhalb von 24 Stunden erhältst.'; }
-        var refEl = document.getElementById('successRef');
-        var leadIdField = document.getElementById('lead_id_field');
-        if (refEl && leadIdField && leadIdField.value) refEl.textContent = 'Referenz: ' + leadIdField.value;
-        success.scrollIntoView({behavior:'smooth', block:'start'});
-        if (window.MP_CONSENT){
-          try{ if (typeof fbq === 'function') fbq('track','Lead'); }catch(x){}
-          try{
-            if (typeof gtag === 'function'){
-              /* generate_lead: evento recomendado de GA4, para marcarlo como evento clave */
-              gtag('event','generate_lead',{
-                event_category: 'mockup_request',
-                event_label: (chosen && chosen.value) ? chosen.value : '',
-                form_location:'physiotherapie-praxen', lead_source:'mockup-form', currency:'EUR', value: 375
-              });
-              /* mockup_submitted: mismo evento que usa la página principal, para no romper los informes existentes */
-              gtag('event','mockup_submitted',{ page:'physiotherapie-praxen' });
-            }
-          }catch(x){}
-        }
-      } else {
-        btn.disabled=false; btn.textContent=originalBtnText;
-        alert('Da ist etwas schiefgelaufen. Bitte überprüfe die Felder und versuche es erneut, oder schreib uns an hola@mediterranopilates.com');
-      }
-    }).catch(function(){
-      btn.disabled=false; btn.textContent=originalBtnText;
-      alert('Da ist etwas schiefgelaufen. Bitte überprüfe deine Verbindung und versuche es erneut, oder schreib uns an hola@mediterranopilates.com');
-    });
-  });
-
-  /* sticky CTA en móvil */
-  var bar = document.getElementById('sticky-cta');
-  var formSec = document.getElementById('mockup-form');
-  function onScroll(){
-    var heroEl = document.getElementById('top');
-    var heroBottom = heroEl ? heroEl.offsetHeight - 100 : 700;
-    var past = window.scrollY > heroBottom;
-    var nearForm = formSec.getBoundingClientRect().top < window.innerHeight;
-    if (past && !nearForm) bar.classList.add('show');
-    else bar.classList.remove('show');
-  }
-  window.addEventListener('scroll', onScroll, {passive:true});
-  onScroll();
 })();
 </script>
 <div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookies">
