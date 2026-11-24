@@ -3,7 +3,7 @@ import sys
 ROOT = sys.argv[1] if len(sys.argv) > 1 else 'site'
 P = {
  'legal.html': ('para no volver a preguntarte.',
-   'para no volver a preguntarte. Si aceptas las cookies analíticas, guardamos también en tu navegador por qué canal llegaste por primera vez a la web, por ejemplo Google o un anuncio (almacenamiento local, clave mp_first_touch, durante 30 días como máximo), para saber qué canal funciona; si las rechazas o retiras tu consentimiento, se borra.'),
+   'para no volver a preguntarte. Si aceptas las cookies analíticas, guardamos también en tu navegador por qué canal llegaste por primera vez a la web, por ejemplo, Google o un anuncio (almacenamiento local, clave mp_first_touch, durante 30 días como máximo), para saber qué canal funciona; si las rechazas o retiras tu consentimiento, se borra.'),
  'en/legal.html': ('remembers your language choice. Functional.</li>\n',
    'remembers your language choice. Functional.</li>\n        <li><b>mp_first_touch</b> (local storage in your browser): remembers how you first reached the site (for example via Google or an ad), so that we know which channel works. Retention: up to 30 days. Only with consent; deleted if you decline or withdraw your consent.</li>\n'),
  'de/legal.html': ('merkt sich deine Sprachauswahl. Funktional.</li>\n',
