@@ -1488,6 +1488,22 @@ footer a{white-space:nowrap}
     </div>
   </div>
 </header>
+<!-- MP-JANUARI:start (tijdelijk, verdwijnt vanzelf op 16-12-2026) -->
+<section class="sheet cream" id="januari">
+  <div class="wrap" style="padding-top:28px;padding-bottom:28px">
+    <div style="background:#fff;border:1.5px solid var(--line);border-left:6px solid var(--terra);border-radius:18px;padding:22px 24px;display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;justify-content:space-between">
+      <div style="flex:1 1 420px;min-width:0">
+        <p style="margin:0 0 6px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--terra-2)">Pour janvier</p>
+        <h2 style="margin:0 0 8px;font-size:1.35rem;line-height:1.25;max-width:none">De nouvelles élèves en janvier&nbsp;? Validez votre design avant le 15&nbsp;décembre.</h2>
+        <p style="margin:0;color:var(--ink);line-height:1.55">Beaucoup de studios accueillent de nouvelles élèves en janvier. La production et la livraison prennent environ 4&nbsp;semaines après la validation et le paiement du devis. Si vous le faites avant le 15&nbsp;décembre, votre commande arrivera dans votre studio vers la mi-janvier. La maquette est gratuite et vous la recevez sous 24&nbsp;heures.</p>
+      </div>
+      <a class="btn" href="#mockup-form" style="flex:0 0 auto">Demandez votre maquette gratuite</a>
+    </div>
+  </div>
+  <script>(function(){var s=document.currentScript.closest("section");if(Date.now()>=Date.UTC(2026,11,16))s.remove();})();</script>
+</section>
+<!-- MP-JANUARI:end -->
+
 
 <!-- ============ 2 · DE SCÈNE + 3 · DE DRAAI ============ -->
 <section class="sheet cream">
@@ -1946,6 +1962,8 @@ footer a{white-space:nowrap}
           <input type="hidden" name="utm_term" id="utm_term">
           <input type="hidden" name="referrer" id="referrer_field">
           <input type="hidden" name="landing_page" id="landing_page_field">
+          <input type="hidden" name="first_source" id="first_source_field">
+          <input type="hidden" name="first_landing" id="first_landing_field">
           <input type="hidden" name="language" value="fr">
           <input type="hidden" name="lead_id" id="lead_id_field">
           <input type="hidden" name="productos_elegidos" id="productos_elegidos_field">
@@ -2074,6 +2092,17 @@ footer a{white-space:nowrap}
           <div class="field">
             <label for="paisCiudad">Pays et ville <span class="opt">(facultatif)</span></label>
             <input type="text" id="paisCiudad" name="pais_ciudad" placeholder="France · Lyon">
+          </div>
+          <div class="field">
+            <label for="hoe_gevonden">Comment nous avez-vous connus&nbsp;?</label>
+            <select id="hoe_gevonden" name="hoe_gevonden" style="width:100%;background:var(--cream);border:1.5px solid var(--line);border-radius:14px;color:var(--ink);font-family:'Inter',sans-serif;font-size:1rem;padding:14px 16px">
+              <option value="">Choisissez une option</option>
+              <option value="Google/zoekmachine">Google ou un autre moteur de recherche</option>
+              <option value="ChatGPT/AI">ChatGPT, Gemini ou un autre assistant IA</option>
+              <option value="Instagram/Facebook">Instagram ou Facebook</option>
+              <option value="Aanbeveling">Sur recommandation</option>
+              <option value="Anders">Autre</option>
+            </select>
           </div>
 
           <p class="mw-disclaimer">La maquette est une première visualisation. Les couleurs et les détails définitifs peuvent varier légèrement selon la matière et la production.</p>
@@ -2408,6 +2437,31 @@ footer a{white-space:nowrap}
   if (refField) refField.value = document.referrer || '';
   var landingField = document.getElementById('landing_page_field');
   if (landingField) landingField.value = location.pathname + location.search;
+})();
+</script>
+<script data-mp="first-touch">
+(function(){
+  /* Eerste bron van het bezoek (bv. advertentie, Google, ChatGPT) blijft bewaard tot het formulier wordt verstuurd,
+     ook na doorklikken of een taalwissel. Alleen met toestemming voor statistiek; zonder toestemming wordt niets bewaard
+     en wordt een eerder bewaarde waarde gewist. */
+  var K='mp_first_touch', MAX=30*24*60*60*1000;
+  function statsOK(){ try{ var v=localStorage.getItem('mp_cookie_consent')||''; return v==='granted' || (v.indexOf('custom:')===0 && v.indexOf('s1')>-1); }catch(e){ return false; } }
+  function current(){
+    var p=new URLSearchParams(location.search), s=p.get('utm_source'), m=p.get('utm_medium'), r='';
+    try{ if(document.referrer){ var u=new URL(document.referrer); if(u.hostname!==location.hostname) r=u.hostname; } }catch(e){}
+    var src = s ? (s+(m?' / '+m:'')) : (r ? r+' / referral' : (document.referrer ? 'intern (toestemming na doorklikken)' : 'direct'));
+    return {s:src.slice(0,80), l:(location.pathname+location.search).slice(0,200), t:Date.now()};
+  }
+  function read(){ try{ var o=JSON.parse(localStorage.getItem(K)||'null'); if(o && o.t && (Date.now()-o.t)<MAX) return o; }catch(e){} return null; }
+  function sync(){
+    if(!statsOK()){ try{ localStorage.removeItem(K); }catch(e){} return; }
+    var o=read();
+    if(!o){ o=current(); try{ localStorage.setItem(K, JSON.stringify(o)); }catch(e){} }
+    var a=document.getElementById('first_source_field'), b=document.getElementById('first_landing_field');
+    if(a) a.value=o.s; if(b) b.value=o.l;
+  }
+  sync();
+  document.addEventListener('click', function(e){ if(e.target.closest && e.target.closest('#cookieAccept,#cookieDecline,#cookieClose,#cookieCustom')) setTimeout(sync,0); });
 })();
 </script>
 

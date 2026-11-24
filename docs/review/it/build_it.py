@@ -14,6 +14,8 @@ sys.path.insert(0, os.path.join(ROOT, "docs/review/fr"))
 sys.path.insert(0, HERE)
 import build_fr as B
 from pages_it import PAGES
+sys.path.insert(0, os.path.join(ROOT, "docs/review/formulier"))
+import inject_form as FORM
 
 BASE = "https://mediterranopilates.com"
 TODAY = "2026-11-16"
@@ -250,6 +252,7 @@ def visible_faqs(out):
 def build(name):
     fr_rel, it_path = PAGES[name]
     src = open(os.path.join(ROOT, "site", fr_rel.lstrip("/")), encoding="utf-8").read()
+    src = FORM.strip_for_translation(src)  # gegenereerd formulierblok niet vertalen; komt na de bouw terug via inject_form
     tmap = load_pairs("_common")
     tmap.update(load_pairs(name))
     segs = B.extract(src)
@@ -352,3 +355,6 @@ if __name__ == "__main__":
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         open(dst, "w", encoding="utf-8").write(out)
         report(name, out, miss, faqs)
+    # formulier van de (nieuwe) Italiaanse homepage op alle Italiaanse inhoudspagina's zetten
+    FORM.ROOT = os.path.join(ROOT, "site")
+    FORM.run(["it"])
