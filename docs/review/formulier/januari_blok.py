@@ -32,7 +32,7 @@ def block(k, h, p, btn):
       f'        <h2 style="margin:0 0 8px;font-size:1.35rem;line-height:1.25;max-width:none">{h}</h2>\n'
       f'        <p style="margin:0;color:var(--ink);line-height:1.55">{p}</p>\n'
       '      </div>\n'
-      f'      <a class="btn" href="#mockup-form" style="flex:0 0 auto">{btn}</a>\n'
+      f'      <a class="btn" href="#mockup-form" style="flex:0 1 auto;max-width:100%;white-space:normal;text-align:center">{btn}</a>\n'
       '    </div>\n  </div>\n'
       '  <script>(function(){var s=document.currentScript.closest("section");if(Date.now()>=Date.UTC(2026,11,16))s.remove();})();</script>\n'
       f'</section>\n{END}\n')

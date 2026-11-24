@@ -26,6 +26,8 @@ def home_parts(lang):
     sec = re.sub(r'\s*<div class="wrap">\s*<img class="foot-mark".*?</footer>\s*</div>', '', sec, flags=re.S)
     sec = re.sub(r'((?:src|srcset)=")(?:\.\./)*images/', r'\1/images/', sec)
     sec = re.sub(r'(srcset="[^"]*?)(?:, ?)(?:\.\./)*images/', r'\1, /images/', sec)
+    # op de homepage houdt de onderruimte plek vrij voor het voetlogo; hier niet nodig
+    sec = sec.replace('<div class="form-section">', '<div class="form-section" style="padding-bottom:48px">', 1)
     bad = re.findall(r'(?:href|src|srcset)="(?!/|https?:|#|mailto:|tel:|data:)([^"]+)"', sec)
     assert not bad, (lang, bad)
     scripts = []
