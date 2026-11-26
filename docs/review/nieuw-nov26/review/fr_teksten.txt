@@ -1,0 +1,486 @@
+===== PAGINA 1 handdoek: /fr/serviette-pilates-reformer-personnalisee/ =====
+--- NL-BRON ---
+{
+ "title": "Reformer-handdoek met logo voor je studio",
+ "desc": "Antislip reformer-handdoek van zacht suède met jouw logo. 99,6 × 61 cm, 8 kleuren, vanaf 50 stuks. Gratis mockup binnen 24 uur.",
+ "kicker": "Reformer-handdoek met logo",
+ "h1a": "Reformer-handdoek met het logo",
+ "h1b": "van je studio.",
+ "sub": "Calma is de antislip reformer-handdoek van Mediterrano Pilates, met jouw logo. Je leden gebruiken hem in elke les, en jij verkoopt hem aan de balie.",
+ "cta": "Vraag je gratis mockup aan",
+ "kort_h": "In het kort",
+ "kort": [
+  "Calma is een reformer-handdoek met het logo van je studio, gemaakt door Mediterrano Pilates.",
+  "De bovenkant is zacht suède dat zweet opneemt. De onderkant heeft siliconen antislip, zodat de handdoek goed blijft liggen.",
+  "Hij meet 99,6 × 61 cm, heeft een lip voor de hoofdsteun en is er in 8 kleuren. Je logo komt er mooi op, op de plek die jij kiest.",
+  "Vanaf 50 stuks, vanaf 11,95 € per stuk exclusief btw. Adviesprijs voor je leden: 24,95 € inclusief btw.",
+  "Gratis mockup met jouw logo binnen 24 uur, zonder verplichting. Productie en levering duren ongeveer 4 weken na goedkeuring en betaling.",
+  "Verzending binnen Europa is gratis. Mediterrano Pilates is een merk van Ecomtierra Group SL (Spanje) en werkt met studio's in heel Europa en daarbuiten."
+ ],
+ "h2_1": "Je leden nemen al een handdoek mee. Voortaan is het die van jou.",
+ "p_1": "Bij een reformerles hoort een handdoek. Nu nemen je leden er een van thuis mee, in alle soorten en maten. Met Calma kopen ze er een bij jou, aan de balie, met jouw logo erop. Jij verdient eraan, en op elke reformer ligt dezelfde rustige handdoek met jouw naam.",
+ "h2_2": "Gemaakt voor de reformer",
+ "tab_h": [
+  "Wat",
+  "Hoe"
+ ],
+ "tab": [
+  [
+   "Blijft liggen",
+   "Siliconen antislip aan de onderkant"
+  ],
+  [
+   "Neemt zweet op",
+   "Zacht suède aan de bovenkant"
+  ],
+  [
+   "Past op de slede",
+   "99,6 × 61 cm, met een lip voor de hoofdsteun"
+  ],
+  [
+   "Jouw logo",
+   "Komt er mooi op, op de plek die jij kiest"
+  ],
+  [
+   "Kleuren",
+   "Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca, Arena"
+  ]
+ ],
+ "h2_3": "Wat het je oplevert",
+ "p_3": "De handdoek is een product dat je leden toch al nodig hebben. Je verkoopt hem aan de balie of geeft hem mee in een welkomstpakket. Voorbeeld met een adviesprijs van 24,95 € inclusief 20% btw:",
+ "staf_h": [
+  "Aantal",
+  "Inkoop per stuk, exclusief btw",
+  "Jij houdt over per stuk, na btw"
+ ],
+ "staf": [
+  [
+   "50–99",
+   "11,95 €",
+   "ongeveer 8,84 €"
+  ],
+  [
+   "100–199",
+   "10,95 €",
+   "ongeveer 9,84 €"
+  ],
+  [
+   "200 of meer",
+   "10,45 €",
+   "ongeveer 10,34 €"
+  ]
+ ],
+ "p_3b": "De adviesprijs is een voorstel. Jij bepaalt wat je leden betalen.",
+ "h2_4": "Zo werkt het",
+ "stap": [
+  [
+   "Gratis mockup.",
+   "Je stuurt je logo en kiest een kleur. Binnen 24 uur zie je de handdoek met jouw logo."
+  ],
+  [
+   "Offerte.",
+   "Je krijgt de definitieve prijs voor jouw aantal."
+  ],
+  [
+   "Productie en levering.",
+   "Na goedkeuring en betaling duurt het ongeveer 4 weken tot de handdoeken in je studio liggen. Verzending binnen Europa is gratis."
+  ]
+ ],
+ "faq_h": "Veelgestelde vragen over de reformer-handdoek met logo",
+ "faq": [
+  [
+   "Wat is het minimum?",
+   "50 stuks per kleur."
+  ],
+  [
+   "Wat kost de reformer-handdoek met logo?",
+   "Vanaf 11,95 € per stuk exclusief btw bij 50 stuks, 10,95 € vanaf 100 en 10,45 € vanaf 200. De adviesprijs voor je leden is 24,95 € inclusief btw."
+  ],
+  [
+   "Waar komt mijn logo?",
+   "Op de plek die jij kiest. In de gratis mockup zie je meteen hoe mooi het erop komt."
+  ],
+  [
+   "Welke maat heeft de handdoek?",
+   "99,6 × 61 cm, met een lip die over de hoofdsteun valt. Hij is gemaakt voor een gewone reformerslede."
+  ],
+  [
+   "Schuift de handdoek niet tijdens de les?",
+   "Nee. De onderkant heeft siliconen antislip in een Y-patroon. Daardoor blijft de handdoek op de slede liggen."
+  ],
+  [
+   "Welke kleuren zijn er?",
+   "Acht: Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca en Arena."
+  ],
+  [
+   "Kan ik eerst zien hoe het eruitziet?",
+   "Ja. De mockup met jouw logo is gratis en krijg je binnen 24 uur, zonder verplichting."
+  ],
+  [
+   "Leveren jullie ook in Frankrijk, België en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Frankrijk en België. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- FR OP DE PAGINA ---
+Serviette Pilates Reformer antidérapante à votre logo
+META: Serviette antidérapante pour Reformer en suédine douce, à votre logo. 99,6 × 61 cm, 8 coloris, dès 50 unités. Maquette gratuite en 24 h.
+Serviette Pilates Reformer personnalisée pour les studios de Pilates
+La serviette antidérapante pour Reformer, au logo de votre studio.
+Calma est la serviette antidérapante pour Reformer de Mediterrano Pilates, à votre logo. Vos élèves l'utilisent à chaque cours et vous la vendez à l'accueil.
+Demandez votre maquette gratuite
+En bref
+Calma est une serviette pour Reformer au logo de votre studio, fabriquée par Mediterrano Pilates.
+Le dessus est en suédine douce qui absorbe la transpiration. Le dessous est antidérapant en silicone, pour que la serviette reste bien en place.
+Elle mesure 99,6 × 61 cm, possède un rabat pour l'appui-tête et existe en 8 coloris. Votre logo y est bien mis en valeur, à l'emplacement de votre choix.
+Dès 50 unités, à partir de 11,95 € HT l’unité. Prix de vente conseillé à vos élèves : 24,95 € TTC.
+Maquette gratuite à votre logo en 24 h, sans engagement. Production et livraison : environ 4 semaines après validation et paiement.
+Livraison gratuite dans toute l'Europe. Mediterrano Pilates est une marque d'Ecomtierra Group SL (Espagne) et travaille avec des studios de toute l'Europe et au-delà.
+Vos élèves apportent déjà une serviette. Désormais, ce sera la vôtre.
+Un cours de Reformer se fait avec une serviette. Aujourd'hui, vos élèves l'apportent de chez eux, de toutes les sortes et de toutes les tailles. Avec Calma, ils l'achètent chez vous, à l'accueil, avec votre logo. Vous y gagnez, et sur chaque Reformer se trouve la même serviette, sobre et à votre nom.
+Conçue pour le Reformer
+       | 
+ | Quoi | Comment
+ | Reste en place | Dessous antidérapant en silicone
+ | Absorbe la transpiration | Dessus en suédine douce
+ | S'adapte au chariot | 99,6 × 61 cm, avec un rabat pour l'appui-tête
+ | Votre logo | Bien mis en valeur, à l'emplacement de votre choix
+ | Coloris | Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca, Arena
+Ce qu’elle vous rapporte
+La serviette est un produit dont vos élèves ont déjà besoin. Vous la vendez à l'accueil ou l'intégrez à un kit de bienvenue. Exemple avec un prix conseillé de 24,95 € TTC (TVA à 20 %) :
+       | 
+ | Quantité | Prix d'achat à l'unité, HT | Il vous reste par unité, après TVA
+ | 50–99 | 11,95 € | environ 8,84 €
+ | 100–199 | 10,95 € | environ 9,84 €
+ | 200 et plus | 10,45 € | environ 10,34 €
+Le prix conseillé n'est qu'une suggestion. C'est vous qui fixez le prix payé par vos élèves.
+Comment ça marche
+Maquette gratuite. Vous nous envoyez votre logo et choisissez un coloris. En 24 h, vous voyez la serviette à votre logo.
+Devis. Vous recevez le prix définitif pour votre quantité.
+Production et livraison. Après validation et paiement, comptez environ 4 semaines avant que les serviettes arrivent dans votre studio. La livraison est gratuite dans toute l'Europe.
+À lire aussi
+Chaussettes antidérapantes personnalisées
+Gourde isotherme personnalisée
+Tote bag personnalisé
+Prix et marges
+Ouvrir un studio de Pilates
+Que vendre à l'accueil
+Questions fréquentes sur la serviette Reformer personnalisée
+01Quelle est la quantité minimale ?
+50 unités par coloris.
+02Combien coûte la serviette pour Reformer à votre logo ?
+À partir de 11,95 € HT l'unité pour 50 unités, 10,95 € dès 100 et 10,45 € dès 200. Le prix de vente conseillé à vos élèves est de 24,95 € TTC.
+03Où se place mon logo ?
+À l'emplacement de votre choix. La maquette gratuite vous montre tout de suite le rendu.
+04Quelles sont les dimensions de la serviette ?
+99,6 × 61 cm, avec un rabat qui retombe sur l'appui-tête. Elle est conçue pour un chariot de Reformer standard.
+05La serviette glisse-t-elle pendant le cours ?
+Non. Le dessous est doté de picots antidérapants en silicone disposés en Y. La serviette reste ainsi en place sur le chariot.
+06Quels sont les coloris ?
+Huit : Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca et Arena.
+07Puis-je voir le rendu avant de commander ?
+Oui. La maquette à votre logo est gratuite et vous la recevez en 24 h, sans engagement.
+08Livrez-vous en France, en Belgique et en Suisse ?
+Oui. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe et au-delà. La livraison est gratuite dans toute l'Europe, France et Belgique comprises. Pour les envois hors de l'Union européenne, par exemple en Suisse, la TVA d'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.
+
+===== ARTIKEL 1: /fr/blog/ouvrir-un-studio-de-pilates/ =====
+--- NL-BRON ---
+{
+ "title": "Een pilatesstudio openen: merchandise vanaf dag één",
+ "desc": "Wat bestel je bij de opening van je pilatesstudio, hoeveel en wanneer? Een planning met minimum, levertijd en marge, plus een gratis mockup met je logo.",
+ "h1a": "Een pilatesstudio openen:",
+ "h1b": "welke producten met je logo heb je vanaf dag één nodig?",
+ "intro": "Je opent binnenkort een pilatesstudio, of je hebt net een nieuw logo. Deze gids zet op een rij wat je als eerste bestelt, hoeveel, wanneer, en wat het je oplevert.",
+ "kort_h": "In het kort",
+ "kort": "Begin met antislipsokken met je logo, want die gebruiken je leden in elke les. Neem er de reformer-handdoek en een tumbler bij, want ook die gebruiken je leden in elke les. De handdoek is speciaal voor de reformer gemaakt. Door de grip aan de onderkant blijft hij goed liggen, ook als het tempo omhooggaat, en de zachte bovenkant neemt het zweet op. Bestel vanaf 50 stuks, zodat je klein start. Vraag je mockup 4 tot 5 weken voor de opening aan: de mockup krijg je binnen 24 uur, en productie en levering duren ongeveer 4 weken na goedkeuring en betaling.",
+ "h2_1": "Waarom de opening het goede moment is",
+ "p_1a": "Bij de opening zien al je eerste leden je merk voor het eerst. Alles is nieuw: de zaal, het logo, de manier waarop je les geeft. Als ook de sokken, de tumbler en de handdoek op de reformer bij die stijl passen, voelt je studio vanaf de eerste les af.",
+ "p_1b": "Daar komt bij dat deze producten geld opleveren in plaats van kosten. Elk paar sokken dat je verkoopt, verdient zichzelf terug. In een periode waarin je veel uitgeeft, is dat welkom.",
+ "h2_2": "Wat je als eerste bestelt",
+ "tab_h": [
+  "Product",
+  "Waarom eerst",
+  "Minimum"
+ ],
+ "tab": [
+  [
+   "Antislipsokken",
+   "Je leden dragen ze in elke reformerles",
+   "50 paar per kleur"
+  ],
+  [
+   "Tumbler 1,2 L",
+   "Je leden drinken water in elke les",
+   "Op offerte"
+  ],
+  [
+   "Reformer-handdoek Calma",
+   "Ligt in elke les op de slede, met jouw logo",
+   "50 stuks per kleur"
+  ],
+  [
+   "Tote bag",
+   "Voor een welkomstpakket of als extra aan de balie",
+   "50 stuks (vanaf 7,45 € per stuk)"
+  ]
+ ],
+ "p_2": "Wil je klein beginnen, kies dan sokken en de reformer-handdoek. Twijfel je nog, begin dan alleen met sokken. Dat is het product dat je het snelst verkoopt, omdat iedereen het nodig heeft.",
+ "h2_3": "De planning: terugrekenen vanaf je openingsdatum",
+ "plan": [
+  [
+   "4 tot 5 weken voor de opening:",
+   "vraag je gratis mockup aan. Die krijg je binnen 24 uur."
+  ],
+  [
+   "Dezelfde week:",
+   "kies je ontwerp en keur de offerte goed."
+  ],
+  [
+   "Ongeveer 4 weken later:",
+   "je bestelling staat in je studio. Verzending binnen Europa is gratis."
+  ]
+ ],
+ "p_3": "Met 5 weken heb je een week speling. Die kost niets, een opening zonder sokken wel.",
+ "h2_4": "Wat het kost en wat het oplevert (voorbeeld)",
+ "p_4": "Voorbeeld met 50 paar sokken met geweven logo: 347,50 € exclusief btw. Verkoop je ze voor de adviesprijs van 17,95–19,95 €, dan houd je na btw (20%) ongeveer 8,01–9,68 € per paar over, zo'n 54–58%. Bij 50 paar is dat ongeveer 400–484 €.",
+ "h2_5": "Wat je klaar moet hebben",
+ "check": [
+  "Je logo als PNG of SVG, liefst met een transparante achtergrond (geen logo bij de hand? Je Instagram is ook goed)",
+  "Je favoriete kleur",
+  "Welke kleur sokken, tumbler en handdoek bij je studio passen"
+ ],
+ "faq_h": "Veelgestelde vragen",
+ "faq": [
+  [
+   "Is mijn studio niet te klein of te nieuw voor producten met mijn logo?",
+   "Nee. Je begint vanaf 50 paar, zonder groot voorraadrisico. Met de gratis mockup zie je het eerst voordat je iets beslist."
+  ],
+  [
+   "Hoe lang voor de opening moet ik bestellen?",
+   "Vraag je mockup 4 tot 5 weken van tevoren aan. Productie en levering duren ongeveer 4 weken na goedkeuring en betaling."
+  ],
+  [
+   "Mijn logo is nog niet helemaal klaar. Kan ik toch beginnen?",
+   "Ja. Je kunt een mockup aanvragen met de versie die je nu hebt. Je bestelt pas als het ontwerp klopt."
+  ],
+  [
+   "Wordt de kleur precies mijn merkkleur?",
+   "Ja. Noem gewoon je favoriete kleur. Heb je een Pantone-code, dan werken we daar exact mee."
+  ],
+  [
+   "Wat als de sokken niet goed zijn?",
+   "Je krijgt van elke productiestap duidelijke foto's. Zo zie je zelf hoe je sokken gemaakt worden, nog voordat ze verstuurd worden. Een grote fout is bij ons een uitzondering. Gebeurt het toch, dan maken we ze gratis opnieuw."
+  ],
+  [
+   "Leveren jullie ook in Frankrijk, België en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Frankrijk en België. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- FR OP DE PAGINA ---
+Ouvrir un studio de Pilates : les produits à votre logo
+META: Que commander pour l&#x27;ouverture de votre studio de Pilates, en quelle quantité et quand ? Un planning avec minimum, délais et marge, et une maquette gratuite.
+Blog pour les studios de Pilates
+Ouvrir un studio de Pilates : de quels produits à votre logo avez-vous besoin dès le premier jour ?
+Vous ouvrez bientôt un studio de Pilates ou vous venez de changer de logo. Ce guide récapitule ce qu'il faut commander en premier, en quelle quantité, quand et ce que cela vous rapporte.
+Demandez votre maquette gratuite
+Publié le 26 novembre 2026 · Par Mediterrano Pilates
+Réponse courte
+Commencez par des chaussettes antidérapantes à votre logo, car vos élèves les utilisent à chaque cours. Ajoutez la serviette pour Reformer et une gourde isotherme, qu'ils utilisent eux aussi à chaque cours. La serviette est conçue spécialement pour le Reformer : grâce à son dessous antidérapant, elle reste bien en place, même quand le rythme s'accélère, et son dessus doux absorbe la transpiration. Commandez dès 50 unités pour démarrer petit. Demandez votre maquette 4 à 5 semaines avant l'ouverture : vous la recevez en 24 h ; la production et la livraison prennent ensuite environ 4 semaines après validation et paiement.
+Pourquoi l'ouverture est le bon moment
+À l'ouverture, vos premiers élèves découvrent votre marque. Tout est nouveau : la salle, le logo, votre façon d'enseigner. Si les chaussettes, la gourde et la serviette posée sur le Reformer suivent le même style, votre studio paraît abouti dès le premier cours.
+En plus, ces produits rapportent de l'argent au lieu d'en coûter. Chaque paire de chaussettes vendue se rembourse d'elle-même. À une période où les dépenses s'enchaînent, c'est bienvenu.
+Ce qu’il faut commander en premier
+       | 
+ | Produit | Pourquoi en premier | Minimum
+ | Chaussettes antidérapantes | Vos élèves les portent à chaque cours de Reformer | 50 paires par coloris
+ | Gourde isotherme 1,2 L | Vos élèves boivent de l'eau à chaque cours | Sur devis
+ | Serviette pour Reformer Calma | Posée sur le chariot à chaque cours, avec votre logo | 50 unités par coloris
+ | Tote bag | Pour un kit de bienvenue ou en complément à l'accueil | 50 unités (à partir de 7,45 € HT l’unité)
+Pour démarrer petit, choisissez les chaussettes et la serviette pour Reformer. Si vous hésitez encore, commencez uniquement par les chaussettes : c'est le produit qui se vend le plus vite, parce que tout le monde en a besoin.
+Le planning : à rebours depuis votre date d'ouverture
+4 à 5 semaines avant l'ouverture : demandez votre maquette gratuite. Vous la recevez en 24 h.
+La même semaine : choisissez votre design et validez le devis.
+Environ 4 semaines plus tard : votre commande est dans votre studio. La livraison est gratuite dans toute l'Europe.
+Avec 5 semaines, vous gardez une semaine de marge. Elle ne coûte rien ; une ouverture sans chaussettes, si.
+Ce que cela coûte et ce que cela rapporte (exemple)
+Exemple avec 50 paires de chaussettes à logo tissé : 347,50 € HT. En les vendant au prix conseillé de 17,95–19,95 € TTC, il vous reste après TVA (20 %) environ 8,01–9,68 € par paire, soit environ 54–58 %. Sur 50 paires, cela fait environ 400–484 €.
+Ce qu’il faut avoir sous la main
+Votre logo en PNG ou SVG, idéalement sur fond transparent (pas de logo sous la main ? Votre Instagram suffit)
+Votre couleur préférée
+La couleur de chaussettes, de gourde et de serviette qui va avec votre studio
+À lire aussi
+Chaussettes antidérapantes personnalisées
+Serviette Reformer personnalisée
+Gourde isotherme personnalisée
+Kit de bienvenue pour les nouveaux élèves
+Prix et marges
+Que vendre à l'accueil
+Questions fréquentes
+01Mon studio est-il trop petit ou trop récent pour des produits à mon logo ?
+Non. Vous commencez dès 50 paires, sans gros risque de stock. Avec la maquette gratuite, vous voyez le résultat avant de décider quoi que ce soit.
+02Combien de temps avant l'ouverture faut-il commander ?
+Demandez votre maquette 4 à 5 semaines à l’avance. La production et la livraison prennent environ 4 semaines après validation et paiement.
+03Mon logo n'est pas encore tout à fait prêt. Puis-je commencer quand même ?
+Oui. Vous pouvez demander une maquette avec la version que vous avez aujourd'hui. Vous ne commandez que lorsque le design vous convient.
+04La couleur sera-t-elle exactement celle de ma marque ?
+Oui. Indiquez-nous simplement votre couleur préférée. Si vous avez un code Pantone, nous travaillons exactement d'après ce code.
+05Et si les chaussettes ne sont pas bonnes ?
+Vous recevez des photos claires de chaque étape de fabrication. Vous voyez ainsi par vous-même comment vos chaussettes sont fabriquées, avant même leur expédition. Chez nous, un défaut important reste une exception. Si cela arrive malgré tout, nous les refaisons gratuitement.
+06Livrez-vous en France, en Belgique et en Suisse ?
+Oui. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe et au-delà. La livraison est gratuite dans toute l'Europe, France et Belgique comprises. Pour les envois hors de l'Union européenne, par exemple en Suisse, la TVA d'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.
+
+===== ARTIKEL 2: /fr/blog/que-vendre-studio-pilates/ =====
+--- NL-BRON ---
+{
+ "title": "Wat verkoop je aan de balie van een pilatesstudio?",
+ "desc": "Welke producten verkopen goed aan de balie van een pilatesstudio, wat houd je eraan over en waar begin je? Met marges per product en een gratis mockup.",
+ "h1a": "Wat verkoop je aan de balie",
+ "h1b": "van een pilatesstudio?",
+ "intro": "Naast je lessen kan de balie van je studio een tweede bron van inkomsten zijn. Deze gids laat zien welke producten daar goed verkopen, wat je eraan overhoudt en waar je begint.",
+ "kort_h": "In het kort",
+ "kort": "Verkoop producten die je leden in de les gebruiken: antislipsokken, een tumbler en een reformer-handdoek met je logo. Die hebben ze toch nodig, dus de keuze is makkelijk. Daarna kun je een tote bag toevoegen, vanaf 7,45 € per stuk. Begin met 50 stuks, zodat je geen grote voorraad hebt.",
+ "h2_1": "Wat goed verkoopt aan de balie",
+ "p_1": "Wat het best verkoopt, voldoet aan drie dingen:",
+ "drie": [
+  [
+   "Je leden hebben het nodig in de les.",
+   "Sokken, een tumbler en een handdoek koop je niet om te sparen, maar omdat je ze vandaag gebruikt."
+  ],
+  [
+   "Het past bij je studio.",
+   "Met je logo en in je eigen kleuren is het duidelijk een product van jouw studio, en niet iets wat je leden overal kunnen kopen."
+  ],
+  [
+   "Er blijft een eerlijke marge over.",
+   "Na btw moet er per stuk genoeg overblijven om de moeite waard te zijn."
+  ]
+ ],
+ "h2_2": "Wat je per product overhoudt (voorbeeld, Frankrijk, 20% btw)",
+ "tab_h": [
+  "Product",
+  "Inkoop exclusief btw",
+  "Adviesprijs inclusief btw",
+  "Jij houdt over na btw"
+ ],
+ "tab": [
+  [
+   "Antislipsokken",
+   "6,95 €",
+   "17,95–19,95 €",
+   "ongeveer 8,01–9,68 € (54–58%)"
+  ],
+  [
+   "Reformer-handdoek Calma",
+   "11,95 €",
+   "24,95 €",
+   "ongeveer 8,84 €"
+  ],
+  [
+   "Tumbler 1,2 L",
+   "op offerte",
+   "op offerte",
+   "op offerte"
+  ],
+  [
+   "Tote bag Sol",
+   "7,45 €",
+   "14,95–19,95 €",
+   "ongeveer 5,01–9,18 €"
+  ]
+ ],
+ "p_2": "De adviesprijs is een voorstel. Jij bepaalt wat je leden betalen. De inkoopprijzen gelden bij 50 stuks; bij grotere aantallen wordt het goedkoper.",
+ "h2_3": "Waar je begint",
+ "p_3": "Begin met één product: de antislipsokken. Iedereen die een reformerles volgt, draagt ze. Loopt dat goed, voeg dan de tumbler en de handdoek toe, en daarna eventueel een tote bag voor wie iets extra's wil.",
+ "h2_4": "Zo verkoop je het zonder verkooppraatje",
+ "tips": [
+  [
+   "Leg altijd sokken klaar aan de balie.",
+   "Leden die hun sokken vergeten, kopen ze vaak direct. Dat geldt voor nieuwe leden, maar net zo goed voor je vaste leden."
+  ],
+  [
+   "Zet het zichtbaar bij de balie,",
+   "met de prijs erbij. Wie het ziet, vraagt erom."
+  ],
+  [
+   "Doe het in het welkomstpakket",
+   "voor nieuwe leden. Zo heeft iedereen vanaf de eerste les jouw sokken."
+  ],
+  [
+   "Draag het zelf in de les,",
+   "en laat je instructeurs het ook doen. Dat werkt beter dan elk bordje."
+  ]
+ ],
+ "faq_h": "Veelgestelde vragen",
+ "faq": [
+  [
+   "Moet ik een grote voorraad aanhouden?",
+   "Nee. Je bestelt vanaf 50 paar sokken of 50 handdoeken per kleur."
+  ],
+  [
+   "Hoeveel houd ik over aan een paar sokken?",
+   "Bij een adviesprijs van 17,95–19,95 € ongeveer 8,01–9,68 € per paar na btw. Bij 50 paar is dat ongeveer 400–484 €."
+  ],
+  [
+   "Hoe zie ik hoe het eruitziet met mijn logo?",
+   "Vraag een gratis mockup aan. Die krijg je binnen 24 uur, zonder verplichting."
+  ],
+  [
+   "Hoe lang duurt het voordat ik kan verkopen?",
+   "Productie en levering duren ongeveer 4 weken na goedkeuring en betaling van de offerte."
+  ],
+  [
+   "Leveren jullie ook in Frankrijk, België en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Frankrijk en België. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- FR OP DE PAGINA ---
+Que vendre à l'accueil d'un studio de Pilates ?
+META: Quels produits se vendent bien à l&#x27;accueil d&#x27;un studio de Pilates, combien il vous reste et par où commencer ? Avec la marge par produit et une maquette gratuite.
+Blog pour les studios de Pilates
+Que vendre à l'accueil d'un studio de Pilates ?
+En plus de vos cours, l'accueil de votre studio peut devenir une deuxième source de revenus. Ce guide montre quels produits s'y vendent bien, combien il vous reste et par où commencer.
+Demandez votre maquette gratuite
+Publié le 26 novembre 2026 · Par Mediterrano Pilates
+Réponse courte
+Vendez des produits que vos élèves utilisent en cours : des chaussettes antidérapantes, une gourde isotherme et une serviette pour Reformer à votre logo. Ils en ont besoin de toute façon, le choix est donc simple. Vous pouvez ensuite ajouter un tote bag, à partir de 7,45 € HT l’unité. Commencez avec 50 unités pour ne pas avoir un gros stock.
+Ce qui se vend bien à l'accueil
+Ce qui se vend le mieux remplit trois conditions :
+Vos élèves en ont besoin en cours. Des chaussettes, une gourde ou une serviette ne s'achètent pas pour être rangées, mais parce qu'on s'en sert le jour même.
+C'est à l'image de votre studio. Avec votre logo et vos couleurs, c'est clairement un produit de votre studio, pas un article que vos élèves trouvent partout.
+Il vous reste une marge honnête. Après TVA, chaque article doit vous laisser assez pour que cela en vaille la peine.
+Ce qu’il vous reste par produit (exemple, France, TVA à 20 %)
+       | 
+ | Produit | Prix d'achat HT | Prix conseillé TTC | Il vous reste après TVA
+ | Chaussettes antidérapantes | 6,95 € | 17,95–19,95 € | environ 8,01–9,68 € (54–58 %)
+ | Serviette pour Reformer Calma | 11,95 € | 24,95 € | environ 8,84 €
+ | Gourde isotherme 1,2 L | sur devis | sur devis | sur devis
+ | Tote bag Sol | 7,45 € | 14,95–19,95 € | environ 5,01–9,18 €
+Le prix conseillé n'est qu'une suggestion : c'est vous qui fixez le prix payé par vos élèves. Les prix d'achat s'entendent pour 50 unités ; au-delà, le prix baisse.
+Par où commencer
+Commencez par un seul produit : les chaussettes antidérapantes. Tous ceux qui suivent un cours de Reformer en portent. Si cela marche bien, ajoutez la gourde et la serviette, puis éventuellement un tote bag pour ceux qui veulent un petit plus.
+Comment les vendre sans discours commercial
+Gardez toujours des chaussettes prêtes à l'accueil. Les élèves qui oublient leurs chaussettes les achètent souvent sur-le-champ. C'est vrai pour les nouveaux élèves, et tout autant pour les habitués.
+Exposez-les bien en vue à l'accueil, avec le prix à côté. Ceux qui les voient les demandent.
+Glissez-les dans le kit de bienvenue des nouveaux élèves. Ainsi, chacun a vos chaussettes dès le premier cours.
+Portez-les vous-même en cours, et demandez à vos professeurs d'en faire autant. C'est plus efficace que n'importe quelle affichette.
+À lire aussi
+Chaussettes antidérapantes personnalisées
+Serviette Reformer personnalisée
+Gourde isotherme personnalisée
+Tote bag personnalisé
+Prix et marges
+Augmenter son chiffre d'affaires sans stock
+Ouvrir un studio de Pilates
+Questions fréquentes
+01Dois-je garder un gros stock ?
+Non. Vous commandez dès 50 paires de chaussettes ou 50 serviettes par coloris.
+02Combien me reste-t-il sur une paire de chaussettes ?
+Avec un prix conseillé de 17,95–19,95 € TTC, environ 8,01–9,68 € par paire après TVA. Sur 50 paires, cela fait environ 400–484 €.
+03Comment voir le rendu avec mon logo ?
+Demandez une maquette gratuite. Vous la recevez en 24 h, sans engagement.
+04Combien de temps avant de pouvoir vendre ?
+La production et la livraison prennent environ 4 semaines après validation et paiement du devis.
+05Livrez-vous en France, en Belgique et en Suisse ?
+Oui. Nous travaillons depuis l'Espagne avec des studios de toute l'Europe et au-delà. La livraison est gratuite dans toute l'Europe, France et Belgique comprises. Pour les envois hors de l'Union européenne, par exemple en Suisse, la TVA d'importation, les droits de douane et les frais de dédouanement sont toujours à la charge du destinataire.

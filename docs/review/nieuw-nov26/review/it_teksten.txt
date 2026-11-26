@@ -1,0 +1,486 @@
+===== PAGINA 1 handdoek: /it/telo-reformer-personalizzato/ =====
+--- NL-BRON ---
+{
+ "title": "Reformer-handdoek met logo voor je studio",
+ "desc": "Antislip reformer-handdoek van zacht suède met jouw logo. 99,6 × 61 cm, 8 kleuren, vanaf 50 stuks. Gratis mockup binnen 24 uur.",
+ "kicker": "Reformer-handdoek met logo",
+ "h1a": "Reformer-handdoek met het logo",
+ "h1b": "van je studio.",
+ "sub": "Calma is de antislip reformer-handdoek van Mediterrano Pilates, met jouw logo. Je leden gebruiken hem in elke les, en jij verkoopt hem aan de balie.",
+ "cta": "Vraag je gratis mockup aan",
+ "kort_h": "In het kort",
+ "kort": [
+  "Calma is een reformer-handdoek met het logo van je studio, gemaakt door Mediterrano Pilates.",
+  "De bovenkant is zacht suède dat zweet opneemt. De onderkant heeft siliconen antislip, zodat de handdoek goed blijft liggen.",
+  "Hij meet 99,6 × 61 cm, heeft een lip voor de hoofdsteun en is er in 8 kleuren. Je logo komt er mooi op, op de plek die jij kiest.",
+  "Vanaf 50 stuks, vanaf 11,95 € per stuk exclusief btw. Adviesprijs voor je leden: 24,95 € inclusief btw.",
+  "Gratis mockup met jouw logo binnen 24 uur, zonder verplichting. Productie en levering duren ongeveer 4 weken na goedkeuring en betaling.",
+  "Verzending binnen Europa is gratis. Mediterrano Pilates is een merk van Ecomtierra Group SL (Spanje) en werkt met studio's in heel Europa en daarbuiten."
+ ],
+ "h2_1": "Je leden nemen al een handdoek mee. Voortaan is het die van jou.",
+ "p_1": "Bij een reformerles hoort een handdoek. Nu nemen je leden er een van thuis mee, in alle soorten en maten. Met Calma kopen ze er een bij jou, aan de balie, met jouw logo erop. Jij verdient eraan, en op elke reformer ligt dezelfde rustige handdoek met jouw naam.",
+ "h2_2": "Gemaakt voor de reformer",
+ "tab_h": [
+  "Wat",
+  "Hoe"
+ ],
+ "tab": [
+  [
+   "Blijft liggen",
+   "Siliconen antislip aan de onderkant"
+  ],
+  [
+   "Neemt zweet op",
+   "Zacht suède aan de bovenkant"
+  ],
+  [
+   "Past op de slede",
+   "99,6 × 61 cm, met een lip voor de hoofdsteun"
+  ],
+  [
+   "Jouw logo",
+   "Komt er mooi op, op de plek die jij kiest"
+  ],
+  [
+   "Kleuren",
+   "Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca, Arena"
+  ]
+ ],
+ "h2_3": "Wat het je oplevert",
+ "p_3": "De handdoek is een product dat je leden toch al nodig hebben. Je verkoopt hem aan de balie of geeft hem mee in een welkomstpakket. Voorbeeld met een adviesprijs van 24,95 € inclusief 22% btw:",
+ "staf_h": [
+  "Aantal",
+  "Inkoop per stuk, exclusief btw",
+  "Jij houdt over per stuk, na btw"
+ ],
+ "staf": [
+  [
+   "50–99",
+   "11,95 €",
+   "ongeveer 8,50 €"
+  ],
+  [
+   "100–199",
+   "10,95 €",
+   "ongeveer 9,50 €"
+  ],
+  [
+   "200 of meer",
+   "10,45 €",
+   "ongeveer 10,00 €"
+  ]
+ ],
+ "p_3b": "De adviesprijs is een voorstel. Jij bepaalt wat je leden betalen.",
+ "h2_4": "Zo werkt het",
+ "stap": [
+  [
+   "Gratis mockup.",
+   "Je stuurt je logo en kiest een kleur. Binnen 24 uur zie je de handdoek met jouw logo."
+  ],
+  [
+   "Offerte.",
+   "Je krijgt de definitieve prijs voor jouw aantal."
+  ],
+  [
+   "Productie en levering.",
+   "Na goedkeuring en betaling duurt het ongeveer 4 weken tot de handdoeken in je studio liggen. Verzending binnen Europa is gratis."
+  ]
+ ],
+ "faq_h": "Veelgestelde vragen over de reformer-handdoek met logo",
+ "faq": [
+  [
+   "Wat is het minimum?",
+   "50 stuks per kleur."
+  ],
+  [
+   "Wat kost de reformer-handdoek met logo?",
+   "Vanaf 11,95 € per stuk exclusief btw bij 50 stuks, 10,95 € vanaf 100 en 10,45 € vanaf 200. De adviesprijs voor je leden is 24,95 € inclusief btw."
+  ],
+  [
+   "Waar komt mijn logo?",
+   "Op de plek die jij kiest. In de gratis mockup zie je meteen hoe mooi het erop komt."
+  ],
+  [
+   "Welke maat heeft de handdoek?",
+   "99,6 × 61 cm, met een lip die over de hoofdsteun valt. Hij is gemaakt voor een gewone reformerslede."
+  ],
+  [
+   "Schuift de handdoek niet tijdens de les?",
+   "Nee. De onderkant heeft siliconen antislip in een Y-patroon. Daardoor blijft de handdoek op de slede liggen."
+  ],
+  [
+   "Welke kleuren zijn er?",
+   "Acht: Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca en Arena."
+  ],
+  [
+   "Kan ik eerst zien hoe het eruitziet?",
+   "Ja. De mockup met jouw logo is gratis en krijg je binnen 24 uur, zonder verplichting."
+  ],
+  [
+   "Leveren jullie ook in Italië en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Italië. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- IT OP DE PAGINA ---
+Telo antiscivolo per reformer con il logo del tuo studio
+META: Telo per reformer antiscivolo in tessuto scamosciato, con il tuo logo. 99,6 × 61 cm, 8 colori, da 50 pezzi. Mockup gratuito in 24 ore.
+Telo per reformer personalizzato per gli studi di pilates
+Il telo per reformer con il logo del tuo studio.
+Calma è il telo antiscivolo per reformer di Mediterrano Pilates, con il tuo logo. I tuoi allievi lo usano a ogni lezione e tu lo vendi alla reception.
+Richiedi il tuo mockup gratuito
+In breve
+Calma è un telo per reformer con il logo del tuo studio, realizzato da Mediterrano Pilates.
+Sopra ha un tessuto scamosciato morbido che assorbe il sudore. Sotto ha un retro antiscivolo in silicone, così il telo resta ben fermo.
+Misura 99,6 × 61 cm, ha un risvolto per il poggiatesta ed è disponibile in 8 colori. Il tuo logo risalta bene, nel punto che scegli tu.
+Da 50 pezzi, a partire da 11,95 € al pezzo IVA esclusa. Prezzo consigliato per i tuoi allievi: 24,95 € IVA inclusa.
+Mockup gratuito con il tuo logo in 24 ore, senza impegno. Produzione e consegna richiedono circa 4 settimane dall'approvazione e dal pagamento.
+Spedizione gratuita in tutta Europa. Mediterrano Pilates è un marchio di Ecomtierra Group SL (Spagna) e lavora con studi di tutta Europa e non solo.
+I tuoi allievi portano già un telo. Da oggi è il tuo.
+A lezione di reformer serve un telo. Oggi i tuoi allievi se lo portano da casa, di ogni tipo e misura. Con Calma lo comprano da te, alla reception, con il tuo logo. Tu ci guadagni e su ogni reformer c'è lo stesso telo, curato e con il tuo nome.
+Pensato per il reformer
+       | 
+ | Cosa | Come
+ | Resta fermo | Retro antiscivolo in silicone
+ | Assorbe il sudore | Tessuto scamosciato morbido sopra
+ | Si adatta al carrello | 99,6 × 61 cm, con un risvolto per il poggiatesta
+ | Il tuo logo | Risalta bene, nel punto che scegli tu
+ | Colori | Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca, Arena
+Cosa ti fa guadagnare
+Il telo è un prodotto di cui i tuoi allievi hanno già bisogno. Lo vendi alla reception oppure lo inserisci in un kit di benvenuto. Esempio con un prezzo consigliato di 24,95 € IVA inclusa (IVA al 22%):
+       | 
+ | Quantità | Prezzo al pezzo, IVA esclusa | Margine al pezzo, al netto dell'IVA
+ | 50–99 | 11,95 € | circa 8,50 €
+ | 100–199 | 10,95 € | circa 9,50 €
+ | 200 o più | 10,45 € | circa 10,00 €
+Il prezzo consigliato è solo un suggerimento. Sei tu a decidere quanto pagano i tuoi allievi.
+Come funziona
+Mockup gratuito. Ci invii il tuo logo e scegli un colore. In 24 ore vedi il telo con il tuo logo.
+Preventivo. Ricevi il prezzo definitivo per la tua quantità.
+Produzione e consegna. Dopo l'approvazione e il pagamento, servono circa 4 settimane perché i teli arrivino nel tuo studio. La spedizione è gratuita in tutta Europa.
+Leggi anche
+Calze antiscivolo personalizzate
+Tumbler termico personalizzato
+Tote bag personalizzata
+Prezzi e margini
+Aprire uno studio di pilates
+Cosa vendere alla reception
+Domande frequenti sul telo per reformer personalizzato
+01Qual è l'ordine minimo?
+50 pezzi per colore.
+02Quanto costa il telo per reformer con logo?
+Da 11,95 € al pezzo IVA esclusa per 50 pezzi, 10,95 € da 100 e 10,45 € da 200. Il prezzo consigliato per i tuoi allievi è di 24,95 € IVA inclusa.
+03Dove va il mio logo?
+Nel punto che scegli tu. Nel mockup gratuito vedi subito quanto risalta bene.
+04Quanto misura il telo?
+99,6 × 61 cm, con un risvolto che ricade sul poggiatesta. È pensato per un normale carrello da reformer.
+05Il telo scivola durante la lezione?
+No. Il retro ha un antiscivolo in silicone con un motivo a Y. Per questo il telo resta fermo sul carrello.
+06Quali colori ci sono?
+Otto: Lavanda, Menta, Carbón, Cielo, Niebla, Almendro, Albahaca e Arena.
+07Posso vedere prima come viene?
+Sì. Il mockup con il tuo logo è gratuito e lo ricevi in 24 ore, senza impegno.
+08Spedite in Italia e in Svizzera?
+Sì. Lavoriamo dalla Spagna con studi di tutta Europa e non solo. La spedizione è gratuita in tutta Europa, Italia compresa. Per le spedizioni fuori dall'Unione europea, ad esempio in Svizzera, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.
+
+===== ARTIKEL 1: /it/blog/aprire-uno-studio-di-pilates/ =====
+--- NL-BRON ---
+{
+ "title": "Een pilatesstudio openen: merchandise vanaf dag één",
+ "desc": "Wat bestel je bij de opening van je pilatesstudio, hoeveel en wanneer? Een planning met minimum, levertijd en marge, plus een gratis mockup met je logo.",
+ "h1a": "Een pilatesstudio openen:",
+ "h1b": "welke producten met je logo heb je vanaf dag één nodig?",
+ "intro": "Je opent binnenkort een pilatesstudio, of je hebt net een nieuw logo. Deze gids zet op een rij wat je als eerste bestelt, hoeveel, wanneer, en wat het je oplevert.",
+ "kort_h": "In het kort",
+ "kort": "Begin met antislipsokken met je logo, want die gebruiken je leden in elke les. Neem er de reformer-handdoek en een tumbler bij, want ook die gebruiken je leden in elke les. De handdoek is speciaal voor de reformer gemaakt. Door de grip aan de onderkant blijft hij goed liggen, ook als het tempo omhooggaat, en de zachte bovenkant neemt het zweet op. Bestel vanaf 50 stuks, zodat je klein start. Vraag je mockup 4 tot 5 weken voor de opening aan: de mockup krijg je binnen 24 uur, en productie en levering duren ongeveer 4 weken na goedkeuring en betaling.",
+ "h2_1": "Waarom de opening het goede moment is",
+ "p_1a": "Bij de opening zien al je eerste leden je merk voor het eerst. Alles is nieuw: de zaal, het logo, de manier waarop je les geeft. Als ook de sokken, de tumbler en de handdoek op de reformer bij die stijl passen, voelt je studio vanaf de eerste les af.",
+ "p_1b": "Daar komt bij dat deze producten geld opleveren in plaats van kosten. Elk paar sokken dat je verkoopt, verdient zichzelf terug. In een periode waarin je veel uitgeeft, is dat welkom.",
+ "h2_2": "Wat je als eerste bestelt",
+ "tab_h": [
+  "Product",
+  "Waarom eerst",
+  "Minimum"
+ ],
+ "tab": [
+  [
+   "Antislipsokken",
+   "Je leden dragen ze in elke reformerles",
+   "50 paar per kleur"
+  ],
+  [
+   "Tumbler 1,2 L",
+   "Je leden drinken water in elke les",
+   "Op offerte"
+  ],
+  [
+   "Reformer-handdoek Calma",
+   "Ligt in elke les op de slede, met jouw logo",
+   "50 stuks per kleur"
+  ],
+  [
+   "Tote bag",
+   "Voor een welkomstpakket of als extra aan de balie",
+   "50 stuks (vanaf 7,45 € per stuk)"
+  ]
+ ],
+ "p_2": "Wil je klein beginnen, kies dan sokken en de reformer-handdoek. Twijfel je nog, begin dan alleen met sokken. Dat is het product dat je het snelst verkoopt, omdat iedereen het nodig heeft.",
+ "h2_3": "De planning: terugrekenen vanaf je openingsdatum",
+ "plan": [
+  [
+   "4 tot 5 weken voor de opening:",
+   "vraag je gratis mockup aan. Die krijg je binnen 24 uur."
+  ],
+  [
+   "Dezelfde week:",
+   "kies je ontwerp en keur de offerte goed."
+  ],
+  [
+   "Ongeveer 4 weken later:",
+   "je bestelling staat in je studio. Verzending binnen Europa is gratis."
+  ]
+ ],
+ "p_3": "Met 5 weken heb je een week speling. Die kost niets, een opening zonder sokken wel.",
+ "h2_4": "Wat het kost en wat het oplevert (voorbeeld)",
+ "p_4": "Voorbeeld met 50 paar sokken met geweven logo: 347,50 € exclusief btw. Verkoop je ze voor de adviesprijs van 14,95–17,95 €, dan houd je na btw (22%) ongeveer 5,30–7,76 € per paar over, zo'n 43–53%. Bij 50 paar is dat ongeveer 265–388 €.",
+ "h2_5": "Wat je klaar moet hebben",
+ "check": [
+  "Je logo als PNG of SVG, liefst met een transparante achtergrond (geen logo bij de hand? Je Instagram is ook goed)",
+  "Je favoriete kleur",
+  "Welke kleur sokken, tumbler en handdoek bij je studio passen"
+ ],
+ "faq_h": "Veelgestelde vragen",
+ "faq": [
+  [
+   "Is mijn studio niet te klein of te nieuw voor producten met mijn logo?",
+   "Nee. Je begint vanaf 50 paar, zonder groot voorraadrisico. Met de gratis mockup zie je het eerst voordat je iets beslist."
+  ],
+  [
+   "Hoe lang voor de opening moet ik bestellen?",
+   "Vraag je mockup 4 tot 5 weken van tevoren aan. Productie en levering duren ongeveer 4 weken na goedkeuring en betaling."
+  ],
+  [
+   "Mijn logo is nog niet helemaal klaar. Kan ik toch beginnen?",
+   "Ja. Je kunt een mockup aanvragen met de versie die je nu hebt. Je bestelt pas als het ontwerp klopt."
+  ],
+  [
+   "Wordt de kleur precies mijn merkkleur?",
+   "Ja. Noem gewoon je favoriete kleur. Heb je een Pantone-code, dan werken we daar exact mee."
+  ],
+  [
+   "Wat als de sokken niet goed zijn?",
+   "Je krijgt van elke productiestap duidelijke foto's. Zo zie je zelf hoe je sokken gemaakt worden, nog voordat ze verstuurd worden. Een grote fout is bij ons een uitzondering. Gebeurt het toch, dan maken we ze gratis opnieuw."
+  ],
+  [
+   "Leveren jullie ook in Italië en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Italië. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- IT OP DE PAGINA ---
+Aprire uno studio di pilates: i prodotti con il tuo logo
+META: Cosa ordinare quando apri il tuo studio di pilates, quanti pezzi e quando? Un piano con ordine minimo, tempi e margine, più un mockup gratuito con il tuo logo.
+Blog per gli studi di pilates
+Aprire uno studio di pilates: quali prodotti con il tuo logo ti servono dal primo giorno?
+Stai per aprire uno studio di pilates, oppure hai appena un logo nuovo. Questa guida mette in fila cosa ordinare per primo, quanti pezzi, quando e cosa ti fa guadagnare.
+Richiedi il tuo mockup gratuito
+Pubblicato il 26 novembre 2026 · A cura di Mediterrano Pilates
+Risposta breve
+Inizia con le calze antiscivolo con il tuo logo, perché i tuoi allievi le usano a ogni lezione. Aggiungi il telo per reformer e un tumbler termico, perché anche quelli si usano a ogni lezione. Il telo è pensato apposta per il reformer: grazie al grip sul retro, resta ben fermo anche quando il ritmo sale, e il lato superiore morbido assorbe il sudore. Ordina da 50 pezzi, così parti in piccolo. Richiedi il mockup 4–5 settimane prima dell'apertura: lo ricevi in 24 ore, e produzione e consegna richiedono circa 4 settimane dall'approvazione e dal pagamento.
+Perché l'apertura è il momento giusto
+All'apertura, i tuoi primi allievi vedono il tuo brand per la prima volta. Tutto è nuovo: la sala, il logo, il tuo modo di insegnare. Se anche le calze, il tumbler e il telo sul reformer sono in linea con quello stile, il tuo studio sembra completo fin dalla prima lezione.
+In più, questi prodotti portano entrate invece di costi. Ogni paio di calze che vendi si ripaga da solo. In un periodo in cui le spese sono tante, fa comodo.
+Cosa ordinare per primo
+       | 
+ | Prodotto | Perché per primo | Minimo
+ | Calze antiscivolo | I tuoi allievi le indossano a ogni lezione di reformer | 50 paia per colore
+ | Tumbler termico 1,2 L | I tuoi allievi bevono acqua a ogni lezione | Su preventivo
+ | Telo per reformer Calma | È sul carrello a ogni lezione, con il tuo logo | 50 pezzi per colore
+ | Tote bag | Per un kit di benvenuto o come extra alla reception | 50 pezzi (da 7,45 € al pezzo)
+Se vuoi partire in piccolo, scegli calze e telo per reformer. Se hai ancora dubbi, inizia solo con le calze: è il prodotto che vendi più in fretta, perché serve a tutti.
+Il piano: conta all'indietro dalla data di apertura
+4–5 settimane prima dell'apertura: richiedi il tuo mockup gratuito. Lo ricevi in 24 ore.
+La stessa settimana: scegli il design e approva il preventivo.
+Circa 4 settimane dopo: l'ordine è nel tuo studio. La spedizione è gratuita in tutta Europa.
+Con 5 settimane hai una settimana di margine. Non costa nulla; un'apertura senza calze, invece, sì.
+Quanto costa e quanto ti fa guadagnare (esempio)
+Esempio con 50 paia di calze con logo intessuto: 347,50 € IVA esclusa. Se le vendi al prezzo consigliato di 14,95–17,95 €, al netto dell'IVA (22%) ti restano circa 5,30–7,76 € al paio, cioè circa il 43–53%. Su 50 paia sono circa 265–388 €.
+Cosa preparare
+Il tuo logo in PNG o SVG, meglio se con sfondo trasparente (non hai il logo a portata di mano? Va bene anche il tuo Instagram)
+Il tuo colore preferito
+Quale colore di calze, tumbler e telo sta bene con il tuo studio
+Leggi anche
+Calze antiscivolo personalizzate
+Telo per reformer personalizzato
+Tumbler termico personalizzato
+Kit di benvenuto per i nuovi allievi
+Prezzi e margini
+Cosa vendere alla reception
+Domande frequenti
+01Il mio studio non è troppo piccolo o troppo nuovo per i prodotti con il logo?
+No. Parti da 50 paia, senza grandi rischi di magazzino. Con il mockup gratuito vedi il risultato prima di decidere.
+02Con quanto anticipo sull'apertura devo ordinare?
+Richiedi il mockup 4–5 settimane prima. Produzione e consegna richiedono circa 4 settimane dall'approvazione e dal pagamento.
+03Il mio logo non è ancora del tutto pronto. Posso iniziare lo stesso?
+Sì. Puoi richiedere un mockup con la versione che hai adesso. Ordini solo quando il design ti convince.
+04Il colore sarà esattamente quello del mio brand?
+Sì. Indicaci semplicemente il tuo colore preferito. Se hai un codice Pantone, lo riproduciamo esattamente.
+05E se le calze non vanno bene?
+Ricevi foto chiare di ogni fase della produzione. Così vedi con i tuoi occhi come vengono realizzate le tue calze, prima ancora che partano. Da noi, un errore grave è un'eccezione. Se succede comunque, le rifacciamo gratis.
+06Spedite in Italia e in Svizzera?
+Sì. Lavoriamo dalla Spagna con studi di tutta Europa e non solo. La spedizione è gratuita in tutta Europa, Italia compresa. Per le spedizioni fuori dall'Unione europea, ad esempio in Svizzera, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.
+
+===== ARTIKEL 2: /it/blog/cosa-vendere-studio-pilates/ =====
+--- NL-BRON ---
+{
+ "title": "Wat verkoop je aan de balie van een pilatesstudio?",
+ "desc": "Welke producten verkopen goed aan de balie van een pilatesstudio, wat houd je eraan over en waar begin je? Met marges per product en een gratis mockup.",
+ "h1a": "Wat verkoop je aan de balie",
+ "h1b": "van een pilatesstudio?",
+ "intro": "Naast je lessen kan de balie van je studio een tweede bron van inkomsten zijn. Deze gids laat zien welke producten daar goed verkopen, wat je eraan overhoudt en waar je begint.",
+ "kort_h": "In het kort",
+ "kort": "Verkoop producten die je leden in de les gebruiken: antislipsokken, een tumbler en een reformer-handdoek met je logo. Die hebben ze toch nodig, dus de keuze is makkelijk. Daarna kun je een tote bag toevoegen, vanaf 7,45 € per stuk. Begin met 50 stuks, zodat je geen grote voorraad hebt.",
+ "h2_1": "Wat goed verkoopt aan de balie",
+ "p_1": "Wat het best verkoopt, voldoet aan drie dingen:",
+ "drie": [
+  [
+   "Je leden hebben het nodig in de les.",
+   "Sokken, een tumbler en een handdoek koop je niet om te sparen, maar omdat je ze vandaag gebruikt."
+  ],
+  [
+   "Het past bij je studio.",
+   "Met je logo en in je eigen kleuren is het duidelijk een product van jouw studio, en niet iets wat je leden overal kunnen kopen."
+  ],
+  [
+   "Er blijft een eerlijke marge over.",
+   "Na btw moet er per stuk genoeg overblijven om de moeite waard te zijn."
+  ]
+ ],
+ "h2_2": "Wat je per product overhoudt (voorbeeld, Italië, 22% btw)",
+ "tab_h": [
+  "Product",
+  "Inkoop exclusief btw",
+  "Adviesprijs inclusief btw",
+  "Jij houdt over na btw"
+ ],
+ "tab": [
+  [
+   "Antislipsokken",
+   "6,95 €",
+   "14,95–17,95 €",
+   "ongeveer 5,30–7,76 € (43–53%)"
+  ],
+  [
+   "Reformer-handdoek Calma",
+   "11,95 €",
+   "24,95 €",
+   "ongeveer 8,50 €"
+  ],
+  [
+   "Tumbler 1,2 L",
+   "op offerte",
+   "op offerte",
+   "op offerte"
+  ],
+  [
+   "Tote bag Sol",
+   "7,45 €",
+   "14,95–19,95 €",
+   "ongeveer 4,80–8,90 €"
+  ]
+ ],
+ "p_2": "De adviesprijs is een voorstel. Jij bepaalt wat je leden betalen. De inkoopprijzen gelden bij 50 stuks; bij grotere aantallen wordt het goedkoper.",
+ "h2_3": "Waar je begint",
+ "p_3": "Begin met één product: de antislipsokken. Iedereen die een reformerles volgt, draagt ze. Loopt dat goed, voeg dan de tumbler en de handdoek toe, en daarna eventueel een tote bag voor wie iets extra's wil.",
+ "h2_4": "Zo verkoop je het zonder verkooppraatje",
+ "tips": [
+  [
+   "Leg altijd sokken klaar aan de balie.",
+   "Leden die hun sokken vergeten, kopen ze vaak direct. Dat geldt voor nieuwe leden, maar net zo goed voor je vaste leden."
+  ],
+  [
+   "Zet het zichtbaar bij de balie,",
+   "met de prijs erbij. Wie het ziet, vraagt erom."
+  ],
+  [
+   "Doe het in het welkomstpakket",
+   "voor nieuwe leden. Zo heeft iedereen vanaf de eerste les jouw sokken."
+  ],
+  [
+   "Draag het zelf in de les,",
+   "en laat je instructeurs het ook doen. Dat werkt beter dan elk bordje."
+  ]
+ ],
+ "faq_h": "Veelgestelde vragen",
+ "faq": [
+  [
+   "Moet ik een grote voorraad aanhouden?",
+   "Nee. Je bestelt vanaf 50 paar sokken of 50 handdoeken per kleur."
+  ],
+  [
+   "Hoeveel houd ik over aan een paar sokken?",
+   "Bij een adviesprijs van 14,95–17,95 € ongeveer 5,30–7,76 € per paar na btw. Bij 50 paar is dat ongeveer 265–388 €."
+  ],
+  [
+   "Hoe zie ik hoe het eruitziet met mijn logo?",
+   "Vraag een gratis mockup aan. Die krijg je binnen 24 uur, zonder verplichting."
+  ],
+  [
+   "Hoe lang duurt het voordat ik kan verkopen?",
+   "Productie en levering duren ongeveer 4 weken na goedkeuring en betaling van de offerte."
+  ],
+  [
+   "Leveren jullie ook in Italië en Zwitserland?",
+   "Ja. We werken vanuit Spanje met studio's in heel Europa en daarbuiten. Verzending binnen Europa is gratis, ook naar Italië. Buiten de EU, bijvoorbeeld naar Zwitserland, zijn invoer-btw, invoerrechten en inklaringskosten altijd voor de ontvanger."
+  ]
+ ]
+}
+--- IT OP DE PAGINA ---
+Cosa vendere in uno studio di pilates, alla reception
+META: Quali prodotti si vendono bene alla reception di uno studio di pilates, quanto ti resta e da dove iniziare? Con il margine per prodotto e un mockup gratuito.
+Blog per gli studi di pilates
+Cosa vendere alla reception di uno studio di pilates?
+Oltre alle lezioni, la reception del tuo studio può diventare una seconda fonte di entrate. Questa guida mostra quali prodotti si vendono bene, quanto ti resta e da dove iniziare.
+Richiedi il tuo mockup gratuito
+Pubblicato il 26 novembre 2026 · A cura di Mediterrano Pilates
+Risposta breve
+Vendi prodotti che i tuoi allievi usano a lezione: calze antiscivolo, un tumbler termico e un telo per reformer con il tuo logo. Ne hanno comunque bisogno, quindi la scelta è facile. Poi puoi aggiungere una tote bag, da 7,45 € al pezzo. Inizia con 50 pezzi, così non hai un grande magazzino.
+Cosa si vende bene alla reception
+I prodotti che si vendono meglio hanno tre caratteristiche:
+Ai tuoi allievi serve a lezione. Calze, tumbler e telo non si comprano per metterli da parte, ma perché si usano oggi.
+È in linea con il tuo studio. Con il tuo logo e nei tuoi colori, è chiaramente un prodotto del tuo studio, non qualcosa che i tuoi allievi trovano ovunque.
+Ti lascia un margine onesto. Al netto dell'IVA, deve restarti abbastanza su ogni pezzo perché ne valga la pena.
+Quanto ti resta per prodotto (esempio, Italia, IVA al 22%)
+       | 
+ | Prodotto | Prezzo di acquisto IVA esclusa | Prezzo consigliato IVA inclusa | Ti resta al netto dell'IVA
+ | Calze antiscivolo | 6,95 € | 14,95–17,95 € | circa 5,30–7,76 € (43–53%)
+ | Telo per reformer Calma | 11,95 € | 24,95 € | circa 8,50 €
+ | Tumbler termico 1,2 L | su preventivo | su preventivo | su preventivo
+ | Tote bag Sol | 7,45 € | 14,95–19,95 € | circa 4,80–8,90 €
+Il prezzo consigliato è solo un suggerimento: sei tu a decidere quanto pagano i tuoi allievi. I prezzi di acquisto valgono per 50 pezzi; per quantità maggiori, il prezzo scende.
+Da dove iniziare
+Inizia con un solo prodotto: le calze antiscivolo. Chi fa una lezione di reformer le indossa. Se vanno bene, aggiungi il tumbler e il telo e poi, magari, una tote bag per chi vuole qualcosa in più.
+Come venderli senza discorsi da venditore
+Tieni sempre delle calze pronte alla reception. Chi dimentica le calze spesso le compra subito. Vale per i nuovi allievi, ma anche per quelli abituali.
+Mettile bene in vista alla reception, con il prezzo accanto. Chi le vede, le chiede.
+Inseriscile nel kit di benvenuto per i nuovi allievi. Così tutti hanno le tue calze dalla prima lezione.
+Indossale tu a lezione, e chiedi ai tuoi istruttori di fare lo stesso. Funziona meglio di qualsiasi cartello.
+Leggi anche
+Calze antiscivolo personalizzate
+Telo per reformer personalizzato
+Tumbler termico personalizzato
+Tote bag personalizzata
+Prezzi e margini
+Aumentare il fatturato senza magazzino
+Aprire uno studio di pilates
+Domande frequenti
+01Devo tenere un grande magazzino?
+No. Ordini da 50 paia di calze o da 50 teli per colore.
+02Quanto mi resta su un paio di calze?
+Con un prezzo consigliato di 14,95–17,95 €, circa 5,30–7,76 € al paio al netto dell'IVA. Su 50 paia sono circa 265–388 €.
+03Come vedo come viene il prodotto con il mio logo?
+Richiedi un mockup gratuito. Lo ricevi in 24 ore, senza impegno.
+04Quanto tempo passa prima che possa vendere?
+Produzione e consegna richiedono circa 4 settimane dall'approvazione e dal pagamento del preventivo.
+05Spedite in Italia e in Svizzera?
+Sì. Lavoriamo dalla Spagna con studi di tutta Europa e non solo. La spedizione è gratuita in tutta Europa, Italia compresa. Per le spedizioni fuori dall'Unione europea, ad esempio in Svizzera, IVA all'importazione, dazi doganali e spese di sdoganamento sono sempre a carico del destinatario.
